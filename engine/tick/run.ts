@@ -25,7 +25,11 @@ import type { StimulusPicker } from "../stimuli";
 import { checkQuality, compileBanned, type CompiledBanned } from "./quality";
 import { saturatedTag, selectActiveAgents, threadQuotaBlock, updateThreadStatuses } from "./rules";
 
-export const DECIDE_MAX_TOKENS = 1200;
+/**
+ * La spec pide 1.200, pero en la primera ejecución real Sonnet 5.5 agotó ese tope en 9 de 16
+ * llamadas antes de terminar la tool (el cuerpo llegaba vacío). Solo se paga lo que se genera.
+ */
+export const DECIDE_MAX_TOKENS = 3000;
 
 export interface TickOptions {
   store: ForumStore;
@@ -106,6 +110,7 @@ async function agentTurn(s: TickState, agent: Agent, llm: LLMClient): Promise<De
       saturatedTag: saturatedTag(visibleOpenThreads(s.threads), s.tags.tags),
       retryReason,
       tokenBudget: s.q.contextTokenBudget,
+      limits: { reply: [s.q.replyLength.min, s.q.replyLength.max], opening: [s.q.openingLength.min, s.q.openingLength.max], title: s.q.titleMaxLength },
     });
 
     let res;
@@ -135,6 +140,13 @@ async function agentTurn(s: TickState, agent: Agent, llm: LLMClient): Promise<De
       retryReason = reason;
     };
 
+    if (res.stopReason === "max_tokens") {
+      fail(
+        { action: "invalid", accepted: false, rejection: { filter: "truncated", detail: `respuesta cortada por max_tokens (${res.usage.outputTokens} tokens)` } },
+        "tu respuesta se cortó antes de terminar: escribe un post más corto y llama a decide con todos los campos",
+      );
+      continue;
+    }
     if (!res.calledTool) {
       fail({ action: "invalid", accepted: false, rejection: { filter: "no_tool", detail: `no llamó a decide (${res.stopReason ?? "?"})` } }, "no llamaste a la herramienta decide");
       continue;
@@ -336,7 +348,10 @@ export async function runTick(opts: TickOptions): Promise<TickResult> {
   const rng: Rng = createRng(tickId);
   let active: string[];
   if (mode === "seed") {
-    active = [...agents].sort((a, b) => a.id.localeCompare(b.id)).map((a) => a.id);
+    // Arranque: abren hilo los agentes que aún no tienen ninguno (todos en un foro nuevo; los que
+    // faltan si se repite con `seed --resume`).
+    const authors = new Set(s.threads.map((t) => t.authorId));
+    active = [...agents].sort((a, b) => a.id.localeCompare(b.id)).filter((a) => !authors.has(a.id)).map((a) => a.id);
   } else {
     const { recentPosters, prevActive } = recentPostersAndPrev(store);
     const priority = new Set(agents.filter((a) => findNewReplies(a.id, s.threads).some((r) => r.directed)).map((a) => a.id));

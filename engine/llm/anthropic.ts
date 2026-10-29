@@ -12,7 +12,7 @@ interface ThinkingSetup {
 }
 
 /**
- * Los posts del foro no necesitan razonamiento extendido y `max_tokens` es pequeño (1.200), así
+ * Los posts del foro no necesitan razonamiento extendido y `max_tokens` es pequeño (3.000), así
  * que el pensamiento se apaga donde el modelo lo permite:
  * - Sonnet 5.5 no acepta `disabled`; su ajuste mínimo es `between_tools`.
  * - Haiku 5.5 acepta `disabled` con esfuerzo `high` o menor (su defecto es `medium`).

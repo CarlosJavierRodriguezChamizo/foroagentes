@@ -51,6 +51,17 @@ describe("estímulos", () => {
     expect((await new WikipediaRandom("es", flaky).get())?.title).toBe("Puente colgante");
   });
 
+  it("descarta desambiguaciones y extractos vacíos, y reintenta", async () => {
+    const urls: string[] = [];
+    const disamb: FetchLike = async (url) => {
+      urls.push(url);
+      if (url.includes("list=random")) return okResponse({ query: { random: [{ id: 1, title: "Westland (desambiguación)" }] } });
+      return okResponse({ query: { pages: { "1": { extract: "Westland puede referirse a:" } } } });
+    };
+    expect(await new WikipediaRandom("es", disamb).get()).toBeNull();
+    expect(urls.filter((u) => u.includes("list=random"))).toHaveLength(2);
+  });
+
   it("PromptDeck elige de forma reproducible", async () => {
     const deck = new PromptDeck(["uno disparador", "dos disparador", "tres disparador"]);
     const a = await deck.get(createRng("k"));

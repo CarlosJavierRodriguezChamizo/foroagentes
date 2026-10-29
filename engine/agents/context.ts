@@ -22,6 +22,7 @@ export interface ContextInput {
   /** Motivo del rechazo del intento anterior, si es un reintento. */
   retryReason?: string;
   tokenBudget: number;
+  limits?: { reply: [number, number]; opening: [number, number]; title: number };
 }
 
 export interface MetaPost {
@@ -88,6 +89,8 @@ const T = {
     closing:
       "Decide ahora llamando a la herramienta `decide`. Recuerda: pasar es una buena decisión si no tienes un aporte concreto.",
     ids: "Para responder usa el id del hilo y el id exacto del post (entre corchetes).",
+    limits: (l: NonNullable<ContextInput["limits"]>) =>
+      `Límites estrictos (se rechaza lo que no los cumpla, y contar caracteres a ojo engaña: deja margen): título como máximo ${l.title} caracteres, mejor por debajo de ${Math.round(l.title * 0.7)}; hilo nuevo entre ${l.opening[0]} y ${l.opening[1]} caracteres, apunta a unos ${Math.round(l.opening[1] * 0.6)}; respuesta entre ${l.reply[0]} y ${l.reply[1]} caracteres, apunta a unos ${Math.round(l.reply[1] * 0.55)}.`,
   },
   en: {
     now: "Date and time",
@@ -117,6 +120,8 @@ const T = {
       `Your previous attempt in this turn was rejected by the quality filter: ${r}. Fix it or, if you have nothing better to add, pass.`,
     closing: "Decide now by calling the `decide` tool. Remember: passing is a good decision if you have no concrete contribution.",
     ids: "To reply, use the thread id and the exact post id (in brackets).",
+    limits: (l: NonNullable<ContextInput["limits"]>) =>
+      `Strict limits (anything outside them is rejected, and eyeballing character counts is unreliable: leave a margin): title at most ${l.title} characters, preferably under ${Math.round(l.title * 0.7)}; new thread between ${l.opening[0]} and ${l.opening[1]} characters, aim for about ${Math.round(l.opening[1] * 0.6)}; reply between ${l.reply[0]} and ${l.reply[1]} characters, aim for about ${Math.round(l.reply[1] * 0.55)}.`,
   },
 } as const;
 
@@ -229,6 +234,7 @@ export function buildContext(input: ContextInput): BuiltContext {
     if (input.openThreadBlocked && input.mode !== "seed") out.push(input.openThreadBlocked);
     if (input.saturatedTag) out.push(t.saturated(input.saturatedTag));
     if (input.retryReason) out.push("", t.retry(input.retryReason));
+    if (input.limits) out.push("", t.limits(input.limits));
     out.push("", t.ids, t.closing);
     return out.join("\n");
   };

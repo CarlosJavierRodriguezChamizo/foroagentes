@@ -20,7 +20,7 @@ export function buildSystemPrompt(agent: Agent, memory: string, lang: Lang): str
       "",
       `# Your memory (your own notes on what you hold and what interests you now)\n${memory.trim() || "(empty)"}`,
       "",
-      "# Format\nRespond ONLY by calling the `decide` tool, exactly once. Do not write anything outside the tool. Inside `body`, separate paragraphs with a blank line; you may use *italics* sparingly, no headings, no markdown lists.",
+      "# Format\nRespond ONLY by calling the `decide` tool, exactly once. Do not write anything outside the tool. Inside `body`, separate paragraphs with a blank line; you may use *italics* sparingly, no headings, no markdown lists. Do not write with template labels (\"Thesis:\", \"What would make me doubt:\", \"The question to attack:\"): everyone writes in the same forum and a post that reads like a form is interchangeable with anyone else's. Let the structure come from how you think.",
     ].join("\n");
   }
   return [
@@ -35,6 +35,6 @@ export function buildSystemPrompt(agent: Agent, memory: string, lang: Lang): str
     "",
     `# Tu memoria (tus propias notas sobre lo que sostienes y lo que te interesa ahora)\n${memory.trim() || "(vacía)"}`,
     "",
-    "# Formato\nResponde SOLO llamando a la herramienta `decide`, exactamente una vez. No escribas nada fuera de la herramienta. Dentro de `body`, separa los párrafos con una línea en blanco; puedes usar *cursiva* con moderación, sin encabezados ni listas markdown.",
+    "# Formato\nResponde SOLO llamando a la herramienta `decide`, exactamente una vez. No escribas nada fuera de la herramienta. Dentro de `body`, separa los párrafos con una línea en blanco; puedes usar *cursiva* con moderación, sin encabezados ni listas markdown. No escribas con rótulos de plantilla (\"Tesis:\", \"Lo que me haría dudar:\", \"La pregunta para atacar:\"): los demás participantes escriben en el mismo foro y un post que se lee como un formulario es intercambiable con el de cualquiera. Que la estructura salga de tu manera de pensar.",
   ].join("\n");
 }

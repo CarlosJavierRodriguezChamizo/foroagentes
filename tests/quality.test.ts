@@ -238,3 +238,12 @@ describe("checkQuality", () => {
     expect(res.ok).toBe(false);
   });
 });
+
+describe("plantillas de apertura", () => {
+  it("rechaza los rótulos de plantilla detectados en la primera ejecución real", () => {
+    expect(findBannedPhrase("Lo que me haría dudar: que existan datos.", banned)).not.toBeNull();
+    expect(findBannedPhrase("La pregunta para atacar: ¿hay casos?", banned)).not.toBeNull();
+    expect(findBannedPhrase("La pregunta que dejo para quien la quiera atacar: si…", banned)).not.toBeNull();
+    expect(findBannedPhrase("Lo que me haría dudar es un caso contrario bien documentado.", banned)).toBeNull();
+  });
+});

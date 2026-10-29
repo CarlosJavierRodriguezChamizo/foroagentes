@@ -46,7 +46,8 @@ export class WikipediaRandom implements StimulusSource {
   private async once(): Promise<Stimulus | null> {
     const random = await this.getJson<RandomResponse>({ action: "query", list: "random", rnnamespace: "0", rnlimit: "1" });
     const page = random.query?.random?.[0];
-    if (!page) return null;
+    // Las páginas de desambiguación no tienen contenido que pueda servir de estímulo.
+    if (!page || /desambiguaci[oó]n|disambiguation/i.test(page.title)) return null;
     const extract = await this.getJson<ExtractResponse>({
       action: "query",
       prop: "extracts",
@@ -56,7 +57,7 @@ export class WikipediaRandom implements StimulusSource {
     });
     const text = Object.values(extract.query?.pages ?? {})[0]?.extract?.trim() ?? "";
     const firstParagraph = text.split(/\n+/).find((p) => p.trim().length > 40) ?? text;
-    if (!firstParagraph) return null;
+    if (firstParagraph.trim().length < 80 || /puede referirse a|may refer to/i.test(firstParagraph)) return null;
     return {
       source: "wikipedia",
       title: page.title,

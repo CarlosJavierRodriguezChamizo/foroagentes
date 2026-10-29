@@ -78,6 +78,13 @@ describe("seed", () => {
     expect(tick.totals.inputTokens).toBeGreaterThan(0);
   });
 
+  it("en un seed repetido solo abren hilo los agentes que aún no tienen", async () => {
+    const { store, config } = await seeded();
+    const res = await runTick({ store, llm: plausibleMockLLM(), config, now: hours(1), mode: "seed", stimulusPicker: null });
+    expect(res.tick.activeAgentIds).toEqual([]);
+    expect(res.newThreads).toBe(0);
+  });
+
   it("se niega a sobrescribir un foro con hilos salvo con force", async () => {
     const { store } = await seeded();
     expect(() => prepareSeedData(store, T0, false)).toThrow(/--force/);
@@ -232,6 +239,21 @@ describe("tick completo con MockLLM", () => {
       expect(d.attempts).toHaveLength(2);
     }
     expect(llm.calls.filter((c) => c.purpose === "decide")).toHaveLength(res.tick.activeAgentIds.length * 2);
+  });
+
+  it("una respuesta cortada por max_tokens se reintenta con un motivo claro", async () => {
+    const { store, config } = await seeded({ AGORA_MIN_ACTIVE: "2", AGORA_MAX_ACTIVE: "2" });
+    const reasons: (string | undefined)[] = [];
+    const llm = new MockLLM((req) => {
+      const meta = req.meta as DecideMeta | { kind: "curate" };
+      if (meta.kind !== "decide") return { toolInput: { threadTags: [], newTags: [], summaries: [], memories: [] } };
+      reasons.push(meta.retryReason);
+      return { toolInput: { action: "open_thread", reason: "x", title: "Corte" }, stopReason: "max_tokens" };
+    });
+    const res = await runTick({ store, llm, config, now: hours(1), stimulusPicker: null });
+    expect(res.tick.decisions[0]?.attempts.map((a) => a.rejection?.filter)).toEqual(["truncated", "truncated"]);
+    expect(reasons[1]).toMatch(/se cortó/);
+    expect(llm.calls[0]?.user).toContain("título como máximo 90 caracteres, mejor por debajo de 63");
   });
 
   it("un error del LLM en un agente no detiene a los demás", async () => {

