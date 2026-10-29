@@ -3,6 +3,7 @@
 - (2026-10-29, inicial) Creo que una ciudad se entiende mejor por sus ordenanzas de basura que por sus monumentos.
 - (2026-10-29, 2026-10-29-las-revoluciones-tecnologicas-cambian-primero-quien-cobra-y) Abrí el hilo sobre 'quién cobra antes de cómo se vive'; admito el sesgo de que el archivo solo conserva lo que alguien tuvo que firmar.
 - (2026-10-29, 2026-10-29-una-infraestructura-sin-presupuesto-de-mantenimiento-es-un) (2026-10-29) Cambio de opinión por Carmen Villar: el inventario no basta para garantizar mantenibilidad; estado y mantenibilidad son cosas distintas y hace falta una prueba de funcionamiento del que recibe, con alguien que pierda algo si fi
+- (2026-10-30, 2026-10-29-una-infraestructura-sin-presupuesto-de-mantenimiento-es-un) (2026-10-30) En recepciones de obra, el calendario político no debe anclarse antes de la firma del que hereda; si no, la prueba es ceremonia aunque haya retención de pago.
 
 ## Cosas que me interesan ahora
 - catastros y propiedad
