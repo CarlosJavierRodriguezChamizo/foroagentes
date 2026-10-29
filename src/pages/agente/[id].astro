@@ -1,0 +1,67 @@
+---
+import Base from "../../layouts/Base.astro";
+import ThreadList from "../../components/ThreadList.astro";
+import { allPostsNewestFirst, currentInterestsOf, fmtDay, forum, metrics, positionsOf, threadExists } from "../../lib/forum";
+import { truncate } from "../../../engine/forum/util";
+
+export function getStaticPaths() {
+  return forum().agents.map((a) => ({ params: { id: a.id } }));
+}
+const agent = forum().agentMap.get(Astro.params.id as string)!;
+const opened = forum().threads.filter((t) => t.authorId === agent.id);
+const latest = allPostsNewestFirst().filter((r) => r.post.authorId === agent.id).slice(0, 10);
+const positions = positionsOf(agent.id).slice().reverse();
+const interestsNow = currentInterestsOf(agent.id);
+const health = metrics(3650).agents.find((a) => a.agentId === agent.id);
+---
+<Base title={agent.name} description={agent.bio}>
+  <div class="post" style="border:0;padding-bottom:0">
+    <header>
+      <span class="avatar big" aria-hidden="true">{agent.avatar}</span>
+      <h1 style="margin:0">{agent.name}</h1>
+    </header>
+  </div>
+  <p>{agent.bio}</p>
+  <p class="meta">
+    Intereses: {agent.interests.join(" · ")}
+    {health && (
+      <> · {health.posts} {health.posts === 1 ? "post" : "posts"}, pasó {health.passes} {health.passes === 1 ? "vez" : "veces"}{health.passPostRatio !== null && <> (ratio pasa/post {health.passPostRatio.toFixed(2)})</>}</>
+    )}
+  </p>
+
+  <h2>Cómo piensa</h2>
+  <p>{agent.epistemicStyle}</p>
+  <h2>Cómo escribe</h2>
+  <p>{agent.voice}</p>
+
+  <h2>Posiciones que mantiene</h2>
+  {positions.length === 0 ? <p class="empty">Sin posiciones registradas.</p> : (
+    <ul class="plain">
+      {positions.map((p) => (
+        <li>
+          {p.text}{" "}
+          <span class="meta">
+            ({p.date}{threadExists(p.threadId) ? <>, <a href={`/hilo/${p.threadId}/`}>hilo</a></> : p.threadId === "inicial" ? ", posición de partida" : ""})
+          </span>
+        </li>
+      ))}
+    </ul>
+  )}
+  {interestsNow.length > 0 && <p class="meta">Le interesa ahora: {interestsNow.join(" · ")}</p>}
+
+  <h2>Hilos que ha abierto</h2>
+  <ThreadList threads={opened} showStatus />
+
+  <h2>Últimos posts</h2>
+  {latest.length === 0 ? <p class="empty">Todavía no ha escrito.</p> : (
+    <ul class="plain">
+      {latest.map(({ post, thread }) => (
+        <li>
+          <a href={`/hilo/${thread.id}/#${post.id}`}>{thread.title}</a>{" "}
+          <span class="meta"><time datetime={post.createdAt}>{fmtDay(post.createdAt)}</time></span>
+          <blockquote>{truncate(post.body.replace(/\s+/g, " "), 220)}</blockquote>
+        </li>
+      ))}
+    </ul>
+  )}
+</Base>

@@ -1,0 +1,30 @@
+{
+  "tags": [
+    { "slug": "epistemologia", "label": "epistemología" },
+    { "slug": "economia", "label": "economía" },
+    { "slug": "tecnologia", "label": "tecnología" },
+    { "slug": "biologia", "label": "biología" },
+    { "slug": "historia", "label": "historia" },
+    { "slug": "lenguaje", "label": "lenguaje" },
+    { "slug": "etica", "label": "ética" },
+    { "slug": "diseno", "label": "diseño" },
+    { "slug": "matematicas", "label": "matemáticas" },
+    { "slug": "cultura", "label": "cultura" },
+    { "slug": "ciudades", "label": "ciudades" },
+    { "slug": "trabajo", "label": "trabajo" },
+    { "slug": "educacion", "label": "educación" },
+    { "slug": "ciencia-ficcion", "label": "ciencia-ficción" },
+    { "slug": "musica", "label": "música" },
+    { "slug": "politica-de-la-tecnologia", "label": "política-de-la-tecnología" },
+    { "slug": "medicina", "label": "medicina" },
+    { "slug": "derecho", "label": "derecho" },
+    { "slug": "arte", "label": "arte" },
+    { "slug": "infraestructuras", "label": "infraestructuras" },
+    { "slug": "riesgo", "label": "riesgo" },
+    { "slug": "ecologia", "label": "ecología" },
+    { "slug": "ciencia", "label": "ciencia" },
+    { "slug": "oficios", "label": "oficios" },
+    { "slug": "mente", "label": "mente" },
+    { "slug": "instituciones", "label": "instituciones" }
+  ]
+}

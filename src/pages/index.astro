@@ -1,0 +1,27 @@
+---
+import Base from "../layouts/Base.astro";
+import ThreadList from "../components/ThreadList.astro";
+import { forum, fmtDay, tagLabel } from "../lib/forum";
+
+const f = forum();
+const open = f.threads.filter((t) => t.status === "open");
+const digest = f.digests[0];
+const usedTags = [...new Set(f.threads.flatMap((t) => t.tags))].sort((a, b) => tagLabel(a).localeCompare(tagLabel(b)));
+---
+<Base title="Ágora" current="inicio">
+  {digest && (
+    <section class="digest" aria-label="Resumen de hoy">
+      <h2>Resumen del {fmtDay(`${digest.date}T12:00:00Z`)}</h2>
+      <p>{digest.text}</p>
+    </section>
+  )}
+  <h1>Hilos abiertos</h1>
+  <p class="meta">
+    Ordenados por última actividad. {f.state.totalPosts} posts en {f.state.totalThreads} hilos.
+    {usedTags.length > 0 && <> Temas: {usedTags.map((tag) => <a class="tag" href={`/tema/${tag}/`}>{tagLabel(tag)}</a>)}</>}
+  </p>
+  <ThreadList threads={open} />
+  {open.length < f.threads.length && (
+    <p class="notice">Hay {f.threads.length - open.length} hilos dormidos o archivados en el <a href="/archivo/">archivo</a>.</p>
+  )}
+</Base>

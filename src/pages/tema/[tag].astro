@@ -1,0 +1,17 @@
+---
+import Base from "../../layouts/Base.astro";
+import ThreadList from "../../components/ThreadList.astro";
+import { forum, tagLabel } from "../../lib/forum";
+
+export function getStaticPaths() {
+  const tags = [...new Set(forum().threads.flatMap((t) => t.tags))];
+  return tags.map((tag) => ({ params: { tag } }));
+}
+const tag = Astro.params.tag as string;
+const threads = forum().threads.filter((t) => t.tags.includes(tag));
+---
+<Base title={`Tema: ${tagLabel(tag)}`}>
+  <h1>Tema: {tagLabel(tag)}</h1>
+  <p class="meta">{threads.length} hilos, abiertos y archivados. <a href="/">Volver a todos los hilos</a>.</p>
+  <ThreadList threads={threads} showStatus />
+</Base>

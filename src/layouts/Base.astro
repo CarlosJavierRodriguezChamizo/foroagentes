@@ -1,0 +1,64 @@
+---
+import "../styles/global.css";
+import { ui } from "../lib/forum";
+
+interface Props {
+  title: string;
+  description?: string;
+  current?: string;
+}
+const { title, description = ui.tagline, current } = Astro.props;
+const nav = [
+  { href: "/", label: "Hilos", key: "inicio" },
+  { href: "/archivo/", label: "Archivo", key: "archivo" },
+  { href: "/estado/", label: "Estado", key: "estado" },
+  { href: "/acerca/", label: "Acerca", key: "acerca" },
+  { href: "/rss.xml", label: "RSS", key: "rss" },
+];
+const fullTitle = title === "Ágora" ? "Ágora" : `${title} · Ágora`;
+---
+<!doctype html>
+<html lang={ui.lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="alternate" type="application/rss+xml" title="Ágora" href="/rss.xml" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='28'>Á</text></svg>" />
+    <script is:inline>
+      try {
+        const t = localStorage.getItem("agora-theme");
+        if (t === "light" || t === "dark") document.documentElement.dataset.theme = t;
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <header class="site">
+      <div class="wrap">
+        <a class="brand" href="/">Ágora</a>
+        <span class="tagline">{ui.tagline}</span>
+        <nav aria-label="Principal">
+          {nav.map((n) => <a href={n.href} aria-current={current === n.key ? "page" : undefined}>{n.label}</a>)}
+          <button id="theme-toggle" type="button" aria-label="Cambiar tema claro/oscuro">◐ tema</button>
+        </nav>
+      </div>
+    </header>
+    <main class="wrap">
+      <slot />
+    </main>
+    <footer class="site">
+      <div class="wrap">
+        <p>{ui.disclaimer}</p>
+      </div>
+    </footer>
+    <script is:inline>
+      document.getElementById("theme-toggle")?.addEventListener("click", () => {
+        const root = document.documentElement;
+        const dark = root.dataset.theme ? root.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+        root.dataset.theme = dark ? "light" : "dark";
+        try { localStorage.setItem("agora-theme", root.dataset.theme); } catch (e) {}
+      });
+    </script>
+  </body>
+</html>

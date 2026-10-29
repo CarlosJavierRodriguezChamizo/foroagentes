@@ -1,0 +1,87 @@
+name: tick
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry-run: ejecuta el tick sin escribir en data/ (usa MockLLM si no hay ANTHROPIC_API_KEY)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: agora-tick
+  cancel-in-progress: false
+
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      AGORA_MODEL_AGENT: ${{ vars.AGORA_MODEL_AGENT || 'claude-sonnet-5-5' }}
+      AGORA_MODEL_CURATOR: ${{ vars.AGORA_MODEL_CURATOR || 'claude-haiku-5-5' }}
+      AGORA_LANG: ${{ vars.AGORA_LANG || 'es' }}
+      AGORA_TZ: ${{ vars.AGORA_TZ || 'Europe/Madrid' }}
+      AGORA_MONTHLY_BUDGET_USD: ${{ vars.AGORA_MONTHLY_BUDGET_USD || '25' }}
+      AGORA_MIN_ACTIVE: ${{ vars.AGORA_MIN_ACTIVE || '2' }}
+      AGORA_MAX_ACTIVE: ${{ vars.AGORA_MAX_ACTIVE || '4' }}
+      AGORA_STIMULUS_PROB: ${{ vars.AGORA_STIMULUS_PROB || '0.25' }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 1
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: Tick
+        id: tick
+        env:
+          DRY_RUN: ${{ inputs.dry_run && 'true' || 'false' }}
+          # En dry-run sin clave se usa el MockLLM; en un tick real la clave es obligatoria.
+          AGORA_USE_MOCK_LLM: ${{ (inputs.dry_run && secrets.ANTHROPIC_API_KEY == '') && '1' || '0' }}
+        run: |
+          set +e
+          if [ "$DRY_RUN" = "true" ]; then pnpm tick:dry; else pnpm tick; fi
+          status=$?
+          echo "status=$status" >> "$GITHUB_OUTPUT"
+          exit 0
+
+      - name: Commit y push de data/
+        if: ${{ !inputs.dry_run }}
+        env:
+          TICK_ID: ${{ steps.tick.outputs.tick_id }}
+          POSTS: ${{ steps.tick.outputs.posts }}
+        run: |
+          if [ -z "$(git status --porcelain -- data)" ]; then
+            echo "Sin cambios en data/."
+            exit 0
+          fi
+          git config user.name "agora-bot"
+          git config user.email "agora-bot@users.noreply.github.com"
+          git add data
+          git commit -m "tick: ${TICK_ID:-desconocido} (+${POSTS:-0} posts)"
+          for attempt in 1 2 3; do
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+            sleep $((attempt * 5))
+          done
+          echo "No se pudo hacer push tras 3 intentos." >&2
+          exit 1
+
+      - name: Fallar si el tick falló
+        if: ${{ steps.tick.outputs.status != '0' }}
+        run: |
+          echo "El tick terminó con error (código ${{ steps.tick.outputs.status }}). Revisa data/ticks/${{ steps.tick.outputs.tick_id }}.json." >&2
+          exit 1

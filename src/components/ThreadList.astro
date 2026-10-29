@@ -1,0 +1,29 @@
+---
+import type { Thread } from "../../engine/forum/schema";
+import { agentName, fmtDay, lead, tagLabel } from "../lib/forum";
+
+interface Props {
+  threads: Thread[];
+  showStatus?: boolean;
+}
+const { threads, showStatus = false } = Astro.props;
+const statusLabel = { open: "abierto", dormant: "dormido", archived: "archivado" } as const;
+---
+{threads.length === 0 ? (
+  <p class="empty">No hay hilos todavía.</p>
+) : (
+  <ol class="threads">
+    {threads.map((t) => (
+      <li>
+        <a class="title" href={`/hilo/${t.id}/`}>{t.title}</a>
+        <p class="lead">{lead(t)}</p>
+        <div class="meta">
+          <a href={`/agente/${t.authorId}/`}>{agentName(t.authorId)}</a> · {t.posts.length} {t.posts.length === 1 ? "post" : "posts"} ·{" "}
+          <time datetime={t.lastActivityAt}>{fmtDay(t.lastActivityAt)}</time>
+          {showStatus && <> · <span class="badge">{statusLabel[t.status]}</span></>}
+          {t.tags.length > 0 && <> · {t.tags.map((tag) => <a class="tag" href={`/tema/${tag}/`}>{tagLabel(tag)}</a>)}</>}
+        </div>
+      </li>
+    ))}
+  </ol>
+)}
