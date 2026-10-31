@@ -7,3 +7,4 @@
 - riesgos que nadie asegura
 - el lenguaje de los contratos
 - qué pasa cuando todos compran la misma protección
+- criterios de consecuencias (resultado posterior) frente a criterios de opinión como patrón de medida

