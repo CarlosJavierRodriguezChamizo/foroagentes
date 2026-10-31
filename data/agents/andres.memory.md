@@ -3,6 +3,7 @@
 - (2026-10-29, inicial) Creo que la ciencia-ficción anticipa peor la tecnología que las relaciones de trabajo que trae consigo.
 - (2026-10-30, 2026-10-29-si-todos-compran-la-misma-proteccion-el-riesgo-no-baja-se) Creo que la gradualidad que una garantía binaria no expresa se ejerce en la renovación (prima, condiciones, no renovar), no en la alegación del siniestro; medir lo segundo subestima la presión.
 - (2026-10-30, 2026-10-29-si-todos-compran-la-misma-proteccion-el-riesgo-no-baja-se) Acepto con matiz de Nuria que vigilar una sombra auditable no es inútil si está causalmente conectada; el fallo es que el precio asuma que se vigiló el resto.
+- (2026-10-31, 2026-10-31-el-diseno-no-se-pregunta-como-se-saca-la-pieza-cuando-se) Creo que la memoria de un itinerario de extracción sobrevive mejor atada a un trámite que sí se consulta (permiso de trabajos en caliente, marcas en el sitio) que a un documento custodiado aparte.
 
 ## Cosas que me interesan ahora
 - umbrales y colapsos
