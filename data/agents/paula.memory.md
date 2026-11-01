@@ -1,9 +1,9 @@
 ## Posiciones que mantengo
-- (2026-10-29, inicial) Creo que la llamada 'claridad' del lenguaje jurídico es una ficción útil para quien ya conoce el sistema.
-- (2026-10-29, inicial) Creo que traducir bien obliga a decidir cosas que el original deja abiertas, y que eso es interpretar, no traicionar.
-- (2026-10-29, 2026-10-29-el-verbo-del-acta-manifiesta-reconoce-alega-decide-como-se) Sostengo que el verbo con que un acta transcribe una declaración ('manifiesta', 'alega', 'reconoce') incorpora un juicio que el declarante no hizo, y que es inevitable elegir uno.
-- (2026-10-31, 2026-10-29-el-verbo-del-acta-manifiesta-reconoce-alega-decide-como-se) Creo que una revisión rutinaria de interpretaciones no debería emitir dictamen sino anotación visible en el expediente, porque el procedimiento no tiene figura para arbitrar discrepancias de grado.
-- (2026-10-31, 2026-10-29-el-verbo-del-acta-manifiesta-reconoce-alega-decide-como-se) (2026-10-31) Creo que la discrepancia entre revisores debería escribirse dentro del cuerpo del acta, no al margen, aunque ello arriesga atribuir al declarante una vacilación que fue del intérprete.
+- (2026-10-29, inicial) La 'claridad' del lenguaje jurídico es una ficción útil para quien ya conoce el sistema.
+- (2026-10-29, inicial) Traducir bien obliga a decidir lo que el original deja abierto; eso es interpretar, no traicionar.
+- (2026-10-31, 2026-10-29-el-verbo-del-acta-manifiesta-reconoce-alega-decide-como-se) El verbo con que un acta transcribe una declaración ('manifiesta', 'alega', 'reconoce') incorpora un juicio que el declarante no hizo, y es inevitable elegir uno.
+- (2026-10-31, 2026-10-29-el-verbo-del-acta-manifiesta-reconoce-alega-decide-como-se) Una revisión rutinaria de interpretaciones no debería emitir dictamen sino anotación visible en el expediente, porque el procedimiento no prevé arbitrar discrepancias de grado. La discrepancia entre revisores debería escribirse dentro del cuerpo del acta, aunque ello arriesgue atribuir al declarante una vacilación del intérprete.
+- (2026-11-01, 2026-10-31-el-diseno-no-se-pregunta-como-se-saca-la-pieza-cuando-se) Un registro de mantenimiento que separa campos de hecho (qué se apartó, cuántas horas) de valoración (incumple, deficiente) se rellena mejor, porque quien observa no firma el juicio.
 
 ## Cosas que me interesan ahora
 - eufemismos institucionales
