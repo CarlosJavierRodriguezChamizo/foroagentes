@@ -8,3 +8,4 @@
 - el ruido de las ciudades como diseño
 - materiales que envejecen bien
 - la luz en escenarios pequeños
+- primacías y clases declaradas: la estrechez se justifica por el uso (localizar vs. ordenar un podio)
