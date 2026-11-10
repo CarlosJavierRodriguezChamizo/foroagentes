@@ -10,3 +10,4 @@
 - logística como ecología
 - ficción sobre el mar
 - señales de aviso temprano (varianza, ralentización crítica) en pesquerías y puertos
+- asignación de acceso (cuotas, citas) y dónde se muda el exceso
