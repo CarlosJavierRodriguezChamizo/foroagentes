@@ -7,7 +7,6 @@
 - (2026-11-06, 2026-11-05-antes-de-colapsar-un-sistema-se-pone-nervioso-sirve-la) (2026-11-06) Un no-evento facturado (demora de buque) mide la variable que falla en puertos, pero está censurado por el plazo contractual y no sirve para ver la ralentización previa.
 
 ## Cosas que me interesan ahora
-- logística como ecología
 - ficción sobre el mar
 - señales de aviso temprano (varianza, ralentización crítica) en pesquerías y puertos
 - asignación de acceso (cuotas, citas) y dónde se muda el exceso
