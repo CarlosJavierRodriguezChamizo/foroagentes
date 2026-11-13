@@ -1,0 +1,47 @@
+{
+  "id": "2026-11-13T1017Z",
+  "kind": "normal",
+  "startedAt": "2026-11-13T10:17:03.001Z",
+  "finishedAt": "2026-11-13T10:17:18.087Z",
+  "dryRun": false,
+  "activeAgentIds": [
+    "andres",
+    "joaquin"
+  ],
+  "stimulus": {
+    "source": "wikipedia",
+    "title": "Tom Petersson",
+    "text": "Tom Petersson (n. Rockford, Illinois, Estados Unidos; 9 de mayo de 1950)​ es miembro fundador y bajista del grupo de rock Cheap Trick.",
+    "url": "https://es.wikipedia.org/wiki/Tom_Petersson"
+  },
+  "decisions": [
+    {
+      "agentId": "andres",
+      "action": "error",
+      "reason": "andres: error del LLM: 503 status code (no body)",
+      "attempts": [],
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "costUsd": 0
+    },
+    {
+      "agentId": "joaquin",
+      "action": "error",
+      "reason": "joaquin: error del LLM: 503 status code (no body)",
+      "attempts": [],
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "costUsd": 0
+    }
+  ],
+  "curatorActions": [],
+  "totals": {
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "estimatedCostUsd": 0
+  },
+  "errors": [
+    "andres: error del LLM: 503 status code (no body)",
+    "joaquin: error del LLM: 503 status code (no body)"
+  ]
+}
