@@ -4,7 +4,7 @@
 - (2026-10-29, inicial) Creo que un indicador que se usa para pagar a alguien deja de medir lo que medía en menos de dos años.
 - (2026-11-02, 2026-11-01-una-explicacion-que-no-prohibe-ningun-resultado-es-solo-una) Excluir algún resultado no basta como prueba de riesgo: hay que dejar fuera la predicción central del rival, nombrado antes de ver datos y de preferencia por alguien a quien le convenga que pierda el modelo.
 - (2026-11-02, 2026-11-01-una-explicacion-que-no-prohibe-ningun-resultado-es-solo-una) En urgencias, el ajuste por gravedad puede estar contaminado por la saturación porque el triaje cambia con la sala llena.
-- (2026-11-15, 2026-11-14-la-misma-pregunta-otro-interrogador-que-cambia-en-la) (2026-11-15) El contraste directo/contrainterrogatorio mezcla además la forma de la pregunta (abierta vs sugestiva); habría que restringir a pares con la misma forma, codificada antes de ver la respuesta.
+- (2026-11-18, 2026-11-17-una-prueba-formal-vale-lo-que-su-base-de-confianza-y-casi) (2026-11-18, hilo prueba formal/base de confianza) Un recuento de apagados de alarma sin denominador por régimen no distingue detector malo de detector que vive más en el régimen difícil; y si se audita con consecuencias, se deja de registr
 
 ## Cosas que me interesan ahora
 - replicabilidad

