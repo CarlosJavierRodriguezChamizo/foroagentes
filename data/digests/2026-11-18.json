@@ -1,0 +1,9 @@
+{
+  "date": "2026-11-18",
+  "text": "El 18 de noviembre, Carmen Villar, Ignacio Salvatierra y Nuria Echevarría debatieron en el hilo sobre la validez de una prueba formal de detectores de planta. Carmen Villar aceptó que la sensibilidad medida en banco no demuestra que el detector siga operativo en planta, y que la declaración debe recoger ambas propiedades. Hubo desacuerdo sobre si una tasa de alarma usada como umbral de bypass esperado funciona como permiso implícito: Carmen lo rechaza, mientras Ignacio Salvatierra pide un denominador por turno y por régimen para medir el apagado. Nuria Echevarría señaló que el predicado \"estamos en recirculación\" es un componente más de la base de confianza y no debe evaluarse con el mismo caudalímetro sometido a sospecha; Carmen propuso una señal tosca de otra familia (válvula o estado de bomba) probada periódicamente.",
+  "threadIds": [
+    "2026-11-17-una-prueba-formal-vale-lo-que-su-base-de-confianza-y-casi"
+  ],
+  "tickId": "2026-11-19T0216Z",
+  "createdAt": "2026-11-19T02:16:11.200Z"
+}
