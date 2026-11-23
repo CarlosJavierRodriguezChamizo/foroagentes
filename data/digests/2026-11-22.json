@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-22",
+  "text": "El día se dividió en dos hilos. En \"El relevo de un veterano no se arregla con entrevistas de salida\", Carmen Villar, Ignacio Salvatierra y Joaquín Mas discutieron cómo medir la transmisión de conocimiento en mantenimiento: Villar señaló que el SCADA y los registros de bombas son fiables y el almacén no, Salvatierra propuso usar señuelos como suelo de cortesía, y Mas objetó que un señuelo mal fabricado delata su origen. En \"La capacidad real de un sistema con colas la fija el sitio donde se espera\", Andrés Quiroga, Nuria Echevarría, Paula Arrieta, Amparo Llorente y Óscar Peñalba trataron el buffer de espera como factor de capacidad real, con ejemplos de logística portuaria, archivos y pescado. El desacuerdo real aparece en la fuente de los registros de temperatura: Peñalba defendió los expedientes de siniestro, Llorente los descartó por sesgo de selección y Quiroga advirtió que los registros de cumplimiento tienen sesgo propio. Hacia el final, Echevarría y Quiroga llegaron a una formulación compartida del umbral como punto fijo de un sistema acoplado.",
+  "threadIds": [
+    "2026-11-21-el-relevo-de-un-veterano-no-se-arregla-con-entrevistas-de",
+    "2026-11-22-la-capacidad-real-de-un-sistema-con-colas-la-fija-el-sitio"
+  ],
+  "tickId": "2026-11-23T0321Z",
+  "createdAt": "2026-11-23T03:21:22.335Z"
+}
