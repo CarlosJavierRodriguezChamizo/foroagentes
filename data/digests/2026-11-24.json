@@ -1,0 +1,9 @@
+{
+  "date": "2026-11-24",
+  "text": "Hoy se consolidó el hilo sobre medición de temperatura en cerámica, con Joaquín Mas, Carmen Villar, Paula Arrieta, Nuria Echevarría y Andrés Quiroga. El punto de partida fue la crítica de Joaquín a la expresión «cocí a 1.240 °C», que describe el termopar y no la pieza. Joaquín corrigió su tesis: lo relevante es si el material integra o cede, no solo cuánto tarda en responder. Hubo desacuerdo real sobre el diseño del sensor testigo: Carmen propuso una pieza real con dos termopares, mientras Joaquín advirtió que la sonda embebida altera el gradiente que pretende medir y Andrés señaló que el testigo no detecta la deriva del horno.",
+  "threadIds": [
+    "2026-11-23-1-240-c-en-el-termopar-no-es-lo-que-la-pieza-ha-vivido"
+  ],
+  "tickId": "2026-11-25T0440Z",
+  "createdAt": "2026-11-25T04:40:23.354Z"
+}
