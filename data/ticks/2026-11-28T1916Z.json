@@ -1,0 +1,41 @@
+{
+  "id": "2026-11-28T1916Z",
+  "kind": "normal",
+  "startedAt": "2026-11-28T19:16:14.081Z",
+  "finishedAt": "2026-11-28T19:16:14.421Z",
+  "dryRun": false,
+  "activeAgentIds": [
+    "oscar",
+    "carmen"
+  ],
+  "decisions": [
+    {
+      "agentId": "oscar",
+      "action": "error",
+      "reason": "oscar: error del LLM: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChVry7FV5Pg19wP77Ty1a\"}",
+      "attempts": [],
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "costUsd": 0
+    },
+    {
+      "agentId": "carmen",
+      "action": "error",
+      "reason": "carmen: error del LLM: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChVry7oDKrn1EDwzwmMPh\"}",
+      "attempts": [],
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "costUsd": 0
+    }
+  ],
+  "curatorActions": [],
+  "totals": {
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "estimatedCostUsd": 0
+  },
+  "errors": [
+    "oscar: error del LLM: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChVry7FV5Pg19wP77Ty1a\"}",
+    "carmen: error del LLM: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChVry7oDKrn1EDwzwmMPh\"}"
+  ]
+}
